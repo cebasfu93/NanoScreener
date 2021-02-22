@@ -3,7 +3,6 @@ from DEPENDENCIES.constants import *
 import DEPENDENCIES.processing as proc
 import matplotlib.pyplot as plt
 from scipy.stats import norm
-from svg2emf import svg2emf
 
 def plot_metric_performance(accuracy, sensitivity, specificity, best_ndxs, kwargs={}):
     best_i_ndx, best_j_ndx = best_ndxs
@@ -73,7 +72,6 @@ def plot_distributions(j_space, best_j, bind_scores, unbind_scores, kwargs={}):
     axs[1].set_xlabel(kwargs.get('xlabel','j space'), fontsize=Z)
     if kwargs.get('svg', False):
         plt.savefig(kwargs.get('path', '.') + "/Distributions_"+kwargs.get('plot_str', 'def')+".svg", format='svg', bbox_inches='tight')
-        svg2emf(kwargs.get('path', '.') + "/Distributions_"+kwargs.get('plot_str', 'def')+".svg")
     else:
         plt.savefig(kwargs.get('path', '.') + "/Distributions_"+kwargs.get('plot_str', 'def')+".png", format='png', dpi=300, bbox_inches='tight', transparent=True)
     plt.show()
@@ -119,7 +117,6 @@ def plot_score_distribution(best_j, j_space, data=DATA, kwargs={}):
     if kwargs.get('svg', False):
         print(kwargs.get('path', '.') + "/scoredistr_"+kwargs.get('plot_str', 'def')+".svg")
         plt.savefig(kwargs.get('path', '.') + "/scoredistr_"+kwargs.get('plot_str', 'def')+".svg", format='svg', bbox_inches='tight', transparent=True)
-        svg2emf(kwargs.get('path', '.') + "/scoredistr_"+kwargs.get('plot_str', 'def')+".svg")
     else:
         plt.savefig(kwargs.get('path', '.') + "/scoredistr_"+kwargs.get('plot_str', 'def')+".png", format='png', dpi=300, bbox_inches='tight', transparent=True)
     plt.show()
