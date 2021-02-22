@@ -2,7 +2,6 @@ from Constants import *
 import numpy as np
 import matplotlib.pyplot as plt
 from Preprocessing import gaussian, ma, boltz_mean, boltz_std
-from svg2emf import svg2emf
 from matplotlib import cm
 
 def plot_all_angs(cath):
@@ -111,7 +110,7 @@ def plot_bound_ligands(cath):
     plt.close()
 
 def plot_dg_map(cath, show_mean=True, show_std=False, svg=False):
-    THRESH = 13.6
+    THRESH = 0
     dg_min, dg_max = 3,18
     cmap='plasma'
     pic = np.zeros((len(AA_ordered), len(AA_ordered)))
@@ -159,7 +158,6 @@ def plot_dg_map(cath, show_mean=True, show_std=False, svg=False):
     if svg:
         plt.savefig("Plots/{}/all_dg_map.png".format(cath.rname), format='png', bbox_inches='tight', dpi=300)
         plt.savefig("Plots/{}/all_dg_map.svg".format(cath.rname), format='svg', bbox_inches='tight')
-        svg2emf("Plots/{}/all_dg_map.svg".format(cath.rname))
     else:
         plt.savefig("Plots/{}/all_dg_map.png".format(cath.rname), format='png', bbox_inches='tight', dpi=300)
     plt.show()
@@ -250,7 +248,6 @@ def plot_aa_dependence(cath):
         #ax.set_ylabel("Free energy\n(kcal"+r"$mol^{-1}$)", fontsize=Z)
         ax.grid()
     plt.savefig("Plots/{}/aa_dependence.svg".format(cath.rname), format='svg', bbox_inches='tight')
-    svg2emf("Plots/{}/aa_dependence.svg".format(cath.rname))
     plt.savefig("Plots/{}/aa_dependence.png".format(cath.rname), format='png', dpi=300, bbox_inches='tight')
     plt.show()
     plt.close()
