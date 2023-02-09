@@ -12,11 +12,11 @@ def rank_metric(colname, data):
 
     Return a dataframe with all the columns (old and new)
     """
-    mean_col = colname + '_mean'
-    std_col = colname + '_std'
-    rank_col = colname + '_rank'
-    rank_std_up_col = colname + '_rank_std_up'
-    rank_std_down_col = colname + '_rank_std_down'
+    mean_col = colname + "_mean"
+    std_col = colname + "_std"
+    rank_col = colname + "_rank"
+    rank_std_up_col = colname + "_rank_std_up"
+    rank_std_down_col = colname + "_rank_std_down"
     Rank_Std_up = []
     Rank_Std_down = []
 
@@ -25,15 +25,22 @@ def rank_metric(colname, data):
 
     for i in range(len(data)):
         # -1 to not count itself
-        lower_than = np.sum((data[mean_col].iloc[i] + data[std_col].iloc[i]) >=
-                            (data[mean_col].iloc[i:] - data[std_col].iloc[i:])) - 1
+        lower_than = (
+            np.sum(
+                (data[mean_col].iloc[i] + data[std_col].iloc[i])
+                >= (data[mean_col].iloc[i:] - data[std_col].iloc[i:])
+            )
+            - 1
+        )
         Rank_Std_up.append(lower_than)
         # -1 is absent because of slicing open/closed limits
-        greater_than = np.sum((data[mean_col].iloc[i] - data[std_col].iloc[i])
-                              <= (data[mean_col].iloc[:i] + data[std_col].iloc[:i]))
+        greater_than = np.sum(
+            (data[mean_col].iloc[i] - data[std_col].iloc[i])
+            <= (data[mean_col].iloc[:i] + data[std_col].iloc[:i])
+        )
         Rank_Std_down.append(greater_than)
-        data['menos'] = data[mean_col] - data[std_col]
-        data['mas'] = data[mean_col] + data[std_col]
+        data["menos"] = data[mean_col] - data[std_col]
+        data["mas"] = data[mean_col] + data[std_col]
     data[rank_std_up_col] = Rank_Std_up
     data[rank_std_down_col] = Rank_Std_down
     data.sort_index(inplace=True)
@@ -61,7 +68,7 @@ def gaussian(x, mu, sig):
     Returns a gaussian centered in mu and with variance sig
     x can be a 1D array or a single numeric value
     """
-    return np.exp(-0.5 * np.power((x - mu) / sig, 2.)) / (sig * (2 * np.pi)**0.5)
+    return np.exp(-0.5 * np.power((x - mu) / sig, 2.0)) / (sig * (2 * np.pi) ** 0.5)
 
 
 def boltz_mean(x, T=300):
@@ -85,7 +92,7 @@ def boltz_std(x, T=300):
     mean2 = np.sum(np.multiply(np.exp(x / RT), x**2)) / np.sum(np.exp(x / RT))
     mean = np.sum(np.multiply(np.exp(x / RT), x)) / np.sum(np.exp(x / RT))
     # return (np.sum(np.multiply(np.exp(x/RT), (x-mean)**2))/np.sum(np.exp(x/RT)))**0.5 #two returns equivalent
-    return (mean2 - mean**2)**0.5
+    return (mean2 - mean**2) ** 0.5
     # return np.std(x)/(len(x)**0.5)
 
 
@@ -94,7 +101,9 @@ def reject_outliers(data, iq=1.5):
     Slices the 1D array data keeping only the values within iq times the interquartile distance from the first and third quartiles
     """
     IQ = np.quantile(data, 0.75) - np.quantile(data, 0.25)
-    mask = np.logical_and(data < np.median(data) + iq * IQ, data > np.median(data) - iq * IQ)
+    mask = np.logical_and(
+        data < np.median(data) + iq * IQ, data > np.median(data) - iq * IQ
+    )
     return np.array(data)[mask]
 
 
@@ -112,18 +121,20 @@ def read_file(fname):
     for line in fl:
         if "#" not in line and "@" not in line:
             clean.append(line.split())
-    clean = np.array(clean, dtype='float')
+    clean = np.array(clean, dtype="float")
     return clean
 
 
-def read_dang(rname, nice_x, key):
+def read_dang(rname, nice_x, key, setup):
     """
     Imports angles from text file located at "DANGS/{rname}/{key}-ASX_PULL_dang.sfu"
     The function returns an array with the angles at the distances in nice_x
     """
-    dang = read_file("DANGS/{}/{}-ASX_PULL_dang.sfu".format(rname, key))
-    d = dang[:, :len(dang[0, :]) // 2] * 10  # *10 because of a unit error in the dangs python script
-    ang = dang[:, (len(dang[0, :]) // 2):]
+    dang = read_file("{}/DANGS/{}/{}-ASX_PULL_dang.sfu".format(setup, rname, key))
+    d = (
+        dang[:, : len(dang[0, :]) // 2] * 10
+    )  # *10 because of a unit error in the dangs python script
+    ang = dang[:, (len(dang[0, :]) // 2) :]
     nice_ang = []
     for i in range(len(d[0, :])):
         angles = []
@@ -158,7 +169,7 @@ def read_text_file_pull(fname):
     Ignores lines with "#" and "@"
     Return array
     """
-    f = open(fname, 'r')
+    f = open(fname, "r")
     fl = f.readlines()
     f.close()
 
@@ -166,34 +177,38 @@ def read_text_file_pull(fname):
     for line in fl[:-1]:
         if "@" not in line and "#" not in line:
             data.append(line.split())
-    data = np.array(data, dtype='float')
+    data = np.array(data, dtype="float")
     return data
 
 
-def import_pullx(rname):
+def import_pullx(rname, setup):
     """
-    Reads text file with path "PULLX/{rname}/{aa1}-{aa2}-ASX_PULL_pullx.xvg",
+    Reads text file with path "{setup}/PULLX/{rname}/{aa1}-{aa2}-ASX_PULL_pullx.xvg",
     where aa1 and aa2 are values in the AA_pairs list (see Constants.py)
     Ignores lines with "#" and "@"
     Returns dictionary
     """
     pullxs = {}
     for a1, a2 in AA_pairs:
-        pullx = read_text_file_pull("PULLX/{}/{}-{}-ASX_PULL_pullx.xvg".format(rname, a1, a2))
+        pullx = read_text_file_pull(
+            "{}/PULLX/{}/{}-{}-ASX_PULL_pullx.xvg".format(setup, rname, a1, a2)
+        )
         pullxs["{}-{}".format(a1, a2)] = pullx
     return pullxs
 
 
-def import_pullf(rname):
+def import_pullf(rname, setup):
     """
-    Reads text file with path "PULLF/{rname}/{aa1}-{aa2}-ASX_PULL_pullf.xvg",
+    Reads text file with path "{setup}/PULLF/{rname}/{aa1}-{aa2}-ASX_PULL_pullf.xvg",
     where aa1 and aa2 are values in the AA_pairs list (see Constants.py)
     Ignores lines with "#" and "@"
     Returns dictionary
     """
     pullfs = {}
     for a1, a2 in AA_pairs:
-        pullf = read_text_file_pull("PULLF/{}/{}-{}-ASX_PULL_pullf.xvg".format(rname, a1, a2))
+        pullf = read_text_file_pull(
+            "{}/PULLF/{}/{}-{}-ASX_PULL_pullf.xvg".format(setup, rname, a1, a2)
+        )
         pullfs["{}-{}".format(a1, a2)] = pullf
     return pullfs
 
@@ -235,8 +250,12 @@ def homogenize_pull(X, F, n_ignore=40, n_smooth=1000):
         dg = np.cumsum(f * dx)
         nice_g.append(dg)
     nice_g = np.array(nice_g).T
-    nice_g = (nice_g[n_ignore:-n_ignore] - nice_g[n_ignore:-n_ignore][-1])
-    return nice_x[n_ignore:-n_ignore], nice_f[n_ignore:-n_ignore] / 4.184, nice_g / 4.184  # kJ to kcal"""
+    nice_g = nice_g[n_ignore:-n_ignore] - nice_g[n_ignore:-n_ignore][-1]
+    return (
+        nice_x[n_ignore:-n_ignore],
+        nice_f[n_ignore:-n_ignore] / 4.184,
+        nice_g / 4.184,
+    )  # kJ to kcal"""
 
 
 def protein_similitude_score(data):
@@ -246,8 +265,10 @@ def protein_similitude_score(data):
     """
     max_freq = max(PDB_frequencies.values())
     max_score = 2 * max_freq
-    score = [0.5 * (PDB_frequencies[aa1] + PDB_frequencies[aa2]) / max_freq
-             for aa1, aa2 in data[['aa1', 'aa2']].values]
+    score = [
+        0.5 * (PDB_frequencies[aa1] + PDB_frequencies[aa2]) / max_freq
+        for aa1, aa2 in data[["aa1", "aa2"]].values
+    ]
     return score
 
 
@@ -270,24 +291,43 @@ class Catecholamine_PMF:
     naturally ocurring binding pockets of catecholamines
     """
 
-    def __init__(self, rname):
+    def __init__(self, rname, setup):
         self.rname = rname
-        pullx = import_pullx(rname)
-        pullf = import_pullf(rname)
+        self.setup = setup
+        pullx = import_pullx(rname, setup=self.setup)
+        pullf = import_pullf(rname, setup=self.setup)
         self.keys = ["{}-{}".format(a1, a2) for a1, a2 in AA_pairs]
-        self.x, self.f, self.g, self.g_bind, self.g_mean, self.g_std, self.dangs = {}, {}, {}, {}, {}, {}, {}
+        self.x, self.f, self.g, self.g_bind, self.g_mean, self.g_std, self.dangs = (
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+        )
         for key in self.keys:
             print(key)
-            self.x[key], self.f[key], self.g[key] = homogenize_pull(pullx[key], pullf[key])
-            self.g_bind[key] = reject_outliers([np.min(gibbs) for gibbs in self.g[key].T], iq=1.5)
+            self.x[key], self.f[key], self.g[key] = homogenize_pull(
+                pullx[key], pullf[key]
+            )
+            self.g_bind[key] = reject_outliers(
+                [np.min(gibbs) for gibbs in self.g[key].T], iq=1.5
+            )
             self.g_mean[key] = boltz_mean(self.g_bind[key])
             self.g_std[key] = boltz_std(self.g_bind[key])
-            self.dangs[key] = read_dang(rname, self.x[key], key)
+            self.dangs[key] = read_dang(rname, self.x[key], key, setup=self.setup)
 
-        colnames = ['aa1', 'aa2', 'dgs', 'dg_mean', 'dg_std']
-        core = [[key[:3], key[4:7], g, g_av, g_dev]
-                for key, g, g_av, g_dev
-                in zip(self.keys, self.g_bind.values(), self.g_mean.values(), self.g_std.values())]
+        colnames = ["aa1", "aa2", "dgs", "dg_mean", "dg_std"]
+        core = [
+            [key[:3], key[4:7], g, g_av, g_dev]
+            for key, g, g_av, g_dev in zip(
+                self.keys,
+                self.g_bind.values(),
+                self.g_mean.values(),
+                self.g_std.values(),
+            )
+        ]
         self.data = pd.DataFrame(core, columns=colnames)
         self.protein_similitude = protein_similitude_score(self.data)
-        self.data['psc'] = self.protein_similitude
+        self.data["psc"] = self.protein_similitude
