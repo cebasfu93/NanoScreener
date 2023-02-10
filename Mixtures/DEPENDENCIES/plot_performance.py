@@ -1,3 +1,5 @@
+# This file has an obscene amount of repeated code. This could be greatly optimized.
+
 import numpy as np
 from DEPENDENCIES.constants import *
 import DEPENDENCIES.processing as proc
@@ -221,7 +223,7 @@ def plot_score_rank(best_j, j_space, data=DATA, kwargs={}):
         zorder=100,
     )
     for i, (score, rank, c) in enumerate(zip(data.Score, data.Act_Rank, data.Color)):
-        ax.errorbar([score], [rank], c=c, fmt="o", ms=5, alpha=0.5)
+        ax.errorbar(score, len(score) * [rank], c=c, fmt="o", ms=5, alpha=0.5)
         ax.errorbar(
             np.mean(score),
             [rank],

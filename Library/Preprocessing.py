@@ -1,3 +1,5 @@
+# This file has a lot of duplicated code from Mixtures/DEPENDENCIES.
+# I would spend some time refactoring the code into a tidy Python package.
 from Constants import *
 import numpy as np
 import pandas as pd
@@ -24,6 +26,7 @@ def rank_metric(colname, data):
     data[rank_col] = np.argsort(-1 * data[mean_col])
 
     for i in range(len(data)):
+        # TODO: Check that the ranking standard deviation is calculated correctly both here and in Mixtures
         # -1 to not count itself
         lower_than = (
             np.sum(
@@ -39,8 +42,8 @@ def rank_metric(colname, data):
             <= (data[mean_col].iloc[:i] + data[std_col].iloc[:i])
         )
         Rank_Std_down.append(greater_than)
-        data["menos"] = data[mean_col] - data[std_col]
-        data["mas"] = data[mean_col] + data[std_col]
+        data[f"{colname}_up"] = data[mean_col] - data[std_col]  # DG mean - DG std
+        data[f"{colname}_down"] = data[mean_col] + data[std_col]  # DG mean + DG std
     data[rank_std_up_col] = Rank_Std_up
     data[rank_std_down_col] = Rank_Std_down
     data.sort_index(inplace=True)

@@ -47,7 +47,7 @@ def gaussian(x, mu, sig):
 
 def reject_outliers(data, iq=1.5):
     """
-    Slices the 1D array data keeping only the values within iq times the interquartile distance from the first and third quartiles
+    Slices the 1D array data keeping only the values within iq times the interquartile distance from the median.
     """
     IQ = np.quantile(data, 0.75) - np.quantile(data, 0.25)
     mask = np.logical_and(data < np.median(data) + iq * IQ, data > np.median(data) - iq * IQ)

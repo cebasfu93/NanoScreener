@@ -16,4 +16,4 @@ for a1, a2, a3 in A3:
         # only keeps triplets with total charge -1 and an ASP in the last position
         AA_pairs.append((a1, a2))
 AA_ordered = ['Gln', 'Ser', 'Tyr', 'Trp', 'Phe', 'Ile', 'Leu', 'Ala',
-              'Pro', 'Gly']  # lower case (just for figure labels later on
+              'Pro', 'Gly']  # lower case (just for figure labels later on). My future self has no idea what did my older self "order" this amino acids based on
