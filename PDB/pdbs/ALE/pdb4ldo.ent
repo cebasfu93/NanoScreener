@@ -35,6 +35,7 @@ SOURCE  19 EXPRESSION_SYSTEM_PLASMID: PET26B
 KEYWDS    G PROTEIN COUPLED RECEPTOR, MEMBRANE PROTEIN-HYDROLASE COMPLEX        
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.M.RING,A.MANGLIK,A.C.KRUSE,M.D.ENOS,W.I.WEIS,K.C.GARCIA,B.K.KOBILKA 
+REVDAT   4   20-SEP-23 4LDO    1       REMARK SEQADV LINK                       
 REVDAT   3   09-AUG-17 4LDO    1       SOURCE REMARK                            
 REVDAT   2   30-OCT-13 4LDO    1       JRNL                                     
 REVDAT   1   25-SEP-13 4LDO    0                                                
@@ -487,10 +488,10 @@ REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL
 REMARK 620                              NA A1403  NA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 ASN A1103   OD1                                                    
-REMARK 620 2 CYS A1190   O   116.1                                              
-REMARK 620 3 HOH A1502   O   110.1  99.1                                        
-REMARK 620 4 GLU A1187   O    71.4  97.5 160.3                                  
-REMARK 620 5 CYS A1184   O   129.6 103.4  92.2  73.5                            
+REMARK 620 2 CYS A1184   O   129.6                                              
+REMARK 620 3 GLU A1187   O    71.4  73.5                                        
+REMARK 620 4 CYS A1190   O   116.1 103.4  97.5                                  
+REMARK 620 5 HOH A1502   O   110.1  92.2 160.3  99.1                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 650                                                                      
 REMARK 650 HELIX                                                                
@@ -653,10 +654,10 @@ SSBOND   2 CYS A 1184    CYS A 1190                          1555   1555  2.03
 SSBOND   3 CYS B   22    CYS B   95                          1555   1555  2.03  
 LINK         OD1 ASN A 861                NA    NA A1404     1555   1555  2.13  
 LINK         OD1 ASN A1103                NA    NA A1403     1555   1555  2.38  
+LINK         O   CYS A1184                NA    NA A1403     1555   1555  2.43  
+LINK         O   GLU A1187                NA    NA A1403     1555   1555  2.41  
 LINK         O   CYS A1190                NA    NA A1403     1555   1555  2.38  
 LINK        NA    NA A1403                 O   HOH A1502     1555   1555  2.39  
-LINK         O   GLU A1187                NA    NA A1403     1555   1555  2.41  
-LINK         O   CYS A1184                NA    NA A1403     1555   1555  2.43  
 SITE     1 AC1  2 ILE A1094  TRP A1313                                          
 SITE     1 AC2  7 ASP A1113  SER A1203  SER A1207  PHE A1289                    
 SITE     2 AC2  7 ASN A1293  ASN A1312  TYR A1316                               

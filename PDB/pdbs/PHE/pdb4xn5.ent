@@ -22,6 +22,7 @@ SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET15B
 KEYWDS    HYDROLASE                                                             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.ADDLAGATTA,R.GUMPENA,C.KISHOR                                       
+REVDAT   2   08-NOV-23 4XN5    1       REMARK LINK                              
 REVDAT   1   10-FEB-16 4XN5    0                                                
 JRNL        AUTH   A.ADDLAGATTA,R.GUMPENA,C.KISHOR                              
 JRNL        TITL   CRYSTAL STRUCTURE OF MET260ALA MUTANT OF E. COLI             
@@ -33,7 +34,8 @@ REMARK   2 RESOLUTION.    2.66 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.8.0073                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -423,9 +425,9 @@ REMARK 620 N RES CSSEQI ATOM
 REMARK 620 1 SER A 332   O                                                      
 REMARK 620 2 ASP A 333   O    71.2                                              
 REMARK 620 3 GLY A 335   O    81.9  92.2                                        
-REMARK 620 4 HOH A1387   O   113.9 168.1  99.1                                  
-REMARK 620 5 HOH A1416   O    90.9 101.0 162.0  68.8                            
-REMARK 620 6 HOH A1360   O   139.9  74.5  79.3 103.8 115.8                      
+REMARK 620 4 HOH A1360   O   139.9  74.5  79.3                                  
+REMARK 620 5 HOH A1387   O   113.9 168.1  99.1 103.8                            
+REMARK 620 6 HOH A1416   O    90.9 101.0 162.0 115.8  68.8                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -698,9 +700,9 @@ LINK         O   ASP A 333                NA    NA A 904     1555   1555  2.91
 LINK         O   GLY A 335                NA    NA A 904     1555   1555  2.29  
 LINK        ZN    ZN A 901                 OXT PHE A 902     1555   1555  1.82  
 LINK        NA    NA A 903                 O   HOH A1309     1555   1555  2.38  
+LINK        NA    NA A 904                 O   HOH A1360     1555   1555  2.65  
 LINK        NA    NA A 904                 O   HOH A1387     1555   1555  2.65  
 LINK        NA    NA A 904                 O   HOH A1416     1555   1555  2.23  
-LINK        NA    NA A 904                 O   HOH A1360     1555   1555  2.65  
 LINK        NA    NA A 905                 O   HOH A1036     1555   1555  2.68  
 LINK        NA    NA A 905                 O   HOH A1062     1555   1555  2.95  
 CISPEP   1 GLU A  121    ALA A  122          0        -3.93                     
@@ -8440,5 +8442,5 @@ CONECT 7390 7006
 CONECT 7441 7007                                                                
 CONECT 7468 7007                                                                
 CONECT 7497 7007                                                                
-MASTER      485    0   16   38   36    0   31    6 7545    1   98   67          
+MASTER      486    0   16   38   36    0   31    6 7545    1   98   67          
 END                                                                             

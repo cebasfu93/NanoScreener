@@ -17,6 +17,7 @@ SOURCE   9 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    LUXR RECEPTOR, SIGNALING PROTEIN-AGONIST COMPLEX                      
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.H.DONG,S.K.NAIR                                                     
+REVDAT   3   29-NOV-23 6D6N    1       REMARK                                   
 REVDAT   2   03-OCT-18 6D6N    1       JRNL                                     
 REVDAT   1   08-AUG-18 6D6N    0                                                
 JRNL        AUTH   M.C.O'REILLY,S.H.DONG,F.M.ROSSI,K.M.KARLEN,R.S.KUMAR,        
@@ -450,7 +451,7 @@ REMARK 800 EVIDENCE_CODE: SOFTWARE
 REMARK 800 SITE_DESCRIPTION: binding site for residue FXJ D 201                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 6D6A   RELATED DB: NDB                                   
+REMARK 900 RELATED ID: 6D6A   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 6D6B   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 6D6C   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 6D6D   RELATED DB: PDB                                   

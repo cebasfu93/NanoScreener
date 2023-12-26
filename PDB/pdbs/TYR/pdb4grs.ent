@@ -24,6 +24,7 @@ KEYWDS   2 REGULATION, AROMATIC BIOSYNTHESIS, SHIKIMATE PATHWAY, TRANSFERABLE
 KEYWDS   3 ALLOSTERY                                                            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    P.J.CROSS,T.M.ALLISON,R.C.J.DOBSON,G.B.JAMESON,E.J.PARKER             
+REVDAT   4   08-NOV-23 4GRS    1       REMARK                                   
 REVDAT   3   16-AUG-17 4GRS    1       SOURCE REMARK                            
 REVDAT   2   10-JUL-13 4GRS    1       JRNL                                     
 REVDAT   1   06-FEB-13 4GRS    0                                                
@@ -39,7 +40,8 @@ REMARK   2 RESOLUTION.    3.00 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC                                               
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -21102,5 +21104,5 @@ HETATM10093  O   HOH C 405      15.974  38.765  21.507  1.00 26.66           O
 HETATM10094  O   HOH C 406      -4.420  27.967  24.546  1.00 24.11           O  
 HETATM10095  O   HOH D 501      -4.168  22.545  12.676  1.00 19.28           O  
 HETATM10096  O   HOH D 502      51.707  20.176  22.901  1.00 40.83           O  
-MASTER      713    0    4   57   60    0   13    610092    4    0  104          
+MASTER      714    0    4   57   60    0   13    610092    4    0  104          
 END                                                                             

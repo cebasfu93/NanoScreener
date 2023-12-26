@@ -20,6 +20,7 @@ KEYWDS    METHYLTRANSFERASE, CATECHOLAMINE BIOSYNTHESIS, S-ADENOSYL-L-
 KEYWDS   2 METHIONINE, TRANSFERASE                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.DRINKWATER,J.L.MARTIN                                               
+REVDAT   7   06-SEP-23 3HCD    1       REMARK SEQADV                            
 REVDAT   6   01-NOV-17 3HCD    1       REMARK                                   
 REVDAT   5   23-MAY-12 3HCD    1       HET    HETATM                            
 REVDAT   4   04-APR-12 3HCD    1       HETNAM VERSN                             

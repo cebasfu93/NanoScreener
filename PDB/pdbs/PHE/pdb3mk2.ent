@@ -13,6 +13,8 @@ SOURCE   4 ORGANISM_TAXID: 9606
 KEYWDS    PHE BINDING, HYDROLASE                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    B.STEC,A.CHELTSOV,J.L.MILLAN                                          
+REVDAT   3   29-JUL-20 3MK2    1       COMPND REMARK HETNAM LINK                
+REVDAT   3 2                   1       SITE   ATOM                              
 REVDAT   2   05-OCT-11 3MK2    1       JRNL   REMARK VERSN                      
 REVDAT   1   19-JAN-11 3MK2    0                                                
 JRNL        AUTH   B.STEC,A.CHELTSOV,J.L.MILLAN                                 
@@ -27,9 +29,8 @@ REMARK   0 THIS ENTRY 3MK2 REFLECTS AN ALTERNATIVE MODELING OF THE ORIGINAL
 REMARK   0 STRUCTURAL DATA R1ZEFSF DETERMINED BY AUTHORS OF THE PDB ENTRY       
 REMARK   0 1ZEF: P.LLINAS,E.A.STURA,A.MENEZ,Z.KISS,T.STIGBRAND,J.L.MILLAN,      
 REMARK   0 M.H.LE DU                                                            
-REMARK   0                                                                      
 REMARK   0 ORIGINAL DATA REFERENCE 1                                            
-REMARK   0  PDB ID: 1ZEF                                                        
+REMARK   0  PDB ID: 1zef                                                        
 REMARK   0  AUTH   P.LLINAS,E.A.STURA,A.MENEZ,Z.KISS,T.STIGBRAND,J.L.MILLAN,    
 REMARK   0  AUTH 2 M.H.LE DU                                                    
 REMARK   0  TITL   STRUCTURAL STUDIES OF HUMAN PLACENTAL ALKALINE PHOSPHATASE   
@@ -43,7 +44,8 @@ REMARK   2 RESOLUTION.    1.89 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -131,8 +133,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  2443 ; 0.996 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  3840 ; 1.553 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1573 ; 2.659 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1414 ; 4.087 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -157,7 +164,7 @@ REMARK   4
 REMARK   4 3MK2 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 21-APR-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB058642.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000058642.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -281,7 +288,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 12330 ANGSTROM**2                         
 REMARK 350 SURFACE AREA OF THE COMPLEX: 31930 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -117.0 KCAL/MOL                       
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C                               
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -356,19 +363,6 @@ REMARK 500    VAL A 361       42.88    -82.81
 REMARK 500    ALA A 473       46.83    -94.14                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH A1513        DISTANCE =  6.65 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
 REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
@@ -379,112 +373,50 @@ REMARK 620                              ZN A 902  ZN
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 ASP A  42   OD1                                                    
 REMARK 620 2 SEP A  92   OG  119.1                                              
-REMARK 620 3 HIS A 358   NE2 119.4 121.3                                        
-REMARK 620 4 ASP A 357   OD2  96.2  83.6  95.8                                  
-REMARK 620 5 SEP A  92   O3P  97.8  68.8  97.8 152.4                            
+REMARK 620 3 SEP A  92   O3P  97.8  68.8                                        
+REMARK 620 4 ASP A 357   OD2  96.2  83.6 152.4                                  
+REMARK 620 5 HIS A 358   NE2 119.4 121.3  97.8  95.8                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MG A 903  MG                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 ASP A  42   OD2                                                    
-REMARK 620 2 GLU A 311   OE2  97.9                                              
-REMARK 620 3 HOH A1034   O   175.6  86.5                                        
-REMARK 620 4 HOH A1053   O    97.1 163.7  78.5                                  
-REMARK 620 5 HOH A1003   O    87.0  98.2  92.4  89.0                            
-REMARK 620 6 SER A 155   OG   87.7  87.7  92.5  86.4 172.5                      
+REMARK 620 2 SER A 155   OG   87.7                                              
+REMARK 620 3 GLU A 311   OE2  97.9  87.7                                        
+REMARK 620 4 HOH A1003   O    87.0 172.5  98.2                                  
+REMARK 620 5 HOH A1034   O   175.6  92.5  86.5  92.4                            
+REMARK 620 6 HOH A1053   O    97.1  86.4 163.7  89.0  78.5                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              ZN A 901  ZN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HIS A 432   NE2                                                    
-REMARK 620 2 ASP A 316   OD1 150.4                                              
-REMARK 620 3 HIS A 320   NE2  99.6  91.8                                        
-REMARK 620 4 SEP A  92   O3P  87.4  80.7 172.5                                  
-REMARK 620 5 PHE A 912   N    98.5 107.1  97.3  84.4                            
-REMARK 620 6 ASP A 316   OD2  93.5  58.4  93.3  83.4 162.4                      
+REMARK 620 1 SEP A  92   O3P                                                    
+REMARK 620 2 ASP A 316   OD1  80.7                                              
+REMARK 620 3 ASP A 316   OD2  83.4  58.4                                        
+REMARK 620 4 HIS A 320   NE2 172.5  91.8  93.3                                  
+REMARK 620 5 HIS A 432   NE2  87.4 150.4  93.5  99.6                            
+REMARK 620 6 PHE A 912   N    84.4 107.1 162.4  97.3  98.5                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA A 904  CA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU A 270   OE2                                                    
-REMARK 620 2 PHE A 269   O    85.0                                              
-REMARK 620 3 ASP A 285   OD2  95.9 130.8                                        
-REMARK 620 4 GLU A 216   OE1  96.8  83.8 144.0                                  
-REMARK 620 5 HOH A1246   O   170.9  86.2  87.9  84.7                            
-REMARK 620 6 GLU A 216   OE2  96.0 138.6  90.4  54.9  92.2                      
-REMARK 620 7 ASP A 285   OD1  85.1  78.1  53.2 161.5  90.5 143.3                
+REMARK 620 1 GLU A 216   OE1                                                    
+REMARK 620 2 GLU A 216   OE2  54.9                                              
+REMARK 620 3 PHE A 269   O    83.8 138.6                                        
+REMARK 620 4 GLU A 270   OE2  96.8  96.0  85.0                                  
+REMARK 620 5 ASP A 285   OD2 144.0  90.4 130.8  95.9                            
+REMARK 620 6 ASP A 285   OD1 161.5 143.3  78.1  85.1  53.2                      
+REMARK 620 7 HOH A1246   O    84.7  92.2  86.2 170.9  87.9  90.5                
 REMARK 620 N                    1     2     3     4     5     6                 
-REMARK 800                                                                      
-REMARK 800 SITE                                                                 
-REMARK 800 SITE_IDENTIFIER: AC1                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE A 912                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC2                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE A 923                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC3                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NAG A 801                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC4                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NAG A 802                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC5                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NAG A 803                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC6                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NAG A 804                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC7                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 901                  
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC8                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 902                  
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC9                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG A 903                  
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: BC1                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA A 904                  
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: BC2                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ACT A 933                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: BC3                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ACT A 934                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: BC4                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ACT A 935                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: BC5                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL A 936                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: BC6                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL A 937                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1ZEF   RELATED DB: PDB                                   
-REMARK 900 STRUCTURE OF ALKALINE PHOSPHATASE FROM HUMAN PLACENTA IN             
-REMARK 900 COMPLEX WITH ITS UNCOMPETITIVE INHIBITOR L-PHE. THIS ENTRY           
-REMARK 900 3MK2 REFLECTS AN ALTERNATIVE MODELING OF THE ORIGINAL                
-REMARK 900 STRUCTURAL DATA R1ZEFSF.                                             
+REMARK 900 STRUCTURE OF ALKALINE PHOSPHATASE FROM HUMAN PLACENTA IN COMPLEX     
+REMARK 900 WITH ITS UNCOMPETITIVE INHIBITOR L-PHE. THIS ENTRY 3MK2 REFLECTS AN  
+REMARK 900 ALTERNATIVE MODELING OF THE ORIGINAL STRUCTURAL DATA R1ZEFSF.        
 REMARK 900 RELATED ID: 3MK0   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 3MK1   RELATED DB: PDB                                   
 DBREF  3MK2 A    1   481  UNP    P05187   PPB1_HUMAN      23    503             
@@ -530,12 +462,12 @@ MODRES 3MK2 ASN A  122  ASN  GLYCOSYLATION SITE
 MODRES 3MK2 ASN A  249  ASN  GLYCOSYLATION SITE                                 
 MODRES 3MK2 SEP A   92  SER  PHOSPHOSERINE                                      
 HET    SEP  A  92      10                                                       
+HET    NAG  B   1      14                                                       
+HET    NAG  B   2      14                                                       
+HET    NAG  C   1      14                                                       
+HET    NAG  C   2      14                                                       
 HET    PHE  A 912      12                                                       
 HET    PHE  A 923      12                                                       
-HET    NAG  A 801      14                                                       
-HET    NAG  A 802      14                                                       
-HET    NAG  A 803      14                                                       
-HET    NAG  A 804      14                                                       
 HET     ZN  A 901       1                                                       
 HET     ZN  A 902       1                                                       
 HET     MG  A 903       1                                                       
@@ -546,8 +478,8 @@ HET    ACT  A 935       4
 HET    GOL  A 936       6                                                       
 HET    GOL  A 937       6                                                       
 HETNAM     SEP PHOSPHOSERINE                                                    
+HETNAM     NAG 2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOPYRANOSE                         
 HETNAM     PHE PHENYLALANINE                                                    
-HETNAM     NAG N-ACETYL-D-GLUCOSAMINE                                           
 HETNAM      ZN ZINC ION                                                         
 HETNAM      MG MAGNESIUM ION                                                    
 HETNAM      CA CALCIUM ION                                                      
@@ -556,8 +488,8 @@ HETNAM     GOL GLYCEROL
 HETSYN     SEP PHOSPHONOSERINE                                                  
 HETSYN     GOL GLYCERIN; PROPANE-1,2,3-TRIOL                                    
 FORMUL   1  SEP    C3 H8 N O6 P                                                 
-FORMUL   2  PHE    2(C9 H11 N O2)                                               
-FORMUL   4  NAG    4(C8 H15 N O6)                                               
+FORMUL   2  NAG    4(C8 H15 N O6)                                               
+FORMUL   4  PHE    2(C9 H11 N O2)                                               
 FORMUL   6   ZN    2(ZN 2+)                                                     
 FORMUL   8   MG    MG 2+                                                        
 FORMUL   9   CA    CA 2+                                                        
@@ -605,64 +537,35 @@ SSBOND   1 CYS A  121    CYS A  183                          1555   1555  2.05
 SSBOND   2 CYS A  467    CYS A  474                          1555   1555  2.06  
 LINK         C   ASP A  91                 N   SEP A  92     1555   1555  1.32  
 LINK         C   SEP A  92                 N   GLY A  93     1555   1555  1.33  
-LINK         ND2 ASN A 122                 C1  NAG A 801     1555   1555  1.43  
-LINK         O4  NAG A 801                 C1  NAG A 802     1555   1555  1.44  
-LINK         O4  NAG A 803                 C1  NAG A 804     1555   1555  1.44  
-LINK         ND2 ASN A 249                 C1  NAG A 803     1555   1555  1.45  
+LINK         ND2 ASN A 122                 C1  NAG B   1     1555   1555  1.43  
+LINK         ND2 ASN A 249                 C1  NAG C   1     1555   1555  1.45  
+LINK         O4  NAG B   1                 C1  NAG B   2     1555   1555  1.44  
+LINK         O4  NAG C   1                 C1  NAG C   2     1555   1555  1.44  
 LINK         OD1 ASP A  42                ZN    ZN A 902     1555   1555  1.83  
 LINK         OD2 ASP A  42                MG    MG A 903     1555   1555  1.91  
-LINK         OE2 GLU A 311                MG    MG A 903     1555   1555  1.96  
-LINK         NE2 HIS A 432                ZN    ZN A 901     1555   1555  2.02  
-LINK         OD1 ASP A 316                ZN    ZN A 901     1555   1555  2.04  
-LINK        MG    MG A 903                 O   HOH A1034     1555   1555  2.07  
-LINK         NE2 HIS A 320                ZN    ZN A 901     1555   1555  2.07  
-LINK         OG  SEP A  92                ZN    ZN A 902     1555   1555  2.10  
-LINK        MG    MG A 903                 O   HOH A1053     1555   1555  2.10  
-LINK         NE2 HIS A 358                ZN    ZN A 902     1555   1555  2.11  
-LINK         OD2 ASP A 357                ZN    ZN A 902     1555   1555  2.11  
-LINK        MG    MG A 903                 O   HOH A1003     1555   1555  2.13  
 LINK         O3P SEP A  92                ZN    ZN A 901     1555   1555  2.15  
-LINK         N  APHE A 912                ZN    ZN A 901     1555   1555  2.16  
-LINK         OG  SER A 155                MG    MG A 903     1555   1555  2.19  
-LINK         OE2 GLU A 270                CA    CA A 904     1555   1555  2.20  
+LINK         OG  SEP A  92                ZN    ZN A 902     1555   1555  2.10  
 LINK         O3P SEP A  92                ZN    ZN A 902     1555   1555  2.23  
-LINK         O   PHE A 269                CA    CA A 904     1555   1555  2.23  
-LINK         OD2 ASP A 285                CA    CA A 904     1555   1555  2.28  
+LINK         OG  SER A 155                MG    MG A 903     1555   1555  2.19  
 LINK         OE1 GLU A 216                CA    CA A 904     1555   1555  2.29  
-LINK        CA    CA A 904                 O   HOH A1246     1555   1555  2.34  
 LINK         OE2 GLU A 216                CA    CA A 904     1555   1555  2.42  
-LINK         OD2 ASP A 316                ZN    ZN A 901     1555   1555  2.43  
+LINK         O   PHE A 269                CA    CA A 904     1555   1555  2.23  
+LINK         OE2 GLU A 270                CA    CA A 904     1555   1555  2.20  
+LINK         OD2 ASP A 285                CA    CA A 904     1555   1555  2.28  
 LINK         OD1 ASP A 285                CA    CA A 904     1555   1555  2.60  
+LINK         OE2 GLU A 311                MG    MG A 903     1555   1555  1.96  
+LINK         OD1 ASP A 316                ZN    ZN A 901     1555   1555  2.04  
+LINK         OD2 ASP A 316                ZN    ZN A 901     1555   1555  2.43  
+LINK         NE2 HIS A 320                ZN    ZN A 901     1555   1555  2.07  
+LINK         OD2 ASP A 357                ZN    ZN A 902     1555   1555  2.11  
+LINK         NE2 HIS A 358                ZN    ZN A 902     1555   1555  2.11  
+LINK         NE2 HIS A 432                ZN    ZN A 901     1555   1555  2.02  
+LINK        ZN    ZN A 901                 N  APHE A 912     1555   1555  2.16  
+LINK        MG    MG A 903                 O   HOH A1003     1555   1555  2.13  
+LINK        MG    MG A 903                 O   HOH A1034     1555   1555  2.07  
+LINK        MG    MG A 903                 O   HOH A1053     1555   1555  2.10  
+LINK        CA    CA A 904                 O   HOH A1246     1555   1555  2.34  
 CISPEP   1 GLU A  469    PRO A  470          0        -2.39                     
-SITE     1 AC1 14 ASP A  91  SEP A  92  PHE A 107  ARG A 166                    
-SITE     2 AC1 14 ASP A 316  HIS A 317  HIS A 320  GLU A 429                    
-SITE     3 AC1 14 HIS A 432   ZN A 901  HOH A1182  HOH A1283                    
-SITE     4 AC1 14 HOH A1547  HOH A1561                                          
-SITE     1 AC2 11 ARG A 125  GLY A 126  ARG A 250  MET A 254                    
-SITE     2 AC2 11 GLU A 290  GLU A 293  ALA A 294  ARG A 297                    
-SITE     3 AC2 11 HOH A1173  HOH A1548  HOH A1550                               
-SITE     1 AC3  7 ASN A 122  LEU A 258  ARG A 297  NAG A 802                    
-SITE     2 AC3  7 HOH A1396  HOH A1441  HOH A1485                               
-SITE     1 AC4  3 ARG A 301  NAG A 801  HOH A1485                               
-SITE     1 AC5  6 TRP A 248  ASN A 249  GLU A 252  NAG A 804                    
-SITE     2 AC5  6 HOH A1076  HOH A1104                                          
-SITE     1 AC6  2 ASP A 403  NAG A 803                                          
-SITE     1 AC7  5 SEP A  92  ASP A 316  HIS A 320  HIS A 432                    
-SITE     2 AC7  5 PHE A 912                                                     
-SITE     1 AC8  5 ASP A  42  SEP A  92  ASP A 316  ASP A 357                    
-SITE     2 AC8  5 HIS A 358                                                     
-SITE     1 AC9  6 ASP A  42  SER A 155  GLU A 311  HOH A1003                    
-SITE     2 AC9  6 HOH A1034  HOH A1053                                          
-SITE     1 BC1  5 GLU A 216  PHE A 269  GLU A 270  ASP A 285                    
-SITE     2 BC1  5 HOH A1246                                                     
-SITE     1 BC2  6 ALA A 378  GLY A 380  LYS A 381  ALA A 387                    
-SITE     2 BC2  6 HOH A1105  HOH A1347                                          
-SITE     1 BC3  3 GLU A 277  ARG A 280  HOH A1382                               
-SITE     1 BC4  4 PHE A 208  ASN A 232  VAL A 234  TYR A 246                    
-SITE     1 BC5  8 TYR A 217  GLN A 223  GLU A 270  PRO A 271                    
-SITE     2 BC5  8 HOH A1172  HOH A1406  HOH A1448  HOH A1477                    
-SITE     1 BC6  5 GLY A 211  TYR A 221  HOH A1077  HOH A1137                    
-SITE     2 BC6  5 HOH A1539                                                     
 CRYST1   87.791  114.944  106.341  90.00  90.00  90.00 C 2 2 21      8          
 ORIGX1      1.000000  0.000000  0.000000        0.00000                         
 ORIGX2      0.000000  1.000000  0.000000        0.00000                         
@@ -8053,166 +7956,166 @@ ANISOU 3690  C   GLY A 481     5106   4803   4948    -40    129    -49       C
 ATOM   3691  O   GLY A 481      50.282  50.757   8.476  1.00 39.85           O  
 ANISOU 3691  O   GLY A 481     5222   4940   4977    -53    124    -72       O  
 TER    3692      GLY A 481                                                      
-HETATM 3693  N  APHE A 912      36.962  13.737  10.972  0.80 43.10           N  
-ANISOU 3693  N  APHE A 912     5293   5836   5245    183    -23   -113       N  
-HETATM 3694  CA APHE A 912      37.298  12.386  10.453  0.80 44.36           C  
-ANISOU 3694  CA APHE A 912     5435   6010   5407    146    -32    -99       C  
-HETATM 3695  C  APHE A 912      37.618  12.435   8.973  0.80 44.39           C  
-ANISOU 3695  C  APHE A 912     5444   6016   5404    159    -25   -104       C  
-HETATM 3696  O  APHE A 912      38.744  12.126   8.586  0.80 44.46           O  
-ANISOU 3696  O  APHE A 912     5426   6055   5412    146    -35   -100       O  
-HETATM 3697  CB APHE A 912      36.255  11.285  10.794  0.80 44.42           C  
-ANISOU 3697  CB APHE A 912     5450   5957   5467    122    -22   -114       C  
-HETATM 3698  CG APHE A 912      34.932  11.780  11.346  0.80 44.69           C  
-ANISOU 3698  CG APHE A 912     5514   5901   5564    104     15   -151       C  
-HETATM 3699  CD1APHE A 912      34.781  13.050  11.874  0.80 44.87           C  
-ANISOU 3699  CD1APHE A 912     5541   5850   5655     70      0   -174       C  
-HETATM 3700  CD2APHE A 912      33.841  10.917  11.393  0.80 45.88           C  
-ANISOU 3700  CD2APHE A 912     5631   6015   5785    152     38   -217       C  
-HETATM 3701  CE1APHE A 912      33.571  13.470  12.390  0.80 44.79           C  
-ANISOU 3701  CE1APHE A 912     5509   5816   5692     90    106   -264       C  
-HETATM 3702  CE2APHE A 912      32.621  11.333  11.913  0.80 46.10           C  
-ANISOU 3702  CE2APHE A 912     5750   5944   5820    159     89   -235       C  
-HETATM 3703  CZ APHE A 912      32.490  12.613  12.410  0.80 45.47           C  
-ANISOU 3703  CZ APHE A 912     5682   5874   5719    167    115   -277       C  
-HETATM 3704  OXTAPHE A 912      36.786  12.812   8.152  0.80 44.50           O  
-ANISOU 3704  OXTAPHE A 912     5447   6058   5402    182    -34   -111       O  
-HETATM 3705  N  BPHE A 923      57.087  29.710   0.047  0.80 48.90           N  
-ANISOU 3705  N  BPHE A 923     6149   6100   6331   -499    247    142       N  
-HETATM 3706  CA BPHE A 923      57.169  28.839  -1.162  0.80 49.07           C  
-ANISOU 3706  CA BPHE A 923     6172   6129   6342   -517    262    163       C  
-HETATM 3707  C  BPHE A 923      58.465  28.003  -1.230  0.80 49.24           C  
-ANISOU 3707  C  BPHE A 923     6183   6159   6365   -518    274    135       C  
-HETATM 3708  O  BPHE A 923      58.796  27.398  -2.255  0.80 49.17           O  
-ANISOU 3708  O  BPHE A 923     6178   6167   6335   -557    314    143       O  
-HETATM 3709  CB BPHE A 923      56.962  29.657  -2.439  0.80 48.68           C  
-ANISOU 3709  CB BPHE A 923     6141   6099   6256   -556    292    191       C  
-HETATM 3710  CG BPHE A 923      56.088  28.987  -3.447  0.80 48.33           C  
-ANISOU 3710  CG BPHE A 923     6151   6037   6174   -623    380    274       C  
-HETATM 3711  CD1BPHE A 923      54.937  29.612  -3.902  0.80 46.95           C  
-ANISOU 3711  CD1BPHE A 923     5961   5873   6002   -700    423    410       C  
-HETATM 3712  CD2BPHE A 923      56.399  27.718  -3.931  0.80 48.32           C  
-ANISOU 3712  CD2BPHE A 923     6164   6088   6106   -691    434    301       C  
-HETATM 3713  CE1BPHE A 923      54.124  28.996  -4.833  0.80 46.52           C  
-ANISOU 3713  CE1BPHE A 923     5883   5876   5915   -778    488    381       C  
-HETATM 3714  CE2BPHE A 923      55.582  27.096  -4.847  0.80 47.69           C  
-ANISOU 3714  CE2BPHE A 923     6108   6009   6001   -785    403    259       C  
-HETATM 3715  CZ BPHE A 923      54.442  27.737  -5.298  0.80 46.90           C  
-ANISOU 3715  CZ BPHE A 923     5913   5955   5951   -688    405    313       C  
-HETATM 3716  OXTBPHE A 923      59.202  27.873  -0.245  0.80 49.26           O  
-ANISOU 3716  OXTBPHE A 923     6169   6147   6400   -506    254    133       O  
-HETATM 3717  C1  NAG A 801      12.172  15.463   4.305  1.00 32.00           C  
-ANISOU 3717  C1  NAG A 801     3971   3330   4857   -202    382    -11       C  
-HETATM 3718  C2  NAG A 801      10.859  15.943   4.950  1.00 33.64           C  
-ANISOU 3718  C2  NAG A 801     4173   3373   5235   -269    481     46       C  
-HETATM 3719  C3  NAG A 801      10.158  14.838   5.754  1.00 36.38           C  
-ANISOU 3719  C3  NAG A 801     4575   3610   5636   -281    517     70       C  
-HETATM 3720  C4  NAG A 801      10.129  13.502   4.994  1.00 39.10           C  
-ANISOU 3720  C4  NAG A 801     4902   3953   5999   -229    548    144       C  
-HETATM 3721  C5  NAG A 801      11.445  13.194   4.277  1.00 39.09           C  
-ANISOU 3721  C5  NAG A 801     4957   3980   5912   -151    556    135       C  
-HETATM 3722  C6  NAG A 801      11.222  12.074   3.276  1.00 40.40           C  
-ANISOU 3722  C6  NAG A 801     5285   3909   6154    -64    594    190       C  
-HETATM 3723  C7  NAG A 801      10.676  18.343   5.341  1.00 30.04           C  
-ANISOU 3723  C7  NAG A 801     3330   3300   4781   -455    266   -118       C  
-HETATM 3724  C8  NAG A 801      11.160  19.532   6.124  1.00 27.42           C  
-ANISOU 3724  C8  NAG A 801     3054   2821   4541   -438    127   -209       C  
-HETATM 3725  N2  NAG A 801      11.058  17.131   5.769  1.00 30.32           N  
-ANISOU 3725  N2  NAG A 801     3562   3145   4811   -456    372    -17       N  
-HETATM 3726  O3  NAG A 801       8.831  15.243   6.068  1.00 35.26           O  
-ANISOU 3726  O3  NAG A 801     4769   3088   5539   -306    219    222       O  
-HETATM 3727  O4  NAG A 801       9.879  12.435   5.886  1.00 43.34           O  
-ANISOU 3727  O4  NAG A 801     5373   4493   6599   -213    381    238       O  
-HETATM 3728  O5  NAG A 801      11.915  14.299   3.545  1.00 34.78           O  
-ANISOU 3728  O5  NAG A 801     4367   3435   5413   -286    495    -36       O  
-HETATM 3729  O6  NAG A 801      11.967  10.965   3.721  1.00 45.22           O  
-ANISOU 3729  O6  NAG A 801     5882   4741   6557   -111    380    522       O  
-HETATM 3730  O7  NAG A 801       9.974  18.527   4.345  1.00 27.76           O  
-ANISOU 3730  O7  NAG A 801     2739   3176   4631   -553    162    -45       O  
-HETATM 3731  C1  NAG A 802       8.588  11.854   5.622  1.00 45.90           C  
-ANISOU 3731  C1  NAG A 802     5581   4896   6960   -319    308    279       C  
-HETATM 3732  C2  NAG A 802       8.692  10.360   5.964  1.00 48.24           C  
-ANISOU 3732  C2  NAG A 802     5823   5253   7252   -232    241    280       C  
-HETATM 3733  C3  NAG A 802       7.332   9.664   6.013  1.00 48.02           C  
-ANISOU 3733  C3  NAG A 802     5783   5238   7222   -249    252    372       C  
-HETATM 3734  C4  NAG A 802       6.357  10.479   6.853  1.00 47.15           C  
-ANISOU 3734  C4  NAG A 802     5729   5144   7040   -232    255    360       C  
-HETATM 3735  C5  NAG A 802       6.279  11.916   6.311  1.00 47.00           C  
-ANISOU 3735  C5  NAG A 802     5695   5157   7003   -205    241    285       C  
-HETATM 3736  C6  NAG A 802       5.317  12.757   7.134  1.00 46.23           C  
-ANISOU 3736  C6  NAG A 802     5605   5012   6945    -85    268    304       C  
-HETATM 3737  C7  NAG A 802      10.644   9.014   5.330  1.00 52.68           C  
-ANISOU 3737  C7  NAG A 802     6499   5892   7623   -156      4    250       C  
-HETATM 3738  C8  NAG A 802      11.018   7.881   4.412  1.00 52.97           C  
-ANISOU 3738  C8  NAG A 802     6583   5905   7636   -112    -43    155       C  
-HETATM 3739  N2  NAG A 802       9.543   9.697   4.990  1.00 50.74           N  
-ANISOU 3739  N2  NAG A 802     6115   5681   7482   -166    119    211       N  
-HETATM 3740  O3  NAG A 802       7.481   8.366   6.548  1.00 48.69           O  
-ANISOU 3740  O3  NAG A 802     5763   5348   7388   -388    340    478       O  
-HETATM 3741  O4  NAG A 802       5.093   9.852   6.846  1.00 47.55           O  
-ANISOU 3741  O4  NAG A 802     5710   5251   7104   -152    108    337       O  
-HETATM 3742  O5  NAG A 802       7.560  12.541   6.321  1.00 45.91           O  
-ANISOU 3742  O5  NAG A 802     5598   4867   6976   -323    328    313       O  
-HETATM 3743  O6  NAG A 802       5.939  13.165   8.334  1.00 45.51           O  
-ANISOU 3743  O6  NAG A 802     5407   4989   6895   -141    255    251       O  
-HETATM 3744  O7  NAG A 802      11.347   9.283   6.318  1.00 52.93           O  
-ANISOU 3744  O7  NAG A 802     6603   5900   7604   -291    -56    388       O  
-HETATM 3745  C1  NAG A 803      52.695  20.374 -14.223  1.00 29.68           C  
-ANISOU 3745  C1  NAG A 803     4319   4241   2715    539    821    -14       C  
-HETATM 3746  C2  NAG A 803      53.516  19.288 -14.916  1.00 33.47           C  
-ANISOU 3746  C2  NAG A 803     4876   4809   3031    470    913     13       C  
-HETATM 3747  C3  NAG A 803      53.831  19.621 -16.380  1.00 35.88           C  
-ANISOU 3747  C3  NAG A 803     5284   4931   3417    561    818   -112       C  
-HETATM 3748  C4  NAG A 803      52.565  20.044 -17.121  1.00 36.81           C  
-ANISOU 3748  C4  NAG A 803     5461   5012   3513    574    726    -82       C  
-HETATM 3749  C5  NAG A 803      51.856  21.126 -16.310  1.00 34.51           C  
-ANISOU 3749  C5  NAG A 803     5160   4683   3268    572    705      1       C  
-HETATM 3750  C6  NAG A 803      50.575  21.614 -16.962  1.00 34.36           C  
-ANISOU 3750  C6  NAG A 803     5269   4560   3224    608    528    255       C  
-HETATM 3751  C7  NAG A 803      54.981  17.706 -13.844  1.00 36.15           C  
-ANISOU 3751  C7  NAG A 803     4935   5191   3608     52    852    304       C  
-HETATM 3752  C8  NAG A 803      56.254  17.417 -13.097  1.00 36.52           C  
-ANISOU 3752  C8  NAG A 803     4702   5355   3817     63    943    327       C  
-HETATM 3753  N2  NAG A 803      54.725  18.973 -14.179  1.00 34.61           N  
-ANISOU 3753  N2  NAG A 803     4782   5052   3316    258    923     87       N  
-HETATM 3754  O3  NAG A 803      54.397  18.483 -16.996  1.00 36.76           O  
-ANISOU 3754  O3  NAG A 803     5429   5234   3305    630   1055   -148       O  
-HETATM 3755  O4  NAG A 803      52.896  20.568 -18.383  1.00 42.30           O  
-ANISOU 3755  O4  NAG A 803     6255   5444   4372    527    567   -118       O  
-HETATM 3756  O5  NAG A 803      51.555  20.610 -15.024  1.00 31.81           O  
-ANISOU 3756  O5  NAG A 803     4700   4408   2978    518    864   -102       O  
-HETATM 3757  O6  NAG A 803      49.699  20.521 -17.126  1.00 34.83           O  
-ANISOU 3757  O6  NAG A 803     5581   4477   3176    750    527    506       O  
-HETATM 3758  O7  NAG A 803      54.219  16.783 -14.131  1.00 38.02           O  
-ANISOU 3758  O7  NAG A 803     5017   5533   3895   -116    852    504       O  
-HETATM 3759  C1  NAG A 804      52.480  19.686 -19.443  1.00 48.18           C  
-ANISOU 3759  C1  NAG A 804     7019   6199   5089    452    424    -56       C  
-HETATM 3760  C2  NAG A 804      52.473  20.535 -20.714  1.00 50.62           C  
-ANISOU 3760  C2  NAG A 804     7426   6454   5352    385    378    -12       C  
-HETATM 3761  C3  NAG A 804      52.363  19.725 -22.000  1.00 51.93           C  
-ANISOU 3761  C3  NAG A 804     7610   6651   5467    374    365    -60       C  
-HETATM 3762  C4  NAG A 804      53.293  18.513 -21.959  1.00 52.09           C  
-ANISOU 3762  C4  NAG A 804     7551   6755   5485    385    345   -133       C  
-HETATM 3763  C5  NAG A 804      53.071  17.719 -20.672  1.00 51.39           C  
-ANISOU 3763  C5  NAG A 804     7404   6746   5375    432    343   -197       C  
-HETATM 3764  C6  NAG A 804      54.017  16.534 -20.585  1.00 51.53           C  
-ANISOU 3764  C6  NAG A 804     7364   6852   5363    438    366   -242       C  
-HETATM 3765  C7  NAG A 804      51.790  22.805 -20.310  1.00 52.89           C  
-ANISOU 3765  C7  NAG A 804     7654   6727   5713    180    369    122       C  
-HETATM 3766  C8  NAG A 804      50.697  23.834 -20.249  1.00 53.17           C  
-ANISOU 3766  C8  NAG A 804     7572   6775   5854    194    359    234       C  
-HETATM 3767  N2  NAG A 804      51.439  21.560 -20.638  1.00 51.79           N  
-ANISOU 3767  N2  NAG A 804     7572   6598   5506    272    377     91       N  
-HETATM 3768  O3  NAG A 804      52.754  20.567 -23.054  1.00 53.64           O  
-ANISOU 3768  O3  NAG A 804     7907   6886   5587    338    382   -101       O  
-HETATM 3769  O4  NAG A 804      53.112  17.686 -23.094  1.00 53.39           O  
-ANISOU 3769  O4  NAG A 804     7661   6960   5662    283    245   -157       O  
-HETATM 3770  O5  NAG A 804      53.336  18.561 -19.565  1.00 50.20           O  
-ANISOU 3770  O5  NAG A 804     7247   6488   5338    490    405   -173       O  
-HETATM 3771  O6  NAG A 804      55.329  17.038 -20.447  1.00 52.24           O  
-ANISOU 3771  O6  NAG A 804     7336   7173   5336    431    428   -355       O  
-HETATM 3772  O7  NAG A 804      52.961  23.115 -20.058  1.00 53.38           O  
-ANISOU 3772  O7  NAG A 804     7692   6815   5775     17    380    166       O  
+HETATM 3693  C1  NAG B   1      12.172  15.463   4.305  1.00 32.00           C  
+ANISOU 3693  C1  NAG B   1     3971   3330   4857   -202    382    -11       C  
+HETATM 3694  C2  NAG B   1      10.859  15.943   4.950  1.00 33.64           C  
+ANISOU 3694  C2  NAG B   1     4173   3373   5235   -269    481     46       C  
+HETATM 3695  C3  NAG B   1      10.158  14.838   5.754  1.00 36.38           C  
+ANISOU 3695  C3  NAG B   1     4575   3610   5636   -281    517     70       C  
+HETATM 3696  C4  NAG B   1      10.129  13.502   4.994  1.00 39.10           C  
+ANISOU 3696  C4  NAG B   1     4902   3953   5999   -229    548    144       C  
+HETATM 3697  C5  NAG B   1      11.445  13.194   4.277  1.00 39.09           C  
+ANISOU 3697  C5  NAG B   1     4957   3980   5912   -151    556    135       C  
+HETATM 3698  C6  NAG B   1      11.222  12.074   3.276  1.00 40.40           C  
+ANISOU 3698  C6  NAG B   1     5285   3909   6154    -64    594    190       C  
+HETATM 3699  C7  NAG B   1      10.676  18.343   5.341  1.00 30.04           C  
+ANISOU 3699  C7  NAG B   1     3330   3300   4781   -455    266   -118       C  
+HETATM 3700  C8  NAG B   1      11.160  19.532   6.124  1.00 27.42           C  
+ANISOU 3700  C8  NAG B   1     3054   2821   4541   -438    127   -209       C  
+HETATM 3701  N2  NAG B   1      11.058  17.131   5.769  1.00 30.32           N  
+ANISOU 3701  N2  NAG B   1     3562   3145   4811   -456    372    -17       N  
+HETATM 3702  O3  NAG B   1       8.831  15.243   6.068  1.00 35.26           O  
+ANISOU 3702  O3  NAG B   1     4769   3088   5539   -306    219    222       O  
+HETATM 3703  O4  NAG B   1       9.879  12.435   5.886  1.00 43.34           O  
+ANISOU 3703  O4  NAG B   1     5373   4493   6599   -213    381    238       O  
+HETATM 3704  O5  NAG B   1      11.915  14.299   3.545  1.00 34.78           O  
+ANISOU 3704  O5  NAG B   1     4367   3435   5413   -286    495    -36       O  
+HETATM 3705  O6  NAG B   1      11.967  10.965   3.721  1.00 45.22           O  
+ANISOU 3705  O6  NAG B   1     5882   4741   6557   -111    380    522       O  
+HETATM 3706  O7  NAG B   1       9.974  18.527   4.345  1.00 27.76           O  
+ANISOU 3706  O7  NAG B   1     2739   3176   4631   -553    162    -45       O  
+HETATM 3707  C1  NAG B   2       8.588  11.854   5.622  1.00 45.90           C  
+ANISOU 3707  C1  NAG B   2     5581   4896   6960   -319    308    279       C  
+HETATM 3708  C2  NAG B   2       8.692  10.360   5.964  1.00 48.24           C  
+ANISOU 3708  C2  NAG B   2     5823   5253   7252   -232    241    280       C  
+HETATM 3709  C3  NAG B   2       7.332   9.664   6.013  1.00 48.02           C  
+ANISOU 3709  C3  NAG B   2     5783   5238   7222   -249    252    372       C  
+HETATM 3710  C4  NAG B   2       6.357  10.479   6.853  1.00 47.15           C  
+ANISOU 3710  C4  NAG B   2     5729   5144   7040   -232    255    360       C  
+HETATM 3711  C5  NAG B   2       6.279  11.916   6.311  1.00 47.00           C  
+ANISOU 3711  C5  NAG B   2     5695   5157   7003   -205    241    285       C  
+HETATM 3712  C6  NAG B   2       5.317  12.757   7.134  1.00 46.23           C  
+ANISOU 3712  C6  NAG B   2     5605   5012   6945    -85    268    304       C  
+HETATM 3713  C7  NAG B   2      10.644   9.014   5.330  1.00 52.68           C  
+ANISOU 3713  C7  NAG B   2     6499   5892   7623   -156      4    250       C  
+HETATM 3714  C8  NAG B   2      11.018   7.881   4.412  1.00 52.97           C  
+ANISOU 3714  C8  NAG B   2     6583   5905   7636   -112    -43    155       C  
+HETATM 3715  N2  NAG B   2       9.543   9.697   4.990  1.00 50.74           N  
+ANISOU 3715  N2  NAG B   2     6115   5681   7482   -166    119    211       N  
+HETATM 3716  O3  NAG B   2       7.481   8.366   6.548  1.00 48.69           O  
+ANISOU 3716  O3  NAG B   2     5763   5348   7388   -388    340    478       O  
+HETATM 3717  O4  NAG B   2       5.093   9.852   6.846  1.00 47.55           O  
+ANISOU 3717  O4  NAG B   2     5710   5251   7104   -152    108    337       O  
+HETATM 3718  O5  NAG B   2       7.560  12.541   6.321  1.00 45.91           O  
+ANISOU 3718  O5  NAG B   2     5598   4867   6976   -323    328    313       O  
+HETATM 3719  O6  NAG B   2       5.939  13.165   8.334  1.00 45.51           O  
+ANISOU 3719  O6  NAG B   2     5407   4989   6895   -141    255    251       O  
+HETATM 3720  O7  NAG B   2      11.347   9.283   6.318  1.00 52.93           O  
+ANISOU 3720  O7  NAG B   2     6603   5900   7604   -291    -56    388       O  
+HETATM 3721  C1  NAG C   1      52.695  20.374 -14.223  1.00 29.68           C  
+ANISOU 3721  C1  NAG C   1     4319   4241   2715    539    821    -14       C  
+HETATM 3722  C2  NAG C   1      53.516  19.288 -14.916  1.00 33.47           C  
+ANISOU 3722  C2  NAG C   1     4876   4809   3031    470    913     13       C  
+HETATM 3723  C3  NAG C   1      53.831  19.621 -16.380  1.00 35.88           C  
+ANISOU 3723  C3  NAG C   1     5284   4931   3417    561    818   -112       C  
+HETATM 3724  C4  NAG C   1      52.565  20.044 -17.121  1.00 36.81           C  
+ANISOU 3724  C4  NAG C   1     5461   5012   3513    574    726    -82       C  
+HETATM 3725  C5  NAG C   1      51.856  21.126 -16.310  1.00 34.51           C  
+ANISOU 3725  C5  NAG C   1     5160   4683   3268    572    705      1       C  
+HETATM 3726  C6  NAG C   1      50.575  21.614 -16.962  1.00 34.36           C  
+ANISOU 3726  C6  NAG C   1     5269   4560   3224    608    528    255       C  
+HETATM 3727  C7  NAG C   1      54.981  17.706 -13.844  1.00 36.15           C  
+ANISOU 3727  C7  NAG C   1     4935   5191   3608     52    852    304       C  
+HETATM 3728  C8  NAG C   1      56.254  17.417 -13.097  1.00 36.52           C  
+ANISOU 3728  C8  NAG C   1     4702   5355   3817     63    943    327       C  
+HETATM 3729  N2  NAG C   1      54.725  18.973 -14.179  1.00 34.61           N  
+ANISOU 3729  N2  NAG C   1     4782   5052   3316    258    923     87       N  
+HETATM 3730  O3  NAG C   1      54.397  18.483 -16.996  1.00 36.76           O  
+ANISOU 3730  O3  NAG C   1     5429   5234   3305    630   1055   -148       O  
+HETATM 3731  O4  NAG C   1      52.896  20.568 -18.383  1.00 42.30           O  
+ANISOU 3731  O4  NAG C   1     6255   5444   4372    527    567   -118       O  
+HETATM 3732  O5  NAG C   1      51.555  20.610 -15.024  1.00 31.81           O  
+ANISOU 3732  O5  NAG C   1     4700   4408   2978    518    864   -102       O  
+HETATM 3733  O6  NAG C   1      49.699  20.521 -17.126  1.00 34.83           O  
+ANISOU 3733  O6  NAG C   1     5581   4477   3176    750    527    506       O  
+HETATM 3734  O7  NAG C   1      54.219  16.783 -14.131  1.00 38.02           O  
+ANISOU 3734  O7  NAG C   1     5017   5533   3895   -116    852    504       O  
+HETATM 3735  C1  NAG C   2      52.480  19.686 -19.443  1.00 48.18           C  
+ANISOU 3735  C1  NAG C   2     7019   6199   5089    452    424    -56       C  
+HETATM 3736  C2  NAG C   2      52.473  20.535 -20.714  1.00 50.62           C  
+ANISOU 3736  C2  NAG C   2     7426   6454   5352    385    378    -12       C  
+HETATM 3737  C3  NAG C   2      52.363  19.725 -22.000  1.00 51.93           C  
+ANISOU 3737  C3  NAG C   2     7610   6651   5467    374    365    -60       C  
+HETATM 3738  C4  NAG C   2      53.293  18.513 -21.959  1.00 52.09           C  
+ANISOU 3738  C4  NAG C   2     7551   6755   5485    385    345   -133       C  
+HETATM 3739  C5  NAG C   2      53.071  17.719 -20.672  1.00 51.39           C  
+ANISOU 3739  C5  NAG C   2     7404   6746   5375    432    343   -197       C  
+HETATM 3740  C6  NAG C   2      54.017  16.534 -20.585  1.00 51.53           C  
+ANISOU 3740  C6  NAG C   2     7364   6852   5363    438    366   -242       C  
+HETATM 3741  C7  NAG C   2      51.790  22.805 -20.310  1.00 52.89           C  
+ANISOU 3741  C7  NAG C   2     7654   6727   5713    180    369    122       C  
+HETATM 3742  C8  NAG C   2      50.697  23.834 -20.249  1.00 53.17           C  
+ANISOU 3742  C8  NAG C   2     7572   6775   5854    194    359    234       C  
+HETATM 3743  N2  NAG C   2      51.439  21.560 -20.638  1.00 51.79           N  
+ANISOU 3743  N2  NAG C   2     7572   6598   5506    272    377     91       N  
+HETATM 3744  O3  NAG C   2      52.754  20.567 -23.054  1.00 53.64           O  
+ANISOU 3744  O3  NAG C   2     7907   6886   5587    338    382   -101       O  
+HETATM 3745  O4  NAG C   2      53.112  17.686 -23.094  1.00 53.39           O  
+ANISOU 3745  O4  NAG C   2     7661   6960   5662    283    245   -157       O  
+HETATM 3746  O5  NAG C   2      53.336  18.561 -19.565  1.00 50.20           O  
+ANISOU 3746  O5  NAG C   2     7247   6488   5338    490    405   -173       O  
+HETATM 3747  O6  NAG C   2      55.329  17.038 -20.447  1.00 52.24           O  
+ANISOU 3747  O6  NAG C   2     7336   7173   5336    431    428   -355       O  
+HETATM 3748  O7  NAG C   2      52.961  23.115 -20.058  1.00 53.38           O  
+ANISOU 3748  O7  NAG C   2     7692   6815   5775     17    380    166       O  
+HETATM 3749  N  APHE A 912      36.962  13.737  10.972  0.80 43.10           N  
+ANISOU 3749  N  APHE A 912     5293   5836   5245    183    -23   -113       N  
+HETATM 3750  CA APHE A 912      37.298  12.386  10.453  0.80 44.36           C  
+ANISOU 3750  CA APHE A 912     5435   6010   5407    146    -32    -99       C  
+HETATM 3751  C  APHE A 912      37.618  12.435   8.973  0.80 44.39           C  
+ANISOU 3751  C  APHE A 912     5444   6016   5404    159    -25   -104       C  
+HETATM 3752  O  APHE A 912      38.744  12.126   8.586  0.80 44.46           O  
+ANISOU 3752  O  APHE A 912     5426   6055   5412    146    -35   -100       O  
+HETATM 3753  CB APHE A 912      36.255  11.285  10.794  0.80 44.42           C  
+ANISOU 3753  CB APHE A 912     5450   5957   5467    122    -22   -114       C  
+HETATM 3754  CG APHE A 912      34.932  11.780  11.346  0.80 44.69           C  
+ANISOU 3754  CG APHE A 912     5514   5901   5564    104     15   -151       C  
+HETATM 3755  CD1APHE A 912      34.781  13.050  11.874  0.80 44.87           C  
+ANISOU 3755  CD1APHE A 912     5541   5850   5655     70      0   -174       C  
+HETATM 3756  CD2APHE A 912      33.841  10.917  11.393  0.80 45.88           C  
+ANISOU 3756  CD2APHE A 912     5631   6015   5785    152     38   -217       C  
+HETATM 3757  CE1APHE A 912      33.571  13.470  12.390  0.80 44.79           C  
+ANISOU 3757  CE1APHE A 912     5509   5816   5692     90    106   -264       C  
+HETATM 3758  CE2APHE A 912      32.621  11.333  11.913  0.80 46.10           C  
+ANISOU 3758  CE2APHE A 912     5750   5944   5820    159     89   -235       C  
+HETATM 3759  CZ APHE A 912      32.490  12.613  12.410  0.80 45.47           C  
+ANISOU 3759  CZ APHE A 912     5682   5874   5719    167    115   -277       C  
+HETATM 3760  OXTAPHE A 912      36.786  12.812   8.152  0.80 44.50           O  
+ANISOU 3760  OXTAPHE A 912     5447   6058   5402    182    -34   -111       O  
+HETATM 3761  N  BPHE A 923      57.087  29.710   0.047  0.80 48.90           N  
+ANISOU 3761  N  BPHE A 923     6149   6100   6331   -499    247    142       N  
+HETATM 3762  CA BPHE A 923      57.169  28.839  -1.162  0.80 49.07           C  
+ANISOU 3762  CA BPHE A 923     6172   6129   6342   -517    262    163       C  
+HETATM 3763  C  BPHE A 923      58.465  28.003  -1.230  0.80 49.24           C  
+ANISOU 3763  C  BPHE A 923     6183   6159   6365   -518    274    135       C  
+HETATM 3764  O  BPHE A 923      58.796  27.398  -2.255  0.80 49.17           O  
+ANISOU 3764  O  BPHE A 923     6178   6167   6335   -557    314    143       O  
+HETATM 3765  CB BPHE A 923      56.962  29.657  -2.439  0.80 48.68           C  
+ANISOU 3765  CB BPHE A 923     6141   6099   6256   -556    292    191       C  
+HETATM 3766  CG BPHE A 923      56.088  28.987  -3.447  0.80 48.33           C  
+ANISOU 3766  CG BPHE A 923     6151   6037   6174   -623    380    274       C  
+HETATM 3767  CD1BPHE A 923      54.937  29.612  -3.902  0.80 46.95           C  
+ANISOU 3767  CD1BPHE A 923     5961   5873   6002   -700    423    410       C  
+HETATM 3768  CD2BPHE A 923      56.399  27.718  -3.931  0.80 48.32           C  
+ANISOU 3768  CD2BPHE A 923     6164   6088   6106   -691    434    301       C  
+HETATM 3769  CE1BPHE A 923      54.124  28.996  -4.833  0.80 46.52           C  
+ANISOU 3769  CE1BPHE A 923     5883   5876   5915   -778    488    381       C  
+HETATM 3770  CE2BPHE A 923      55.582  27.096  -4.847  0.80 47.69           C  
+ANISOU 3770  CE2BPHE A 923     6108   6009   6001   -785    403    259       C  
+HETATM 3771  CZ BPHE A 923      54.442  27.737  -5.298  0.80 46.90           C  
+ANISOU 3771  CZ BPHE A 923     5913   5955   5951   -688    405    313       C  
+HETATM 3772  OXTBPHE A 923      59.202  27.873  -0.245  0.80 49.26           O  
+ANISOU 3772  OXTBPHE A 923     6169   6147   6400   -506    254    133       O  
 HETATM 3773 ZN    ZN A 901      38.502  14.425  12.322  1.00 13.82          ZN  
 ANISOU 3773 ZN    ZN A 901     1680   1581   1989    147    -27    112      ZN  
 HETATM 3774 ZN    ZN A 902      38.200  18.452  12.426  1.00 13.75          ZN  
@@ -9402,12 +9305,12 @@ CONECT  708  706
 CONECT  709  706 3773 3774                                                      
 CONECT  710  704                                                                
 CONECT  913 1376                                                                
-CONECT  921 3717                                                                
+CONECT  921 3693                                                                
 CONECT 1163 3775                                                                
 CONECT 1376  913                                                                
 CONECT 1630 3776                                                                
 CONECT 1631 3776                                                                
-CONECT 1906 3745                                                                
+CONECT 1906 3721                                                                
 CONECT 2054 3776                                                                
 CONECT 2070 3776                                                                
 CONECT 2192 3776                                                                
@@ -9421,65 +9324,65 @@ CONECT 2770 3774
 CONECT 3335 3773                                                                
 CONECT 3593 3647                                                                
 CONECT 3647 3593                                                                
-CONECT 3693 3773                                                                
-CONECT 3717  921 3718 3728                                                      
-CONECT 3718 3717 3719 3725                                                      
-CONECT 3719 3718 3720 3726                                                      
-CONECT 3720 3719 3721 3727                                                      
-CONECT 3721 3720 3722 3728                                                      
-CONECT 3722 3721 3729                                                           
-CONECT 3723 3724 3725 3730                                                      
-CONECT 3724 3723                                                                
-CONECT 3725 3718 3723                                                           
-CONECT 3726 3719                                                                
-CONECT 3727 3720 3731                                                           
-CONECT 3728 3717 3721                                                           
-CONECT 3729 3722                                                                
+CONECT 3693  921 3694 3704                                                      
+CONECT 3694 3693 3695 3701                                                      
+CONECT 3695 3694 3696 3702                                                      
+CONECT 3696 3695 3697 3703                                                      
+CONECT 3697 3696 3698 3704                                                      
+CONECT 3698 3697 3705                                                           
+CONECT 3699 3700 3701 3706                                                      
+CONECT 3700 3699                                                                
+CONECT 3701 3694 3699                                                           
+CONECT 3702 3695                                                                
+CONECT 3703 3696 3707                                                           
+CONECT 3704 3693 3697                                                           
+CONECT 3705 3698                                                                
+CONECT 3706 3699                                                                
+CONECT 3707 3703 3708 3718                                                      
+CONECT 3708 3707 3709 3715                                                      
+CONECT 3709 3708 3710 3716                                                      
+CONECT 3710 3709 3711 3717                                                      
+CONECT 3711 3710 3712 3718                                                      
+CONECT 3712 3711 3719                                                           
+CONECT 3713 3714 3715 3720                                                      
+CONECT 3714 3713                                                                
+CONECT 3715 3708 3713                                                           
+CONECT 3716 3709                                                                
+CONECT 3717 3710                                                                
+CONECT 3718 3707 3711                                                           
+CONECT 3719 3712                                                                
+CONECT 3720 3713                                                                
+CONECT 3721 1906 3722 3732                                                      
+CONECT 3722 3721 3723 3729                                                      
+CONECT 3723 3722 3724 3730                                                      
+CONECT 3724 3723 3725 3731                                                      
+CONECT 3725 3724 3726 3732                                                      
+CONECT 3726 3725 3733                                                           
+CONECT 3727 3728 3729 3734                                                      
+CONECT 3728 3727                                                                
+CONECT 3729 3722 3727                                                           
 CONECT 3730 3723                                                                
-CONECT 3731 3727 3732 3742                                                      
-CONECT 3732 3731 3733 3739                                                      
-CONECT 3733 3732 3734 3740                                                      
-CONECT 3734 3733 3735 3741                                                      
-CONECT 3735 3734 3736 3742                                                      
-CONECT 3736 3735 3743                                                           
-CONECT 3737 3738 3739 3744                                                      
-CONECT 3738 3737                                                                
-CONECT 3739 3732 3737                                                           
-CONECT 3740 3733                                                                
-CONECT 3741 3734                                                                
-CONECT 3742 3731 3735                                                           
-CONECT 3743 3736                                                                
+CONECT 3731 3724 3735                                                           
+CONECT 3732 3721 3725                                                           
+CONECT 3733 3726                                                                
+CONECT 3734 3727                                                                
+CONECT 3735 3731 3736 3746                                                      
+CONECT 3736 3735 3737 3743                                                      
+CONECT 3737 3736 3738 3744                                                      
+CONECT 3738 3737 3739 3745                                                      
+CONECT 3739 3738 3740 3746                                                      
+CONECT 3740 3739 3747                                                           
+CONECT 3741 3742 3743 3748                                                      
+CONECT 3742 3741                                                                
+CONECT 3743 3736 3741                                                           
 CONECT 3744 3737                                                                
-CONECT 3745 1906 3746 3756                                                      
-CONECT 3746 3745 3747 3753                                                      
-CONECT 3747 3746 3748 3754                                                      
-CONECT 3748 3747 3749 3755                                                      
-CONECT 3749 3748 3750 3756                                                      
-CONECT 3750 3749 3757                                                           
-CONECT 3751 3752 3753 3758                                                      
-CONECT 3752 3751                                                                
-CONECT 3753 3746 3751                                                           
-CONECT 3754 3747                                                                
-CONECT 3755 3748 3759                                                           
-CONECT 3756 3745 3749                                                           
-CONECT 3757 3750                                                                
-CONECT 3758 3751                                                                
-CONECT 3759 3755 3760 3770                                                      
-CONECT 3760 3759 3761 3767                                                      
-CONECT 3761 3760 3762 3768                                                      
-CONECT 3762 3761 3763 3769                                                      
-CONECT 3763 3762 3764 3770                                                      
-CONECT 3764 3763 3771                                                           
-CONECT 3765 3766 3767 3772                                                      
-CONECT 3766 3765                                                                
-CONECT 3767 3760 3765                                                           
-CONECT 3768 3761                                                                
-CONECT 3769 3762                                                                
-CONECT 3770 3759 3763                                                           
-CONECT 3771 3764                                                                
-CONECT 3772 3765                                                                
+CONECT 3745 3738                                                                
+CONECT 3746 3735 3739                                                           
+CONECT 3747 3740                                                                
+CONECT 3748 3741                                                                
+CONECT 3749 3773                                                                
 CONECT 3773  709 2438 2439 2473                                                 
-CONECT 3773 3335 3693                                                           
+CONECT 3773 3335 3749                                                           
 CONECT 3774  323  703  709 2760                                                 
 CONECT 3774 2770                                                                
 CONECT 3775  324 1163 2404 3803                                                 
@@ -9514,5 +9417,5 @@ CONECT 3803 3775
 CONECT 3834 3775                                                                
 CONECT 3853 3775                                                                
 CONECT 4045 3776                                                                
-MASTER      465    0   16   22   15    0   29    6 4358    1  127   38          
+MASTER      395    0   16   22   15    0    0    6 4358    1  127   38          
 END                                                                             

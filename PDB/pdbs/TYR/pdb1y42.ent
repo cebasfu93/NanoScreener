@@ -19,6 +19,7 @@ KEYWDS    CYT-18, TYROSYL TRNA SYNTHETASE, TRNA LIGASE, GROUP I INTRON, LIGASE
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    P.J.PAUKSTELIS,R.COON,L.MADABUSI,J.NOWAKOWSKI,A.MONZINGO,J.ROBERTUS,  
 AUTHOR   2 A.M.LAMBOWITZ                                                        
+REVDAT   5   23-AUG-23 1Y42    1       REMARK SEQADV                            
 REVDAT   4   11-OCT-17 1Y42    1       REMARK                                   
 REVDAT   3   13-JUL-11 1Y42    1       VERSN                                    
 REVDAT   2   24-FEB-09 1Y42    1       VERSN                                    
@@ -36,7 +37,8 @@ REMARK   2 RESOLUTION.    1.95 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0003                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -6774,5 +6776,5 @@ HETATM 3161  O   HOH X 898      24.883  30.773 -18.292  1.00 39.95           O
 ANISOU 3161  O   HOH X 898     5178   5435   4566    414    109    276       O  
 HETATM 3162  O   HOH X 899      26.781  -0.826  -9.395  1.00 38.62           O  
 ANISOU 3162  O   HOH X 899     4299   4792   5581     39    196    -16       O  
-MASTER      347    0    1   20    6    0    3    6 3161    1    0   31          
+MASTER      348    0    1   20    6    0    3    6 3161    1    0   31          
 END                                                                             

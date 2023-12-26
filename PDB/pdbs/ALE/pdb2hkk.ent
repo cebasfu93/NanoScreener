@@ -17,6 +17,7 @@ SOURCE   4 ORGANISM_TAXID: 9606
 KEYWDS    CARBONIC ANHYDRASE, ACTIVATORS, LYASE                                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.TEMPERINI,A.INNOCENTI,D.VULLO,A.SCOZZAFAVA,C.T.SUPURAN              
+REVDAT   5   30-AUG-23 2HKK    1       REMARK SEQADV LINK                       
 REVDAT   4   04-APR-18 2HKK    1       REMARK                                   
 REVDAT   3   20-MAR-13 2HKK    1       CAVEAT VERSN                             
 REVDAT   2   24-FEB-09 2HKK    1       VERSN                                    
@@ -356,10 +357,10 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              HG A 262  HG                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 CYS A 205   SG                                                     
-REMARK 620 2 HOH A 384   O   147.9                                              
-REMARK 620 3 GLN A 136   O    84.9  99.9                                        
-REMARK 620 4 GLU A 204   O    95.8  52.3  94.2                                  
+REMARK 620 1 GLN A 136   O                                                      
+REMARK 620 2 GLU A 204   O    94.2                                              
+REMARK 620 3 CYS A 205   SG   84.9  95.8                                        
+REMARK 620 4 HOH A 384   O    99.9  52.3 147.9                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -437,11 +438,11 @@ SHEET    6   C 6 ILE A 215  VAL A 217  1  O  VAL A 217   N  LYS A 148
 LINK         NE2 HIS A  94                ZN    ZN A 261     1555   1555  1.98  
 LINK         NE2 HIS A  96                ZN    ZN A 261     1555   1555  2.07  
 LINK         ND1 HIS A 119                ZN    ZN A 261     1555   1555  2.01  
+LINK         O   GLN A 136                HG    HG A 262     1555   1555  2.85  
+LINK         O   GLU A 204                HG    HG A 262     1555   1555  3.10  
+LINK         SG  CYS A 205                HG    HG A 262     1555   1555  2.19  
 LINK        ZN    ZN A 261                 O   HOH A 414     1555   1555  2.03  
-LINK        HG    HG A 262                 SG  CYS A 205     1555   1555  2.19  
 LINK        HG    HG A 262                 O   HOH A 384     1555   1555  3.15  
-LINK        HG    HG A 262                 O   GLN A 136     1555   1555  2.85  
-LINK        HG    HG A 262                 O   GLU A 204     1555   1555  3.10  
 CISPEP   1 SER A   29    PRO A   30          0        -1.50                     
 CISPEP   2 PRO A  200    PRO A  201          0         7.45                     
 SITE     1 AC1  5 HIS A  94  HIS A  96  HIS A 119  THR A 198                    

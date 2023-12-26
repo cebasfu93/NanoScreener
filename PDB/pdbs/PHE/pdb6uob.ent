@@ -16,6 +16,7 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    HISTONE DEACETYLASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.D.OSKO,D.W.CHRISTIANSON                                             
+REVDAT   3   11-OCT-23 6UOB    1       LINK                                     
 REVDAT   2   18-DEC-19 6UOB    1       JRNL                                     
 REVDAT   1   04-DEC-19 6UOB    0                                                
 JRNL        AUTH   J.D.OSKO,D.W.CHRISTIANSON                                    
@@ -637,10 +638,10 @@ SHEET    7 AA2 8 VAL B 247  ARG B 254  1  O  LEU B 248   N  ILE B 226
 SHEET    8 AA2 8 ASN B 281  TRP B 286  1  O  ILE B 282   N  TYR B 249           
 LINK         O   ASP A 228                 K     K A 503     1555   1555  2.82  
 LINK         OD1 ASP A 228                 K     K A 503     1555   1555  2.70  
-LINK         O   ASP A 230                 K     K A 503     1555   1555  2.56  
 LINK         OD1 ASP A 230                ZN    ZN A 502     1555   1555  1.97  
-LINK         O   HIS A 232                 K     K A 503     1555   1555  2.70  
+LINK         O   ASP A 230                 K     K A 503     1555   1555  2.56  
 LINK         ND1 HIS A 232                ZN    ZN A 502     1555   1555  2.06  
+LINK         O   HIS A 232                 K     K A 503     1555   1555  2.70  
 LINK         O   PHE A 241                 K     K A 504     1555   1555  2.65  
 LINK         O   ASP A 244                 K     K A 504     1555   1555  2.93  
 LINK         O   VAL A 247                 K     K A 504     1555   1555  2.68  
@@ -648,19 +649,6 @@ LINK         OG  SER A 251                 K     K A 503     1555   1555  2.77
 LINK         O   VAL A 252                 K     K A 503     1555   1555  2.77  
 LINK         O   TYR A 280                 K     K A 504     1555   1555  2.90  
 LINK         OD2 ASP A 323                ZN    ZN A 502     1555   1555  1.96  
-LINK         O   ASP B 228                 K     K B 502     1555   1555  2.85  
-LINK         OD1 ASP B 228                 K     K B 502     1555   1555  2.78  
-LINK         O   ASP B 230                 K     K B 502     1555   1555  2.59  
-LINK         OD1 ASP B 230                ZN    ZN B 501     1555   1555  2.02  
-LINK         O   HIS B 232                 K     K B 502     1555   1555  2.73  
-LINK         ND1 HIS B 232                ZN    ZN B 501     1555   1555  2.10  
-LINK         O   PHE B 241                 K     K B 503     1555   1555  2.69  
-LINK         O   ASP B 244                 K     K B 503     1555   1555  2.93  
-LINK         O   VAL B 247                 K     K B 503     1555   1555  2.68  
-LINK         OG  SER B 251                 K     K B 502     1555   1555  2.75  
-LINK         O   VAL B 252                 K     K B 502     1555   1555  2.85  
-LINK         O   TYR B 280                 K     K B 503     1555   1555  2.87  
-LINK         OD2 ASP B 323                ZN    ZN B 501     1555   1555  1.98  
 LINK        ZN    ZN A 502                 N22AP7D A 505     1555   1555  2.60  
 LINK        ZN    ZN A 502                 N22BP7D A 505     1555   1555  2.63  
 LINK        ZN    ZN A 502                 O21AP7D A 505     1555   1555  2.55  
@@ -669,6 +657,19 @@ LINK        ZN    ZN A 502                 O23AP7D A 505     1555   1555  1.84
 LINK        ZN    ZN A 502                 O23BP7D A 505     1555   1555  1.90  
 LINK         K     K A 504                 O   HOH A 661     1555   1555  3.03  
 LINK         K     K A 504                 O   HOH A 665     1555   1555  2.70  
+LINK         O   ASP B 228                 K     K B 502     1555   1555  2.85  
+LINK         OD1 ASP B 228                 K     K B 502     1555   1555  2.78  
+LINK         OD1 ASP B 230                ZN    ZN B 501     1555   1555  2.02  
+LINK         O   ASP B 230                 K     K B 502     1555   1555  2.59  
+LINK         ND1 HIS B 232                ZN    ZN B 501     1555   1555  2.10  
+LINK         O   HIS B 232                 K     K B 502     1555   1555  2.73  
+LINK         O   PHE B 241                 K     K B 503     1555   1555  2.69  
+LINK         O   ASP B 244                 K     K B 503     1555   1555  2.93  
+LINK         O   VAL B 247                 K     K B 503     1555   1555  2.68  
+LINK         OG  SER B 251                 K     K B 502     1555   1555  2.75  
+LINK         O   VAL B 252                 K     K B 502     1555   1555  2.85  
+LINK         O   TYR B 280                 K     K B 503     1555   1555  2.87  
+LINK         OD2 ASP B 323                ZN    ZN B 501     1555   1555  1.98  
 LINK        ZN    ZN B 501                 N22 P7D B 504     1555   1555  2.61  
 LINK        ZN    ZN B 501                 O21 P7D B 504     1555   1555  2.20  
 LINK        ZN    ZN B 501                 O23 P7D B 504     1555   1555  1.99  

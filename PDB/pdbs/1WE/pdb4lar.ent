@@ -19,6 +19,7 @@ KEYWDS    METHAMPHETAMINE, ANTI-METHAMPHETAMINE ANTIBODY, THERAPEUTIC ANTIBODY,
 KEYWDS   2 SCFV, IMMUNE SYSTEM                                                  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.CELICAL,K.GOKULAN,E.C.PETERSON,K.I.VARUGHESE                        
+REVDAT   4   20-SEP-23 4LAR    1       HETSYN                                   
 REVDAT   3   25-DEC-19 4LAR    1       TITLE  COMPND SOURCE JRNL                
 REVDAT   3 2                   1       REMARK DBREF  SEQRES HELIX               
 REVDAT   3 3                   1       SHEET  SSBOND SITE   ATOM                
@@ -360,8 +361,8 @@ SEQRES  19 H  249  THR LYS LEU GLU ILE LYS ARG ALA PRO HIS HIS HIS HIS
 SEQRES  20 H  249  HIS HIS                                                      
 HET    1WE  H 300      10                                                       
 HETNAM     1WE (2S)-1-PHENYLPROPAN-2-AMINE                                      
-HETSYN     1WE DEXTROAMPHETAMINE, D-AMPHETAMINE, DEXAMPHETAMINE,                
-HETSYN   2 1WE  DEXEDRINE, DEXTROSTAT                                           
+HETSYN     1WE DEXTROAMPHETAMINE; D-AMPHETAMINE; DEXAMPHETAMINE;                
+HETSYN   2 1WE  DEXEDRINE; DEXTROSTAT                                           
 FORMUL   2  1WE    C9 H13 N                                                     
 FORMUL   3  HOH   *55(H2 O)                                                     
 HELIX    1   1 PRO H   41  ASN H   43  5                                   3    

@@ -23,6 +23,7 @@ KEYWDS   2 AROMATIC BIOSYNTHESIS, EVOLUTIONARY RELATIONSHIPS, TRANSFERASE, PHE-
 KEYWDS   3 BOUND, AUGMENTED TIM-BARREL STRUCTURE                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    E.J.PARKER,G.B.JAMESON,W.JIAO,C.J.WEBBY,E.N.BAKER,H.M.BAKER           
+REVDAT   3   01-NOV-23 3NUD    1       REMARK SEQADV                            
 REVDAT   2   22-FEB-12 3NUD    1       JRNL   VERSN                             
 REVDAT   1   28-JUL-10 3NUD    0                                                
 JRNL        AUTH   C.J.WEBBY,W.JIAO,R.D.HUTTON,N.J.BLACKMORE,H.M.BAKER,         
@@ -39,7 +40,8 @@ REMARK   2 RESOLUTION.    3.00 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.5.0072                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -127,8 +129,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  4527 ; 1.333 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  1810 ; 0.188 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  7262 ; 2.447 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2594 ; 3.124 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2433 ; 5.143 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -236,7 +243,7 @@ REMARK   4
 REMARK   4 3NUD COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 13-JUL-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB060290.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000060290.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -470,6 +477,7 @@ REMARK 500    PRO A 157       62.73    -66.28
 REMARK 500    SER A 189     -150.50   -107.01                                   
 REMARK 500    ALA A 216      -71.05    -43.86                                   
 REMARK 500    ALA A 234       96.78    -54.80                                   
+REMARK 500    ARG A 236      -62.37     -5.90                                   
 REMARK 500    LEU A 238     -165.25    161.17                                   
 REMARK 500    THR A 240      -50.22     77.83                                   
 REMARK 500    ALA A 241       80.04    134.26                                   
@@ -487,29 +495,13 @@ REMARK 500    PRO B   8       92.44    -66.57
 REMARK 500    ALA B 156      130.05    -36.23                                   
 REMARK 500    ALA B 210       53.38    -96.20                                   
 REMARK 500    ALA B 216      -76.46    -50.88                                   
+REMARK 500    VAL B 233       49.12   -146.39                                   
 REMARK 500    LEU B 274       32.23    -97.62                                   
 REMARK 500    THR B 285       18.09   -142.13                                   
 REMARK 500    GLN B 287      124.73    -38.14                                   
 REMARK 500    ASN B 327       72.78     51.49                                   
 REMARK 500    CYS B 440      -95.65   -145.74                                   
 REMARK 500    ARG B 443     -129.78   -113.38                                   
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
-REMARK 500                                                                      
-REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
-REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
-REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
-REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
-REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
-REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500    ASP A 235         0.07    SIDE CHAIN                              
-REMARK 500    ASN A 237         0.08    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 800                                                                      
@@ -558,14 +550,13 @@ REMARK 900 RELATED ENTRIES
 REMARK 900 RELATED ID: 2B7O   RELATED DB: PDB                                   
 REMARK 900 THE SAME PROTEIN WITHOUT PHENYLALANINE                               
 REMARK 900 RELATED ID: 3KGF   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN WITH BOTH TRYPTOPHAN AND PHENYLALANINE              
-REMARK 900 BOUND                                                                
+REMARK 900 THE SAME PROTEIN WITH BOTH TRYPTOPHAN AND PHENYLALANINE BOUND        
 REMARK 900 RELATED ID: 3NUE   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN WITH TRYPTOPHAN BOUND IN ONLY THE                   
-REMARK 900 TRYPTOPHAN-BINDING SITE                                              
+REMARK 900 THE SAME PROTEIN WITH TRYPTOPHAN BOUND IN ONLY THE TRYPTOPHAN-       
+REMARK 900 BINDING SITE                                                         
 REMARK 900 RELATED ID: 3NV8   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN WITH PHOSPHOENOL PYRUVATE AND MANGANESE             
-REMARK 900 (THESIT-FREE)                                                        
+REMARK 900 THE SAME PROTEIN WITH PHOSPHOENOL PYRUVATE AND MANGANESE (THESIT-    
+REMARK 900 FREE)                                                                
 DBREF  3NUD A    1   462  UNP    O53512   O53512_MYCTU     1    462             
 DBREF  3NUD B    1   462  UNP    O53512   O53512_MYCTU     1    462             
 SEQADV 3NUD GLY A   -1  UNP  O53512              EXPRESSION TAG                 
@@ -14652,5 +14643,5 @@ CONECT 6984 6983
 CONECT 6985 6983                                                                
 CONECT 6986 6983                                                                
 CONECT 6987 6983                                                                
-MASTER      532    0   10   32   24    0   17    6 6851    2   25   72          
+MASTER      522    0   10   32   24    0   17    6 6851    2   25   72          
 END                                                                             

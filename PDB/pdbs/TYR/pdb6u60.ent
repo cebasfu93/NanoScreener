@@ -20,16 +20,20 @@ EXPDTA    X-RAY DIFFRACTION
 AUTHOR    I.G.SHABALIN,J.HOU,J.KUTNER,S.GRIMSHAW,D.CHRISTENDAT,W.F.ANDERSON,    
 AUTHOR   2 W.MINOR,CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES        
 AUTHOR   3 (CSGID)                                                              
+REVDAT   4   11-OCT-23 6U60    1       REMARK                                   
+REVDAT   3   07-APR-21 6U60    1       JRNL                                     
 REVDAT   2   18-DEC-19 6U60    1       REMARK                                   
 REVDAT   1   11-SEP-19 6U60    0                                                
 SPRSDE     11-SEP-19 6U60      5USC                                             
-JRNL        AUTH   I.G.SHABALIN,J.HOU,D.CHRISTENDAT,W.MINOR                     
-JRNL        TITL   THE CRYSTAL STRUCTURE OF BACILLUS ANTHRACIS PREPHENATE       
-JRNL        TITL 2 DEHYDROGENASE IDENTIFIED AN ACT REGULATORY DOMAIN AND A      
-JRNL        TITL 3 NOVEL MODE OF METABOLIC REGULATION FOR PROTEINS WITHIN THE   
-JRNL        TITL 4 PREPHENATE DEHYDROGENASE FAMILY OF ENZYME                    
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   I.G.SHABALIN,A.GRITSUNOV,J.HOU,J.SLAWEK,C.D.MIKS,D.R.COOPER, 
+JRNL        AUTH 2 W.MINOR,D.CHRISTENDAT                                        
+JRNL        TITL   STRUCTURAL AND BIOCHEMICAL ANALYSIS OF BACILLUS ANTHRACIS    
+JRNL        TITL 2 PREPHENATE DEHYDROGENASE REVEALS AN UNUSUAL MODE OF          
+JRNL        TITL 3 INHIBITION BY TYROSINE VIA THE ACT DOMAIN.                   
+JRNL        REF    FEBS J.                       V. 287  2235 2020              
+JRNL        REFN                   ISSN 1742-464X                               
+JRNL        PMID   31750992                                                     
+JRNL        DOI    10.1111/FEBS.15150                                           
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       
 REMARK   3                                                                      

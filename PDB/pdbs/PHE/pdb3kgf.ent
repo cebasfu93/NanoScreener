@@ -24,7 +24,9 @@ KEYWDS   2 AROMATIC BIOSYNTHESIS, EVOLUTIONARY RELATIONSHIPS, TRANSFERASE,
 KEYWDS   3 PHE+TRP-BOUND, AUGMENTED TIM-BARREL STRUCTURE, STRUCTURAL GENOMICS,  
 KEYWDS   4 MYCOBACTERIUM TUBERCULOSIS STRUCTURAL PROTEOMICS PROJECT, XMTB       
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    E.J.PARKER,G.B.JAMESON,W.JIAO,C.J.WEBBY,E.N.BAKER,H.M.BAKER           
+AUTHOR    E.J.PARKER,G.B.JAMESON,W.JIAO,C.J.WEBBY,E.N.BAKER,H.M.BAKER,          
+AUTHOR   2 MYCOBACTERIUM TUBERCULOSIS STRUCTURAL PROTEOMICS PROJECT (XMTB)      
+REVDAT   3   01-NOV-23 3KGF    1       REMARK SEQADV LINK                       
 REVDAT   2   22-FEB-12 3KGF    1       JRNL   VERSN                             
 REVDAT   1   28-JUL-10 3KGF    0                                                
 JRNL        AUTH   C.J.WEBBY,W.JIAO,R.D.HUTTON,N.J.BLACKMORE,H.M.BAKER,         
@@ -63,7 +65,8 @@ REMARK   2 RESOLUTION.    2.00 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -151,8 +154,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  4950 ; 0.696 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  1917 ; 0.161 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  7751 ; 1.090 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  3072 ; 2.796 ; 5.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2731 ; 4.212 ; 7.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -237,7 +245,7 @@ REMARK   4
 REMARK   4 3KGF COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 05-NOV-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB055960.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000055960.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -294,8 +302,8 @@ REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.95
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 20MM BTP, 150MM NACL, 0.5MM TCEP,        
 REMARK 280  0.005%(V/V) THESIT, 0.2MM PEP, 0.1MM MNCL2, 0.1M NA HEPES, 0.8M     
-REMARK 280  NAK PHOSPHATE, PH 7.5, VAPOR DIFFUSION, SITTING DROP, TEMPERATURE   
-REMARK 280  291.0K                                                              
+REMARK 280  NAK PHOSPHATE, PH 7.5, VAPOR DIFFUSION, SITTING DROP,               
+REMARK 280  TEMPERATURE 291.0K                                                  
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 32 2 1                         
@@ -427,11 +435,17 @@ REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-
 REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    VAL A 233     -159.15   -103.18                                   
+REMARK 500    ALA A 234       54.53     81.17                                   
+REMARK 500    ASP A 235     -135.58   -119.65                                   
 REMARK 500    LEU A 250      -50.47   -122.30                                   
 REMARK 500    CYS A 440     -118.19   -146.60                                   
+REMARK 500    CYS A 440     -114.57   -150.33                                   
 REMARK 500    ASP B 263      119.86    141.61                                   
 REMARK 500    ASP B 265      -68.03    -94.11                                   
+REMARK 500    ASP B 265      -79.93    -50.07                                   
 REMARK 500    CYS B 440     -111.88   -146.95                                   
+REMARK 500    CYS B 440     -105.68   -146.70                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
@@ -442,22 +456,22 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN A 465  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU A 411   OE2                                                    
-REMARK 620 2 ASP A 441   OD2 150.6                                              
-REMARK 620 3 HIS A 369   NE2  87.6  83.2                                        
-REMARK 620 4 CYS A  87   SG   96.3  95.8 173.4                                  
-REMARK 620 5 GLU A 411   OE1  55.4  96.1  86.3 100.3                            
-REMARK 620 6 HOH A 586   O    94.4 111.0  79.0  95.3 147.1                      
+REMARK 620 1 CYS A  87   SG                                                     
+REMARK 620 2 HIS A 369   NE2 173.4                                              
+REMARK 620 3 GLU A 411   OE2  96.3  87.6                                        
+REMARK 620 4 GLU A 411   OE1 100.3  86.3  55.4                                  
+REMARK 620 5 ASP A 441   OD2  95.8  83.2 150.6  96.1                            
+REMARK 620 6 HOH A 586   O    95.3  79.0  94.4 147.1 111.0                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN B 466  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU B 411   OE2                                                    
-REMARK 620 2 ASP B 441   OD2 150.5                                              
-REMARK 620 3 HIS B 369   NE2  83.0  86.6                                        
-REMARK 620 4 CYS B  87   SG   98.9  89.3 174.6                                  
-REMARK 620 5 GLU B 411   OE1  50.0 101.5  84.2  93.2                            
+REMARK 620 1 CYS B  87   SG                                                     
+REMARK 620 2 HIS B 369   NE2 174.6                                              
+REMARK 620 3 GLU B 411   OE2  98.9  83.0                                        
+REMARK 620 4 GLU B 411   OE1  93.2  84.2  50.0                                  
+REMARK 620 5 ASP B 441   OD2  89.3  86.6 150.5 101.5                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -768,17 +782,17 @@ SHEET    8   E 9 GLY B 407  GLU B 411  1  O  GLY B 407   N  CYS B 365
 SHEET    9   E 9 PHE B  80  GLY B  85  1  N  GLN B  83   O  VAL B 410           
 SHEET    1   F 2 LEU B 259  SER B 262  0                                        
 SHEET    2   F 2 GLN B 270  ASP B 273 -1  O  GLN B 270   N  SER B 262           
-LINK         OE2 GLU A 411                MN    MN A 465     1555   1555  1.99  
-LINK         OD2 ASP A 441                MN    MN A 465     1555   1555  2.33  
-LINK         NE2 HIS A 369                MN    MN A 465     1555   1555  2.45  
 LINK         SG  CYS A  87                MN    MN A 465     1555   1555  2.50  
+LINK         NE2 HIS A 369                MN    MN A 465     1555   1555  2.45  
+LINK         OE2 GLU A 411                MN    MN A 465     1555   1555  1.99  
 LINK         OE1 GLU A 411                MN    MN A 465     1555   1555  2.60  
-LINK         OE2 GLU B 411                MN    MN B 466     1555   1555  2.13  
-LINK         OD2 ASP B 441                MN    MN B 466     1555   1555  2.54  
-LINK         NE2 HIS B 369                MN    MN B 466     1555   1555  2.47  
-LINK         SG  CYS B  87                MN    MN B 466     1555   1555  2.65  
-LINK         OE1 GLU B 411                MN    MN B 466     1555   1555  2.82  
+LINK         OD2 ASP A 441                MN    MN A 465     1555   1555  2.33  
 LINK        MN    MN A 465                 O   HOH A 586     1555   1555  2.23  
+LINK         SG  CYS B  87                MN    MN B 466     1555   1555  2.65  
+LINK         NE2 HIS B 369                MN    MN B 466     1555   1555  2.47  
+LINK         OE2 GLU B 411                MN    MN B 466     1555   1555  2.13  
+LINK         OE1 GLU B 411                MN    MN B 466     1555   1555  2.82  
+LINK         OD2 ASP B 441                MN    MN B 466     1555   1555  2.54  
 SITE     1 AC1  8 PHE A  91  MET A  92  ARG A 171  ALA A 174                    
 SITE     2 AC1  8 ASN A 175  HOH A2666  VAL B   5  HOH B4224                    
 SITE     1 AC2 11 VAL A 111  LYS A 123  ALA A 192  CYS A 231                    
@@ -16666,5 +16680,5 @@ CONECT 7550 7549
 CONECT 7551 7549 7552                                                           
 CONECT 7552 7551                                                                
 CONECT 7660 7411                                                                
-MASTER      550    0   30   32   26    0   62    6 7938    2  136   72          
+MASTER      562    0   30   32   26    0   62    6 7938    2  136   72          
 END                                                                             

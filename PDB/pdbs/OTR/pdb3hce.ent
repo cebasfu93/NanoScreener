@@ -21,6 +21,8 @@ KEYWDS    METHYLTRANSFERASE, CATECHOLAMINE BIOSYNTHESIS, POLYMORPHISM, S-
 KEYWDS   2 ADENOSYL-L-METHIONINE, TRANSFERASE                                   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.DRINKWATER,J.L.MARTIN                                               
+REVDAT   6   06-SEP-23 3HCE    1       REMARK                                   
+REVDAT   5   13-OCT-21 3HCE    1       REMARK SEQADV                            
 REVDAT   4   01-NOV-17 3HCE    1       REMARK                                   
 REVDAT   3   29-DEC-09 3HCE    1       REMARK                                   
 REVDAT   2   08-SEP-09 3HCE    1       JRNL                                     
@@ -455,7 +457,7 @@ REMARK 900 RELATED ID: 3HCD   RELATED DB: PDB
 REMARK 900 RELATED ID: 3HCF   RELATED DB: PDB                                   
 DBREF  3HCE A    1   282  UNP    P11086   PNMT_HUMAN       1    282             
 DBREF  3HCE B    1   282  UNP    P11086   PNMT_HUMAN       1    282             
-SEQADV 3HCE ASP A  185  UNP  P11086    GLU   185 ENGINEERED                     
+SEQADV 3HCE ASP A  185  UNP  P11086    GLU   185 ENGINEERED MUTATION            
 SEQADV 3HCE GLU A  283  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCE HIS A  284  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCE HIS A  285  UNP  P11086              EXPRESSION TAG                 
@@ -463,7 +465,7 @@ SEQADV 3HCE HIS A  286  UNP  P11086              EXPRESSION TAG
 SEQADV 3HCE HIS A  287  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCE HIS A  288  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCE HIS A  289  UNP  P11086              EXPRESSION TAG                 
-SEQADV 3HCE ASP B  185  UNP  P11086    GLU   185 ENGINEERED                     
+SEQADV 3HCE ASP B  185  UNP  P11086    GLU   185 ENGINEERED MUTATION            
 SEQADV 3HCE GLU B  283  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCE HIS B  284  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCE HIS B  285  UNP  P11086              EXPRESSION TAG                 

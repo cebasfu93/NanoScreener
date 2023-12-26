@@ -1,16 +1,15 @@
 HEADER    LYASE                                   21-NOV-01   1KFL              
-TITLE     CRYSTAL STRUCTURE OF PHENYLALANINE-REGULATED 3-DEOXY-D-               
-TITLE    2 ARABINO-HEPTULOSONATE-7-PHOSPHATE SYNTHASE (DAHP SYNTHASE)           
-TITLE    3 FROM E.COLI COMPLEXED WITH MN2+, PEP, AND PHE                        
+TITLE     CRYSTAL STRUCTURE OF PHENYLALANINE-REGULATED 3-DEOXY-D-ARABINO-       
+TITLE    2 HEPTULOSONATE-7-PHOSPHATE SYNTHASE (DAHP SYNTHASE) FROM E.COLI       
+TITLE    3 COMPLEXED WITH MN2+, PEP, AND PHE                                    
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 3-DEOXY-D-ARABINO-HEPTULOSONATE-7-PHOSPHATE                
-COMPND   3 SYNTHASE;                                                            
-COMPND   4 CHAIN: A, B, C, D, E, F, G, H;                                       
-COMPND   5 SYNONYM: PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE, PHE-           
-COMPND   6 SENSITIVE; DAHP SYNTHETASE, PHENYLALANINE REPRESSIBLE;               
-COMPND   7 PHOSPHO-2-KETO-3-DEOXYHEPTONATE ALDOLASE;                            
-COMPND   8 EC: 4.1.2.15;                                                        
-COMPND   9 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: 3-DEOXY-D-ARABINO-HEPTULOSONATE-7-PHOSPHATE SYNTHASE;      
+COMPND   3 CHAIN: A, B, C, D, E, F, G, H;                                       
+COMPND   4 SYNONYM: PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE, PHE-SENSITIVE; 
+COMPND   5 DAHP SYNTHETASE, PHENYLALANINE REPRESSIBLE; PHOSPHO-2-KETO-3-        
+COMPND   6 DEOXYHEPTONATE ALDOLASE;                                             
+COMPND   7 EC: 4.1.2.15;                                                        
+COMPND   8 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
 SOURCE   3 ORGANISM_TAXID: 562;                                                 
@@ -19,29 +18,29 @@ SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;
 SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
 SOURCE   7 EXPRESSION_SYSTEM_STRAIN: CB650;                                     
 SOURCE   8 EXPRESSION_SYSTEM_PLASMID: PTTG6                                     
-KEYWDS    BETA/ALPHA BARREL, ALLOSTERIC INHIBITION, FEEDBACK                    
-KEYWDS   2 REGULATION, AROMATIC BIOSYNTHETIC PATHWAY, LYASE                     
+KEYWDS    BETA/ALPHA BARREL, ALLOSTERIC INHIBITION, FEEDBACK REGULATION,        
+KEYWDS   2 AROMATIC BIOSYNTHETIC PATHWAY, LYASE                                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    I.A.SHUMILIN,C.ZHAO,R.BAUERLE,R.H.KRETSINGER                          
+REVDAT   4   15-NOV-23 1KFL    1       REMARK                                   
+REVDAT   3   16-AUG-23 1KFL    1       REMARK SEQADV LINK                       
 REVDAT   2   24-FEB-09 1KFL    1       VERSN                                    
 REVDAT   1   23-AUG-02 1KFL    0                                                
 JRNL        AUTH   I.A.SHUMILIN,C.ZHAO,R.BAUERLE,R.H.KRETSINGER                 
 JRNL        TITL   ALLOSTERIC INHIBITION OF                                     
-JRNL        TITL 2 3-DEOXY-D-ARABINO-HEPTULOSONATE-7-PHOSPHATE                  
-JRNL        TITL 3 SYNTHASE ALTERS THE COORDINATION OF BOTH                     
-JRNL        TITL 4 SUBSTRATES.                                                  
+JRNL        TITL 2 3-DEOXY-D-ARABINO-HEPTULOSONATE-7-PHOSPHATE SYNTHASE ALTERS  
+JRNL        TITL 3 THE COORDINATION OF BOTH SUBSTRATES.                         
 JRNL        REF    J.MOL.BIOL.                   V. 320  1147 2002              
 JRNL        REFN                   ISSN 0022-2836                               
 JRNL        PMID   12126632                                                     
 JRNL        DOI    10.1016/S0022-2836(02)00545-4                                
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.80 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : CNS, REFMAC                                          
+REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -77,7 +76,7 @@ REMARK   3   BIN FREE R VALUE TEST SET COUNT     : NULL
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 21411                                   
+REMARK   3   PROTEIN ATOMS            : 21336                                   
 REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
 REMARK   3   HETEROGEN ATOMS          : 264                                     
 REMARK   3   SOLVENT ATOMS            : 0                                       
@@ -132,10 +131,10 @@ REMARK   3  TOPOLOGY FILE  1   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1KFL COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1KFL COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 03-NOV-01.                  
-REMARK 100 THE RCSB ID CODE IS RCSB014903.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000014903.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -190,9 +189,9 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 56.75                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.84                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 4000, LITHIUM SULFATE,               
-REMARK 280  MANGANESE SULFATE, PHOSPHOENOLPYRUVATE, PHENYLALANINE, BIS-         
-REMARK 280  TRIS-PROPANE, PH 8.1, VAPOR DIFFUSION, HANGING DROP AT 295K         
+REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 4000, LITHIUM SULFATE, MANGANESE     
+REMARK 280  SULFATE, PHOSPHOENOLPYRUVATE, PHENYLALANINE, BIS-TRIS-PROPANE,      
+REMARK 280  PH 8.1, VAPOR DIFFUSION, HANGING DROP AT 295K                       
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: C 1 2 1                          
@@ -231,8 +230,8 @@ REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 300 REMARK: THE BIOLOGICAL ASSEMBLY IS A TETRAMER, TWO TETRAMERS,        
-REMARK 300 ABCD AND EFGH, RESIDE IN THE ASYMMETRIC UNIT.                        
+REMARK 300 REMARK: THE BIOLOGICAL ASSEMBLY IS A TETRAMER, TWO TETRAMERS, ABCD   
+REMARK 300 AND EFGH, RESIDE IN THE ASYMMETRIC UNIT.                             
 REMARK 350                                                                      
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
@@ -269,11 +268,11 @@ REMARK 475 THE FOLLOWING RESIDUES WERE MODELED WITH ZERO OCCUPANCY.
 REMARK 475 THE LOCATION AND PROPERTIES OF THESE RESIDUES MAY NOT                
 REMARK 475 BE RELIABLE. (M=MODEL NUMBER; RES=RESIDUE NAME;                      
 REMARK 475 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE)          
-REMARK 475   M RES C SSEQI                                                      
-REMARK 475     GLU E  316                                                       
-REMARK 475     GLY F  350                                                       
-REMARK 475     GLU G  316                                                       
-REMARK 475     GLY H  350                                                       
+REMARK 475   M RES C  SSEQI                                                     
+REMARK 475     GLU E   316                                                      
+REMARK 475     GLY F   350                                                      
+REMARK 475     GLU G   316                                                      
+REMARK 475     GLY H   350                                                      
 REMARK 480                                                                      
 REMARK 480 ZERO OCCUPANCY ATOM                                                  
 REMARK 480 THE FOLLOWING RESIDUES HAVE ATOMS MODELED WITH ZERO                  
@@ -281,34 +280,34 @@ REMARK 480 OCCUPANCY. THE LOCATION AND PROPERTIES OF THESE ATOMS
 REMARK 480 MAY NOT BE RELIABLE. (M=MODEL NUMBER; RES=RESIDUE NAME;              
 REMARK 480 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):         
 REMARK 480   M RES C SSEQI ATOMS                                                
-REMARK 480     LYS C   97   CG    CD    CE    NZ                                
-REMARK 480     ARG C   99   CG    CD    NE    CZ    NH1   NH2                   
-REMARK 480     LYS C  273   CG    CD    CE    NZ                                
-REMARK 480     GLN C  274   CG    CD    OE1   NE2                               
-REMARK 480     THR D  101   CB    OG1   CG2                                     
-REMARK 480     GLU D  313   CB    CG    CD    OE1   OE2                         
-REMARK 480     GLU D  316   CB    CG    CD    OE1   OE2                         
-REMARK 480     ASN E    2   CG    OD1   ND2                                     
-REMARK 480     LYS E  237   CG    CD    CE    NZ                                
-REMARK 480     GLU E  238   CG    CD    OE1   OE2                               
-REMARK 480     GLU E  313   CG    CD    OE1   OE2                               
-REMARK 480     GLU E  332   CG    CD    OE1   OE2                               
-REMARK 480     ASN F    2   CG    OD1   ND2                                     
-REMARK 480     LYS F  237   CG    CD    CE    NZ                                
-REMARK 480     GLU F  251   CB    CG    CD    OE1   OE2                         
-REMARK 480     GLU F  313   CB    CG    CD    OE1   OE2                         
-REMARK 480     SER F  314   CB    OG                                            
-REMARK 480     ASN G    2   CB    CG    OD1   ND2                               
-REMARK 480     ARG G   99   CB    CG    CD    NE    CZ    NH1   NH2             
-REMARK 480     LYS G  237   CG    CD    CE    NZ                                
-REMARK 480     GLU G  238   CB    CG    CD    OE1   OE2                         
-REMARK 480     GLU G  313   CB    CG    CD    OE1   OE2                         
-REMARK 480     GLU G  332   CB    CG    CD    OE1   OE2                         
-REMARK 480     LYS H   41   CB    CG    CD    CE    NZ                          
-REMARK 480     THR H  101   CB    OG1   CG2                                     
-REMARK 480     LYS H  276   CG    CD    CE    NZ                                
-REMARK 480     LYS H  277   CG    CD    CE    NZ                                
-REMARK 480     GLU H  316   CB    CG    CD    OE1   OE2                         
+REMARK 480     LYS C   97   CG   CD   CE   NZ                                   
+REMARK 480     ARG C   99   CG   CD   NE   CZ   NH1  NH2                        
+REMARK 480     LYS C  273   CG   CD   CE   NZ                                   
+REMARK 480     GLN C  274   CG   CD   OE1  NE2                                  
+REMARK 480     THR D  101   CB   OG1  CG2                                       
+REMARK 480     GLU D  313   CB   CG   CD   OE1  OE2                             
+REMARK 480     GLU D  316   CB   CG   CD   OE1  OE2                             
+REMARK 480     ASN E    2   CG   OD1  ND2                                       
+REMARK 480     LYS E  237   CG   CD   CE   NZ                                   
+REMARK 480     GLU E  238   CG   CD   OE1  OE2                                  
+REMARK 480     GLU E  313   CG   CD   OE1  OE2                                  
+REMARK 480     GLU E  332   CG   CD   OE1  OE2                                  
+REMARK 480     ASN F    2   CG   OD1  ND2                                       
+REMARK 480     LYS F  237   CG   CD   CE   NZ                                   
+REMARK 480     GLU F  251   CB   CG   CD   OE1  OE2                             
+REMARK 480     GLU F  313   CB   CG   CD   OE1  OE2                             
+REMARK 480     SER F  314   CB   OG                                             
+REMARK 480     ASN G    2   CB   CG   OD1  ND2                                  
+REMARK 480     ARG G   99   CB   CG   CD   NE   CZ   NH1  NH2                   
+REMARK 480     LYS G  237   CG   CD   CE   NZ                                   
+REMARK 480     GLU G  238   CB   CG   CD   OE1  OE2                             
+REMARK 480     GLU G  313   CB   CG   CD   OE1  OE2                             
+REMARK 480     GLU G  332   CB   CG   CD   OE1  OE2                             
+REMARK 480     LYS H   41   CB   CG   CD   CE   NZ                              
+REMARK 480     THR H  101   CB   OG1  CG2                                       
+REMARK 480     LYS H  276   CG   CD   CE   NZ                                   
+REMARK 480     LYS H  277   CG   CD   CE   NZ                                   
+REMARK 480     GLU H  316   CB   CG   CD   OE1  OE2                             
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: TORSION ANGLES                                             
@@ -328,6 +327,7 @@ REMARK 500    LEU A  17      136.00    -39.16
 REMARK 500    PRO A  60      151.64    -48.98                                   
 REMARK 500    THR A 101      -68.28   -158.83                                   
 REMARK 500    ASP A 110       70.47   -152.09                                   
+REMARK 500    MSE A 113       24.53     43.85                                   
 REMARK 500    ALA A 203       -8.16    -57.71                                   
 REMARK 500    SER A 211     -141.47   -171.11                                   
 REMARK 500    ASP A 228       50.12   -101.31                                   
@@ -341,6 +341,7 @@ REMARK 500    GLU B  12      149.68   -175.60
 REMARK 500    THR B 101     -154.49    -67.65                                   
 REMARK 500    VAL B 102     -159.80    -97.33                                   
 REMARK 500    ASP B 110       77.87   -151.53                                   
+REMARK 500    MSE B 113       29.50     44.21                                   
 REMARK 500    SER B 211     -143.63   -168.25                                   
 REMARK 500    ASP B 228       48.88   -100.04                                   
 REMARK 500    PRO B 239      151.02    -36.20                                   
@@ -355,6 +356,7 @@ REMARK 500    ASN C  50       30.11    -59.87
 REMARK 500    THR C 101     -146.25    -72.36                                   
 REMARK 500    VAL C 102     -160.92   -103.20                                   
 REMARK 500    ASP C 110       70.57   -154.17                                   
+REMARK 500    MSE C 113       29.58     44.82                                   
 REMARK 500    SER C 211     -145.99   -164.31                                   
 REMARK 500    ASP C 228       42.64    -86.47                                   
 REMARK 500    PRO C 239      151.99    -36.53                                   
@@ -362,75 +364,23 @@ REMARK 500    HIS C 268     -123.33     55.89
 REMARK 500    PRO C 317       90.95    -63.73                                   
 REMARK 500    THR C 325     -119.96   -127.84                                   
 REMARK 500    THR D 101      -48.93   -146.46                                   
+REMARK 500    THR D 101     -161.03    -78.85                                   
 REMARK 500    ASP D 110       74.27   -153.13                                   
+REMARK 500    MSE D 113       26.32     41.72                                   
 REMARK 500    SER D 211     -143.74   -168.02                                   
 REMARK 500    ASP D 228       52.58   -102.24                                   
 REMARK 500    PRO D 239      151.12    -37.63                                   
 REMARK 500    HIS D 268     -124.70     54.08                                   
 REMARK 500    PRO D 317      107.87    -47.58                                   
 REMARK 500    LEU D 318      142.54    -37.16                                   
-REMARK 500    THR D 325     -121.25   -125.67                                   
-REMARK 500    ARG D 348       -5.07    -58.62                                   
-REMARK 500    GLU E  12      147.46   -170.06                                   
-REMARK 500    ASN E  50       13.00    -48.73                                   
-REMARK 500    THR E 101     -149.25    -67.31                                   
-REMARK 500    VAL E 102     -162.72   -102.40                                   
-REMARK 500    ASP E 110       73.10   -157.43                                   
-REMARK 500    SER E 211     -140.06   -165.59                                   
-REMARK 500    ASP E 228       49.28    -97.37                                   
-REMARK 500    PRO E 239      153.34    -40.30                                   
-REMARK 500    HIS E 268     -126.66     55.01                                   
-REMARK 500    LYS E 277       -9.20    -59.11                                   
-REMARK 500    SER E 314      -24.94    -38.05                                   
-REMARK 500    THR E 325     -116.15   -127.92                                   
-REMARK 500    GLU F  12      147.35   -170.91                                   
-REMARK 500    ASN F  50       36.99    -63.12                                   
-REMARK 500    PRO F  60      151.83    -45.08                                   
-REMARK 500    LYS F  84       -7.04    -57.13                                   
-REMARK 500    THR F 101     -146.32    -74.33                                   
-REMARK 500    VAL F 102     -164.19   -102.63                                   
-REMARK 500    ASP F 110       75.26   -150.44                                   
-REMARK 500    SER F 211     -149.22   -169.10                                   
-REMARK 500    ASP F 228       49.99    -96.97                                   
-REMARK 500    PRO F 239      150.33    -42.43                                   
-REMARK 500    ALA F 260       76.99    -67.86                                   
-REMARK 500    HIS F 268     -125.35     59.52                                   
-REMARK 500    ILE F 296       93.42    -63.47                                   
-REMARK 500    GLU F 313       40.44    -73.57                                   
-REMARK 500    PRO F 317       93.09    -47.57                                   
-REMARK 500    LEU F 318      141.85    -18.86                                   
-REMARK 500    THR F 325     -126.31   -129.46                                   
-REMARK 500    ARG F 349      -93.90    -92.45                                   
-REMARK 500    GLU G  12      148.89   -171.06                                   
-REMARK 500    PHE G  26       71.38   -118.12                                   
-REMARK 500    THR G 101      -77.24   -158.47                                   
-REMARK 500    ASP G 110       76.65   -151.07                                   
-REMARK 500    ASP G 155       -6.57    -56.93                                   
-REMARK 500    SER G 211     -147.06   -168.46                                   
-REMARK 500    ASP G 228       52.54   -103.73                                   
-REMARK 500    PRO G 239      154.80    -45.19                                   
-REMARK 500    HIS G 268     -135.36     50.96                                   
-REMARK 500    SER G 314      -28.77    -39.30                                   
-REMARK 500    THR G 325     -117.60   -128.53                                   
-REMARK 500    ARG G 349      -98.61    -80.91                                   
-REMARK 500    LEU H  17      133.09    -38.72                                   
-REMARK 500    THR H 101      -73.25   -151.88                                   
-REMARK 500    ASP H 110       73.29   -156.91                                   
-REMARK 500    SER H 211     -147.99   -168.83                                   
-REMARK 500    ASP H 228       45.55   -102.10                                   
-REMARK 500    PRO H 239      150.32    -32.48                                   
-REMARK 500    HIS H 268     -125.74     59.26                                   
-REMARK 500    LYS H 277       -8.78    -58.15                                   
-REMARK 500    SER H 314      -36.76   -136.38                                   
-REMARK 500    PRO H 317      162.20    -36.95                                   
-REMARK 500    THR H 325     -115.05   -127.05                                   
-REMARK 500    ARG H 349      -87.71    -92.07                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS     111 RAMACHANDRAN OUTLIERS.                        
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN A1351  MN                            
@@ -444,183 +394,222 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN B2351  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU B 302   OE2                                                    
-REMARK 620 2 ASP B 326   OD2 118.4                                              
-REMARK 620 3 HIS B 268   NE2  92.1  88.3                                        
-REMARK 620 4 CYS B  61   SG   82.8  86.5 169.9                                  
+REMARK 620 1 CYS B  61   SG                                                     
+REMARK 620 2 HIS B 268   NE2 169.9                                              
+REMARK 620 3 GLU B 302   OE2  82.8  92.1                                        
+REMARK 620 4 ASP B 326   OD2  86.5  88.3 118.4                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN C3351  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU C 302   OE2                                                    
-REMARK 620 2 HIS C 268   NE2  87.6                                              
-REMARK 620 3 ASP C 326   OD2 125.5  97.1                                        
-REMARK 620 4 CYS C  61   SG   79.5 167.0  91.8                                  
+REMARK 620 1 CYS C  61   SG                                                     
+REMARK 620 2 HIS C 268   NE2 167.0                                              
+REMARK 620 3 GLU C 302   OE2  79.5  87.6                                        
+REMARK 620 4 ASP C 326   OD2  91.8  97.1 125.5                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN D4351  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP D 326   OD2                                                    
-REMARK 620 2 GLU D 302   OE2 125.0                                              
-REMARK 620 3 CYS D  61   SG   92.3  75.8                                        
-REMARK 620 4 HIS D 268   NE2  94.7  91.1 166.8                                  
+REMARK 620 1 CYS D  61   SG                                                     
+REMARK 620 2 HIS D 268   NE2 166.8                                              
+REMARK 620 3 GLU D 302   OE2  75.8  91.1                                        
+REMARK 620 4 ASP D 326   OD2  92.3  94.7 125.0                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN E5351  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP E 326   OD2                                                    
-REMARK 620 2 HIS E 268   NE2  97.5                                              
-REMARK 620 3 GLU E 302   OE2 126.8  87.5                                        
-REMARK 620 4 CYS E  61   SG   92.1 168.2  81.2                                  
+REMARK 620 1 CYS E  61   SG                                                     
+REMARK 620 2 HIS E 268   NE2 168.2                                              
+REMARK 620 3 GLU E 302   OE2  81.2  87.5                                        
+REMARK 620 4 ASP E 326   OD2  92.1  97.5 126.8                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN F6351  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP F 326   OD2                                                    
-REMARK 620 2 GLU F 302   OE2 119.2                                              
-REMARK 620 3 CYS F  61   SG   91.9  82.7                                        
-REMARK 620 4 HIS F 268   NE2  92.3  86.6 169.2                                  
+REMARK 620 1 CYS F  61   SG                                                     
+REMARK 620 2 HIS F 268   NE2 169.2                                              
+REMARK 620 3 GLU F 302   OE2  82.7  86.6                                        
+REMARK 620 4 ASP F 326   OD2  91.9  92.3 119.2                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN G7351  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP G 326   OD2                                                    
-REMARK 620 2 GLU G 302   OE2 126.2                                              
-REMARK 620 3 HIS G 268   NE2  98.6  90.3                                        
+REMARK 620 1 HIS G 268   NE2                                                    
+REMARK 620 2 GLU G 302   OE2  90.3                                              
+REMARK 620 3 ASP G 326   OD2  98.6 126.2                                        
 REMARK 620 N                    1     2                                         
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN H8351  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP H 326   OD2                                                    
-REMARK 620 2 HIS H 268   NE2  92.7                                              
-REMARK 620 3 GLU H 302   OE2 126.4  88.5                                        
-REMARK 620 4 CYS H  61   SG   90.6 171.5  83.2                                  
+REMARK 620 1 CYS H  61   SG                                                     
+REMARK 620 2 HIS H 268   NE2 171.5                                              
+REMARK 620 3 GLU H 302   OE2  83.2  88.5                                        
+REMARK 620 4 ASP H 326   OD2  90.6  92.7 126.4                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN A 1351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN B 2351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN C 3351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN D 4351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN E 5351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN F 6351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN G 7351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN H 8351                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 1355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 B 2355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 C 3355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 D 4355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 E 5355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 F 6355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 H 7355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 H 8355                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 1356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 B 2356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 C 3356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 D 4356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 E 5356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 F 6356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 G 7356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 H 8356                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE A 1354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE B 2354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE C 3354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE D 4354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE E 5354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE F 6354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE G 7354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE H 8354                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP A 1352                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP B 2352                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP C 3352                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP D 4352                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: EC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP E 5352                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: EC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP F 6352                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: EC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP G 7352                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: EC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PEP H 8352                
@@ -1047,44 +1036,44 @@ HET    MSE  H 263       8
 HET    MSE  H 279       8                                                       
 HET    MSE  H 300       8                                                       
 HET     MN  A1351       1                                                       
-HET     MN  B2351       1                                                       
-HET     MN  C3351       1                                                       
-HET     MN  D4351       1                                                       
-HET     MN  E5351       1                                                       
-HET     MN  F6351       1                                                       
-HET     MN  G7351       1                                                       
-HET     MN  H8351       1                                                       
 HET    SO4  A1355       5                                                       
+HET    SO4  A1356       5                                                       
+HET    PHE  A1354      12                                                       
+HET    PEP  A1352      10                                                       
+HET     MN  B2351       1                                                       
 HET    SO4  B2355       5                                                       
+HET    SO4  B2356       5                                                       
+HET    PHE  B2354      12                                                       
+HET    PEP  B2352      10                                                       
+HET     MN  C3351       1                                                       
 HET    SO4  C3355       5                                                       
+HET    SO4  C3356       5                                                       
+HET    PHE  C3354      12                                                       
+HET    PEP  C3352      10                                                       
+HET     MN  D4351       1                                                       
 HET    SO4  D4355       5                                                       
+HET    SO4  D4356       5                                                       
+HET    PHE  D4354      12                                                       
+HET    PEP  D4352      10                                                       
+HET     MN  E5351       1                                                       
 HET    SO4  E5355       5                                                       
+HET    SO4  E5356       5                                                       
+HET    PHE  E5354      12                                                       
+HET    PEP  E5352      10                                                       
+HET     MN  F6351       1                                                       
 HET    SO4  F6355       5                                                       
+HET    SO4  F6356       5                                                       
+HET    PHE  F6354      12                                                       
+HET    PEP  F6352      10                                                       
+HET     MN  G7351       1                                                       
+HET    SO4  G7356       5                                                       
+HET    PHE  G7354      12                                                       
+HET    PEP  G7352      10                                                       
+HET     MN  H8351       1                                                       
 HET    SO4  H7355       5                                                       
 HET    SO4  H8355       5                                                       
-HET    SO4  A1356       5                                                       
-HET    SO4  B2356       5                                                       
-HET    SO4  C3356       5                                                       
-HET    SO4  D4356       5                                                       
-HET    SO4  E5356       5                                                       
-HET    SO4  F6356       5                                                       
-HET    SO4  G7356       5                                                       
 HET    SO4  H8356       5                                                       
-HET    PHE  A1354      12                                                       
-HET    PHE  B2354      12                                                       
-HET    PHE  C3354      12                                                       
-HET    PHE  D4354      12                                                       
-HET    PHE  E5354      12                                                       
-HET    PHE  F6354      12                                                       
-HET    PHE  G7354      12                                                       
 HET    PHE  H8354      12                                                       
-HET    PEP  A1352      10                                                       
-HET    PEP  B2352      10                                                       
-HET    PEP  C3352      10                                                       
-HET    PEP  D4352      10                                                       
-HET    PEP  E5352      10                                                       
-HET    PEP  F6352      10                                                       
-HET    PEP  G7352      10                                                       
 HET    PEP  H8352      10                                                       
 HETNAM     MSE SELENOMETHIONINE                                                 
 HETNAM      MN MANGANESE (II) ION                                               
@@ -1093,9 +1082,9 @@ HETNAM     PHE PHENYLALANINE
 HETNAM     PEP PHOSPHOENOLPYRUVATE                                              
 FORMUL   1  MSE    64(C5 H11 N O2 SE)                                           
 FORMUL   9   MN    8(MN 2+)                                                     
-FORMUL  17  SO4    16(O4 S 2-)                                                  
-FORMUL  33  PHE    8(C9 H11 N O2)                                               
-FORMUL  41  PEP    8(C3 H5 O6 P)                                                
+FORMUL  10  SO4    16(O4 S 2-)                                                  
+FORMUL  12  PHE    8(C9 H11 N O2)                                               
+FORMUL  13  PEP    8(C3 H5 O6 P)                                                
 HELIX    1   1 PRO A   18  PHE A   26  1                                   9    
 HELIX    2   2 THR A   29  GLY A   49  1                                  21    
 HELIX    3   3 ASP A   65  LEU A   83  1                                  19    
@@ -1328,10 +1317,6 @@ LINK         C   GLN A 278                 N   MSE A 279     1555   1555  1.33
 LINK         C   MSE A 279                 N   ASP A 280     1555   1555  1.33  
 LINK         C   VAL A 299                 N   MSE A 300     1555   1555  1.32  
 LINK         C   MSE A 300                 N   VAL A 301     1555   1555  1.32  
-LINK        MN    MN A1351                 SG  CYS A  61     1555   1555  2.65  
-LINK        MN    MN A1351                 NE2 HIS A 268     1555   1555  2.38  
-LINK        MN    MN A1351                 OE2 GLU A 302     1555   1555  2.10  
-LINK        MN    MN A1351                 OD2 ASP A 326     1555   1555  2.07  
 LINK         C   MSE B   1                 N   ASN B   2     1555   1555  1.33  
 LINK         C   VAL B  90                 N   MSE B  91     1555   1555  1.33  
 LINK         C   MSE B  91                 N   ARG B  92     1555   1555  1.32  
@@ -1347,9 +1332,6 @@ LINK         C   GLN B 278                 N   MSE B 279     1555   1555  1.33
 LINK         C   MSE B 279                 N   ASP B 280     1555   1555  1.33  
 LINK         C   VAL B 299                 N   MSE B 300     1555   1555  1.33  
 LINK         C   MSE B 300                 N   VAL B 301     1555   1555  1.32  
-LINK        MN    MN B2351                 OE2 GLU B 302     1555   1555  2.14  
-LINK        MN    MN B2351                 OD2 ASP B 326     1555   1555  2.34  
-LINK        MN    MN B2351                 NE2 HIS B 268     1555   1555  2.51  
 LINK         C   MSE C   1                 N   ASN C   2     1555   1555  1.33  
 LINK         C   VAL C  90                 N   MSE C  91     1555   1555  1.33  
 LINK         C   MSE C  91                 N   ARG C  92     1555   1555  1.33  
@@ -1365,9 +1347,6 @@ LINK         C   GLN C 278                 N   MSE C 279     1555   1555  1.33
 LINK         C   MSE C 279                 N   ASP C 280     1555   1555  1.33  
 LINK         C   VAL C 299                 N   MSE C 300     1555   1555  1.33  
 LINK         C   MSE C 300                 N   VAL C 301     1555   1555  1.33  
-LINK        MN    MN C3351                 OE2 GLU C 302     1555   1555  2.27  
-LINK        MN    MN C3351                 NE2 HIS C 268     1555   1555  2.45  
-LINK        MN    MN C3351                 OD2 ASP C 326     1555   1555  2.07  
 LINK         C   MSE D   1                 N   ASN D   2     1555   1555  1.33  
 LINK         C   VAL D  90                 N   MSE D  91     1555   1555  1.33  
 LINK         C   MSE D  91                 N   ARG D  92     1555   1555  1.33  
@@ -1383,10 +1362,6 @@ LINK         C   GLN D 278                 N   MSE D 279     1555   1555  1.33
 LINK         C   MSE D 279                 N   ASP D 280     1555   1555  1.33  
 LINK         C   VAL D 299                 N   MSE D 300     1555   1555  1.33  
 LINK         C   MSE D 300                 N   VAL D 301     1555   1555  1.33  
-LINK        MN    MN D4351                 OD2 ASP D 326     1555   1555  2.10  
-LINK        MN    MN D4351                 OE2 GLU D 302     1555   1555  2.19  
-LINK        MN    MN D4351                 SG  CYS D  61     1555   1555  2.63  
-LINK        MN    MN D4351                 NE2 HIS D 268     1555   1555  2.29  
 LINK         C   MSE E   1                 N   ASN E   2     1555   1555  1.33  
 LINK         C   VAL E  90                 N   MSE E  91     1555   1555  1.33  
 LINK         C   MSE E  91                 N   ARG E  92     1555   1555  1.33  
@@ -1402,9 +1377,6 @@ LINK         C   GLN E 278                 N   MSE E 279     1555   1555  1.33
 LINK         C   MSE E 279                 N   ASP E 280     1555   1555  1.34  
 LINK         C   VAL E 299                 N   MSE E 300     1555   1555  1.33  
 LINK         C   MSE E 300                 N   VAL E 301     1555   1555  1.33  
-LINK        MN    MN E5351                 OD2 ASP E 326     1555   1555  2.09  
-LINK        MN    MN E5351                 NE2 HIS E 268     1555   1555  2.37  
-LINK        MN    MN E5351                 OE2 GLU E 302     1555   1555  2.21  
 LINK         C   MSE F   1                 N   ASN F   2     1555   1555  1.33  
 LINK         C   VAL F  90                 N   MSE F  91     1555   1555  1.33  
 LINK         C   MSE F  91                 N   ARG F  92     1555   1555  1.33  
@@ -1420,10 +1392,6 @@ LINK         C   GLN F 278                 N   MSE F 279     1555   1555  1.33
 LINK         C   MSE F 279                 N   ASP F 280     1555   1555  1.33  
 LINK         C   VAL F 299                 N   MSE F 300     1555   1555  1.33  
 LINK         C   MSE F 300                 N   VAL F 301     1555   1555  1.33  
-LINK        MN    MN F6351                 OD2 ASP F 326     1555   1555  2.04  
-LINK        MN    MN F6351                 OE2 GLU F 302     1555   1555  2.22  
-LINK        MN    MN F6351                 SG  CYS F  61     1555   1555  2.73  
-LINK        MN    MN F6351                 NE2 HIS F 268     1555   1555  2.55  
 LINK         C   MSE G   1                 N   ASN G   2     1555   1555  1.33  
 LINK         C   VAL G  90                 N   MSE G  91     1555   1555  1.33  
 LINK         C   MSE G  91                 N   ARG G  92     1555   1555  1.33  
@@ -1439,9 +1407,6 @@ LINK         C   GLN G 278                 N   MSE G 279     1555   1555  1.33
 LINK         C   MSE G 279                 N   ASP G 280     1555   1555  1.33  
 LINK         C   VAL G 299                 N   MSE G 300     1555   1555  1.33  
 LINK         C   MSE G 300                 N   VAL G 301     1555   1555  1.33  
-LINK        MN    MN G7351                 OD2 ASP G 326     1555   1555  2.06  
-LINK        MN    MN G7351                 OE2 GLU G 302     1555   1555  2.15  
-LINK        MN    MN G7351                 NE2 HIS G 268     1555   1555  2.38  
 LINK         C   MSE H   1                 N   ASN H   2     1555   1555  1.33  
 LINK         C   VAL H  90                 N   MSE H  91     1555   1555  1.33  
 LINK         C   MSE H  91                 N   ARG H  92     1555   1555  1.33  
@@ -1457,13 +1422,37 @@ LINK         C   GLN H 278                 N   MSE H 279     1555   1555  1.33
 LINK         C   MSE H 279                 N   ASP H 280     1555   1555  1.33  
 LINK         C   VAL H 299                 N   MSE H 300     1555   1555  1.33  
 LINK         C   MSE H 300                 N   VAL H 301     1555   1555  1.33  
-LINK        MN    MN H8351                 OD2 ASP H 326     1555   1555  2.20  
-LINK        MN    MN H8351                 NE2 HIS H 268     1555   1555  2.36  
-LINK        MN    MN H8351                 OE2 GLU H 302     1555   1555  2.10  
-LINK        MN    MN H8351                 SG  CYS H  61     1555   1555  2.70  
+LINK         SG  CYS A  61                MN    MN A1351     1555   1555  2.65  
+LINK         NE2 HIS A 268                MN    MN A1351     1555   1555  2.38  
+LINK         OE2 GLU A 302                MN    MN A1351     1555   1555  2.10  
+LINK         OD2 ASP A 326                MN    MN A1351     1555   1555  2.07  
 LINK         SG  CYS B  61                MN    MN B2351     1555   1555  2.80  
+LINK         NE2 HIS B 268                MN    MN B2351     1555   1555  2.51  
+LINK         OE2 GLU B 302                MN    MN B2351     1555   1555  2.14  
+LINK         OD2 ASP B 326                MN    MN B2351     1555   1555  2.34  
 LINK         SG  CYS C  61                MN    MN C3351     1555   1555  2.79  
+LINK         NE2 HIS C 268                MN    MN C3351     1555   1555  2.45  
+LINK         OE2 GLU C 302                MN    MN C3351     1555   1555  2.27  
+LINK         OD2 ASP C 326                MN    MN C3351     1555   1555  2.07  
+LINK         SG  CYS D  61                MN    MN D4351     1555   1555  2.63  
+LINK         NE2 HIS D 268                MN    MN D4351     1555   1555  2.29  
+LINK         OE2 GLU D 302                MN    MN D4351     1555   1555  2.19  
+LINK         OD2 ASP D 326                MN    MN D4351     1555   1555  2.10  
 LINK         SG  CYS E  61                MN    MN E5351     1555   1555  2.80  
+LINK         NE2 HIS E 268                MN    MN E5351     1555   1555  2.37  
+LINK         OE2 GLU E 302                MN    MN E5351     1555   1555  2.21  
+LINK         OD2 ASP E 326                MN    MN E5351     1555   1555  2.09  
+LINK         SG  CYS F  61                MN    MN F6351     1555   1555  2.73  
+LINK         NE2 HIS F 268                MN    MN F6351     1555   1555  2.55  
+LINK         OE2 GLU F 302                MN    MN F6351     1555   1555  2.22  
+LINK         OD2 ASP F 326                MN    MN F6351     1555   1555  2.04  
+LINK         NE2 HIS G 268                MN    MN G7351     1555   1555  2.38  
+LINK         OE2 GLU G 302                MN    MN G7351     1555   1555  2.15  
+LINK         OD2 ASP G 326                MN    MN G7351     1555   1555  2.06  
+LINK         SG  CYS H  61                MN    MN H8351     1555   1555  2.70  
+LINK         NE2 HIS H 268                MN    MN H8351     1555   1555  2.36  
+LINK         OE2 GLU H 302                MN    MN H8351     1555   1555  2.10  
+LINK         OD2 ASP H 326                MN    MN H8351     1555   1555  2.20  
 SITE     1 AC1  4 CYS A  61  HIS A 268  GLU A 302  ASP A 326                    
 SITE     1 AC2  5 CYS B  61  ARG B  92  HIS B 268  GLU B 302                    
 SITE     2 AC2  5 ASP B 326                                                     
@@ -22961,259 +22950,259 @@ ATOM  21417  O   GLY H 350     -20.001  96.134  85.778  0.00200.00           O
 ATOM  21418  OXT GLY H 350     -21.259  95.030  84.358  0.00200.00           O  
 TER   21419      GLY H 350                                                      
 HETATM21420 MN    MN A1351      23.109  38.147  89.732  1.00 33.26          MN  
-HETATM21421 MN    MN B2351      43.103  48.039  62.675  1.00 57.63          MN  
-HETATM21422 MN    MN C3351     -23.577  29.620  47.446  1.00 71.97          MN  
-HETATM21423 MN    MN D4351       1.333  18.750  25.097  1.00 47.15          MN  
-HETATM21424 MN    MN E5351     -34.328  15.333 133.096  1.00 64.64          MN  
-HETATM21425 MN    MN F6351      -5.484  24.657 115.328  1.00 61.69          MN  
-HETATM21426 MN    MN G7351     -58.540  71.887 115.552  1.00 77.14          MN  
-HETATM21427 MN    MN H8351     -41.260  67.679  85.314  1.00 68.95          MN  
-HETATM21428  S   SO4 A1355      36.996  20.671  67.132  1.00 59.03           S  
-HETATM21429  O1  SO4 A1355      35.832  21.541  66.864  1.00 58.25           O  
-HETATM21430  O2  SO4 A1355      36.873  20.186  68.538  1.00 68.17           O  
-HETATM21431  O3  SO4 A1355      37.014  19.554  66.178  1.00 42.69           O  
-HETATM21432  O4  SO4 A1355      38.260  21.411  66.967  1.00 56.89           O  
-HETATM21433  S   SO4 B2355      16.131  60.442  73.054  1.00 34.54           S  
-HETATM21434  O1  SO4 B2355      16.008  59.177  72.316  1.00 59.00           O  
-HETATM21435  O2  SO4 B2355      17.289  61.192  72.521  1.00 25.69           O  
-HETATM21436  O3  SO4 B2355      14.869  61.198  72.903  1.00 35.35           O  
-HETATM21437  O4  SO4 B2355      16.339  60.151  74.492  1.00 58.09           O  
-HETATM21438  S   SO4 C3355      -3.229  46.583  30.555  1.00 36.10           S  
-HETATM21439  O1  SO4 C3355      -2.653  45.961  31.761  1.00 46.40           O  
-HETATM21440  O2  SO4 C3355      -4.641  46.973  30.806  1.00 26.04           O  
-HETATM21441  O3  SO4 C3355      -2.457  47.777  30.174  1.00 33.30           O  
-HETATM21442  O4  SO4 C3355      -3.142  45.603  29.456  1.00 44.10           O  
-HETATM21443  S   SO4 D4355      -5.948   7.892  53.819  1.00 70.93           S  
-HETATM21444  O1  SO4 D4355      -5.258   9.191  53.715  1.00 80.87           O  
-HETATM21445  O2  SO4 D4355      -5.447   7.006  52.742  1.00 65.24           O  
-HETATM21446  O3  SO4 D4355      -5.637   7.310  55.137  1.00 77.52           O  
-HETATM21447  O4  SO4 D4355      -7.417   8.064  53.710  1.00 60.77           O  
-HETATM21448  S   SO4 E5355     -29.275  15.881 101.907  1.00 81.88           S  
-HETATM21449  O1  SO4 E5355     -29.406  17.137 102.671  1.00 86.81           O  
-HETATM21450  O2  SO4 E5355     -30.136  14.856 102.532  1.00 82.64           O  
-HETATM21451  O3  SO4 E5355     -29.706  16.113 100.512  1.00 81.73           O  
-HETATM21452  O4  SO4 E5355     -27.868  15.422 101.918  1.00 74.22           O  
-HETATM21453  S   SO4 F6355     -19.399  38.818 139.728  1.00 66.16           S  
-HETATM21454  O1  SO4 F6355     -20.043  38.902 138.404  1.00 84.41           O  
-HETATM21455  O2  SO4 F6355     -17.931  38.782 139.535  1.00 68.45           O  
-HETATM21456  O3  SO4 F6355     -19.793  40.006 140.520  1.00 71.39           O  
-HETATM21457  O4  SO4 F6355     -19.842  37.595 140.427  1.00 63.73           O  
-HETATM21458  S   SO4 H7355     -27.835  75.844 109.047  1.00 95.33           S  
-HETATM21459  O1  SO4 H7355     -28.390  74.478 109.080  1.00 99.47           O  
-HETATM21460  O2  SO4 H7355     -28.542  76.675 110.043  1.00 85.25           O  
-HETATM21461  O3  SO4 H7355     -26.395  75.802 109.372  1.00 98.42           O  
-HETATM21462  O4  SO4 H7355     -28.002  76.405 107.686  1.00 98.94           O  
-HETATM21463  S   SO4 H8355     -62.896  48.737  99.080  1.00 66.44           S  
-HETATM21464  O1  SO4 H8355     -61.514  48.805  99.590  1.00 74.09           O  
-HETATM21465  O2  SO4 H8355     -62.852  48.919  97.603  1.00 73.92           O  
-HETATM21466  O3  SO4 H8355     -63.483  47.428  99.407  1.00 49.68           O  
-HETATM21467  O4  SO4 H8355     -63.714  49.796  99.706  1.00 62.84           O  
-HETATM21468  S   SO4 A1356      38.811  53.818  84.935  1.00 63.98           S  
-HETATM21469  O1  SO4 A1356      38.003  53.253  83.845  1.00 68.55           O  
-HETATM21470  O2  SO4 A1356      38.575  53.072  86.189  1.00 70.04           O  
-HETATM21471  O3  SO4 A1356      40.232  53.721  84.547  1.00 60.67           O  
-HETATM21472  O4  SO4 A1356      38.431  55.233  85.142  1.00 79.10           O  
-HETATM21473  S   SO4 B2356      45.544  39.237  83.697  1.00 69.07           S  
-HETATM21474  O1  SO4 B2356      44.282  39.054  82.966  1.00 88.56           O  
-HETATM21475  O2  SO4 B2356      46.369  40.254  83.001  1.00 73.46           O  
-HETATM21476  O3  SO4 B2356      45.209  39.662  85.071  1.00 62.44           O  
-HETATM21477  O4  SO4 B2356      46.283  37.964  83.724  1.00 70.05           O  
-HETATM21478  S   SO4 C3356     -20.181  13.077  32.147  1.00 85.28           S  
-HETATM21479  O1  SO4 C3356     -19.043  13.760  32.782  1.00 97.63           O  
-HETATM21480  O2  SO4 C3356     -21.435  13.800  32.461  1.00 80.29           O  
-HETATM21481  O3  SO4 C3356     -19.948  13.063  30.688  1.00 75.88           O  
-HETATM21482  O4  SO4 C3356     -20.258  11.703  32.686  1.00 77.43           O  
-HETATM21483  S   SO4 D4356     -19.823  26.982  24.530  1.00 68.10           S  
-HETATM21484  O1  SO4 D4356     -18.936  27.220  25.673  1.00 90.16           O  
-HETATM21485  O2  SO4 D4356     -19.224  25.927  23.682  1.00 60.58           O  
-HETATM21486  O3  SO4 D4356     -21.128  26.539  25.047  1.00 75.42           O  
-HETATM21487  O4  SO4 D4356     -19.992  28.246  23.778  1.00 65.09           O  
-HETATM21488  S   SO4 E5356     -11.747  13.976 135.196  1.00 75.74           S  
-HETATM21489  O1  SO4 E5356     -12.318  15.005 134.311  1.00 88.81           O  
-HETATM21490  O2  SO4 E5356     -12.799  13.014 135.593  1.00 68.59           O  
-HETATM21491  O3  SO4 E5356     -10.674  13.270 134.468  1.00 78.98           O  
-HETATM21492  O4  SO4 E5356     -11.185  14.641 136.387  1.00 74.32           O  
-HETATM21493  S   SO4 F6356     -16.060   5.653 122.292  1.00 94.21           S  
-HETATM21494  O1  SO4 F6356     -16.837   6.892 122.120  1.00107.09           O  
-HETATM21495  O2  SO4 F6356     -14.615   5.957 122.210  1.00 82.64           O  
-HETATM21496  O3  SO4 F6356     -16.381   5.090 123.616  1.00 93.37           O  
-HETATM21497  O4  SO4 F6356     -16.443   4.699 121.227  1.00 94.18           O  
-HETATM21498  S   SO4 G7356     -62.100  74.437  93.285  1.00 88.54           S  
-HETATM21499  O1  SO4 G7356     -61.068  73.515  93.787  1.00103.03           O  
-HETATM21500  O2  SO4 G7356     -62.555  75.301  94.396  1.00 89.66           O  
-HETATM21501  O3  SO4 G7356     -61.508  75.253  92.208  1.00 90.75           O  
-HETATM21502  O4  SO4 G7356     -63.242  73.669  92.749  1.00 87.72           O  
-HETATM21503  S   SO4 H8356     -50.234  84.333  97.845  1.00110.21           S  
-HETATM21504  O1  SO4 H8356     -49.859  83.063  98.485  1.00113.79           O  
-HETATM21505  O2  SO4 H8356     -50.219  84.172  96.375  1.00102.58           O  
-HETATM21506  O3  SO4 H8356     -51.594  84.699  98.292  1.00102.80           O  
-HETATM21507  O4  SO4 H8356     -49.265  85.376  98.251  1.00106.32           O  
-HETATM21508  N   PHE A1354      11.806  46.954  69.230  1.00 17.46           N  
-HETATM21509  CA  PHE A1354      12.884  47.357  70.112  1.00 15.65           C  
-HETATM21510  C   PHE A1354      12.439  48.419  71.099  1.00 18.33           C  
-HETATM21511  O   PHE A1354      13.267  48.806  71.994  1.00 33.66           O  
-HETATM21512  CB  PHE A1354      14.088  47.836  69.305  1.00  1.00           C  
-HETATM21513  CG  PHE A1354      14.794  46.925  68.359  1.00 10.79           C  
-HETATM21514  CD1 PHE A1354      14.461  46.768  66.993  1.00 13.46           C  
-HETATM21515  CD2 PHE A1354      15.876  46.164  68.871  1.00  7.23           C  
-HETATM21516  CE1 PHE A1354      15.211  45.864  66.181  1.00 21.99           C  
-HETATM21517  CE2 PHE A1354      16.636  45.261  68.092  1.00  4.94           C  
-HETATM21518  CZ  PHE A1354      16.299  45.108  66.725  1.00 16.43           C  
-HETATM21519  OXT PHE A1354      11.278  48.914  71.026  1.00 32.83           O  
-HETATM21520  N   PHE B2354      27.871  29.191  59.073  1.00 34.42           N  
-HETATM21521  CA  PHE B2354      28.877  29.459  60.089  1.00 22.36           C  
-HETATM21522  C   PHE B2354      30.162  28.684  59.840  1.00 28.37           C  
-HETATM21523  O   PHE B2354      31.219  29.037  60.451  1.00 29.89           O  
-HETATM21524  CB  PHE B2354      28.301  29.187  61.480  1.00 12.84           C  
-HETATM21525  CG  PHE B2354      27.068  29.930  61.949  1.00 14.71           C  
-HETATM21526  CD1 PHE B2354      25.738  29.430  61.868  1.00 16.69           C  
-HETATM21527  CD2 PHE B2354      27.248  31.222  62.504  1.00  7.08           C  
-HETATM21528  CE1 PHE B2354      24.642  30.217  62.331  1.00 19.79           C  
-HETATM21529  CE2 PHE B2354      26.175  32.030  62.972  1.00 13.13           C  
-HETATM21530  CZ  PHE B2354      24.853  31.519  62.882  1.00 14.87           C  
-HETATM21531  OXT PHE B2354      30.174  27.710  59.039  1.00 39.66           O  
-HETATM21532  N   PHE C3354      -1.967  21.708  57.008  1.00 32.12           N  
-HETATM21533  CA  PHE C3354      -2.882  21.165  56.030  1.00 23.57           C  
-HETATM21534  C   PHE C3354      -3.823  20.156  56.634  1.00 30.76           C  
-HETATM21535  O   PHE C3354      -4.826  19.776  55.950  1.00 37.13           O  
-HETATM21536  CB  PHE C3354      -2.103  20.592  54.845  1.00 16.24           C  
-HETATM21537  CG  PHE C3354      -1.297  21.527  53.980  1.00 19.37           C  
-HETATM21538  CD1 PHE C3354       0.111  21.641  54.026  1.00 15.28           C  
-HETATM21539  CD2 PHE C3354      -2.003  22.359  53.062  1.00 23.15           C  
-HETATM21540  CE1 PHE C3354       0.783  22.558  53.179  1.00 26.61           C  
-HETATM21541  CE2 PHE C3354      -1.360  23.285  52.204  1.00 27.42           C  
-HETATM21542  CZ  PHE C3354       0.059  23.386  52.267  1.00 34.20           C  
-HETATM21543  OXT PHE C3354      -3.611  19.708  57.795  1.00 51.97           O  
-HETATM21544  N   PHE D4354       6.050  38.926  39.035  1.00 31.24           N  
-HETATM21545  CA  PHE D4354       4.974  38.435  38.193  1.00 25.56           C  
-HETATM21546  C   PHE D4354       5.019  39.071  36.822  1.00 23.18           C  
-HETATM21547  O   PHE D4354       4.133  38.750  35.965  1.00 36.07           O  
-HETATM21548  CB  PHE D4354       3.623  38.659  38.873  1.00 14.06           C  
-HETATM21549  CG  PHE D4354       3.289  37.991  40.179  1.00 23.63           C  
-HETATM21550  CD1 PHE D4354       3.517  38.562  41.465  1.00 11.16           C  
-HETATM21551  CD2 PHE D4354       2.699  36.696  40.125  1.00 24.16           C  
-HETATM21552  CE1 PHE D4354       3.158  37.849  42.643  1.00 11.98           C  
-HETATM21553  CE2 PHE D4354       2.331  35.959  41.289  1.00 25.98           C  
-HETATM21554  CZ  PHE D4354       2.566  36.550  42.568  1.00 29.29           C  
-HETATM21555  OXT PHE D4354       5.916  39.899  36.544  1.00 34.63           O  
-HETATM21556  N   PHE E5354     -29.956  39.663 129.451  1.00 45.48           N  
-HETATM21557  CA  PHE E5354     -29.231  38.496 129.923  1.00 40.27           C  
-HETATM21558  C   PHE E5354     -29.137  38.475 131.426  1.00 40.96           C  
-HETATM21559  O   PHE E5354     -28.596  37.463 131.989  1.00 50.37           O  
-HETATM21560  CB  PHE E5354     -27.843  38.416 129.287  1.00 25.96           C  
-HETATM21561  CG  PHE E5354     -27.673  38.280 127.802  1.00 31.49           C  
-HETATM21562  CD1 PHE E5354     -27.487  39.376 126.904  1.00 34.61           C  
-HETATM21563  CD2 PHE E5354     -27.696  36.968 127.254  1.00 31.36           C  
-HETATM21564  CE1 PHE E5354     -27.331  39.135 125.507  1.00 45.91           C  
-HETATM21565  CE2 PHE E5354     -27.543  36.703 125.866  1.00 39.35           C  
-HETATM21566  CZ  PHE E5354     -27.358  37.807 124.979  1.00 37.34           C  
-HETATM21567  OXT PHE E5354     -29.589  39.441 132.096  1.00 54.54           O  
-HETATM21568  N   PHE F6354     -27.522  30.289 105.334  1.00 34.23           N  
-HETATM21569  CA  PHE F6354     -26.938  29.072 105.872  1.00 37.54           C  
-HETATM21570  C   PHE F6354     -26.412  28.140 104.795  1.00 40.26           C  
-HETATM21571  O   PHE F6354     -25.799  27.073 105.155  1.00 41.76           O  
-HETATM21572  CB  PHE F6354     -27.941  28.363 106.795  1.00 32.76           C  
-HETATM21573  CG  PHE F6354     -28.439  29.074 108.025  1.00 33.70           C  
-HETATM21574  CD1 PHE F6354     -29.684  29.756 108.115  1.00 28.93           C  
-HETATM21575  CD2 PHE F6354     -27.604  29.068 109.170  1.00 29.61           C  
-HETATM21576  CE1 PHE F6354     -30.063  30.407 109.322  1.00 39.84           C  
-HETATM21577  CE2 PHE F6354     -27.961  29.711 110.387  1.00 36.56           C  
-HETATM21578  CZ  PHE F6354     -29.208  30.391 110.462  1.00 37.33           C  
-HETATM21579  OXT PHE F6354     -26.577  28.419 103.576  1.00 47.31           O  
-HETATM21580  N   PHE G7354     -52.038  48.699 109.264  1.00 47.91           N  
-HETATM21581  CA  PHE G7354     -52.740  49.776 108.581  1.00 36.03           C  
-HETATM21582  C   PHE G7354     -54.257  49.575 108.638  1.00 39.37           C  
-HETATM21583  O   PHE G7354     -55.032  50.570 108.426  1.00 48.53           O  
-HETATM21584  CB  PHE G7354     -52.202  49.927 107.138  1.00 22.49           C  
-HETATM21585  CG  PHE G7354     -50.742  50.252 106.895  1.00 21.05           C  
-HETATM21586  CD1 PHE G7354     -49.748  49.304 106.509  1.00 19.18           C  
-HETATM21587  CD2 PHE G7354     -50.327  51.597 107.073  1.00 23.73           C  
-HETATM21588  CE1 PHE G7354     -48.389  49.712 106.316  1.00 20.88           C  
-HETATM21589  CE2 PHE G7354     -48.982  52.029 106.886  1.00 29.53           C  
-HETATM21590  CZ  PHE G7354     -47.999  51.065 106.503  1.00 25.59           C  
-HETATM21591  OXT PHE G7354     -54.734  48.445 108.909  1.00 49.09           O  
-HETATM21592  N   PHE H8354     -29.577  61.449 106.276  1.00 60.56           N  
-HETATM21593  CA  PHE H8354     -30.280  62.654 105.889  1.00 64.55           C  
-HETATM21594  C   PHE H8354     -29.320  63.765 105.471  1.00 69.62           C  
-HETATM21595  O   PHE H8354     -29.782  64.791 104.863  1.00 80.11           O  
-HETATM21596  CB  PHE H8354     -31.232  63.105 107.016  1.00 52.59           C  
-HETATM21597  CG  PHE H8354     -32.353  62.196 107.487  1.00 54.14           C  
-HETATM21598  CD1 PHE H8354     -32.305  61.391 108.665  1.00 44.07           C  
-HETATM21599  CD2 PHE H8354     -33.537  62.136 106.698  1.00 46.57           C  
-HETATM21600  CE1 PHE H8354     -33.403  60.569 109.022  1.00 49.95           C  
-HETATM21601  CE2 PHE H8354     -34.651  61.319 107.035  1.00 51.12           C  
-HETATM21602  CZ  PHE H8354     -34.578  60.526 108.216  1.00 57.71           C  
-HETATM21603  OXT PHE H8354     -28.097  63.668 105.717  1.00 72.24           O  
-HETATM21604  C1  PEP A1352      27.515  41.696  87.290  1.00 52.65           C  
-HETATM21605  O1  PEP A1352      28.708  41.390  86.896  1.00 47.31           O  
-HETATM21606  O2' PEP A1352      27.310  42.453  88.193  1.00 43.99           O  
-HETATM21607  C2  PEP A1352      26.387  41.024  86.521  1.00 53.24           C  
-HETATM21608  C3  PEP A1352      26.455  40.152  85.474  1.00 69.35           C  
-HETATM21609  O2  PEP A1352      25.117  41.375  86.994  1.00 49.08           O  
-HETATM21610  P   PEP A1352      23.752  41.439  86.178  1.00 47.09           P  
-HETATM21611  O1P PEP A1352      22.772  42.285  87.044  1.00 29.66           O  
-HETATM21612  O2P PEP A1352      23.314  40.008  86.024  1.00 46.36           O  
-HETATM21613  O3P PEP A1352      24.062  42.194  84.920  1.00 60.69           O  
-HETATM21614  C1  PEP B2352      42.387  46.128  68.532  1.00 61.09           C  
-HETATM21615  O1  PEP B2352      41.860  46.582  69.606  1.00 60.53           O  
-HETATM21616  O2' PEP B2352      43.557  45.864  68.431  1.00 55.99           O  
-HETATM21617  C2  PEP B2352      41.405  45.957  67.407  1.00 71.06           C  
-HETATM21618  C3  PEP B2352      40.069  46.222  67.400  1.00 80.05           C  
-HETATM21619  O2  PEP B2352      41.980  45.456  66.225  1.00 77.63           O  
-HETATM21620  P   PEP B2352      41.341  44.395  65.200  1.00 79.02           P  
-HETATM21621  O1P PEP B2352      42.525  43.538  64.678  1.00 67.09           O  
-HETATM21622  O2P PEP B2352      40.692  45.272  64.152  1.00 81.03           O  
-HETATM21623  O3P PEP B2352      40.439  43.473  65.961  1.00 71.11           O  
-HETATM21624  C1  PEP C3352     -21.432  25.857  43.036  1.00 77.46           C  
-HETATM21625  O1  PEP C3352     -21.052  25.994  41.824  1.00 71.55           O  
-HETATM21626  O2' PEP C3352     -22.376  25.176  43.358  1.00 68.16           O  
-HETATM21627  C2  PEP C3352     -20.588  26.627  44.023  1.00 88.19           C  
-HETATM21628  C3  PEP C3352     -19.507  27.426  43.787  1.00 94.36           C  
-HETATM21629  O2  PEP C3352     -21.006  26.478  45.352  1.00 99.12           O  
-HETATM21630  P   PEP C3352     -20.088  26.273  46.640  1.00102.12           P  
-HETATM21631  O1P PEP C3352     -20.918  25.373  47.585  1.00 88.40           O  
-HETATM21632  O2P PEP C3352     -19.871  27.673  47.148  1.00106.05           O  
-HETATM21633  O3P PEP C3352     -18.864  25.510  46.237  1.00101.32           O  
-HETATM21634  C1  PEP D4352      -4.278  20.811  26.353  1.00 68.88           C  
-HETATM21635  O1  PEP D4352      -5.296  20.333  26.984  1.00 69.19           O  
-HETATM21636  O2' PEP D4352      -4.308  21.070  25.179  1.00 63.85           O  
-HETATM21637  C2  PEP D4352      -3.041  21.018  27.213  1.00 71.37           C  
-HETATM21638  C3  PEP D4352      -2.865  20.769  28.544  1.00 77.07           C  
-HETATM21639  O2  PEP D4352      -1.946  21.534  26.504  1.00 70.56           O  
-HETATM21640  P   PEP D4352      -0.873  22.612  27.007  1.00 67.10           P  
-HETATM21641  O1P PEP D4352      -0.396  23.376  25.744  1.00 56.00           O  
-HETATM21642  O2P PEP D4352       0.193  21.780  27.655  1.00 74.30           O  
-HETATM21643  O3P PEP D4352      -1.586  23.590  27.874  1.00 78.30           O  
-HETATM21644  C1  PEP E5352     -28.264  15.491 132.302  1.00 76.67           C  
-HETATM21645  O1  PEP E5352     -27.457  14.958 131.449  1.00 76.18           O  
-HETATM21646  O2' PEP E5352     -28.232  15.217 133.472  1.00 71.66           O  
-HETATM21647  C2  PEP E5352     -29.258  16.492 131.707  1.00 77.19           C  
-HETATM21648  C3  PEP E5352     -29.405  16.894 130.409  1.00 77.36           C  
-HETATM21649  O2  PEP E5352     -30.131  17.057 132.658  1.00 76.48           O  
-HETATM21650  P   PEP E5352     -30.631  18.584 132.770  1.00 76.36           P  
-HETATM21651  O1P PEP E5352     -30.820  18.862 134.279  1.00 73.38           O  
-HETATM21652  O2P PEP E5352     -31.915  18.617 131.988  1.00 75.23           O  
-HETATM21653  O3P PEP E5352     -29.524  19.466 132.298  1.00 85.22           O  
-HETATM21654  C1  PEP F6352      -9.154  20.327 117.894  1.00 80.72           C  
-HETATM21655  O1  PEP F6352      -9.514  20.054 119.098  1.00 76.24           O  
-HETATM21656  O2' PEP F6352      -8.543  19.547 117.206  1.00 67.17           O  
-HETATM21657  C2  PEP F6352      -9.564  21.716 117.417  1.00 91.78           C  
-HETATM21658  C3  PEP F6352     -10.250  22.691 118.090  1.00103.80           C  
-HETATM21659  O2  PEP F6352      -9.168  22.011 116.100  1.00 90.29           O  
-HETATM21660  P   PEP F6352     -10.011  22.791 114.980  1.00 82.05           P  
-HETATM21661  O1P PEP F6352      -9.553  22.152 113.636  1.00 54.00           O  
-HETATM21662  O2P PEP F6352      -9.607  24.236 115.172  1.00 70.60           O  
-HETATM21663  O3P PEP F6352     -11.464  22.478 115.166  1.00 74.44           O  
-HETATM21664  C1  PEP G7352     -58.012  72.253 109.483  1.00 93.61           C  
-HETATM21665  O1  PEP G7352     -57.282  72.920 108.661  1.00 95.80           O  
-HETATM21666  O2' PEP G7352     -59.213  72.396 109.556  1.00 88.55           O  
-HETATM21667  C2  PEP G7352     -57.232  71.275 110.350  1.00 93.16           C  
-HETATM21668  C3  PEP G7352     -55.889  71.022 110.369  1.00 91.41           C  
-HETATM21669  O2  PEP G7352     -58.032  70.551 111.241  1.00 94.44           O  
-HETATM21670  P   PEP G7352     -57.918  68.997 111.603  1.00 99.14           P  
-HETATM21671  O1P PEP G7352     -59.368  68.539 111.917  1.00 85.88           O  
-HETATM21672  O2P PEP G7352     -56.988  68.973 112.790  1.00100.14           O  
-HETATM21673  O3P PEP G7352     -57.469  68.260 110.386  1.00 97.08           O  
+HETATM21421  S   SO4 A1355      36.996  20.671  67.132  1.00 59.03           S  
+HETATM21422  O1  SO4 A1355      35.832  21.541  66.864  1.00 58.25           O  
+HETATM21423  O2  SO4 A1355      36.873  20.186  68.538  1.00 68.17           O  
+HETATM21424  O3  SO4 A1355      37.014  19.554  66.178  1.00 42.69           O  
+HETATM21425  O4  SO4 A1355      38.260  21.411  66.967  1.00 56.89           O  
+HETATM21426  S   SO4 A1356      38.811  53.818  84.935  1.00 63.98           S  
+HETATM21427  O1  SO4 A1356      38.003  53.253  83.845  1.00 68.55           O  
+HETATM21428  O2  SO4 A1356      38.575  53.072  86.189  1.00 70.04           O  
+HETATM21429  O3  SO4 A1356      40.232  53.721  84.547  1.00 60.67           O  
+HETATM21430  O4  SO4 A1356      38.431  55.233  85.142  1.00 79.10           O  
+HETATM21431  N   PHE A1354      11.806  46.954  69.230  1.00 17.46           N  
+HETATM21432  CA  PHE A1354      12.884  47.357  70.112  1.00 15.65           C  
+HETATM21433  C   PHE A1354      12.439  48.419  71.099  1.00 18.33           C  
+HETATM21434  O   PHE A1354      13.267  48.806  71.994  1.00 33.66           O  
+HETATM21435  CB  PHE A1354      14.088  47.836  69.305  1.00  1.00           C  
+HETATM21436  CG  PHE A1354      14.794  46.925  68.359  1.00 10.79           C  
+HETATM21437  CD1 PHE A1354      14.461  46.768  66.993  1.00 13.46           C  
+HETATM21438  CD2 PHE A1354      15.876  46.164  68.871  1.00  7.23           C  
+HETATM21439  CE1 PHE A1354      15.211  45.864  66.181  1.00 21.99           C  
+HETATM21440  CE2 PHE A1354      16.636  45.261  68.092  1.00  4.94           C  
+HETATM21441  CZ  PHE A1354      16.299  45.108  66.725  1.00 16.43           C  
+HETATM21442  OXT PHE A1354      11.278  48.914  71.026  1.00 32.83           O  
+HETATM21443  C1  PEP A1352      27.515  41.696  87.290  1.00 52.65           C  
+HETATM21444  O1  PEP A1352      28.708  41.390  86.896  1.00 47.31           O  
+HETATM21445  O2' PEP A1352      27.310  42.453  88.193  1.00 43.99           O  
+HETATM21446  C2  PEP A1352      26.387  41.024  86.521  1.00 53.24           C  
+HETATM21447  C3  PEP A1352      26.455  40.152  85.474  1.00 69.35           C  
+HETATM21448  O2  PEP A1352      25.117  41.375  86.994  1.00 49.08           O  
+HETATM21449  P   PEP A1352      23.752  41.439  86.178  1.00 47.09           P  
+HETATM21450  O1P PEP A1352      22.772  42.285  87.044  1.00 29.66           O  
+HETATM21451  O2P PEP A1352      23.314  40.008  86.024  1.00 46.36           O  
+HETATM21452  O3P PEP A1352      24.062  42.194  84.920  1.00 60.69           O  
+HETATM21453 MN    MN B2351      43.103  48.039  62.675  1.00 57.63          MN  
+HETATM21454  S   SO4 B2355      16.131  60.442  73.054  1.00 34.54           S  
+HETATM21455  O1  SO4 B2355      16.008  59.177  72.316  1.00 59.00           O  
+HETATM21456  O2  SO4 B2355      17.289  61.192  72.521  1.00 25.69           O  
+HETATM21457  O3  SO4 B2355      14.869  61.198  72.903  1.00 35.35           O  
+HETATM21458  O4  SO4 B2355      16.339  60.151  74.492  1.00 58.09           O  
+HETATM21459  S   SO4 B2356      45.544  39.237  83.697  1.00 69.07           S  
+HETATM21460  O1  SO4 B2356      44.282  39.054  82.966  1.00 88.56           O  
+HETATM21461  O2  SO4 B2356      46.369  40.254  83.001  1.00 73.46           O  
+HETATM21462  O3  SO4 B2356      45.209  39.662  85.071  1.00 62.44           O  
+HETATM21463  O4  SO4 B2356      46.283  37.964  83.724  1.00 70.05           O  
+HETATM21464  N   PHE B2354      27.871  29.191  59.073  1.00 34.42           N  
+HETATM21465  CA  PHE B2354      28.877  29.459  60.089  1.00 22.36           C  
+HETATM21466  C   PHE B2354      30.162  28.684  59.840  1.00 28.37           C  
+HETATM21467  O   PHE B2354      31.219  29.037  60.451  1.00 29.89           O  
+HETATM21468  CB  PHE B2354      28.301  29.187  61.480  1.00 12.84           C  
+HETATM21469  CG  PHE B2354      27.068  29.930  61.949  1.00 14.71           C  
+HETATM21470  CD1 PHE B2354      25.738  29.430  61.868  1.00 16.69           C  
+HETATM21471  CD2 PHE B2354      27.248  31.222  62.504  1.00  7.08           C  
+HETATM21472  CE1 PHE B2354      24.642  30.217  62.331  1.00 19.79           C  
+HETATM21473  CE2 PHE B2354      26.175  32.030  62.972  1.00 13.13           C  
+HETATM21474  CZ  PHE B2354      24.853  31.519  62.882  1.00 14.87           C  
+HETATM21475  OXT PHE B2354      30.174  27.710  59.039  1.00 39.66           O  
+HETATM21476  C1  PEP B2352      42.387  46.128  68.532  1.00 61.09           C  
+HETATM21477  O1  PEP B2352      41.860  46.582  69.606  1.00 60.53           O  
+HETATM21478  O2' PEP B2352      43.557  45.864  68.431  1.00 55.99           O  
+HETATM21479  C2  PEP B2352      41.405  45.957  67.407  1.00 71.06           C  
+HETATM21480  C3  PEP B2352      40.069  46.222  67.400  1.00 80.05           C  
+HETATM21481  O2  PEP B2352      41.980  45.456  66.225  1.00 77.63           O  
+HETATM21482  P   PEP B2352      41.341  44.395  65.200  1.00 79.02           P  
+HETATM21483  O1P PEP B2352      42.525  43.538  64.678  1.00 67.09           O  
+HETATM21484  O2P PEP B2352      40.692  45.272  64.152  1.00 81.03           O  
+HETATM21485  O3P PEP B2352      40.439  43.473  65.961  1.00 71.11           O  
+HETATM21486 MN    MN C3351     -23.577  29.620  47.446  1.00 71.97          MN  
+HETATM21487  S   SO4 C3355      -3.229  46.583  30.555  1.00 36.10           S  
+HETATM21488  O1  SO4 C3355      -2.653  45.961  31.761  1.00 46.40           O  
+HETATM21489  O2  SO4 C3355      -4.641  46.973  30.806  1.00 26.04           O  
+HETATM21490  O3  SO4 C3355      -2.457  47.777  30.174  1.00 33.30           O  
+HETATM21491  O4  SO4 C3355      -3.142  45.603  29.456  1.00 44.10           O  
+HETATM21492  S   SO4 C3356     -20.181  13.077  32.147  1.00 85.28           S  
+HETATM21493  O1  SO4 C3356     -19.043  13.760  32.782  1.00 97.63           O  
+HETATM21494  O2  SO4 C3356     -21.435  13.800  32.461  1.00 80.29           O  
+HETATM21495  O3  SO4 C3356     -19.948  13.063  30.688  1.00 75.88           O  
+HETATM21496  O4  SO4 C3356     -20.258  11.703  32.686  1.00 77.43           O  
+HETATM21497  N   PHE C3354      -1.967  21.708  57.008  1.00 32.12           N  
+HETATM21498  CA  PHE C3354      -2.882  21.165  56.030  1.00 23.57           C  
+HETATM21499  C   PHE C3354      -3.823  20.156  56.634  1.00 30.76           C  
+HETATM21500  O   PHE C3354      -4.826  19.776  55.950  1.00 37.13           O  
+HETATM21501  CB  PHE C3354      -2.103  20.592  54.845  1.00 16.24           C  
+HETATM21502  CG  PHE C3354      -1.297  21.527  53.980  1.00 19.37           C  
+HETATM21503  CD1 PHE C3354       0.111  21.641  54.026  1.00 15.28           C  
+HETATM21504  CD2 PHE C3354      -2.003  22.359  53.062  1.00 23.15           C  
+HETATM21505  CE1 PHE C3354       0.783  22.558  53.179  1.00 26.61           C  
+HETATM21506  CE2 PHE C3354      -1.360  23.285  52.204  1.00 27.42           C  
+HETATM21507  CZ  PHE C3354       0.059  23.386  52.267  1.00 34.20           C  
+HETATM21508  OXT PHE C3354      -3.611  19.708  57.795  1.00 51.97           O  
+HETATM21509  C1  PEP C3352     -21.432  25.857  43.036  1.00 77.46           C  
+HETATM21510  O1  PEP C3352     -21.052  25.994  41.824  1.00 71.55           O  
+HETATM21511  O2' PEP C3352     -22.376  25.176  43.358  1.00 68.16           O  
+HETATM21512  C2  PEP C3352     -20.588  26.627  44.023  1.00 88.19           C  
+HETATM21513  C3  PEP C3352     -19.507  27.426  43.787  1.00 94.36           C  
+HETATM21514  O2  PEP C3352     -21.006  26.478  45.352  1.00 99.12           O  
+HETATM21515  P   PEP C3352     -20.088  26.273  46.640  1.00102.12           P  
+HETATM21516  O1P PEP C3352     -20.918  25.373  47.585  1.00 88.40           O  
+HETATM21517  O2P PEP C3352     -19.871  27.673  47.148  1.00106.05           O  
+HETATM21518  O3P PEP C3352     -18.864  25.510  46.237  1.00101.32           O  
+HETATM21519 MN    MN D4351       1.333  18.750  25.097  1.00 47.15          MN  
+HETATM21520  S   SO4 D4355      -5.948   7.892  53.819  1.00 70.93           S  
+HETATM21521  O1  SO4 D4355      -5.258   9.191  53.715  1.00 80.87           O  
+HETATM21522  O2  SO4 D4355      -5.447   7.006  52.742  1.00 65.24           O  
+HETATM21523  O3  SO4 D4355      -5.637   7.310  55.137  1.00 77.52           O  
+HETATM21524  O4  SO4 D4355      -7.417   8.064  53.710  1.00 60.77           O  
+HETATM21525  S   SO4 D4356     -19.823  26.982  24.530  1.00 68.10           S  
+HETATM21526  O1  SO4 D4356     -18.936  27.220  25.673  1.00 90.16           O  
+HETATM21527  O2  SO4 D4356     -19.224  25.927  23.682  1.00 60.58           O  
+HETATM21528  O3  SO4 D4356     -21.128  26.539  25.047  1.00 75.42           O  
+HETATM21529  O4  SO4 D4356     -19.992  28.246  23.778  1.00 65.09           O  
+HETATM21530  N   PHE D4354       6.050  38.926  39.035  1.00 31.24           N  
+HETATM21531  CA  PHE D4354       4.974  38.435  38.193  1.00 25.56           C  
+HETATM21532  C   PHE D4354       5.019  39.071  36.822  1.00 23.18           C  
+HETATM21533  O   PHE D4354       4.133  38.750  35.965  1.00 36.07           O  
+HETATM21534  CB  PHE D4354       3.623  38.659  38.873  1.00 14.06           C  
+HETATM21535  CG  PHE D4354       3.289  37.991  40.179  1.00 23.63           C  
+HETATM21536  CD1 PHE D4354       3.517  38.562  41.465  1.00 11.16           C  
+HETATM21537  CD2 PHE D4354       2.699  36.696  40.125  1.00 24.16           C  
+HETATM21538  CE1 PHE D4354       3.158  37.849  42.643  1.00 11.98           C  
+HETATM21539  CE2 PHE D4354       2.331  35.959  41.289  1.00 25.98           C  
+HETATM21540  CZ  PHE D4354       2.566  36.550  42.568  1.00 29.29           C  
+HETATM21541  OXT PHE D4354       5.916  39.899  36.544  1.00 34.63           O  
+HETATM21542  C1  PEP D4352      -4.278  20.811  26.353  1.00 68.88           C  
+HETATM21543  O1  PEP D4352      -5.296  20.333  26.984  1.00 69.19           O  
+HETATM21544  O2' PEP D4352      -4.308  21.070  25.179  1.00 63.85           O  
+HETATM21545  C2  PEP D4352      -3.041  21.018  27.213  1.00 71.37           C  
+HETATM21546  C3  PEP D4352      -2.865  20.769  28.544  1.00 77.07           C  
+HETATM21547  O2  PEP D4352      -1.946  21.534  26.504  1.00 70.56           O  
+HETATM21548  P   PEP D4352      -0.873  22.612  27.007  1.00 67.10           P  
+HETATM21549  O1P PEP D4352      -0.396  23.376  25.744  1.00 56.00           O  
+HETATM21550  O2P PEP D4352       0.193  21.780  27.655  1.00 74.30           O  
+HETATM21551  O3P PEP D4352      -1.586  23.590  27.874  1.00 78.30           O  
+HETATM21552 MN    MN E5351     -34.328  15.333 133.096  1.00 64.64          MN  
+HETATM21553  S   SO4 E5355     -29.275  15.881 101.907  1.00 81.88           S  
+HETATM21554  O1  SO4 E5355     -29.406  17.137 102.671  1.00 86.81           O  
+HETATM21555  O2  SO4 E5355     -30.136  14.856 102.532  1.00 82.64           O  
+HETATM21556  O3  SO4 E5355     -29.706  16.113 100.512  1.00 81.73           O  
+HETATM21557  O4  SO4 E5355     -27.868  15.422 101.918  1.00 74.22           O  
+HETATM21558  S   SO4 E5356     -11.747  13.976 135.196  1.00 75.74           S  
+HETATM21559  O1  SO4 E5356     -12.318  15.005 134.311  1.00 88.81           O  
+HETATM21560  O2  SO4 E5356     -12.799  13.014 135.593  1.00 68.59           O  
+HETATM21561  O3  SO4 E5356     -10.674  13.270 134.468  1.00 78.98           O  
+HETATM21562  O4  SO4 E5356     -11.185  14.641 136.387  1.00 74.32           O  
+HETATM21563  N   PHE E5354     -29.956  39.663 129.451  1.00 45.48           N  
+HETATM21564  CA  PHE E5354     -29.231  38.496 129.923  1.00 40.27           C  
+HETATM21565  C   PHE E5354     -29.137  38.475 131.426  1.00 40.96           C  
+HETATM21566  O   PHE E5354     -28.596  37.463 131.989  1.00 50.37           O  
+HETATM21567  CB  PHE E5354     -27.843  38.416 129.287  1.00 25.96           C  
+HETATM21568  CG  PHE E5354     -27.673  38.280 127.802  1.00 31.49           C  
+HETATM21569  CD1 PHE E5354     -27.487  39.376 126.904  1.00 34.61           C  
+HETATM21570  CD2 PHE E5354     -27.696  36.968 127.254  1.00 31.36           C  
+HETATM21571  CE1 PHE E5354     -27.331  39.135 125.507  1.00 45.91           C  
+HETATM21572  CE2 PHE E5354     -27.543  36.703 125.866  1.00 39.35           C  
+HETATM21573  CZ  PHE E5354     -27.358  37.807 124.979  1.00 37.34           C  
+HETATM21574  OXT PHE E5354     -29.589  39.441 132.096  1.00 54.54           O  
+HETATM21575  C1  PEP E5352     -28.264  15.491 132.302  1.00 76.67           C  
+HETATM21576  O1  PEP E5352     -27.457  14.958 131.449  1.00 76.18           O  
+HETATM21577  O2' PEP E5352     -28.232  15.217 133.472  1.00 71.66           O  
+HETATM21578  C2  PEP E5352     -29.258  16.492 131.707  1.00 77.19           C  
+HETATM21579  C3  PEP E5352     -29.405  16.894 130.409  1.00 77.36           C  
+HETATM21580  O2  PEP E5352     -30.131  17.057 132.658  1.00 76.48           O  
+HETATM21581  P   PEP E5352     -30.631  18.584 132.770  1.00 76.36           P  
+HETATM21582  O1P PEP E5352     -30.820  18.862 134.279  1.00 73.38           O  
+HETATM21583  O2P PEP E5352     -31.915  18.617 131.988  1.00 75.23           O  
+HETATM21584  O3P PEP E5352     -29.524  19.466 132.298  1.00 85.22           O  
+HETATM21585 MN    MN F6351      -5.484  24.657 115.328  1.00 61.69          MN  
+HETATM21586  S   SO4 F6355     -19.399  38.818 139.728  1.00 66.16           S  
+HETATM21587  O1  SO4 F6355     -20.043  38.902 138.404  1.00 84.41           O  
+HETATM21588  O2  SO4 F6355     -17.931  38.782 139.535  1.00 68.45           O  
+HETATM21589  O3  SO4 F6355     -19.793  40.006 140.520  1.00 71.39           O  
+HETATM21590  O4  SO4 F6355     -19.842  37.595 140.427  1.00 63.73           O  
+HETATM21591  S   SO4 F6356     -16.060   5.653 122.292  1.00 94.21           S  
+HETATM21592  O1  SO4 F6356     -16.837   6.892 122.120  1.00107.09           O  
+HETATM21593  O2  SO4 F6356     -14.615   5.957 122.210  1.00 82.64           O  
+HETATM21594  O3  SO4 F6356     -16.381   5.090 123.616  1.00 93.37           O  
+HETATM21595  O4  SO4 F6356     -16.443   4.699 121.227  1.00 94.18           O  
+HETATM21596  N   PHE F6354     -27.522  30.289 105.334  1.00 34.23           N  
+HETATM21597  CA  PHE F6354     -26.938  29.072 105.872  1.00 37.54           C  
+HETATM21598  C   PHE F6354     -26.412  28.140 104.795  1.00 40.26           C  
+HETATM21599  O   PHE F6354     -25.799  27.073 105.155  1.00 41.76           O  
+HETATM21600  CB  PHE F6354     -27.941  28.363 106.795  1.00 32.76           C  
+HETATM21601  CG  PHE F6354     -28.439  29.074 108.025  1.00 33.70           C  
+HETATM21602  CD1 PHE F6354     -29.684  29.756 108.115  1.00 28.93           C  
+HETATM21603  CD2 PHE F6354     -27.604  29.068 109.170  1.00 29.61           C  
+HETATM21604  CE1 PHE F6354     -30.063  30.407 109.322  1.00 39.84           C  
+HETATM21605  CE2 PHE F6354     -27.961  29.711 110.387  1.00 36.56           C  
+HETATM21606  CZ  PHE F6354     -29.208  30.391 110.462  1.00 37.33           C  
+HETATM21607  OXT PHE F6354     -26.577  28.419 103.576  1.00 47.31           O  
+HETATM21608  C1  PEP F6352      -9.154  20.327 117.894  1.00 80.72           C  
+HETATM21609  O1  PEP F6352      -9.514  20.054 119.098  1.00 76.24           O  
+HETATM21610  O2' PEP F6352      -8.543  19.547 117.206  1.00 67.17           O  
+HETATM21611  C2  PEP F6352      -9.564  21.716 117.417  1.00 91.78           C  
+HETATM21612  C3  PEP F6352     -10.250  22.691 118.090  1.00103.80           C  
+HETATM21613  O2  PEP F6352      -9.168  22.011 116.100  1.00 90.29           O  
+HETATM21614  P   PEP F6352     -10.011  22.791 114.980  1.00 82.05           P  
+HETATM21615  O1P PEP F6352      -9.553  22.152 113.636  1.00 54.00           O  
+HETATM21616  O2P PEP F6352      -9.607  24.236 115.172  1.00 70.60           O  
+HETATM21617  O3P PEP F6352     -11.464  22.478 115.166  1.00 74.44           O  
+HETATM21618 MN    MN G7351     -58.540  71.887 115.552  1.00 77.14          MN  
+HETATM21619  S   SO4 G7356     -62.100  74.437  93.285  1.00 88.54           S  
+HETATM21620  O1  SO4 G7356     -61.068  73.515  93.787  1.00103.03           O  
+HETATM21621  O2  SO4 G7356     -62.555  75.301  94.396  1.00 89.66           O  
+HETATM21622  O3  SO4 G7356     -61.508  75.253  92.208  1.00 90.75           O  
+HETATM21623  O4  SO4 G7356     -63.242  73.669  92.749  1.00 87.72           O  
+HETATM21624  N   PHE G7354     -52.038  48.699 109.264  1.00 47.91           N  
+HETATM21625  CA  PHE G7354     -52.740  49.776 108.581  1.00 36.03           C  
+HETATM21626  C   PHE G7354     -54.257  49.575 108.638  1.00 39.37           C  
+HETATM21627  O   PHE G7354     -55.032  50.570 108.426  1.00 48.53           O  
+HETATM21628  CB  PHE G7354     -52.202  49.927 107.138  1.00 22.49           C  
+HETATM21629  CG  PHE G7354     -50.742  50.252 106.895  1.00 21.05           C  
+HETATM21630  CD1 PHE G7354     -49.748  49.304 106.509  1.00 19.18           C  
+HETATM21631  CD2 PHE G7354     -50.327  51.597 107.073  1.00 23.73           C  
+HETATM21632  CE1 PHE G7354     -48.389  49.712 106.316  1.00 20.88           C  
+HETATM21633  CE2 PHE G7354     -48.982  52.029 106.886  1.00 29.53           C  
+HETATM21634  CZ  PHE G7354     -47.999  51.065 106.503  1.00 25.59           C  
+HETATM21635  OXT PHE G7354     -54.734  48.445 108.909  1.00 49.09           O  
+HETATM21636  C1  PEP G7352     -58.012  72.253 109.483  1.00 93.61           C  
+HETATM21637  O1  PEP G7352     -57.282  72.920 108.661  1.00 95.80           O  
+HETATM21638  O2' PEP G7352     -59.213  72.396 109.556  1.00 88.55           O  
+HETATM21639  C2  PEP G7352     -57.232  71.275 110.350  1.00 93.16           C  
+HETATM21640  C3  PEP G7352     -55.889  71.022 110.369  1.00 91.41           C  
+HETATM21641  O2  PEP G7352     -58.032  70.551 111.241  1.00 94.44           O  
+HETATM21642  P   PEP G7352     -57.918  68.997 111.603  1.00 99.14           P  
+HETATM21643  O1P PEP G7352     -59.368  68.539 111.917  1.00 85.88           O  
+HETATM21644  O2P PEP G7352     -56.988  68.973 112.790  1.00100.14           O  
+HETATM21645  O3P PEP G7352     -57.469  68.260 110.386  1.00 97.08           O  
+HETATM21646 MN    MN H8351     -41.260  67.679  85.314  1.00 68.95          MN  
+HETATM21647  S   SO4 H7355     -27.835  75.844 109.047  1.00 95.33           S  
+HETATM21648  O1  SO4 H7355     -28.390  74.478 109.080  1.00 99.47           O  
+HETATM21649  O2  SO4 H7355     -28.542  76.675 110.043  1.00 85.25           O  
+HETATM21650  O3  SO4 H7355     -26.395  75.802 109.372  1.00 98.42           O  
+HETATM21651  O4  SO4 H7355     -28.002  76.405 107.686  1.00 98.94           O  
+HETATM21652  S   SO4 H8355     -62.896  48.737  99.080  1.00 66.44           S  
+HETATM21653  O1  SO4 H8355     -61.514  48.805  99.590  1.00 74.09           O  
+HETATM21654  O2  SO4 H8355     -62.852  48.919  97.603  1.00 73.92           O  
+HETATM21655  O3  SO4 H8355     -63.483  47.428  99.407  1.00 49.68           O  
+HETATM21656  O4  SO4 H8355     -63.714  49.796  99.706  1.00 62.84           O  
+HETATM21657  S   SO4 H8356     -50.234  84.333  97.845  1.00110.21           S  
+HETATM21658  O1  SO4 H8356     -49.859  83.063  98.485  1.00113.79           O  
+HETATM21659  O2  SO4 H8356     -50.219  84.172  96.375  1.00102.58           O  
+HETATM21660  O3  SO4 H8356     -51.594  84.699  98.292  1.00102.80           O  
+HETATM21661  O4  SO4 H8356     -49.265  85.376  98.251  1.00106.32           O  
+HETATM21662  N   PHE H8354     -29.577  61.449 106.276  1.00 60.56           N  
+HETATM21663  CA  PHE H8354     -30.280  62.654 105.889  1.00 64.55           C  
+HETATM21664  C   PHE H8354     -29.320  63.765 105.471  1.00 69.62           C  
+HETATM21665  O   PHE H8354     -29.782  64.791 104.863  1.00 80.11           O  
+HETATM21666  CB  PHE H8354     -31.232  63.105 107.016  1.00 52.59           C  
+HETATM21667  CG  PHE H8354     -32.353  62.196 107.487  1.00 54.14           C  
+HETATM21668  CD1 PHE H8354     -32.305  61.391 108.665  1.00 44.07           C  
+HETATM21669  CD2 PHE H8354     -33.537  62.136 106.698  1.00 46.57           C  
+HETATM21670  CE1 PHE H8354     -33.403  60.569 109.022  1.00 49.95           C  
+HETATM21671  CE2 PHE H8354     -34.651  61.319 107.035  1.00 51.12           C  
+HETATM21672  CZ  PHE H8354     -34.578  60.526 108.216  1.00 57.71           C  
+HETATM21673  OXT PHE H8354     -28.097  63.668 105.717  1.00 72.24           O  
 HETATM21674  C1  PEP H8352     -44.287  71.052  89.539  1.00 96.04           C  
 HETATM21675  O1  PEP H8352     -45.507  71.079  89.959  1.00 91.79           O  
 HETATM21676  O2' PEP H8352     -43.758  71.997  88.992  1.00 94.60           O  
@@ -23316,7 +23305,7 @@ CONECT 2674 2673 2675
 CONECT 2675 2674 2676                                                           
 CONECT 2676 2675                                                                
 CONECT 2677 2671                                                                
-CONECT 314621421                                                                
+CONECT 314621453                                                                
 CONECT 3375 3380                                                                
 CONECT 3380 3375 3381                                                           
 CONECT 3381 3380 3382 3384                                                      
@@ -23367,7 +23356,7 @@ CONECT 4680 4679 4681
 CONECT 4681 4680 4682                                                           
 CONECT 4682 4681                                                                
 CONECT 4683 4677                                                                
-CONECT 472521421                                                                
+CONECT 472521453                                                                
 CONECT 4800 4807                                                                
 CONECT 4807 4800 4808                                                           
 CONECT 4808 4807 4809 4811                                                      
@@ -23388,8 +23377,8 @@ CONECT 4956 4955 4957
 CONECT 4957 4956 4958                                                           
 CONECT 4958 4957                                                                
 CONECT 4959 4953                                                                
-CONECT 497421421                                                                
-CONECT 515121421                                                                
+CONECT 497421453                                                                
+CONECT 515121453                                                                
 CONECT 5337 5338                                                                
 CONECT 5338 5337 5339 5341                                                      
 CONECT 5339 5338 5340 5345                                                      
@@ -23399,7 +23388,7 @@ CONECT 5342 5341 5343
 CONECT 5343 5342 5344                                                           
 CONECT 5344 5343                                                                
 CONECT 5345 5339                                                                
-CONECT 581421422                                                                
+CONECT 581421486                                                                
 CONECT 6043 6048                                                                
 CONECT 6048 6043 6049                                                           
 CONECT 6049 6048 6050 6052                                                      
@@ -23450,7 +23439,7 @@ CONECT 7359 7358 7360
 CONECT 7360 7359 7361                                                           
 CONECT 7361 7360                                                                
 CONECT 7362 7356                                                                
-CONECT 740421422                                                                
+CONECT 740421486                                                                
 CONECT 7479 7486                                                                
 CONECT 7486 7479 7487                                                           
 CONECT 7487 7486 7488 7490                                                      
@@ -23471,8 +23460,8 @@ CONECT 7635 7634 7636
 CONECT 7636 7635 7637                                                           
 CONECT 7637 7636                                                                
 CONECT 7638 7632                                                                
-CONECT 765321422                                                                
-CONECT 783021422                                                                
+CONECT 765321486                                                                
+CONECT 783021486                                                                
 CONECT 8016 8017                                                                
 CONECT 8017 8016 8018 8020                                                      
 CONECT 8018 8017 8019 8024                                                      
@@ -23482,7 +23471,7 @@ CONECT 8021 8020 8022
 CONECT 8022 8021 8023                                                           
 CONECT 8023 8022                                                                
 CONECT 8024 8018                                                                
-CONECT 849321423                                                                
+CONECT 849321519                                                                
 CONECT 8722 8727                                                                
 CONECT 8727 8722 8728                                                           
 CONECT 8728 8727 8729 8731                                                      
@@ -23533,7 +23522,7 @@ CONECT100591005810060
 CONECT100601005910061                                                           
 CONECT1006110060                                                                
 CONECT1006210056                                                                
-CONECT1010421423                                                                
+CONECT1010421519                                                                
 CONECT1017910186                                                                
 CONECT101861017910187                                                           
 CONECT10187101861018810190                                                      
@@ -23554,8 +23543,8 @@ CONECT103351033410336
 CONECT103361033510337                                                           
 CONECT1033710336                                                                
 CONECT1033810332                                                                
-CONECT1035321423                                                                
-CONECT1053021423                                                                
+CONECT1035321519                                                                
+CONECT1053021519                                                                
 CONECT1071610717                                                                
 CONECT10717107161071810720                                                      
 CONECT10718107171071910724                                                      
@@ -23565,7 +23554,7 @@ CONECT107211072010722
 CONECT107221072110723                                                           
 CONECT1072310722                                                                
 CONECT1072410718                                                                
-CONECT1119321424                                                                
+CONECT1119321552                                                                
 CONECT1142211427                                                                
 CONECT114271142211428                                                           
 CONECT11428114271142911431                                                      
@@ -23616,7 +23605,7 @@ CONECT127271272612728
 CONECT127281272712729                                                           
 CONECT1272912728                                                                
 CONECT1273012724                                                                
-CONECT1277221424                                                                
+CONECT1277221552                                                                
 CONECT1284712854                                                                
 CONECT128541284712855                                                           
 CONECT12855128541285612858                                                      
@@ -23637,8 +23626,8 @@ CONECT130031300213004
 CONECT130041300313005                                                           
 CONECT1300513004                                                                
 CONECT1300613000                                                                
-CONECT1302121424                                                                
-CONECT1319821424                                                                
+CONECT1302121552                                                                
+CONECT1319821552                                                                
 CONECT1338413385                                                                
 CONECT13385133841338613388                                                      
 CONECT13386133851338713392                                                      
@@ -23648,7 +23637,7 @@ CONECT133891338813390
 CONECT133901338913391                                                           
 CONECT1339113390                                                                
 CONECT1339213386                                                                
-CONECT1386121425                                                                
+CONECT1386121585                                                                
 CONECT1409014095                                                                
 CONECT140951409014096                                                           
 CONECT14096140951409714099                                                      
@@ -23699,7 +23688,7 @@ CONECT153951539415396
 CONECT153961539515397                                                           
 CONECT1539715396                                                                
 CONECT1539815392                                                                
-CONECT1544021425                                                                
+CONECT1544021585                                                                
 CONECT1551515522                                                                
 CONECT155221551515523                                                           
 CONECT15523155221552415526                                                      
@@ -23720,8 +23709,8 @@ CONECT156711567015672
 CONECT156721567115673                                                           
 CONECT1567315672                                                                
 CONECT1567415668                                                                
-CONECT1568921425                                                                
-CONECT1586621425                                                                
+CONECT1568921585                                                                
+CONECT1586621585                                                                
 CONECT1605216053                                                                
 CONECT16053160521605416056                                                      
 CONECT16054160531605516060                                                      
@@ -23781,7 +23770,7 @@ CONECT180631806218064
 CONECT180641806318065                                                           
 CONECT1806518064                                                                
 CONECT1806618060                                                                
-CONECT1810821426                                                                
+CONECT1810821618                                                                
 CONECT1818318190                                                                
 CONECT181901818318191                                                           
 CONECT18191181901819218194                                                      
@@ -23802,8 +23791,8 @@ CONECT183391833818340
 CONECT183401833918341                                                           
 CONECT1834118340                                                                
 CONECT1834218336                                                                
-CONECT1835721426                                                                
-CONECT1853421426                                                                
+CONECT1835721618                                                                
+CONECT1853421618                                                                
 CONECT1872018721                                                                
 CONECT18721187201872218724                                                      
 CONECT18722187211872318728                                                      
@@ -23813,7 +23802,7 @@ CONECT187251872418726
 CONECT187261872518727                                                           
 CONECT1872718726                                                                
 CONECT1872818722                                                                
-CONECT1919721427                                                                
+CONECT1919721646                                                                
 CONECT1942619431                                                                
 CONECT194311942619432                                                           
 CONECT19432194311943319435                                                      
@@ -23864,7 +23853,7 @@ CONECT207632076220764
 CONECT207642076320765                                                           
 CONECT2076520764                                                                
 CONECT2076620760                                                                
-CONECT2080821427                                                                
+CONECT2080821646                                                                
 CONECT2088320890                                                                
 CONECT208902088320891                                                           
 CONECT20891208902089220894                                                      
@@ -23885,166 +23874,166 @@ CONECT210392103821040
 CONECT210402103921041                                                           
 CONECT2104121040                                                                
 CONECT2104221036                                                                
-CONECT2105721427                                                                
-CONECT2123421427                                                                
+CONECT2105721646                                                                
+CONECT2123421646                                                                
 CONECT21420  478 2057 2306 2483                                                 
-CONECT21421 3146 4725 4974 5151                                                 
-CONECT21422 5814 7404 7653 7830                                                 
-CONECT21423 8493101041035310530                                                 
-CONECT2142411193127721302113198                                                 
-CONECT2142513861154401568915866                                                 
-CONECT21426181081835718534                                                      
-CONECT2142719197208082105721234                                                 
-CONECT2142821429214302143121432                                                 
-CONECT2142921428                                                                
-CONECT2143021428                                                                
-CONECT2143121428                                                                
-CONECT2143221428                                                                
-CONECT2143321434214352143621437                                                 
-CONECT2143421433                                                                
-CONECT2143521433                                                                
-CONECT2143621433                                                                
-CONECT2143721433                                                                
-CONECT2143821439214402144121442                                                 
-CONECT2143921438                                                                
-CONECT2144021438                                                                
-CONECT2144121438                                                                
-CONECT2144221438                                                                
-CONECT2144321444214452144621447                                                 
+CONECT2142121422214232142421425                                                 
+CONECT2142221421                                                                
+CONECT2142321421                                                                
+CONECT2142421421                                                                
+CONECT2142521421                                                                
+CONECT2142621427214282142921430                                                 
+CONECT2142721426                                                                
+CONECT2142821426                                                                
+CONECT2142921426                                                                
+CONECT2143021426                                                                
+CONECT21443214442144521446                                                      
 CONECT2144421443                                                                
 CONECT2144521443                                                                
-CONECT2144621443                                                                
-CONECT2144721443                                                                
-CONECT2144821449214502145121452                                                 
-CONECT2144921448                                                                
-CONECT2145021448                                                                
-CONECT2145121448                                                                
-CONECT2145221448                                                                
-CONECT2145321454214552145621457                                                 
-CONECT2145421453                                                                
-CONECT2145521453                                                                
-CONECT2145621453                                                                
-CONECT2145721453                                                                
-CONECT2145821459214602146121462                                                 
-CONECT2145921458                                                                
-CONECT2146021458                                                                
-CONECT2146121458                                                                
-CONECT2146221458                                                                
-CONECT2146321464214652146621467                                                 
-CONECT2146421463                                                                
-CONECT2146521463                                                                
-CONECT2146621463                                                                
-CONECT2146721463                                                                
-CONECT2146821469214702147121472                                                 
-CONECT2146921468                                                                
-CONECT2147021468                                                                
-CONECT2147121468                                                                
-CONECT2147221468                                                                
-CONECT2147321474214752147621477                                                 
-CONECT2147421473                                                                
-CONECT2147521473                                                                
-CONECT2147621473                                                                
-CONECT2147721473                                                                
-CONECT2147821479214802148121482                                                 
-CONECT2147921478                                                                
-CONECT2148021478                                                                
-CONECT2148121478                                                                
-CONECT2148221478                                                                
-CONECT2148321484214852148621487                                                 
-CONECT2148421483                                                                
-CONECT2148521483                                                                
-CONECT2148621483                                                                
-CONECT2148721483                                                                
-CONECT2148821489214902149121492                                                 
-CONECT2148921488                                                                
-CONECT2149021488                                                                
-CONECT2149121488                                                                
-CONECT2149221488                                                                
-CONECT2149321494214952149621497                                                 
-CONECT2149421493                                                                
-CONECT2149521493                                                                
-CONECT2149621493                                                                
-CONECT2149721493                                                                
-CONECT2149821499215002150121502                                                 
-CONECT2149921498                                                                
-CONECT2150021498                                                                
-CONECT2150121498                                                                
-CONECT2150221498                                                                
-CONECT2150321504215052150621507                                                 
-CONECT2150421503                                                                
-CONECT2150521503                                                                
-CONECT2150621503                                                                
-CONECT2150721503                                                                
-CONECT21604216052160621607                                                      
-CONECT2160521604                                                                
-CONECT2160621604                                                                
-CONECT21607216042160821609                                                      
-CONECT2160821607                                                                
-CONECT216092160721610                                                           
-CONECT2161021609216112161221613                                                 
-CONECT2161121610                                                                
-CONECT2161221610                                                                
-CONECT2161321610                                                                
-CONECT21614216152161621617                                                      
+CONECT21446214432144721448                                                      
+CONECT2144721446                                                                
+CONECT214482144621449                                                           
+CONECT2144921448214502145121452                                                 
+CONECT2145021449                                                                
+CONECT2145121449                                                                
+CONECT2145221449                                                                
+CONECT21453 3146 4725 4974 5151                                                 
+CONECT2145421455214562145721458                                                 
+CONECT2145521454                                                                
+CONECT2145621454                                                                
+CONECT2145721454                                                                
+CONECT2145821454                                                                
+CONECT2145921460214612146221463                                                 
+CONECT2146021459                                                                
+CONECT2146121459                                                                
+CONECT2146221459                                                                
+CONECT2146321459                                                                
+CONECT21476214772147821479                                                      
+CONECT2147721476                                                                
+CONECT2147821476                                                                
+CONECT21479214762148021481                                                      
+CONECT2148021479                                                                
+CONECT214812147921482                                                           
+CONECT2148221481214832148421485                                                 
+CONECT2148321482                                                                
+CONECT2148421482                                                                
+CONECT2148521482                                                                
+CONECT21486 5814 7404 7653 7830                                                 
+CONECT2148721488214892149021491                                                 
+CONECT2148821487                                                                
+CONECT2148921487                                                                
+CONECT2149021487                                                                
+CONECT2149121487                                                                
+CONECT2149221493214942149521496                                                 
+CONECT2149321492                                                                
+CONECT2149421492                                                                
+CONECT2149521492                                                                
+CONECT2149621492                                                                
+CONECT21509215102151121512                                                      
+CONECT2151021509                                                                
+CONECT2151121509                                                                
+CONECT21512215092151321514                                                      
+CONECT2151321512                                                                
+CONECT215142151221515                                                           
+CONECT2151521514215162151721518                                                 
+CONECT2151621515                                                                
+CONECT2151721515                                                                
+CONECT2151821515                                                                
+CONECT21519 8493101041035310530                                                 
+CONECT2152021521215222152321524                                                 
+CONECT2152121520                                                                
+CONECT2152221520                                                                
+CONECT2152321520                                                                
+CONECT2152421520                                                                
+CONECT2152521526215272152821529                                                 
+CONECT2152621525                                                                
+CONECT2152721525                                                                
+CONECT2152821525                                                                
+CONECT2152921525                                                                
+CONECT21542215432154421545                                                      
+CONECT2154321542                                                                
+CONECT2154421542                                                                
+CONECT21545215422154621547                                                      
+CONECT2154621545                                                                
+CONECT215472154521548                                                           
+CONECT2154821547215492155021551                                                 
+CONECT2154921548                                                                
+CONECT2155021548                                                                
+CONECT2155121548                                                                
+CONECT2155211193127721302113198                                                 
+CONECT2155321554215552155621557                                                 
+CONECT2155421553                                                                
+CONECT2155521553                                                                
+CONECT2155621553                                                                
+CONECT2155721553                                                                
+CONECT2155821559215602156121562                                                 
+CONECT2155921558                                                                
+CONECT2156021558                                                                
+CONECT2156121558                                                                
+CONECT2156221558                                                                
+CONECT21575215762157721578                                                      
+CONECT2157621575                                                                
+CONECT2157721575                                                                
+CONECT21578215752157921580                                                      
+CONECT2157921578                                                                
+CONECT215802157821581                                                           
+CONECT2158121580215822158321584                                                 
+CONECT2158221581                                                                
+CONECT2158321581                                                                
+CONECT2158421581                                                                
+CONECT2158513861154401568915866                                                 
+CONECT2158621587215882158921590                                                 
+CONECT2158721586                                                                
+CONECT2158821586                                                                
+CONECT2158921586                                                                
+CONECT2159021586                                                                
+CONECT2159121592215932159421595                                                 
+CONECT2159221591                                                                
+CONECT2159321591                                                                
+CONECT2159421591                                                                
+CONECT2159521591                                                                
+CONECT21608216092161021611                                                      
+CONECT2160921608                                                                
+CONECT2161021608                                                                
+CONECT21611216082161221613                                                      
+CONECT2161221611                                                                
+CONECT216132161121614                                                           
+CONECT2161421613216152161621617                                                 
 CONECT2161521614                                                                
 CONECT2161621614                                                                
-CONECT21617216142161821619                                                      
-CONECT2161821617                                                                
-CONECT216192161721620                                                           
-CONECT2162021619216212162221623                                                 
-CONECT2162121620                                                                
-CONECT2162221620                                                                
-CONECT2162321620                                                                
-CONECT21624216252162621627                                                      
-CONECT2162521624                                                                
-CONECT2162621624                                                                
-CONECT21627216242162821629                                                      
-CONECT2162821627                                                                
-CONECT216292162721630                                                           
-CONECT2163021629216312163221633                                                 
-CONECT2163121630                                                                
-CONECT2163221630                                                                
-CONECT2163321630                                                                
-CONECT21634216352163621637                                                      
-CONECT2163521634                                                                
-CONECT2163621634                                                                
-CONECT21637216342163821639                                                      
-CONECT2163821637                                                                
-CONECT216392163721640                                                           
-CONECT2164021639216412164221643                                                 
-CONECT2164121640                                                                
-CONECT2164221640                                                                
-CONECT2164321640                                                                
-CONECT21644216452164621647                                                      
-CONECT2164521644                                                                
-CONECT2164621644                                                                
-CONECT21647216442164821649                                                      
+CONECT2161721614                                                                
+CONECT21618181081835718534                                                      
+CONECT2161921620216212162221623                                                 
+CONECT2162021619                                                                
+CONECT2162121619                                                                
+CONECT2162221619                                                                
+CONECT2162321619                                                                
+CONECT21636216372163821639                                                      
+CONECT2163721636                                                                
+CONECT2163821636                                                                
+CONECT21639216362164021641                                                      
+CONECT2164021639                                                                
+CONECT216412163921642                                                           
+CONECT2164221641216432164421645                                                 
+CONECT2164321642                                                                
+CONECT2164421642                                                                
+CONECT2164521642                                                                
+CONECT2164619197208082105721234                                                 
+CONECT2164721648216492165021651                                                 
 CONECT2164821647                                                                
-CONECT216492164721650                                                           
-CONECT2165021649216512165221653                                                 
-CONECT2165121650                                                                
-CONECT2165221650                                                                
-CONECT2165321650                                                                
-CONECT21654216552165621657                                                      
-CONECT2165521654                                                                
-CONECT2165621654                                                                
-CONECT21657216542165821659                                                      
+CONECT2164921647                                                                
+CONECT2165021647                                                                
+CONECT2165121647                                                                
+CONECT2165221653216542165521656                                                 
+CONECT2165321652                                                                
+CONECT2165421652                                                                
+CONECT2165521652                                                                
+CONECT2165621652                                                                
+CONECT2165721658216592166021661                                                 
 CONECT2165821657                                                                
-CONECT216592165721660                                                           
-CONECT2166021659216612166221663                                                 
-CONECT2166121660                                                                
-CONECT2166221660                                                                
-CONECT2166321660                                                                
-CONECT21664216652166621667                                                      
-CONECT2166521664                                                                
-CONECT2166621664                                                                
-CONECT21667216642166821669                                                      
-CONECT2166821667                                                                
-CONECT216692166721670                                                           
-CONECT2167021669216712167221673                                                 
-CONECT2167121670                                                                
-CONECT2167221670                                                                
-CONECT2167321670                                                                
+CONECT2165921657                                                                
+CONECT2166021657                                                                
+CONECT2166121657                                                                
 CONECT21674216752167621677                                                      
 CONECT2167521674                                                                
 CONECT2167621674                                                                
@@ -24055,5 +24044,5 @@ CONECT2168021679216812168221683
 CONECT2168121680                                                                
 CONECT2168221680                                                                
 CONECT2168321680                                                                
-MASTER      596    0  104  111  106    0   70    621675    8  831  216          
+MASTER      585    0  104  111  106    0   70    621600    8  831  216          
 END                                                                             

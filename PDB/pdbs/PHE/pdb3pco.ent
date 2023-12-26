@@ -32,6 +32,7 @@ KEYWDS   2 AMINOACYL-TRNA SYNTHETASE, ATP-BINDING, LIGASE, NUCLEOTIDE-BINDING,
 KEYWDS   3 PROTEIN BIOSYNTHESIS                                                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    I.MERMERSHTAIN,I.FINAROV,L.KLIPCAN,N.KESSLER,H.ROZENBERG,M.G.SAFRO    
+REVDAT   3   06-SEP-23 3PCO    1       REMARK                                   
 REVDAT   2   08-NOV-17 3PCO    1       REMARK                                   
 REVDAT   1   02-MAR-11 3PCO    0                                                
 JRNL        AUTH   I.MERMERSHTAIN,I.FINAROV,L.KLIPCAN,N.KESSLER,H.ROZENBERG,    
@@ -48,7 +49,8 @@ REMARK   2 RESOLUTION.    3.02 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC                                               
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -200,7 +202,7 @@ REMARK   3   VDW PROBE RADIUS   : 1.20
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: U VALUES      : RESIDUAL ONLY             
+REMARK   3  OTHER REFINEMENT REMARKS: U VALUES : RESIDUAL ONLY                  
 REMARK   4                                                                      
 REMARK   4 3PCO COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
@@ -33947,5 +33949,5 @@ CONECT167251672316726
 CONECT167261672516727                                                           
 CONECT167271672616728                                                           
 CONECT16728167191672216727                                                      
-MASTER      578    0    4   72   95    0   13    616724    4   46  176          
+MASTER      579    0    4   72   95    0   13    616724    4   46  176          
 END                                                                             

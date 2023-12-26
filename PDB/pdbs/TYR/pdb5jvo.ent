@@ -14,6 +14,7 @@ SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    ARGININE REPRESSOR, DNA BINDING PROTEIN                               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.B.MARIUTTI,A.ULLAH,M.T.MURAKAMI,R.K.ARNI                            
+REVDAT   2   27-SEP-23 5JVO    1       JRNL   REMARK                            
 REVDAT   1   31-AUG-16 5JVO    0                                                
 JRNL        AUTH   R.B.MARIUTTI,A.ULLAH,G.C.ARAUJO,M.T.MURAKAMI,R.K.ARNI        
 JRNL        TITL   TYROSINE BINDING AND PROMISCUITY IN THE ARGININE REPRESSOR   
@@ -28,7 +29,8 @@ REMARK   2 RESOLUTION.    1.90 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.8.0135                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : NULL                                          
 REMARK   3                                                                      
@@ -2969,5 +2971,5 @@ CONECT 1175 1174
 CONECT 1176 1174                                                                
 CONECT 1177 1174                                                                
 CONECT 1178 1174                                                                
-MASTER      455    0    3    6    8    0   10    6 1235    2    5   16          
+MASTER      456    0    3    6    8    0   10    6 1235    2    5   16          
 END                                                                             

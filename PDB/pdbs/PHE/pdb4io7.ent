@@ -18,6 +18,7 @@ SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET22B MODIFIED
 KEYWDS    MEMBRANE PROTEIN, ION CHANNEL                                         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.LOMASH,S.CHITTORI,M.L.MAYER                                         
+REVDAT   4   20-SEP-23 4IO7    1       REMARK SEQADV                            
 REVDAT   3   09-AUG-17 4IO7    1       SOURCE                                   
 REVDAT   2   20-MAR-13 4IO7    1       JRNL                                     
 REVDAT   1   20-FEB-13 4IO7    0                                                

@@ -17,6 +17,9 @@ KEYWDS    ALLERGEN, BETA BARREL, GLYCOPROTEIN, SECRETED, PROTEIN BINDING
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    L.R.OFFERMANN,S.L.CHAN,T.OSINSKI,Y.W.TAN,F.T.CHEW,J.SIVARAMAN,        
 AUTHOR   2 Y.K.MOK,W.MINOR,M.CHRUSZCZ                                           
+REVDAT   4   29-NOV-23 4N7C    1       REMARK                                   
+REVDAT   3   20-SEP-23 4N7C    1       REMARK                                   
+REVDAT   2   13-APR-22 4N7C    1       AUTHOR JRNL   REMARK SSBOND              
 REVDAT   1   21-MAY-14 4N7C    0                                                
 JRNL        AUTH   L.R.OFFERMANN,S.L.CHAN,T.OSINSKI,Y.W.TAN,F.T.CHEW,           
 JRNL        AUTH 2 J.SIVARAMAN,Y.K.MOK,W.MINOR,M.CHRUSZCZ                       
@@ -31,7 +34,8 @@ REMARK   2 RESOLUTION.    1.75 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.7.0029                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -54,9 +58,9 @@ REMARK   3
 REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
 REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.75                         
-REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.79                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.80                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 1654                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.0                        
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.2850                       
 REMARK   3   BIN FREE R VALUE SET COUNT          : 99                           
 REMARK   3   BIN FREE R VALUE                    : 0.3770                       
@@ -74,9 +78,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : 0.15000                                              
 REMARK   3    B22 (A**2) : 0.15000                                              
 REMARK   3    B33 (A**2) : -0.30000                                             
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
 REMARK   3   ESU BASED ON R VALUE                            (A): 0.101         
@@ -295,7 +299,7 @@ REMARK   4
 REMARK   4 4N7C COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-OCT-13.                  
-REMARK 100 THE RCSB ID CODE IS RCSB082843.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000082843.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -325,7 +329,7 @@ REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : -3.000
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 99.9                               
-REMARK 200  DATA REDUNDANCY                : 15.000                             
+REMARK 200  DATA REDUNDANCY                : 15.00                              
 REMARK 200  R MERGE                    (I) : 0.06400                            
 REMARK 200  R SYM                      (I) : 0.06400                            
 REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 43.2000                            
@@ -527,7 +531,7 @@ REMARK 800 EVIDENCE_CODE: SOFTWARE
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL A 204                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
-REMARK 900 RELATED ID: 3EBK   RELATED DB: NDB                                   
+REMARK 900 RELATED ID: 3EBK   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 4N7D   RELATED DB: PDB                                   
 DBREF  4N7C A    1   176  UNP    B7TYB2   B7TYB2_BLAGE     1    176             
 SEQRES   1 A  176  ALA THR ASP THR LEU ALA ASN GLU ASP CYS PHE ARG HIS          
@@ -573,8 +577,8 @@ SHEET    7   A10 THR A  68  GLU A  77 -1  N  GLU A  77   O  LYS A  80
 SHEET    8   A10 ALA A  54  THR A  60 -1  N  SER A  57   O  ILE A  70           
 SHEET    9   A10 LYS A  43  SER A  50 -1  N  ILE A  46   O  LYS A  58           
 SHEET   10   A10 GLY A  27  GLY A  34 -1  N  ILE A  31   O  TRP A  45           
-SSBOND   1 CYS A   44    CYS A  175                          1555   1555  2.13  
-SSBOND   2 CYS A  112    CYS A   10                          1555   1555  2.12  
+SSBOND   1 CYS A   10    CYS A  112                          1555   1555  2.12  
+SSBOND   2 CYS A   44    CYS A  175                          1555   1555  2.13  
 SITE     1 AC1 15 ARG A  12  THR A  35  SER A  36  GLU A  37                    
 SITE     2 AC1 15 ALA A 116  ASN A 117  HIS A 119  ARG A 130                    
 SITE     3 AC1 15 ARG A 131  HOH A 316  HOH A 335  HOH A 362                    
@@ -3584,5 +3588,5 @@ CONECT 1440 1438 1441 1442
 CONECT 1441 1440                                                                
 CONECT 1442 1440 1443                                                           
 CONECT 1443 1442                                                                
-MASTER      503    0    4    7   10    0   10    6 1532    1   52   14          
+MASTER      504    0    4    7   10    0   10    6 1532    1   52   14          
 END                                                                             

@@ -25,6 +25,7 @@ KEYWDS   3 STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE, PSI-2,
 KEYWDS   4 ISOMERASE, OXIDOREDUCTASE                                            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    JOINT CENTER FOR STRUCTURAL GENOMICS (JCSG)                           
+REVDAT   7   25-JAN-23 2PV7    1       REMARK SEQADV LINK                       
 REVDAT   6   25-OCT-17 2PV7    1       REMARK                                   
 REVDAT   5   18-OCT-17 2PV7    1       REMARK                                   
 REVDAT   4   13-JUL-11 2PV7    1       VERSN                                    
@@ -51,7 +52,8 @@ REMARK   2 RESOLUTION.    2.00 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0005                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD WITH PHASES                
 REMARK   3                                                                      
@@ -575,7 +577,7 @@ REMARK 999 WITH TEV PROTEASE LEAVING ONLY A GLYCINE FOLLOWED BY THE
 REMARK 999 TARGET SEQUENCE.                                                     
 DBREF  2PV7 A   81   377  UNP    P43902   TYRA_HAEIN      81    377             
 DBREF  2PV7 B   81   377  UNP    P43902   TYRA_HAEIN      81    377             
-SEQADV 2PV7 GLY A   80  UNP  P43902              LEADER SEQUENCE                
+SEQADV 2PV7 GLY A   80  UNP  P43902              EXPRESSION TAG                 
 SEQADV 2PV7 MSE A   81  UNP  P43902    MET    81 MODIFIED RESIDUE               
 SEQADV 2PV7 MSE A  172  UNP  P43902    MET   172 MODIFIED RESIDUE               
 SEQADV 2PV7 MSE A  188  UNP  P43902    MET   188 MODIFIED RESIDUE               
@@ -584,7 +586,7 @@ SEQADV 2PV7 MSE A  210  UNP  P43902    MET   210 MODIFIED RESIDUE
 SEQADV 2PV7 MSE A  252  UNP  P43902    MET   252 MODIFIED RESIDUE               
 SEQADV 2PV7 MSE A  294  UNP  P43902    MET   294 MODIFIED RESIDUE               
 SEQADV 2PV7 MSE A  311  UNP  P43902    MET   311 MODIFIED RESIDUE               
-SEQADV 2PV7 GLY B   80  UNP  P43902              LEADER SEQUENCE                
+SEQADV 2PV7 GLY B   80  UNP  P43902              EXPRESSION TAG                 
 SEQADV 2PV7 MSE B   81  UNP  P43902    MET    81 MODIFIED RESIDUE               
 SEQADV 2PV7 MSE B  172  UNP  P43902    MET   172 MODIFIED RESIDUE               
 SEQADV 2PV7 MSE B  188  UNP  P43902    MET   188 MODIFIED RESIDUE               
@@ -6002,5 +6004,5 @@ CONECT 4589 4587
 CONECT 4590 4586 4591                                                           
 CONECT 4591 4590 4592                                                           
 CONECT 4592 4584 4591                                                           
-MASTER      527    0   18   35   14    0   24    6 4934    2  232   46          
+MASTER      528    0   18   35   14    0   24    6 4934    2  232   46          
 END                                                                             

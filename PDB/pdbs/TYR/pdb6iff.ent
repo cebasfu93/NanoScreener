@@ -24,6 +24,8 @@ SOURCE  14 EXPRESSION_SYSTEM_PLASMID: PST50TR
 KEYWDS    HYDROLASE, METALLOPROTEASE, PEPTIDASE                                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.AGRAWAL,A.KUMAR,A.KUMAR,N.K.GAUR,R.D.MAKDE                          
+REVDAT   4   22-NOV-23 6IFF    1       REMARK                                   
+REVDAT   3   07-APR-21 6IFF    1       LINK                                     
 REVDAT   2   08-APR-20 6IFF    1       JRNL                                     
 REVDAT   1   25-SEP-19 6IFF    0                                                
 JRNL        AUTH   R.AGRAWAL,V.D.GOYAL,R.SINGH,A.KUMAR,S.N.JAMDAR,A.KUMAR,      
@@ -719,6 +721,9 @@ LINK         O   PRO A 182                NA    NA A 503     1555   1555  2.40
 LINK         NE2 HIS A 322                ZN    ZN A 501     1555   1555  1.98  
 LINK         NE2 HIS A 326                ZN    ZN A 501     1555   1555  2.05  
 LINK         OE2 GLU A 345                ZN    ZN A 501     1555   1555  1.93  
+LINK        ZN    ZN A 501                 OXT TYR A 502     1555   1555  1.71  
+LINK        NA    NA A 503                 O   HOH A 817     1555   1555  2.35  
+LINK        NA    NA A 503                 O   HOH A 821     1555   1555  2.43  
 LINK         OD1 ASP B  52                NA    NA B 503     1555   1555  2.35  
 LINK         O   VAL B  53                NA    NA B 503     1555   1555  2.33  
 LINK         OD1 ASP B 181                NA    NA B 503     1555   1555  2.30  
@@ -726,9 +731,6 @@ LINK         O   PRO B 182                NA    NA B 503     1555   1555  2.38
 LINK         NE2 HIS B 322                ZN    ZN B 501     1555   1555  2.03  
 LINK         NE2 HIS B 326                ZN    ZN B 501     1555   1555  2.06  
 LINK         OE2 GLU B 345                ZN    ZN B 501     1555   1555  1.88  
-LINK        ZN    ZN A 501                 OXT TYR A 502     1555   1555  1.71  
-LINK        NA    NA A 503                 O   HOH A 817     1555   1555  2.35  
-LINK        NA    NA A 503                 O   HOH A 821     1555   1555  2.43  
 LINK        ZN    ZN B 501                 OXT TYR B 502     1555   1555  1.84  
 LINK        NA    NA B 503                 O   HOH B 756     1555   1555  2.40  
 LINK        NA    NA B 503                 O   HOH B 757     1555   1555  2.34  

@@ -21,10 +21,11 @@ SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PPROEXHTA                                 
 KEYWDS    DAH7P SYNTHASE, SHIKIMATE PATHWAY, AROMATIC BIOSYNTHESIS,             
 KEYWDS   2 EVOLUTIONARY RELATIONSHIPS, TRANSFERASE, PHE+TRP-BOUND, AUGMENTED    
-KEYWDS   3 TIM-BARREL STRUCTURE,STRUCTURAL GENOMICS, MYCOBACTERIUM TUBERCULOSIS 
-KEYWDS   4 STRUCTURAL PROTEOMICS PROJECT, XMTB, TIM BARREL                      
+KEYWDS   3 TIM-BARREL STRUCTURE, STRUCTURAL GENOMICS, MYCOBACTERIUM             
+KEYWDS   4 TUBERCULOSIS STRUCTURAL PROTEOMICS PROJECT, XMTB, TIM BARREL         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    W.JIAO,G.B.JAMESON,R.D.HUTTON,E.J.PARKER                              
+REVDAT   3   01-NOV-23 3RZI    1       REMARK LINK                              
 REVDAT   2   03-JUL-13 3RZI    1       JRNL                                     
 REVDAT   1   25-JAN-12 3RZI    0                                                
 JRNL        AUTH   W.JIAO,R.D.HUTTON,P.J.CROSS,G.B.JAMESON,E.J.PARKER           
@@ -39,7 +40,8 @@ REMARK   2 RESOLUTION.    1.95 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.5.0102                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ENGH & HUBER                                  
 REMARK   3                                                                      
@@ -279,7 +281,7 @@ REMARK   4
 REMARK   4 3RZI COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 31-MAY-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB065570.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000065570.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -297,10 +299,10 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 1.5418
 REMARK 200  MONOCHROMATOR                  : AXCO PX70 CAPILLARY OPTIC          
 REMARK 200  OPTICS                         : AXCO PX70 CAPILLARY OPTIC          
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : AREA DETECTOR                      
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : RIGAKU RAXIS IV++                  
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : D*TREK                             
-REMARK 200  DATA SCALING SOFTWARE          : D*TREK                             
+REMARK 200  DATA SCALING SOFTWARE          : D*TREK 9.4SSI                      
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 119335                             
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.950                              
@@ -492,6 +494,9 @@ REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-
 REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    VAL A 233     -145.87    -94.34                                   
+REMARK 500    ALA A 234       58.94     76.59                                   
+REMARK 500    ASP A 235     -159.09    -97.67                                   
 REMARK 500    ASN A 416       62.03   -101.15                                   
 REMARK 500    CYS A 440     -108.60   -143.47                                   
 REMARK 500    ASP B 266     -102.57    -86.20                                   
@@ -500,31 +505,43 @@ REMARK 500    ARG B 435       59.67   -143.43
 REMARK 500    CYS B 440     -106.49   -153.97                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: NON-CIS, NON-TRANS                                         
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING PEPTIDE BONDS DEVIATE SIGNIFICANTLY FROM BOTH          
+REMARK 500 CIS AND TRANS CONFORMATION.  CIS BONDS, IF ANY, ARE LISTED           
+REMARK 500 ON CISPEP RECORDS.  TRANS IS DEFINED AS 180 +/- 30 AND               
+REMARK 500 CIS IS DEFINED AS 0 +/- 30 DEGREES.                                  
+REMARK 500                                 MODEL     OMEGA                      
+REMARK 500 GLY A  232     VAL A  233                  138.06                    
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
 REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
 REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              MN B 463  MN                            
-REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU B 411   OE2                                                    
-REMARK 620 2 HIS B 369   NE2  90.4                                              
-REMARK 620 3 CYS B  87   SG   88.1 176.8                                        
-REMARK 620 4 ASP B 441   OD2 146.5  87.7  92.0                                  
-REMARK 620 5 HOH B 533   O    98.9  88.0  95.0 114.4                            
-REMARK 620 N                    1     2     3     4                             
-REMARK 620                                                                      
-REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN A 463  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU A 411   OE2                                                    
-REMARK 620 2 HIS A 369   NE2  89.5                                              
-REMARK 620 3 ASP A 441   OD2 153.9  82.3                                        
-REMARK 620 4 CYS A  87   SG   95.1 171.1  96.6                                  
-REMARK 620 5 GLU A 411   OE1  53.3  86.1 101.2 102.7                            
-REMARK 620 6 HOH A 567   O   110.8  83.2  92.8  88.1 161.1                      
+REMARK 620 1 CYS A  87   SG                                                     
+REMARK 620 2 HIS A 369   NE2 171.1                                              
+REMARK 620 3 GLU A 411   OE2  95.1  89.5                                        
+REMARK 620 4 GLU A 411   OE1 102.7  86.1  53.3                                  
+REMARK 620 5 ASP A 441   OD2  96.6  82.3 153.9 101.2                            
+REMARK 620 6 HOH A 567   O    88.1  83.2 110.8 161.1  92.8                      
 REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              MN B 463  MN                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 CYS B  87   SG                                                     
+REMARK 620 2 HIS B 369   NE2 176.8                                              
+REMARK 620 3 GLU B 411   OE2  88.1  90.4                                        
+REMARK 620 4 ASP B 441   OD2  92.0  87.7 146.5                                  
+REMARK 620 5 HOH B 533   O    95.0  88.0  98.9 114.4                            
+REMARK 620 N                    1     2     3     4                             
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
@@ -794,16 +811,16 @@ SHEET    1   F 2 LEU B 259  LEU B 261  0
 SHEET    2   F 2 LEU B 271  ASP B 273 -1  O  PHE B 272   N  ARG B 260           
 SHEET    1   G 2 THR B 372  GLU B 374  0                                        
 SHEET    2   G 2 LYS B 380  ARG B 382 -1  O  THR B 381   N  HIS B 373           
-LINK         OE2 GLU B 411                MN    MN B 463     1555   1555  2.20  
-LINK         OE2 GLU A 411                MN    MN A 463     1555   1555  2.22  
-LINK         NE2 HIS A 369                MN    MN A 463     1555   1555  2.30  
-LINK         NE2 HIS B 369                MN    MN B 463     1555   1555  2.34  
-LINK         OD2 ASP A 441                MN    MN A 463     1555   1555  2.39  
-LINK         SG  CYS B  87                MN    MN B 463     1555   1555  2.53  
 LINK         SG  CYS A  87                MN    MN A 463     1555   1555  2.56  
-LINK         OD2 ASP B 441                MN    MN B 463     1555   1555  2.56  
+LINK         NE2 HIS A 369                MN    MN A 463     1555   1555  2.30  
+LINK         OE2 GLU A 411                MN    MN A 463     1555   1555  2.22  
 LINK         OE1 GLU A 411                MN    MN A 463     1555   1555  2.66  
+LINK         OD2 ASP A 441                MN    MN A 463     1555   1555  2.39  
 LINK        MN    MN A 463                 O   HOH A 567     1555   1555  1.95  
+LINK         SG  CYS B  87                MN    MN B 463     1555   1555  2.53  
+LINK         NE2 HIS B 369                MN    MN B 463     1555   1555  2.34  
+LINK         OE2 GLU B 411                MN    MN B 463     1555   1555  2.20  
+LINK         OD2 ASP B 441                MN    MN B 463     1555   1555  2.56  
 LINK        MN    MN B 463                 O   HOH B 533     1555   1555  2.19  
 SITE     1 AC1  5 CYS A  87  HIS A 369  GLU A 411  ASP A 441                    
 SITE     2 AC1  5 HOH A 567                                                     
@@ -15917,5 +15934,5 @@ CONECT 7306 7304 7307
 CONECT 7307 7306                                                                
 CONECT 7403 7172                                                                
 CONECT 7594 7229                                                                
-MASTER      586    0   22   34   28    0   41    6 7642    2   93   72          
+MASTER      602    0   22   34   28    0   41    6 7642    2   93   72          
 END                                                                             

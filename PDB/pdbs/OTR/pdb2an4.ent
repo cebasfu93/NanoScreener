@@ -21,6 +21,7 @@ KEYWDS    METHYLTRANSFERASE, SUBSTRATE STRUCTURE, S-ADENOSYL-L-METHIONINE,
 KEYWDS   2 ADRENALINE SYNTHESIS, TRANSFERASE                                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.L.GEE,J.D.A.TYNDALL,G.L.GRUNEWALD,Q.WU,M.J.MCLEISH,J.L.MARTIN       
+REVDAT   4   25-OCT-23 2AN4    1       REMARK SEQADV                            
 REVDAT   3   13-JUL-11 2AN4    1       VERSN                                    
 REVDAT   2   24-FEB-09 2AN4    1       VERSN                                    
 REVDAT   1   14-MAR-06 2AN4    0                                                
@@ -66,7 +67,7 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 10                           
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.20                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.28                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.0                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 3812                         
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.4180                       
 REMARK   3   BIN FREE R VALUE                    : 0.4330                       
@@ -102,9 +103,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.55
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.007                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.40                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.400                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 24.00                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.95                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.950                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : ANISOTROPIC                               
 REMARK   3                                                                      
@@ -143,7 +144,7 @@ REMARK   4
 REMARK   4 2AN4 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 16-AUG-05.                  
-REMARK 100 THE RCSB ID CODE IS RCSB034087.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000034087.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -462,8 +463,8 @@ SEQRES  22 B  289  PHE ALA TRP ALA GLN LYS VAL GLY LEU GLU HIS HIS HIS
 SEQRES  23 B  289  HIS HIS HIS                                                  
 HET    PO4  A 501       5                                                       
 HET    SAH  A 301      26                                                       
-HET    SAH  B1301      26                                                       
 HET    OTR  A 401      11                                                       
+HET    SAH  B1301      26                                                       
 HET    OTR  B1401      11                                                       
 HETNAM     PO4 PHOSPHATE ION                                                    
 HETNAM     SAH S-ADENOSYL-L-HOMOCYSTEINE                                        
@@ -471,7 +472,7 @@ HETNAM     OTR 4-(2R-AMINO-1-HYDROXYETHYL)PHENOL
 HETSYN     OTR R-OCTOPAMINE                                                     
 FORMUL   3  PO4    O4 P 3-                                                      
 FORMUL   4  SAH    2(C14 H20 N6 O5 S)                                           
-FORMUL   6  OTR    2(C8 H11 N O2)                                               
+FORMUL   5  OTR    2(C8 H11 N O2)                                               
 FORMUL   8  HOH   *254(H2 O)                                                    
 HELIX    1   1 SER A   25  PHE A   30  5                                   6    
 HELIX    2   2 GLU A   31  TYR A   40  1                                  10    

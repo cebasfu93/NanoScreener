@@ -18,10 +18,11 @@ SOURCE   8 EXPRESSION_SYSTEM_TAXID: 469008;
 SOURCE   9 EXPRESSION_SYSTEM_STRAIN: BL21(DE3) PLYSS;                           
 SOURCE  10 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PET3A                                     
-KEYWDS    DISTAL SITE, HYDROXYLASE, 5,6,7,8-TETRAHYDROBIOPTERIN, PKU,           
+KEYWDS    DISTAL SITE, HYDROXYLASE, 5, 6, 7, 8-TETRAHYDROBIOPTERIN, PKU,        
 KEYWDS   2 OXIDOREDUCTASE                                                       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.A.RONAU,M.M.ABU-OMAR,C.DAS                                          
+REVDAT   3   20-SEP-23 4JPY    1       REMARK SEQADV LINK                       
 REVDAT   2   28-AUG-13 4JPY    1       JRNL                                     
 REVDAT   1   07-AUG-13 4JPY    0                                                
 JRNL        AUTH   J.A.RONAU,L.N.PAUL,J.E.FUCHS,I.R.CORN,K.T.WAGNER,K.R.LIEDL,  
@@ -37,7 +38,8 @@ REMARK   2 RESOLUTION.    2.13 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.7.0029                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -157,7 +159,7 @@ REMARK   4
 REMARK   4 4JPY COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 25-MAR-13.                  
-REMARK 100 THE RCSB ID CODE IS RCSB078356.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000078356.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -175,7 +177,7 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 1.033
 REMARK 200  MONOCHROMATOR                  : SI 111 CHANNEL                     
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : AREA DETECTOR                      
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : MAR SCANNER 300 MM PLATE           
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-3000                           
 REMARK 200  DATA SCALING SOFTWARE          : HKL-3000                           
@@ -341,8 +343,8 @@ REMARK 620 N RES CSSEQI ATOM
 REMARK 620 1 HIS A 138   NE2                                                    
 REMARK 620 2 HIS A 143   NE2  99.8                                              
 REMARK 620 3 GLU A 184   OE2 149.1  99.7                                        
-REMARK 620 4 HOH A 401   O    85.0 106.2 112.1                                  
-REMARK 620 5 GLU A 184   OE1  95.6  98.6  57.8 154.8                            
+REMARK 620 4 GLU A 184   OE1  95.6  98.6  57.8                                  
+REMARK 620 5 HOH A 401   O    85.0 106.2 112.1 154.8                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -417,8 +419,8 @@ SHEET    5   B 5 VAL A 282  LEU A 283 -1  O  LEU A 283   N  ARG A 219
 LINK         NE2 HIS A 138                FE    FE A 301     1555   1555  1.93  
 LINK         NE2 HIS A 143                FE    FE A 301     1555   1555  2.00  
 LINK         OE2 GLU A 184                FE    FE A 301     1555   1555  2.09  
-LINK        FE    FE A 301                 O   HOH A 401     1555   1555  2.34  
 LINK         OE1 GLU A 184                FE    FE A 301     1555   1555  2.39  
+LINK        FE    FE A 301                 O   HOH A 401     1555   1555  2.34  
 SITE     1 AC1  4 HIS A 138  HIS A 143  GLU A 184  HOH A 401                    
 SITE     1 AC2 11 TYR A 155  TYR A 159  LYS A 165  LEU A 175                    
 SITE     2 AC2 11 LEU A 178  THR A 254  ALA A 255  PRO A 256                    
@@ -2615,5 +2617,5 @@ CONECT 1368 2141
 CONECT 2141 1008 1049 1367 1368                                                 
 CONECT 2141 2154                                                                
 CONECT 2154 2141                                                                
-MASTER      326    0    2   14    7    0    4    6 2171    1    7   23          
+MASTER      327    0    2   14    7    0    4    6 2171    1    7   23          
 END                                                                             

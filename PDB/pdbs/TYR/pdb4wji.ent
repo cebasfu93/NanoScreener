@@ -25,6 +25,7 @@ EXPDTA    X-RAY DIFFRACTION
 AUTHOR    I.G.SHABALIN,D.R.COOPER,J.HOU,M.D.ZIMMERMAN,M.STEAD,B.S.HILLERICH,    
 AUTHOR   2 M.AHMED,J.HAMMONDS,J.BONANNO,R.SEIDEL,S.C.ALMO,W.MINOR,NEW YORK      
 AUTHOR   3 STRUCTURAL GENOMICS RESEARCH CONSORTIUM (NYSGRC)                     
+REVDAT   4   13-APR-22 4WJI    1       AUTHOR JRNL   LINK                       
 REVDAT   3   27-NOV-19 4WJI    1       REMARK                                   
 REVDAT   2   14-OCT-15 4WJI    1       REMARK                                   
 REVDAT   1   22-OCT-14 4WJI    0                                                
@@ -376,9 +377,9 @@ REMARK 620 N RES CSSEQI ATOM
 REMARK 620 1 ASP A 257   OD1                                                    
 REMARK 620 2 HOH A 404   O    83.7                                              
 REMARK 620 3 HOH A 455   O    88.2  88.7                                        
-REMARK 620 4 HOH A 482   O    94.1 175.7  95.0                                  
-REMARK 620 5 HOH A 535   O   174.7  92.9  87.7  89.6                            
-REMARK 620 6 HOH A 479   O    90.0  91.4 178.2  84.9  94.1                      
+REMARK 620 4 HOH A 479   O    90.0  91.4 178.2                                  
+REMARK 620 5 HOH A 482   O    94.1 175.7  95.0  84.9                            
+REMARK 620 6 HOH A 535   O   174.7  92.9  87.7  94.1  89.6                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -394,12 +395,12 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MG A 304  MG                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH A 651   O                                                      
-REMARK 620 2 HOH A 616   O    90.0                                              
-REMARK 620 3 HOH A 634   O    86.8  85.4                                        
-REMARK 620 4 HOH A 613   O    94.6 109.9 164.6                                  
-REMARK 620 5 HOH A 636   O   175.1  90.8  88.5  89.7                            
-REMARK 620 6 HOH A 649   O    98.6 164.6  82.4  82.2  79.6                      
+REMARK 620 1 HOH A 613   O                                                      
+REMARK 620 2 HOH A 616   O   109.9                                              
+REMARK 620 3 HOH A 634   O   164.6  85.4                                        
+REMARK 620 4 HOH A 636   O    89.7  90.8  88.5                                  
+REMARK 620 5 HOH A 649   O    82.2 164.6  82.4  79.6                            
+REMARK 620 6 HOH A 651   O    94.6  90.0  86.8 175.1  98.6                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -407,10 +408,10 @@ REMARK 620                              MG A 306  MG
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 HOH A 603   O                                                      
 REMARK 620 2 HOH A 623   O    90.9                                              
-REMARK 620 3 HOH A 674   O    75.1  90.7                                        
-REMARK 620 4 HOH A 653   O   177.5  87.2 103.2                                  
-REMARK 620 5 HOH A 629   O    81.2  94.8 155.8 100.6                            
-REMARK 620 6 HOH A 652   O    83.2 174.1  88.0  98.6  84.1                      
+REMARK 620 3 HOH A 629   O    81.2  94.8                                        
+REMARK 620 4 HOH A 652   O    83.2 174.1  84.1                                  
+REMARK 620 5 HOH A 653   O   177.5  87.2 100.6  98.6                            
+REMARK 620 6 HOH A 674   O    75.1  90.7 155.8  88.0 103.2                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -548,23 +549,23 @@ LINK        MG    MG A 303                 O   HOH A 611     1555   1555  2.43
 LINK        MG    MG A 303                 O   HOH A 635     1555   1555  1.93  
 LINK        MG    MG A 303                 O   HOH A 648     1555   1555  2.20  
 LINK        MG    MG A 303                 O   HOH A 662     1555   1555  1.99  
-LINK        MG    MG A 304                 O   HOH A 651     1555   1555  2.04  
+LINK        MG    MG A 304                 O   HOH A 613     1555   1555  2.00  
 LINK        MG    MG A 304                 O   HOH A 616     1555   1555  2.11  
 LINK        MG    MG A 304                 O   HOH A 634     1555   1555  1.90  
-LINK        MG    MG A 304                 O   HOH A 613     1555   1555  2.00  
 LINK        MG    MG A 304                 O   HOH A 636     1555   1555  2.24  
 LINK        MG    MG A 304                 O   HOH A 649     1555   1555  2.12  
+LINK        MG    MG A 304                 O   HOH A 651     1555   1555  2.04  
 LINK        MG    MG A 305                 O   HOH A 404     1555   1555  2.01  
 LINK        MG    MG A 305                 O   HOH A 455     1555   1555  2.02  
+LINK        MG    MG A 305                 O   HOH A 479     1555   1555  2.16  
 LINK        MG    MG A 305                 O   HOH A 482     1555   1555  2.02  
 LINK        MG    MG A 305                 O   HOH A 535     1555   1555  2.02  
-LINK        MG    MG A 305                 O   HOH A 479     1555   1555  2.16  
 LINK        MG    MG A 306                 O   HOH A 603     1555   1555  2.27  
 LINK        MG    MG A 306                 O   HOH A 623     1555   1555  2.09  
-LINK        MG    MG A 306                 O   HOH A 674     1555   1555  1.97  
-LINK        MG    MG A 306                 O   HOH A 653     1555   1555  2.31  
 LINK        MG    MG A 306                 O   HOH A 629     1555   1555  2.33  
 LINK        MG    MG A 306                 O   HOH A 652     1555   1555  2.10  
+LINK        MG    MG A 306                 O   HOH A 653     1555   1555  2.31  
+LINK        MG    MG A 306                 O   HOH A 674     1555   1555  1.97  
 SITE     1 AC1 37 GLY A  12  ILE A  13  GLY A  14  LEU A  15                    
 SITE     2 AC1 37 ILE A  16  THR A  37  ARG A  38  SER A  39                    
 SITE     3 AC1 37 THR A  42  SER A  72  VAL A  73  PRO A  74                    

@@ -1,12 +1,12 @@
 HEADER    TRANSFERASE                             31-OCT-12   2YPQ              
-TITLE     3-DEOXY-D-ARABINO-HEPTULOSONATE 7-PHOSPHATE SYNTHASE WITH             
-TITLE    2 TRYPTOPHAN AND TYROSINE BOUND                                        
+TITLE     3-DEOXY-D-ARABINO-HEPTULOSONATE 7-PHOSPHATE SYNTHASE WITH TRYPTOPHAN  
+TITLE    2 AND TYROSINE BOUND                                                   
 CAVEAT     2YPQ    TYR A1465 C-ALPHA IS PLANAR                                  
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE AROG;          
 COMPND   3 CHAIN: A, B;                                                         
 COMPND   4 SYNONYM: 3-DEOXY-D-ARABINO-HEPTULOSONATE 7-PHOSPHATE SYNTHASE, DAHP  
-COMPND   5  SYNTHASE, PHOSPHO-2-KETO-3-DEOXYHEPTONATE ALDOLASE;                 
+COMPND   5 SYNTHASE, PHOSPHO-2-KETO-3-DEOXYHEPTONATE ALDOLASE;                  
 COMPND   6 EC: 2.5.1.54;                                                        
 COMPND   7 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
@@ -19,6 +19,7 @@ KEYWDS   2 ALLOSTERY
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.J.BLACKMORE,S.REICHAU,W.JIAO,R.D.HUTTON,E.N.BAKER,G.B.JAMESON,      
 AUTHOR   2 E.J.PARKER                                                           
+REVDAT   3   20-DEC-23 2YPQ    1       REMARK LINK                              
 REVDAT   2   08-MAY-13 2YPQ    1       JRNL                                     
 REVDAT   1   09-JAN-13 2YPQ    0                                                
 JRNL        AUTH   N.J.BLACKMORE,S.REICHAU,W.JIAO,R.D.HUTTON,E.N.BAKER,         
@@ -35,35 +36,36 @@ REMARK   2 RESOLUTION.    2.76 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.6.0117                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.76                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 175.67                         
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : NONE                           
-REMARK   3   COMPLETENESS FOR RANGE        (%) : 98.06                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 98.1                           
 REMARK   3   NUMBER OF REFLECTIONS             : 37979                          
 REMARK   3                                                                      
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
 REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
-REMARK   3   R VALUE     (WORKING + TEST SET) : 0.18081                         
-REMARK   3   R VALUE            (WORKING SET) : 0.17730                         
-REMARK   3   FREE R VALUE                     : 0.24888                         
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.8                             
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.181                           
+REMARK   3   R VALUE            (WORKING SET) : 0.177                           
+REMARK   3   FREE R VALUE                     : 0.249                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.800                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 1925                            
 REMARK   3                                                                      
 REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
 REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
-REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.760                        
-REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.831                        
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.76                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.83                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 2242                         
 REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 79.93                        
-REMARK   3   BIN R VALUE           (WORKING SET) : 0.182                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.1820                       
 REMARK   3   BIN FREE R VALUE SET COUNT          : 127                          
-REMARK   3   BIN FREE R VALUE                    : 0.283                        
+REMARK   3   BIN FREE R VALUE                    : 0.2830                       
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
 REMARK   3   PROTEIN ATOMS            : 7029                                    
@@ -73,14 +75,14 @@ REMARK   3   SOLVENT ATOMS            : 81
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
 REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 34.809                         
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 34.81                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : -0.23                                                
-REMARK   3    B22 (A**2) : -0.23                                                
-REMARK   3    B33 (A**2) : 0.46                                                 
-REMARK   3    B12 (A**2) : 0.00                                                 
-REMARK   3    B13 (A**2) : 0.00                                                 
-REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3    B11 (A**2) : -0.23000                                             
+REMARK   3    B22 (A**2) : -0.23000                                             
+REMARK   3    B33 (A**2) : 0.46000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
 REMARK   3   ESU BASED ON R VALUE                            (A): 0.095         
@@ -88,7 +90,7 @@ REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.065
 REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.246         
 REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 13.281        
 REMARK   3                                                                      
-REMARK   3  CORRELATION COEFFICIENTS.                                           
+REMARK   3 CORRELATION COEFFICIENTS.                                            
 REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.952                         
 REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.910                         
 REMARK   3                                                                      
@@ -123,10 +125,15 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
-REMARK   3  ANISOTROPIC THERMAL FACTOR RESTRAINTS.   COUNT   RMS    WEIGHT      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
@@ -156,13 +163,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.20
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3   RIDING POSITIONS. U VALUES REFINED INDIVIDUALLY                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS. U VALUES REFINED INDIVIDUALLY                            
 REMARK   4                                                                      
 REMARK   4 2YPQ COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 31-OCT-12.                  
-REMARK 100 THE PDBE ID CODE IS EBI-54676.                                       
+REMARK 100 THE DEPOSITION ID IS D_1290054676.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -174,38 +181,38 @@ REMARK 200
 REMARK 200  SYNCHROTRON              (Y/N) : N                                  
 REMARK 200  RADIATION SOURCE               : ROTATING ANODE                     
 REMARK 200  BEAMLINE                       : NULL                               
-REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU MICROMAX007                 
+REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU MICROMAX-007                
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.542                              
 REMARK 200  MONOCHROMATOR                  : AXCO PX70 FOCUSSING AND            
-REMARK 200                                 : MONOCHROMATING CAPILLARY OPTICS    
+REMARK 200                                   MONOCHROMATING CAPILLARY OPTICS    
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : RAXIS                              
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DTREK                              
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : D*TREK                             
 REMARK 200  DATA SCALING SOFTWARE          : CRYSTALCLEAR 1.3.6                 
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 39770                              
-REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.80                               
-REMARK 200  RESOLUTION RANGE LOW       (A) : 39.72                              
-REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 3.0                                
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.800                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 39.720                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 3.000                              
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 99.2                               
-REMARK 200  DATA REDUNDANCY                : 4.06                               
-REMARK 200  R MERGE                    (I) : 0.13                               
+REMARK 200  DATA REDUNDANCY                : 4.060                              
+REMARK 200  R MERGE                    (I) : 0.13000                            
 REMARK 200  R SYM                      (I) : NULL                               
-REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 7.20                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 7.2000                             
 REMARK 200                                                                      
 REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
 REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 2.80                     
 REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 2.90                     
 REMARK 200  COMPLETENESS FOR SHELL     (%) : 99.9                               
 REMARK 200  DATA REDUNDANCY IN SHELL       : 4.00                               
-REMARK 200  R MERGE FOR SHELL          (I) : 0.45                               
+REMARK 200  R MERGE FOR SHELL          (I) : 0.45000                            
 REMARK 200  R SYM FOR SHELL            (I) : NULL                               
-REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.40                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.400                              
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
@@ -218,8 +225,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 68.52                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.91                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 0.1 M TRIS-HCL PH 7.5, 1.5 M             
-REMARK 280  AMMONIUM SULFATE, 15% V/V GLYCEROL                                  
+REMARK 280 CRYSTALLIZATION CONDITIONS: 0.1 M TRIS-HCL PH 7.5, 1.5 M AMMONIUM    
+REMARK 280  SULFATE, 15% V/V GLYCEROL                                           
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 32 2 1                         
@@ -319,26 +326,6 @@ REMARK 470     LEU B  15    CG   CD1  CD2
 REMARK 470     ASP B 140    CG   OD1  OD2                                       
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
-REMARK 500                                                                      
-REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
-REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
-REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
-REMARK 500                                                                      
-REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
-REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500    TYR A1465   N   -  CA  -  C   ANGL. DEV. =  22.5 DEGREES          
-REMARK 500    TRP A1464   CA  -  C   -  O   ANGL. DEV. =  13.1 DEGREES          
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: TORSION ANGLES                                             
 REMARK 500                                                                      
 REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
@@ -359,26 +346,9 @@ REMARK 500    ASP B 235     -162.76   -112.69
 REMARK 500    CYS B 440     -117.63   -156.88                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
-REMARK 500                                                                      
-REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
-REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
-REMARK 500 FOR AMINO ACIDS AND C1'--O4'--N1(N9)--C2' FOR                        
-REMARK 500 NUCLEIC ACIDS OR EQUIVALENT ANGLE                                    
-REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                 
-REMARK 500    TYR A1465        12.3      L          L   OUTSIDE RANGE           
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
 REMARK 600                                                                      
 REMARK 600 HETEROGEN                                                            
+REMARK 600                                                                      
 REMARK 600 L-TRYPTOPHAN (TRP): 2 TRYPTOPHAN LIGANDS ARE PRESENT IN THE          
 REMARK 600  ASYMMETRIC UNIT IN EQUIVALENT SITES                                 
 REMARK 600 L-TYROSINE (TYR): 3 TYROSINE LIGANDS ARE PRESENT IN THE              
@@ -393,8 +363,9 @@ REMARK 620                              MN A1463  MN
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 CYS A  87   SG                                                     
 REMARK 620 2 HIS A 369   NE2 166.9                                              
-REMARK 620 3 ASP A 441   OD2  87.1  81.1                                        
-REMARK 620 N                    1     2                                         
+REMARK 620 3 GLU A 411   OE2  84.2  95.4                                        
+REMARK 620 4 ASP A 441   OD2  87.1  81.1 114.5                                  
+REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN B1463  MN                            
@@ -411,7 +382,6 @@ REMARK 700 THE SHEETS PRESENTED AS "AB" IN EACH CHAIN ON SHEET RECORDS
 REMARK 700 BELOW IS ACTUALLY AN  8-STRANDED BARREL THIS IS REPRESENTED BY       
 REMARK 700 A  9-STRANDED SHEET IN WHICH THE FIRST AND LAST STRANDS              
 REMARK 700 ARE IDENTICAL.                                                       
-REMARK 700                                                                      
 REMARK 700 THE SHEETS PRESENTED AS "BA" IN EACH CHAIN ON SHEET RECORDS          
 REMARK 700 BELOW IS ACTUALLY AN  8-STRANDED BARREL THIS IS REPRESENTED BY       
 REMARK 700 A  9-STRANDED SHEET IN WHICH THE FIRST AND LAST STRANDS              
@@ -420,79 +390,79 @@ REMARK 800
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  MN A1463                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN A 1463                 
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  MN B1463                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MN B 1463                 
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP B1464                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP B 1464                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP A1464                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP A 1464                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TYR A1465                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TYR A 1465                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TYR B1465                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TYR B 1465                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TYR B1466                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TYR B 1466                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PO4 B1467                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PO4 B 1467                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PO4 A1466                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PO4 A 1466                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A1467                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 1467                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 B1468                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 B 1468                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CL A1468                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CL A 1468                 
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CL A1500                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CL A 1500                 
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL B1469                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL B 1469                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL B1470                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL B 1470                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL A1469                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL A 1469                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL B1471                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE GOL B 1471                
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 2YPO   RELATED DB: PDB                                   
-REMARK 900  3-DEOXY-D-ARABINO-HEPTULOSONATE 7-PHOSPHATE SYNTHASE                
-REMARK 900  WITH PHENYLALANINE BOUND IN ONLY ONE SITE                           
+REMARK 900 3-DEOXY-D-ARABINO-HEPTULOSONATE 7-PHOSPHATE SYNTHASE WITH            
+REMARK 900 PHENYLALANINE BOUND IN ONLY ONE SITE                                 
 REMARK 900 RELATED ID: 2YPP   RELATED DB: PDB                                   
-REMARK 900  3-DEOXY-D-ARABINO-HEPTULOSONATE 7-PHOSPHATE SYNTHASE                
-REMARK 900  IN COMPLEX WITH 3 TYROSINE MOLECULES                                
+REMARK 900 3-DEOXY-D-ARABINO-HEPTULOSONATE 7-PHOSPHATE SYNTHASE IN COMPLEX      
+REMARK 900 WITH 3 TYROSINE MOLECULES                                            
 DBREF  2YPQ A    1   462  UNP    O53512   AROG_MYCTU       1    462             
 DBREF  2YPQ B    1   462  UNP    O53512   AROG_MYCTU       1    462             
 SEQRES   1 A  462  MET ASN TRP THR VAL ASP ILE PRO ILE ASP GLN LEU PRO          
@@ -567,39 +537,39 @@ SEQRES  33 B  462  VAL THR GLU CYS LEU GLY GLY ALA GLN ASP ILE SER GLU
 SEQRES  34 B  462  THR ASP LEU ALA GLY ARG TYR GLU THR ALA CYS ASP PRO          
 SEQRES  35 B  462  ARG LEU ASN THR GLN GLN SER LEU GLU LEU ALA PHE LEU          
 SEQRES  36 B  462  VAL ALA GLU MET LEU ARG ASP                                  
-HET     MN  A1463       1                                                       
-HET     MN  B1463       1                                                       
-HET    TRP  B1464      15                                                       
-HET    TRP  A1464      15                                                       
 HET    TYR  A1465      13                                                       
-HET    TYR  B1465      13                                                       
-HET    TYR  B1466      13                                                       
-HET    PO4  B1467       5                                                       
+HET     MN  A1463       1                                                       
+HET    TRP  A1464      15                                                       
 HET    PO4  A1466       5                                                       
 HET    SO4  A1467       5                                                       
-HET    SO4  B1468       5                                                       
 HET     CL  A1468       1                                                       
+HET    GOL  A1469       6                                                       
 HET     CL  A1500       1                                                       
+HET    TYR  B1465      13                                                       
+HET    TYR  B1466      13                                                       
+HET     MN  B1463       1                                                       
+HET    TRP  B1464      15                                                       
+HET    PO4  B1467       5                                                       
+HET    SO4  B1468       5                                                       
 HET    GOL  B1469       6                                                       
 HET    GOL  B1470       6                                                       
-HET    GOL  A1469       6                                                       
 HET    GOL  B1471       6                                                       
+HETNAM     TYR TYROSINE                                                         
 HETNAM      MN MANGANESE (II) ION                                               
 HETNAM     TRP TRYPTOPHAN                                                       
-HETNAM     TYR TYROSINE                                                         
 HETNAM     PO4 PHOSPHATE ION                                                    
 HETNAM     SO4 SULFATE ION                                                      
 HETNAM      CL CHLORIDE ION                                                     
 HETNAM     GOL GLYCEROL                                                         
 HETSYN     GOL GLYCERIN; PROPANE-1,2,3-TRIOL                                    
-FORMUL   2   MN    2(MN 2+)                                                     
-FORMUL   3  SO4    2(O4 S 2-)                                                   
-FORMUL   4  PO4    2(O4 P 3-)                                                   
-FORMUL   5  GOL    4(C3 H8 O3)                                                  
-FORMUL   6   CL    2(CL 1-)                                                     
-FORMUL   7  TRP    2(C11 H12 N2 O2)                                             
-FORMUL   8  TYR    3(C9 H11 N O3)                                               
-FORMUL   9  HOH   *81(H2 O)                                                     
+FORMUL   3  TYR    3(C9 H11 N O3)                                               
+FORMUL   4   MN    2(MN 2+)                                                     
+FORMUL   5  TRP    2(C11 H12 N2 O2)                                             
+FORMUL   6  PO4    2(O4 P 3-)                                                   
+FORMUL   7  SO4    2(O4 S 2-)                                                   
+FORMUL   8   CL    2(CL 1-)                                                     
+FORMUL   9  GOL    4(C3 H8 O3)                                                  
+FORMUL  20  HOH   *81(H2 O)                                                     
 HELIX    1   1 PRO A   19  ALA A   31  1                                  13    
 HELIX    2   2 PRO A   41  GLU A   53  1                                  13    
 HELIX    3   3 VAL A   60  LYS A   76  1                                  17    
@@ -666,14 +636,14 @@ SHEET    1  BB 2 LEU B 259  ASP B 263  0
 SHEET    2  BB 2 PRO B 269  ASP B 273 -1  O  GLN B 270   N  SER B 262           
 SHEET    1  BC 2 HIS B 373  GLU B 374  0                                        
 SHEET    2  BC 2 LYS B 380  THR B 381 -1  O  THR B 381   N  HIS B 373           
+LINK         SG  CYS A  87                MN    MN A1463     1555   1555  2.54  
+LINK         NE2 HIS A 369                MN    MN A1463     1555   1555  2.12  
 LINK         OE2 GLU A 411                MN    MN A1463     1555   1555  1.57  
-LINK        MN    MN A1463                 NE2 HIS A 369     1555   1555  2.12  
-LINK        MN    MN A1463                 OD2 ASP A 441     1555   1555  2.23  
-LINK        MN    MN A1463                 SG  CYS A  87     1555   1555  2.54  
-LINK        MN    MN B1463                 OE2 GLU B 411     1555   1555  2.37  
-LINK        MN    MN B1463                 OD2 ASP B 441     1555   1555  2.27  
-LINK        MN    MN B1463                 NE2 HIS B 369     1555   1555  2.57  
-LINK        MN    MN B1463                 SG  CYS B  87     1555   1555  2.53  
+LINK         OD2 ASP A 441                MN    MN A1463     1555   1555  2.23  
+LINK         SG  CYS B  87                MN    MN B1463     1555   1555  2.53  
+LINK         NE2 HIS B 369                MN    MN B1463     1555   1555  2.57  
+LINK         OE2 GLU B 411                MN    MN B1463     1555   1555  2.37  
+LINK         OD2 ASP B 441                MN    MN B1463     1555   1555  2.27  
 SITE     1 AC1  4 CYS A  87  HIS A 369  GLU A 411  ASP A 441                    
 SITE     1 AC2  5 CYS B  87  ARG B 126  HIS B 369  GLU B 411                    
 SITE     2 AC2  5 ASP B 441                                                     
@@ -7749,94 +7719,94 @@ ATOM   7028  OD1 ASP B 462      70.832  -7.363 -13.370  1.00 86.17           O
 ATOM   7029  OD2 ASP B 462      69.636  -9.220 -12.877  1.00 80.61           O  
 ATOM   7030  OXT ASP B 462      73.284  -6.594  -9.218  1.00104.73           O  
 TER    7031      ASP B 462                                                      
-HETATM 7032  O   TYR A1465     109.149 -40.979 -27.324  1.00 34.71           O  
-HETATM 7033  C   TYR A1465     109.812 -40.935 -26.295  1.00 47.67           C  
-HETATM 7034  OXT TYR A1465     110.206 -41.991 -25.822  1.00 32.46           O  
-HETATM 7035  CA  TYR A1465     110.036 -39.680 -25.464  1.00 50.22           C  
-HETATM 7036  N   TYR A1465     110.660 -38.363 -25.748  1.00 50.30           N  
-HETATM 7037  CB  TYR A1465     109.007 -39.559 -24.376  1.00 60.77           C  
-HETATM 7038  CG  TYR A1465     107.706 -39.221 -25.030  1.00 54.29           C  
-HETATM 7039  CD1 TYR A1465     107.452 -37.924 -25.477  1.00 56.45           C  
+HETATM 7032  N   TYR A1465     110.660 -38.363 -25.748  1.00 50.30           N  
+HETATM 7033  CA  TYR A1465     110.036 -39.680 -25.464  1.00 50.22           C  
+HETATM 7034  C   TYR A1465     109.812 -40.935 -26.295  1.00 47.67           C  
+HETATM 7035  O   TYR A1465     109.149 -40.979 -27.324  1.00 34.71           O  
+HETATM 7036  CB  TYR A1465     109.007 -39.559 -24.376  1.00 60.77           C  
+HETATM 7037  CG  TYR A1465     107.706 -39.221 -25.030  1.00 54.29           C  
+HETATM 7038  CD1 TYR A1465     107.452 -37.924 -25.477  1.00 56.45           C  
+HETATM 7039  CD2 TYR A1465     106.794 -40.211 -25.339  1.00 34.02           C  
 HETATM 7040  CE1 TYR A1465     106.253 -37.607 -26.115  1.00 58.18           C  
-HETATM 7041  CZ  TYR A1465     105.291 -38.599 -26.324  1.00 32.89           C  
-HETATM 7042  OH  TYR A1465     104.091 -38.254 -26.924  1.00 65.89           O  
-HETATM 7043  CE2 TYR A1465     105.586 -39.897 -25.964  1.00 38.67           C  
-HETATM 7044  CD2 TYR A1465     106.794 -40.211 -25.339  1.00 34.02           C  
-HETATM 7045  O   TYR B1465      95.654 -40.349 -30.731  1.00 55.29           O  
-HETATM 7046  C   TYR B1465      95.570 -40.492 -31.973  1.00 73.36           C  
-HETATM 7047  OXT TYR B1465      95.971 -41.507 -32.594  1.00 75.74           O  
-HETATM 7048  CA  TYR B1465      95.032 -39.283 -32.747  1.00 52.78           C  
-HETATM 7049  N   TYR B1465      94.426 -38.235 -31.829  1.00 35.48           N  
-HETATM 7050  CB  TYR B1465      96.196 -38.716 -33.599  1.00 44.07           C  
-HETATM 7051  CG  TYR B1465      97.415 -38.269 -32.780  1.00 63.75           C  
-HETATM 7052  CD1 TYR B1465      97.355 -37.115 -31.986  1.00 55.92           C  
-HETATM 7053  CE1 TYR B1465      98.427 -36.670 -31.231  1.00 45.44           C  
-HETATM 7054  CZ  TYR B1465      99.615 -37.372 -31.251  1.00 46.59           C  
-HETATM 7055  OH  TYR B1465     100.651 -36.860 -30.468  1.00 59.70           O  
-HETATM 7056  CE2 TYR B1465      99.682 -38.559 -31.983  1.00 44.08           C  
-HETATM 7057  CD2 TYR B1465      98.607 -38.995 -32.752  1.00 47.91           C  
-HETATM 7058  O   TYR B1466     104.462 -41.568  -8.821  1.00 47.59           O  
-HETATM 7059  C   TYR B1466     105.448 -41.141  -8.232  1.00 40.97           C  
-HETATM 7060  OXT TYR B1466     105.532 -41.544  -7.090  1.00 40.71           O  
-HETATM 7061  CA  TYR B1466     106.498 -40.276  -8.879  1.00 26.92           C  
-HETATM 7062  N   TYR B1466     105.965 -39.799 -10.177  1.00 33.93           N  
-HETATM 7063  CB  TYR B1466     106.836 -39.140  -7.950  1.00 35.13           C  
-HETATM 7064  CG  TYR B1466     108.078 -38.267  -8.247  1.00 52.08           C  
-HETATM 7065  CD1 TYR B1466     109.358 -38.624  -7.832  1.00 54.35           C  
-HETATM 7066  CE1 TYR B1466     110.455 -37.794  -8.016  1.00 37.05           C  
-HETATM 7067  CZ  TYR B1466     110.249 -36.556  -8.542  1.00 43.98           C  
-HETATM 7068  OH  TYR B1466     111.311 -35.703  -8.740  1.00 51.12           O  
-HETATM 7069  CE2 TYR B1466     109.007 -36.176  -8.976  1.00 37.27           C  
-HETATM 7070  CD2 TYR B1466     107.942 -37.010  -8.802  1.00 34.86           C  
-HETATM 7071 MN    MN A1463     124.554 -30.681 -38.220  1.00 48.45          MN  
-HETATM 7072  CD2 TRP A1464     114.765 -10.739 -24.837  1.00 17.70           C  
-HETATM 7073  CE3 TRP A1464     115.784 -10.580 -25.697  1.00 24.45           C  
-HETATM 7074  CZ3 TRP A1464     116.861 -11.485 -25.671  1.00 27.46           C  
-HETATM 7075  CH2 TRP A1464     116.936 -12.520 -24.765  1.00 18.98           C  
-HETATM 7076  CZ2 TRP A1464     115.902 -12.725 -23.857  1.00 21.74           C  
-HETATM 7077  CE2 TRP A1464     114.864 -11.787 -23.849  1.00 27.09           C  
-HETATM 7078  NE1 TRP A1464     113.802 -11.656 -23.047  1.00 41.54           N  
-HETATM 7079  CD1 TRP A1464     112.988 -10.652 -23.461  1.00 40.94           C  
-HETATM 7080  CG  TRP A1464     113.515 -10.019 -24.557  1.00 36.82           C  
-HETATM 7081  CB  TRP A1464     112.965  -8.794 -25.228  1.00 34.24           C  
-HETATM 7082  CA  TRP A1464     112.105  -9.022 -26.454  1.00 34.00           C  
-HETATM 7083  N   TRP A1464     110.923  -9.806 -26.096  1.00 32.68           N  
-HETATM 7084  C   TRP A1464     113.017  -9.735 -27.368  1.00 35.84           C  
-HETATM 7085  O   TRP A1464     112.910 -10.780 -28.032  1.00 38.61           O  
-HETATM 7086  OXT TRP A1464     114.050  -9.195 -27.071  1.00 39.31           O  
-HETATM 7087  P   PO4 A1466     124.501 -29.081 -44.346  1.00 46.95           P  
-HETATM 7088  O1  PO4 A1466     124.435 -29.694 -42.941  1.00 39.96           O  
-HETATM 7089  O2  PO4 A1466     124.912 -27.647 -44.236  1.00 47.27           O  
-HETATM 7090  O3  PO4 A1466     123.232 -29.095 -45.158  1.00 23.62           O  
-HETATM 7091  O4  PO4 A1466     125.605 -29.844 -45.046  1.00 54.77           O  
-HETATM 7092  S   SO4 A1467     119.959 -45.739 -46.750  1.00 92.10           S  
-HETATM 7093  O1  SO4 A1467     119.833 -44.415 -46.053  1.00 52.57           O  
-HETATM 7094  O2  SO4 A1467     121.404 -46.197 -46.855  1.00 74.17           O  
-HETATM 7095  O3  SO4 A1467     119.082 -45.498 -47.920  1.00 58.30           O  
-HETATM 7096  O4  SO4 A1467     119.211 -46.963 -46.322  1.00 65.82           O  
-HETATM 7097 CL    CL A1468     126.979  -0.489 -11.743  1.00 80.23          CL  
-HETATM 7098  C1  GOL A1469     106.453 -18.488 -29.108  1.00 65.64           C  
-HETATM 7099  O1  GOL A1469     107.709 -18.702 -28.433  1.00 59.80           O  
-HETATM 7100  C2  GOL A1469     106.310 -19.221 -30.449  1.00 67.22           C  
-HETATM 7101  O2  GOL A1469     107.560 -19.861 -30.757  1.00 71.14           O  
-HETATM 7102  C3  GOL A1469     105.883 -18.336 -31.616  1.00 50.44           C  
-HETATM 7103  O3  GOL A1469     105.558 -17.005 -31.162  1.00 69.87           O  
-HETATM 7104 CL    CL A1500     119.787 -40.611 -52.624  1.00 73.02          CL  
+HETATM 7041  CE2 TYR A1465     105.586 -39.897 -25.964  1.00 38.67           C  
+HETATM 7042  CZ  TYR A1465     105.291 -38.599 -26.324  1.00 32.89           C  
+HETATM 7043  OH  TYR A1465     104.091 -38.254 -26.924  1.00 65.89           O  
+HETATM 7044  OXT TYR A1465     110.206 -41.991 -25.822  1.00 32.46           O  
+HETATM 7045 MN    MN A1463     124.554 -30.681 -38.220  1.00 48.45          MN  
+HETATM 7046  N   TRP A1464     110.923  -9.806 -26.096  1.00 32.68           N  
+HETATM 7047  CA  TRP A1464     112.105  -9.022 -26.454  1.00 34.00           C  
+HETATM 7048  C   TRP A1464     113.017  -9.735 -27.368  1.00 35.84           C  
+HETATM 7049  O   TRP A1464     112.910 -10.780 -28.032  1.00 38.61           O  
+HETATM 7050  CB  TRP A1464     112.965  -8.794 -25.228  1.00 34.24           C  
+HETATM 7051  CG  TRP A1464     113.515 -10.019 -24.557  1.00 36.82           C  
+HETATM 7052  CD1 TRP A1464     112.988 -10.652 -23.461  1.00 40.94           C  
+HETATM 7053  CD2 TRP A1464     114.765 -10.739 -24.837  1.00 17.70           C  
+HETATM 7054  NE1 TRP A1464     113.802 -11.656 -23.047  1.00 41.54           N  
+HETATM 7055  CE2 TRP A1464     114.864 -11.787 -23.849  1.00 27.09           C  
+HETATM 7056  CE3 TRP A1464     115.784 -10.580 -25.697  1.00 24.45           C  
+HETATM 7057  CZ2 TRP A1464     115.902 -12.725 -23.857  1.00 21.74           C  
+HETATM 7058  CZ3 TRP A1464     116.861 -11.485 -25.671  1.00 27.46           C  
+HETATM 7059  CH2 TRP A1464     116.936 -12.520 -24.765  1.00 18.98           C  
+HETATM 7060  OXT TRP A1464     114.050  -9.195 -27.071  1.00 39.31           O  
+HETATM 7061  P   PO4 A1466     124.501 -29.081 -44.346  1.00 46.95           P  
+HETATM 7062  O1  PO4 A1466     124.435 -29.694 -42.941  1.00 39.96           O  
+HETATM 7063  O2  PO4 A1466     124.912 -27.647 -44.236  1.00 47.27           O  
+HETATM 7064  O3  PO4 A1466     123.232 -29.095 -45.158  1.00 23.62           O  
+HETATM 7065  O4  PO4 A1466     125.605 -29.844 -45.046  1.00 54.77           O  
+HETATM 7066  S   SO4 A1467     119.959 -45.739 -46.750  1.00 92.10           S  
+HETATM 7067  O1  SO4 A1467     119.833 -44.415 -46.053  1.00 52.57           O  
+HETATM 7068  O2  SO4 A1467     121.404 -46.197 -46.855  1.00 74.17           O  
+HETATM 7069  O3  SO4 A1467     119.082 -45.498 -47.920  1.00 58.30           O  
+HETATM 7070  O4  SO4 A1467     119.211 -46.963 -46.322  1.00 65.82           O  
+HETATM 7071 CL    CL A1468     126.979  -0.489 -11.743  1.00 80.23          CL  
+HETATM 7072  C1  GOL A1469     106.453 -18.488 -29.108  1.00 65.64           C  
+HETATM 7073  O1  GOL A1469     107.709 -18.702 -28.433  1.00 59.80           O  
+HETATM 7074  C2  GOL A1469     106.310 -19.221 -30.449  1.00 67.22           C  
+HETATM 7075  O2  GOL A1469     107.560 -19.861 -30.757  1.00 71.14           O  
+HETATM 7076  C3  GOL A1469     105.883 -18.336 -31.616  1.00 50.44           C  
+HETATM 7077  O3  GOL A1469     105.558 -17.005 -31.162  1.00 69.87           O  
+HETATM 7078 CL    CL A1500     119.787 -40.611 -52.624  1.00 73.02          CL  
+HETATM 7079  N   TYR B1465      94.426 -38.235 -31.829  1.00 35.48           N  
+HETATM 7080  CA  TYR B1465      95.032 -39.283 -32.747  1.00 52.78           C  
+HETATM 7081  C   TYR B1465      95.570 -40.492 -31.973  1.00 73.36           C  
+HETATM 7082  O   TYR B1465      95.654 -40.349 -30.731  1.00 55.29           O  
+HETATM 7083  CB  TYR B1465      96.196 -38.716 -33.599  1.00 44.07           C  
+HETATM 7084  CG  TYR B1465      97.415 -38.269 -32.780  1.00 63.75           C  
+HETATM 7085  CD1 TYR B1465      97.355 -37.115 -31.986  1.00 55.92           C  
+HETATM 7086  CD2 TYR B1465      98.607 -38.995 -32.752  1.00 47.91           C  
+HETATM 7087  CE1 TYR B1465      98.427 -36.670 -31.231  1.00 45.44           C  
+HETATM 7088  CE2 TYR B1465      99.682 -38.559 -31.983  1.00 44.08           C  
+HETATM 7089  CZ  TYR B1465      99.615 -37.372 -31.251  1.00 46.59           C  
+HETATM 7090  OH  TYR B1465     100.651 -36.860 -30.468  1.00 59.70           O  
+HETATM 7091  OXT TYR B1465      95.971 -41.507 -32.594  1.00 75.74           O  
+HETATM 7092  N   TYR B1466     105.965 -39.799 -10.177  1.00 33.93           N  
+HETATM 7093  CA  TYR B1466     106.498 -40.276  -8.879  1.00 26.92           C  
+HETATM 7094  C   TYR B1466     105.448 -41.141  -8.232  1.00 40.97           C  
+HETATM 7095  O   TYR B1466     104.462 -41.568  -8.821  1.00 47.59           O  
+HETATM 7096  CB  TYR B1466     106.836 -39.140  -7.950  1.00 35.13           C  
+HETATM 7097  CG  TYR B1466     108.078 -38.267  -8.247  1.00 52.08           C  
+HETATM 7098  CD1 TYR B1466     109.358 -38.624  -7.832  1.00 54.35           C  
+HETATM 7099  CD2 TYR B1466     107.942 -37.010  -8.802  1.00 34.86           C  
+HETATM 7100  CE1 TYR B1466     110.455 -37.794  -8.016  1.00 37.05           C  
+HETATM 7101  CE2 TYR B1466     109.007 -36.176  -8.976  1.00 37.27           C  
+HETATM 7102  CZ  TYR B1466     110.249 -36.556  -8.542  1.00 43.98           C  
+HETATM 7103  OH  TYR B1466     111.311 -35.703  -8.740  1.00 51.12           O  
+HETATM 7104  OXT TYR B1466     105.532 -41.544  -7.090  1.00 40.71           O  
 HETATM 7105 MN    MN B1463      81.097 -34.595 -17.121  0.50 29.65          MN  
-HETATM 7106  CD2 TRP B1464      90.195 -10.750 -23.527  1.00 23.55           C  
-HETATM 7107  CE3 TRP B1464      89.052 -10.934 -22.773  1.00 26.19           C  
-HETATM 7108  CZ3 TRP B1464      88.079 -11.812 -23.245  1.00 19.49           C  
-HETATM 7109  CH2 TRP B1464      88.302 -12.554 -24.426  1.00 33.69           C  
-HETATM 7110  CZ2 TRP B1464      89.487 -12.462 -25.189  1.00 16.00           C  
-HETATM 7111  CE2 TRP B1464      90.382 -11.521 -24.770  1.00 18.83           C  
-HETATM 7112  NE1 TRP B1464      91.543 -11.149 -25.281  1.00 34.43           N  
-HETATM 7113  CD1 TRP B1464      92.163 -10.247 -24.483  1.00 35.80           C  
-HETATM 7114  CG  TRP B1464      91.384  -9.930 -23.385  1.00 27.58           C  
-HETATM 7115  CB  TRP B1464      91.728  -9.006 -22.262  1.00 26.76           C  
-HETATM 7116  CA  TRP B1464      92.777  -9.731 -21.440  1.00 35.69           C  
-HETATM 7117  N   TRP B1464      93.912 -10.134 -22.322  1.00 30.12           N  
-HETATM 7118  C   TRP B1464      92.052 -10.902 -20.867  1.00 37.39           C  
-HETATM 7119  O   TRP B1464      92.507 -12.065 -20.939  1.00 35.60           O  
+HETATM 7106  N   TRP B1464      93.912 -10.134 -22.322  1.00 30.12           N  
+HETATM 7107  CA  TRP B1464      92.777  -9.731 -21.440  1.00 35.69           C  
+HETATM 7108  C   TRP B1464      92.052 -10.902 -20.867  1.00 37.39           C  
+HETATM 7109  O   TRP B1464      92.507 -12.065 -20.939  1.00 35.60           O  
+HETATM 7110  CB  TRP B1464      91.728  -9.006 -22.262  1.00 26.76           C  
+HETATM 7111  CG  TRP B1464      91.384  -9.930 -23.385  1.00 27.58           C  
+HETATM 7112  CD1 TRP B1464      92.163 -10.247 -24.483  1.00 35.80           C  
+HETATM 7113  CD2 TRP B1464      90.195 -10.750 -23.527  1.00 23.55           C  
+HETATM 7114  NE1 TRP B1464      91.543 -11.149 -25.281  1.00 34.43           N  
+HETATM 7115  CE2 TRP B1464      90.382 -11.521 -24.770  1.00 18.83           C  
+HETATM 7116  CE3 TRP B1464      89.052 -10.934 -22.773  1.00 26.19           C  
+HETATM 7117  CZ2 TRP B1464      89.487 -12.462 -25.189  1.00 16.00           C  
+HETATM 7118  CZ3 TRP B1464      88.079 -11.812 -23.245  1.00 19.49           C  
+HETATM 7119  CH2 TRP B1464      88.302 -12.554 -24.426  1.00 33.69           C  
 HETATM 7120  OXT TRP B1464      90.971 -10.553 -20.365  1.00 29.33           O  
 HETATM 7121  P   PO4 B1467      80.614 -34.733 -10.988  1.00 34.95           P  
 HETATM 7122  O1  PO4 B1467      80.488 -33.435 -10.222  1.00 39.86           O  
@@ -7947,101 +7917,32 @@ HETATM 7226  O   HOH B2043      71.700 -23.909 -37.122  1.00 42.44           O
 HETATM 7227  O   HOH B2044      76.333 -27.649 -38.807  1.00 46.87           O  
 HETATM 7228  O   HOH B2045      71.265 -20.029 -29.104  1.00 53.33           O  
 HETATM 7229  O   HOH B2046      72.068  -3.738 -13.331  1.00 50.33           O  
-CONECT  637 7071                                                                
-CONECT 2798 7071                                                                
-CONECT 3127 7071                                                                
-CONECT 3343 7071                                                                
-CONECT 7032 7033                                                                
-CONECT 7033 7032 7034 7035                                                      
-CONECT 7034 7033                                                                
-CONECT 7035 7033 7036 7037                                                      
-CONECT 7036 7035                                                                
-CONECT 7037 7035 7038                                                           
-CONECT 7038 7037 7039 7044                                                      
-CONECT 7039 7038 7040                                                           
-CONECT 7040 7039 7041                                                           
-CONECT 7041 7040 7042 7043                                                      
-CONECT 7042 7041                                                                
-CONECT 7043 7041 7044                                                           
-CONECT 7044 7038 7043                                                           
+CONECT  637 7045                                                                
+CONECT 2798 7045                                                                
+CONECT 3127 7045                                                                
+CONECT 3343 7045                                                                
 CONECT 4134 7105                                                                
 CONECT 6310 7105                                                                
 CONECT 6643 7105                                                                
 CONECT 6859 7105                                                                
-CONECT 7045 7046                                                                
-CONECT 7046 7045 7047 7048                                                      
-CONECT 7047 7046                                                                
-CONECT 7048 7046 7049 7050                                                      
-CONECT 7049 7048                                                                
-CONECT 7050 7048 7051                                                           
-CONECT 7051 7050 7052 7057                                                      
-CONECT 7052 7051 7053                                                           
-CONECT 7053 7052 7054                                                           
-CONECT 7054 7053 7055 7056                                                      
-CONECT 7055 7054                                                                
-CONECT 7056 7054 7057                                                           
-CONECT 7057 7051 7056                                                           
-CONECT 7058 7059                                                                
-CONECT 7059 7058 7060 7061                                                      
-CONECT 7060 7059                                                                
-CONECT 7061 7059 7062 7063                                                      
+CONECT 7045  637 2798 3127 3343                                                 
+CONECT 7061 7062 7063 7064 7065                                                 
 CONECT 7062 7061                                                                
-CONECT 7063 7061 7064                                                           
-CONECT 7064 7063 7065 7070                                                      
-CONECT 7065 7064 7066                                                           
-CONECT 7066 7065 7067                                                           
-CONECT 7067 7066 7068 7069                                                      
-CONECT 7068 7067                                                                
-CONECT 7069 7067 7070                                                           
-CONECT 7070 7064 7069                                                           
-CONECT 7071  637 2798 3127 3343                                                 
-CONECT 7072 7073 7077 7080                                                      
-CONECT 7073 7072 7074                                                           
-CONECT 7074 7073 7075                                                           
-CONECT 7075 7074 7076                                                           
-CONECT 7076 7075 7077                                                           
-CONECT 7077 7072 7076 7078                                                      
-CONECT 7078 7077 7079                                                           
-CONECT 7079 7078 7080                                                           
-CONECT 7080 7072 7079 7081                                                      
-CONECT 7081 7080 7082                                                           
-CONECT 7082 7081 7083 7084                                                      
-CONECT 7083 7082                                                                
-CONECT 7084 7082 7085 7086                                                      
-CONECT 7085 7084                                                                
-CONECT 7086 7084                                                                
-CONECT 7087 7088 7089 7090 7091                                                 
-CONECT 7088 7087                                                                
-CONECT 7089 7087                                                                
-CONECT 7090 7087                                                                
-CONECT 7091 7087                                                                
-CONECT 7092 7093 7094 7095 7096                                                 
-CONECT 7093 7092                                                                
-CONECT 7094 7092                                                                
-CONECT 7095 7092                                                                
-CONECT 7096 7092                                                                
-CONECT 7098 7099 7100                                                           
-CONECT 7099 7098                                                                
-CONECT 7100 7098 7101 7102                                                      
-CONECT 7101 7100                                                                
-CONECT 7102 7100 7103                                                           
-CONECT 7103 7102                                                                
+CONECT 7063 7061                                                                
+CONECT 7064 7061                                                                
+CONECT 7065 7061                                                                
+CONECT 7066 7067 7068 7069 7070                                                 
+CONECT 7067 7066                                                                
+CONECT 7068 7066                                                                
+CONECT 7069 7066                                                                
+CONECT 7070 7066                                                                
+CONECT 7072 7073 7074                                                           
+CONECT 7073 7072                                                                
+CONECT 7074 7072 7075 7076                                                      
+CONECT 7075 7074                                                                
+CONECT 7076 7074 7077                                                           
+CONECT 7077 7076                                                                
 CONECT 7105 4134 6310 6643 6859                                                 
-CONECT 7106 7107 7111 7114                                                      
-CONECT 7107 7106 7108                                                           
-CONECT 7108 7107 7109                                                           
-CONECT 7109 7108 7110                                                           
-CONECT 7110 7109 7111                                                           
-CONECT 7111 7106 7110 7112                                                      
-CONECT 7112 7111 7113                                                           
-CONECT 7113 7112 7114                                                           
-CONECT 7114 7106 7113 7115                                                      
-CONECT 7115 7114 7116                                                           
-CONECT 7116 7115 7117 7118                                                      
-CONECT 7117 7116                                                                
-CONECT 7118 7116 7119 7120                                                      
-CONECT 7119 7118                                                                
-CONECT 7120 7118                                                                
 CONECT 7121 7122 7123 7124 7125                                                 
 CONECT 7122 7121                                                                
 CONECT 7123 7121                                                                
@@ -8070,5 +7971,5 @@ CONECT 7145 7143 7146 7147
 CONECT 7146 7145                                                                
 CONECT 7147 7145 7148                                                           
 CONECT 7148 7147                                                                
-MASTER      463    0   17   38   28    0   31   12 7227    2  123   72          
+MASTER      432    0   17   38   28    0   31   12 7227    2   54   72          
 END                                                                             

@@ -18,6 +18,7 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    DOPA, L-DOPA, TRNA, LIGASE                                            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.MOOR,L.KLIPCAN,M.SAFRO                                              
+REVDAT   2   13-SEP-23 3TEG    1       REMARK SEQADV                            
 REVDAT   1   23-NOV-11 3TEG    0                                                
 JRNL        AUTH   N.MOOR,L.KLIPCAN,M.G.SAFRO                                   
 JRNL        TITL   BACTERIAL AND EUKARYOTIC PHENYLALANYL-TRNA SYNTHETASES       
@@ -32,15 +33,14 @@ REMARK   2 RESOLUTION.    2.20 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE)                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -90,7 +90,7 @@ REMARK   3    B22 (A**2) : -0.24180
 REMARK   3    B33 (A**2) : -1.41110                                             
 REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -107,7 +107,7 @@ REMARK   3
 REMARK   3  TLS DETAILS                                                         
 REMARK   3   NUMBER OF TLS GROUPS  : 1                                          
 REMARK   3   TLS GROUP : 1                                                      
-REMARK   3    SELECTION: all                                                    
+REMARK   3    SELECTION: ALL                                                    
 REMARK   3    ORIGIN FOR THE GROUP (A):   1.5930  25.5924  13.6206              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1422 T22:   0.1653                                     
@@ -130,7 +130,7 @@ REMARK   4
 REMARK   4 3TEG COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 19-AUG-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB067380.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000067380.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -301,24 +301,6 @@ REMARK 500    TYR A 340      133.87    171.76
 REMARK 500    HIS A 372       -2.75     79.81                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH A 548        DISTANCE =  5.23 ANGSTROMS                       
-REMARK 525    HOH A 600        DISTANCE =  5.78 ANGSTROMS                       
-REMARK 525    HOH A 622        DISTANCE =  5.19 ANGSTROMS                       
-REMARK 525    HOH A 659        DISTANCE =  5.49 ANGSTROMS                       
-REMARK 525    HOH A 662        DISTANCE =  5.22 ANGSTROMS                       
-REMARK 525    HOH A 675        DISTANCE =  5.91 ANGSTROMS                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
@@ -7580,5 +7562,5 @@ CONECT 3376 3363
 CONECT 3377 3366                                                                
 CONECT 3378 3367                                                                
 CONECT 3379 3368                                                                
-MASTER      302    0    1   18   15    0    4    6 3678    1   25   32          
+MASTER      283    0    1   18   15    0    4    6 3678    1   25   32          
 END                                                                             

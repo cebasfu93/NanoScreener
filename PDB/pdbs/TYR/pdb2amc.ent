@@ -23,6 +23,7 @@ SOURCE   8 STRAIN: HB8
 KEYWDS    PROTEIN-AMINO ACID COMPLEX, LIGASE                                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    O.KOTIK-KOGAN,N.MOOR,D.TWOROWSKI,M.SAFRO                              
+REVDAT   5   23-AUG-23 2AMC    1       REMARK LINK                              
 REVDAT   4   11-OCT-17 2AMC    1       REMARK                                   
 REVDAT   3   13-JUL-11 2AMC    1       VERSN                                    
 REVDAT   2   24-FEB-09 2AMC    1       VERSN                                    
@@ -590,9 +591,9 @@ SHEET    2   N 2 ARG B 602  LEU B 603 -1  O  LEU B 603   N  VAL B 594
 SHEET    1   O 3 ALA B 693  PRO B 702  0                                        
 SHEET    2   O 3 HIS B 740  PHE B 749 -1  O  LYS B 741   N  VAL B 701           
 SHEET    3   O 3 LEU B 722  TYR B 731 -1  N  TYR B 731   O  SER B 742           
-LINK        MG    MG A 901                 OE2 GLU A 262     1555   1555  2.36  
-LINK        MG    MG A 901                 OE1 GLU B 461     1555   1555  2.25  
 LINK         NH2 ARG B 413                 O4  SO4 B 786     1555   1555  2.02  
+LINK         OE2 GLU A 262                MG    MG A 901     1555   1555  2.36  
+LINK        MG    MG A 901                 OE1 GLU B 461     1555   1555  2.25  
 CISPEP   1 PRO A  192    PRO A  193          0         0.06                     
 CISPEP   2 GLU A  262    PRO A  263          0        -0.14                     
 CISPEP   3 GLY B  439    PRO B  440          0         0.14                     

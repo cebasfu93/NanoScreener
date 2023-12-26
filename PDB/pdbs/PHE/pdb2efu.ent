@@ -1,6 +1,6 @@
 HEADER    HYDROLASE                               26-FEB-07   2EFU              
-TITLE     THE CRYSTAL STRUCTURE OF D-AMINO ACID AMIDASE FROM                    
-TITLE    2 OCHROBACTRUM ANTHROPI SV3 COMPLEXED WITH L-PHENYLALANINE             
+TITLE     THE CRYSTAL STRUCTURE OF D-AMINO ACID AMIDASE FROM OCHROBACTRUM       
+TITLE    2 ANTHROPI SV3 COMPLEXED WITH L-PHENYLALANINE                          
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: D-AMINO ACID AMIDASE;                                      
 COMPND   3 CHAIN: A, B, C, D, E, F;                                             
@@ -15,30 +15,29 @@ SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;
 SOURCE   7 EXPRESSION_SYSTEM_STRAIN: JM109;                                     
 SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PUC19                                     
-KEYWDS    PENICILLIN RECOGNIZING PROTEINS, D-STEREOSPECIFIC, AMIDASE,           
-KEYWDS   2 L-PHENYLALANINE, HYDROLASE                                           
+KEYWDS    PENICILLIN RECOGNIZING PROTEINS, D-STEREOSPECIFIC, AMIDASE, L-        
+KEYWDS   2 PHENYLALANINE, HYDROLASE                                             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.OKAZAKI,A.SUZUKI,T.MIZUSHIMA,H.KOMEDA,Y.ASANO,T.YAMANE              
+REVDAT   3   25-OCT-23 2EFU    1       REMARK LINK                              
 REVDAT   2   04-MAR-08 2EFU    1       JRNL   VERSN                             
 REVDAT   1   06-MAR-07 2EFU    0                                                
-JRNL        AUTH   S.OKAZAKI,A.SUZUKI,T.MIZUSHIMA,H.KOMEDA,Y.ASANO,             
-JRNL        AUTH 2 T.YAMANE                                                     
+JRNL        AUTH   S.OKAZAKI,A.SUZUKI,T.MIZUSHIMA,H.KOMEDA,Y.ASANO,T.YAMANE     
 JRNL        TITL   STRUCTURES OF D-AMINO-ACID AMIDASE COMPLEXED WITH            
-JRNL        TITL 2 L-PHENYLALANINE AND WITH L-PHENYLALANINE AMIDE:              
-JRNL        TITL 3 INSIGHT INTO THE D-STEREOSPECIFICITY OF                      
-JRNL        TITL 4 D-AMINO-ACID AMIDASE FROM OCHROBACTRUM ANTHROPI              
-JRNL        TITL 5 SV3.                                                         
+JRNL        TITL 2 L-PHENYLALANINE AND WITH L-PHENYLALANINE AMIDE: INSIGHT INTO 
+JRNL        TITL 3 THE D-STEREOSPECIFICITY OF D-AMINO-ACID AMIDASE FROM         
+JRNL        TITL 4 OCHROBACTRUM ANTHROPI SV3.                                   
 JRNL        REF    ACTA CRYSTALLOGR.,SECT.D      V.  64   331 2008              
 JRNL        REFN                   ISSN 0907-4449                               
 JRNL        PMID   18323628                                                     
 JRNL        DOI    10.1107/S0907444907067479                                    
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.30 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0005                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -63,15 +62,15 @@ REMARK   3   TOTAL NUMBER OF BINS USED           : 20
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.30                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.36                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 6562                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.0                        
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.1910                       
 REMARK   3   BIN FREE R VALUE SET COUNT          : 352                          
 REMARK   3   BIN FREE R VALUE                    : 0.2800                       
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 16410                                   
+REMARK   3   PROTEIN ATOMS            : 16367                                   
 REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
-REMARK   3   HETEROGEN ATOMS          : 98                                      
+REMARK   3   HETEROGEN ATOMS          : 97                                      
 REMARK   3   SOLVENT ATOMS            : 1407                                    
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
@@ -126,8 +125,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2): 10473 ; 0.518 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2): 16802 ; 0.975 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  6528 ; 1.453 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  6100 ; 2.328 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -147,13 +151,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.20
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3  RIDING POSITIONS                                                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 2EFU COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2EFU COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 27-FEB-07.                  
-REMARK 100 THE RCSB ID CODE IS RCSB026612.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000026612.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -375,7 +379,7 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500  BA    BA  C  3001     O    HOH C  3068              1.25            
+REMARK 500  BA     BA C  3001     O    HOH C  3068              1.25            
 REMARK 500   NH1  ARG A   353     O    HOH A  3239              1.92            
 REMARK 500   O    HOH C  3068     O    HOH C  3164              2.16            
 REMARK 500   NH1  ARG B   353     O    HOH B  3289              2.19            
@@ -468,56 +472,41 @@ REMARK 500 ASP B  225     GLY B  226                  -37.09
 REMARK 500 PHE F  113     GLU F  114                  -81.70                    
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH E3209        DISTANCE =  6.02 ANGSTROMS                       
-REMARK 525    HOH B3242        DISTANCE =  5.80 ANGSTROMS                       
-REMARK 525    HOH C3257        DISTANCE =  5.62 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA A3003  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 SER A 121   O                                                      
-REMARK 620 2 TRP A 233   O    67.1                                              
-REMARK 620 3 ASP A 122   OD1  71.6 138.6                                        
-REMARK 620 4 HOH A3048   O    93.4  83.0  98.6                                  
-REMARK 620 5 HOH A3149   O    70.2  66.5 100.7 149.0                            
-REMARK 620 6 HOH A3198   O    73.8 103.4  65.0 161.5  38.7                      
-REMARK 620 7 GLU A 232   O   137.0  71.6 147.8  70.1 103.5 128.3                
-REMARK 620 8 HOH A3212   O   106.0  76.7 116.9 143.3  36.1  54.9  74.6          
+REMARK 620 2 ASP A 122   OD1  71.6                                              
+REMARK 620 3 GLU A 232   O   137.0 147.8                                        
+REMARK 620 4 TRP A 233   O    67.1 138.6  71.6                                  
+REMARK 620 5 HOH A3048   O    93.4  98.6  70.1  83.0                            
+REMARK 620 6 HOH A3149   O    70.2 100.7 103.5  66.5 149.0                      
+REMARK 620 7 HOH A3198   O    73.8  65.0 128.3 103.4 161.5  38.7                
+REMARK 620 8 HOH A3212   O   106.0 116.9  74.6  76.7 143.3  36.1  54.9          
 REMARK 620 N                    1     2     3     4     5     6     7           
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA A3004  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH D3243   O                                                      
-REMARK 620 2 GLU A 211   O    74.3                                              
-REMARK 620 3 HOH A3031   O   136.6  65.9                                        
-REMARK 620 4 HOH D3189   O    94.3  67.2  55.1                                  
+REMARK 620 1 GLU A 211   O                                                      
+REMARK 620 2 HOH A3031   O    65.9                                              
+REMARK 620 3 HOH D3189   O    67.2  55.1                                        
+REMARK 620 4 HOH D3243   O    74.3 136.6  94.3                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA A3009  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU A 323   OE1                                                    
-REMARK 620 2 HOH A3195   O    70.1                                              
-REMARK 620 3 SER A 301   O    77.2 134.2                                        
-REMARK 620 4 GLU B 323   OE2 146.4 110.2  80.9                                  
-REMARK 620 5  BA B3010  BA   142.4  77.8 140.4  63.7                            
+REMARK 620 1 SER A 301   O                                                      
+REMARK 620 2 GLU A 323   OE1  77.2                                              
+REMARK 620 3 HOH A3195   O   134.2  70.1                                        
+REMARK 620 4 GLU B 323   OE2  80.9 146.4 110.2                                  
+REMARK 620 5  BA B3010  BA   140.4 142.4  77.8  63.7                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -529,50 +518,67 @@ REMARK 620 3 SER A 363   OG   72.8  57.1
 REMARK 620 N                    1     2                                         
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              BA F3007  BA                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH A3195   O                                                      
+REMARK 620 2 HOH F3064   O    85.3                                              
+REMARK 620 N                    1                                               
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              BA F3008  BA                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 HOH A3195   O                                                      
+REMARK 620 2 SER F 301   O    78.3                                              
+REMARK 620 3 GLU F 323   OE1 151.6  93.4                                        
+REMARK 620 4 GLU F 323   OE2 112.2 106.2  43.7                                  
+REMARK 620 5 HOH F3064   O    92.0 149.3  81.3  50.5                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA B3002  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 SER B 121   O                                                      
-REMARK 620 2 TRP B 233   O    61.7                                              
-REMARK 620 3 ASP B 122   OD1  78.0 137.3                                        
-REMARK 620 4 HOH B3020   O   128.8 148.6  69.2                                  
-REMARK 620 5 HOH B3098   O    75.6  78.6 105.7  76.9                            
-REMARK 620 6 HOH B3127   O    70.9  85.8  67.1 125.1 146.4                      
-REMARK 620 7 HOH B3100   O   126.2  82.9 113.1 102.9 138.3  67.1                
-REMARK 620 8 GLU B 232   O   128.4  72.1 150.6  82.4  74.1 128.8  64.8          
+REMARK 620 2 ASP B 122   OD1  78.0                                              
+REMARK 620 3 GLU B 232   O   128.4 150.6                                        
+REMARK 620 4 TRP B 233   O    61.7 137.3  72.1                                  
+REMARK 620 5 HOH B3020   O   128.8  69.2  82.4 148.6                            
+REMARK 620 6 HOH B3098   O    75.6 105.7  74.1  78.6  76.9                      
+REMARK 620 7 HOH B3100   O   126.2 113.1  64.8  82.9 102.9 138.3                
+REMARK 620 8 HOH B3127   O    70.9  67.1 128.8  85.8 125.1 146.4  67.1          
 REMARK 620 N                    1     2     3     4     5     6     7           
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA B3010  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU B 323   OE1                                                    
-REMARK 620 2 GLU B 323   OE2  41.5                                              
-REMARK 620 3  BA F3008  BA   165.4 132.3                                        
-REMARK 620 4 HOH F3064   O   126.6 106.0  65.5                                  
-REMARK 620 5 SER B 301   O    80.5 107.9 112.9  72.7                            
+REMARK 620 1 SER B 301   O                                                      
+REMARK 620 2 GLU B 323   OE1  80.5                                              
+REMARK 620 3 GLU B 323   OE2 107.9  41.5                                        
+REMARK 620 4  BA F3008  BA   112.9 165.4 132.3                                  
+REMARK 620 5 HOH F3064   O    72.7 126.6 106.0  65.5                            
 REMARK 620 N                    1     2     3     4                             
-REMARK 620                                                                      
-REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA C3001  BA                            
-REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 TRP C 233   O                                                      
-REMARK 620 2 HOH C3124   O    86.8                                              
-REMARK 620 3 GLU C 232   O    67.9 114.8                                        
-REMARK 620 4 HOH C3164   O    80.4  56.7  60.2                                  
-REMARK 620 5 SER C 121   O    63.7  76.3 129.6 121.9                            
-REMARK 620 6 ASP C 122   OD1 138.3  96.6 141.9 135.2  76.8                      
-REMARK 620 7 HOH C3105   O    90.3 168.9  73.7 133.2  92.9  78.6                
-REMARK 620 N                    1     2     3     4     5     6                 
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA C3005  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ALA C 208   O                                                      
-REMARK 620 2 HOH B3095   O    90.0                                              
-REMARK 620 3 HOH B3217   O   128.3  65.2                                        
-REMARK 620 4 ALA C 206   O    83.1 144.8 142.3                                  
-REMARK 620 5 HOH B3275   O   133.4 126.4  63.0  80.4                            
-REMARK 620 6 HOH C3259   O    56.7 130.9 105.7  72.0  76.7                      
+REMARK 620 1 HOH B3095   O                                                      
+REMARK 620 2 HOH B3217   O    65.2                                              
+REMARK 620 3 HOH B3275   O   126.4  63.0                                        
+REMARK 620 4 ALA C 206   O   144.8 142.3  80.4                                  
+REMARK 620 5 ALA C 208   O    90.0 128.3 133.4  83.1                            
+REMARK 620 6 HOH C3259   O   130.9 105.7  76.7  72.0  56.7                      
 REMARK 620 N                    1     2     3     4     5                       
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              BA C3001  BA                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 SER C 121   O                                                      
+REMARK 620 2 ASP C 122   OD1  76.8                                              
+REMARK 620 3 GLU C 232   O   129.6 141.9                                        
+REMARK 620 4 TRP C 233   O    63.7 138.3  67.9                                  
+REMARK 620 5 HOH C3105   O    92.9  78.6  73.7  90.3                            
+REMARK 620 6 HOH C3124   O    76.3  96.6 114.8  86.8 168.9                      
+REMARK 620 7 HOH C3164   O   121.9 135.2  60.2  80.4 133.2  56.7                
+REMARK 620 N                    1     2     3     4     5     6                 
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA C3011  BA                            
@@ -586,27 +592,27 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA C3013  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH E3033   O                                                      
-REMARK 620 2 HOH D3135   O    69.4                                              
-REMARK 620 3 HOH C3169   O   112.8 101.9                                        
+REMARK 620 1 HOH C3169   O                                                      
+REMARK 620 2 HOH D3135   O   101.9                                              
+REMARK 620 3 HOH E3033   O   112.8  69.4                                        
 REMARK 620 N                    1     2                                         
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA D3014  BA                            
+REMARK 620                              BA D3023  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH D3135   O                                                      
-REMARK 620 2 SER D 301   O   137.7                                              
-REMARK 620 3 GLU D 323   OE1  79.5  86.4                                        
-REMARK 620 4  BA E3012  BA    88.0 113.6 159.4                                  
-REMARK 620 5 HOH E3033   O    81.6  70.4 118.3  75.2                            
-REMARK 620 N                    1     2     3     4                             
+REMARK 620 1 GLU D 114   OE2                                                    
+REMARK 620 2 GLU D 114   O    65.2                                              
+REMARK 620 3 THR D 115   O   116.2  69.2                                        
+REMARK 620 4 MET D 117   O   140.2  90.0  79.0                                  
+REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA D3015  BA                            
+REMARK 620                              BA D3023  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASN D 286   OD1                                                    
-REMARK 620 2 HOH D3233   O    90.8                                              
-REMARK 620 N                    1                                               
+REMARK 620 1 GLU D 114   OE2                                                    
+REMARK 620 2 GLU D 114   O    59.4                                              
+REMARK 620 3 PHE D2004   O    72.8 105.7                                        
+REMARK 620 N                    1     2                                         
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA D3017  BA                            
@@ -617,45 +623,60 @@ REMARK 620 3 HOH D3251   O    82.4  57.6
 REMARK 620 N                    1     2                                         
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              BA D3015  BA                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 ASN D 286   OD1                                                    
+REMARK 620 2 HOH D3233   O    90.8                                              
+REMARK 620 N                    1                                               
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              BA D3014  BA                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 SER D 301   O                                                      
+REMARK 620 2 GLU D 323   OE1  86.4                                              
+REMARK 620 3 HOH D3135   O   137.7  79.5                                        
+REMARK 620 4  BA E3012  BA   113.6 159.4  88.0                                  
+REMARK 620 5 HOH E3033   O    70.4 118.3  81.6  75.2                            
+REMARK 620 N                    1     2     3     4                             
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA D3022  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 ASN D 360   O                                                      
-REMARK 620 2 HOH D3219   O    64.7                                              
-REMARK 620 3 SER E 363   O   141.3 131.1                                        
-REMARK 620 4 SER D 363   OG   83.5 148.2  75.5                                  
+REMARK 620 2 SER D 363   OG   83.5                                              
+REMARK 620 3 HOH D3219   O    64.7 148.2                                        
+REMARK 620 4 SER E 363   O   141.3  75.5 131.1                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA D3023  BA                            
+REMARK 620                              BA E3024  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU D 114   OE2                                                    
-REMARK 620 2 THR D 115   O   116.2                                              
-REMARK 620 3 GLU D 114   O    65.2  69.2                                        
-REMARK 620 4 MET D 117   O   140.2  79.0  90.0                                  
-REMARK 620 5 GLU D 114   OE2   0.0 116.2  65.2 140.2                            
-REMARK 620 6 GLU D 114   O    65.2  69.2   0.0  90.0  65.2                      
-REMARK 620 7 PHE D2004   O    55.7 171.6 103.6 105.9  55.7 103.6                
-REMARK 620 N                    1     2     3     4     5     6                 
-REMARK 620                                                                      
-REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA E3012  BA                            
-REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU E 323   OE1                                                    
-REMARK 620 2 GLU E 323   OE2  42.0                                              
-REMARK 620 3 HOH E3180   O    51.8  82.4                                        
-REMARK 620 4 SER E 301   O    92.2 120.2  96.2                                  
-REMARK 620 5 HOH E3188   O    83.4  74.2 130.6  62.1                            
-REMARK 620 6 HOH E3033   O    84.7  43.6 108.3 145.5  83.5                      
-REMARK 620 N                    1     2     3     4     5                       
+REMARK 620 1 GLU E 114   O                                                      
+REMARK 620 2 GLU E 114   OE2  66.2                                              
+REMARK 620 3 MET E 117   O    81.1 131.3                                        
+REMARK 620 4 HOH E3220   O    98.6 150.8  65.1                                  
+REMARK 620 5 HOH E3221   O   132.9  66.8 135.1 121.9                            
+REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA E3018  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH E3102   O                                                      
-REMARK 620 2 GLU E 232   O    58.4                                              
-REMARK 620 3 HOH E3074   O    60.7  55.5                                        
-REMARK 620 4 ASP E 122   OD1  66.6  99.7  47.9                                  
+REMARK 620 1 ASP E 122   OD1                                                    
+REMARK 620 2 GLU E 232   O    99.7                                              
+REMARK 620 3 HOH E3074   O    47.9  55.5                                        
+REMARK 620 4 HOH E3102   O    66.6  58.4  60.7                                  
 REMARK 620 N                    1     2     3                                   
+REMARK 620                                                                      
+REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
+REMARK 620                              BA E3012  BA                            
+REMARK 620 N RES CSSEQI ATOM                                                    
+REMARK 620 1 SER E 301   O                                                      
+REMARK 620 2 GLU E 323   OE1  92.2                                              
+REMARK 620 3 GLU E 323   OE2 120.2  42.0                                        
+REMARK 620 4 HOH E3033   O   145.5  84.7  43.6                                  
+REMARK 620 5 HOH E3180   O    96.2  51.8  82.4 108.3                            
+REMARK 620 6 HOH E3188   O    62.1  83.4  74.2  83.5 130.6                      
+REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA E3019  BA                            
@@ -665,142 +686,144 @@ REMARK 620 2 SER E 363   OG   59.6
 REMARK 620 N                    1                                               
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA E3024  BA                            
+REMARK 620                              BA F3025  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 MET E 117   O                                                      
-REMARK 620 2 GLU E 114   O    81.1                                              
-REMARK 620 3 HOH E3221   O   135.1 132.9                                        
-REMARK 620 4 HOH E3220   O    65.1  98.6 121.9                                  
-REMARK 620 5 GLU E 114   OE2 131.3  66.2  66.8 150.8                            
-REMARK 620 N                    1     2     3     4                             
-REMARK 620                                                                      
-REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA F3007  BA                            
-REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH F3064   O                                                      
-REMARK 620 2 HOH A3195   O    85.3                                              
-REMARK 620 N                    1                                               
-REMARK 620                                                                      
-REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA F3008  BA                            
-REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 SER F 301   O                                                      
-REMARK 620 2 GLU F 323   OE1  93.4                                              
-REMARK 620 3 GLU F 323   OE2 106.2  43.7                                        
-REMARK 620 4 HOH F3064   O   149.3  81.3  50.5                                  
-REMARK 620 5 HOH A3195   O    78.3 151.6 112.2  92.0                            
+REMARK 620 1 GLU F 114   OE1                                                    
+REMARK 620 2 GLU F 114   O    53.8                                              
+REMARK 620 3 THR F 115   O    98.8  73.0                                        
+REMARK 620 4 MET F 117   O   126.1  75.8  81.6                                  
+REMARK 620 5 PHE F2006   OXT  69.2  79.6 151.8  85.4                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              BA F3016  BA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH F3029   O                                                      
-REMARK 620 2 GLU F 232   O    72.5                                              
-REMARK 620 3 TRP F 233   O    69.6  65.7                                        
-REMARK 620 4 HOH F3140   O   135.8 128.1  84.0                                  
-REMARK 620 5 ASP F 122   OD2  99.7 135.8 153.6  88.4                            
-REMARK 620 6 HOH F3052   O    56.6  73.6 119.7 154.9  66.7                      
-REMARK 620 7 SER F 121   O    63.8 114.2  54.4  72.0  99.2 113.5                
+REMARK 620 1 SER F 121   O                                                      
+REMARK 620 2 ASP F 122   OD2  99.2                                              
+REMARK 620 3 GLU F 232   O   114.2 135.8                                        
+REMARK 620 4 TRP F 233   O    54.4 153.6  65.7                                  
+REMARK 620 5 HOH F3029   O    63.8  99.7  72.5  69.6                            
+REMARK 620 6 HOH F3052   O   113.5  66.7  73.6 119.7  56.6                      
+REMARK 620 7 HOH F3140   O    72.0  88.4 128.1  84.0 135.8 154.9                
 REMARK 620 N                    1     2     3     4     5     6                 
-REMARK 620                                                                      
-REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              BA F3025  BA                            
-REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 THR F 115   O                                                      
-REMARK 620 2 GLU F 114   OE1  98.8                                              
-REMARK 620 3 MET F 117   O    81.6 126.1                                        
-REMARK 620 4 PHE F2006   OXT 151.8  69.2  85.4                                  
-REMARK 620 5 GLU F 114   O    73.0  53.8  75.8  79.6                            
-REMARK 620 N                    1     2     3     4                             
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA A 3003                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA A 3004                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA A 3009                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA A 3020                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA B 3002                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA B 3010                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA C 3001                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA C 3005                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA C 3011                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA C 3013                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA D 3014                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA D 3015                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA D 3017                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA D 3022                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA D 3023                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA E 3012                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA E 3018                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA E 3019                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA E 3024                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA F 3006                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA F 3007                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA F 3008                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA F 3016                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE BA F 3025                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE A 2001                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE B 2002                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE C 2003                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE D 2004                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE E 2005                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: DC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE PHE F 2006                
@@ -985,37 +1008,37 @@ HET     BA  A3003       1
 HET     BA  A3004       1                                                       
 HET     BA  A3009       1                                                       
 HET     BA  A3020       1                                                       
+HET    PHE  A2001      12                                                       
 HET     BA  B3002       1                                                       
 HET     BA  B3010       1                                                       
+HET    PHE  B2002      12                                                       
 HET     BA  C3001       1                                                       
 HET     BA  C3005       1                                                       
 HET     BA  C3011       1                                                       
 HET     BA  C3013       1                                                       
+HET    PHE  C2003      12                                                       
 HET     BA  D3014       1                                                       
 HET     BA  D3015       1                                                       
 HET     BA  D3017       1                                                       
 HET     BA  D3022       1                                                       
 HET     BA  D3023       2                                                       
+HET    PHE  D2004      12                                                       
 HET     BA  E3012       1                                                       
 HET     BA  E3018       1                                                       
 HET     BA  E3019       1                                                       
 HET     BA  E3024       1                                                       
+HET    PHE  E2005      12                                                       
 HET     BA  F3006       1                                                       
 HET     BA  F3007       1                                                       
 HET     BA  F3008       1                                                       
 HET     BA  F3016       1                                                       
 HET     BA  F3021       1                                                       
 HET     BA  F3025       1                                                       
-HET    PHE  A2001      12                                                       
-HET    PHE  B2002      12                                                       
-HET    PHE  C2003      12                                                       
-HET    PHE  D2004      12                                                       
-HET    PHE  E2005      12                                                       
 HET    PHE  F2006      12                                                       
 HETNAM      BA BARIUM ION                                                       
 HETNAM     PHE PHENYLALANINE                                                    
 FORMUL   7   BA    25(BA 2+)                                                    
-FORMUL  32  PHE    6(C9 H11 N O2)                                               
+FORMUL  11  PHE    6(C9 H11 N O2)                                               
 FORMUL  38  HOH   *1407(H2 O)                                                   
 HELIX    1   1 SER A    2  ALA A   17  1                                  16    
 HELIX    2   2 CYS A   61  GLY A   77  1                                  17    
@@ -1194,117 +1217,117 @@ SHEET    2   Q 3 MET F 245  SER F 247 -1  O  SER F 247   N  PHE F  56
 SHEET    3   Q 3 TRP F 187  VAL F 188 -1  N  TRP F 187   O  VAL F 246           
 SHEET    1   R 2 TYR F 203  MET F 204  0                                        
 SHEET    2   R 2 SER F 334  GLY F 335  1  O  GLY F 335   N  TYR F 203           
-LINK        BA    BA A3003                 O   SER A 121     1555   1555  2.71  
-LINK        BA    BA A3003                 O   TRP A 233     1555   1555  3.07  
-LINK        BA    BA A3003                 OD1 ASP A 122     1555   1555  3.03  
+LINK         O   SER A 121                BA    BA A3003     1555   1555  2.71  
+LINK         OD1 ASP A 122                BA    BA A3003     1555   1555  3.03  
+LINK         O   GLU A 211                BA    BA A3004     1555   1555  2.83  
+LINK         O   GLU A 232                BA    BA A3003     1555   1555  2.72  
+LINK         O   TRP A 233                BA    BA A3003     1555   1555  3.07  
+LINK         O   SER A 301                BA    BA A3009     1555   1555  2.87  
+LINK         OE1 GLU A 323                BA    BA A3009     1555   1555  3.07  
+LINK         O   ASN A 360                BA    BA A3020     1555   1555  2.77  
+LINK         O   SER A 363                BA    BA A3020     1555   1555  3.53  
+LINK         OG  SER A 363                BA    BA A3020     1555   1555  2.66  
 LINK        BA    BA A3003                 O   HOH A3048     1555   1555  2.49  
 LINK        BA    BA A3003                 O   HOH A3149     1555   1555  1.41  
 LINK        BA    BA A3003                 O   HOH A3198     1555   1555  3.28  
-LINK        BA    BA A3003                 O   GLU A 232     1555   1555  2.72  
 LINK        BA    BA A3003                 O   HOH A3212     1555   1555  3.41  
-LINK        BA    BA A3004                 O   HOH D3243     1555   1555  2.51  
-LINK        BA    BA A3004                 O   GLU A 211     1555   1555  2.83  
 LINK        BA    BA A3004                 O   HOH A3031     1555   1555  2.53  
 LINK        BA    BA A3004                 O   HOH D3189     1555   1555  2.96  
-LINK        BA    BA A3009                 OE1 GLU A 323     1555   1555  3.07  
+LINK        BA    BA A3004                 O   HOH D3243     1555   1555  2.51  
 LINK        BA    BA A3009                 O   HOH A3195     1555   1555  3.47  
-LINK        BA    BA A3009                 O   SER A 301     1555   1555  2.87  
 LINK        BA    BA A3009                 OE2 GLU B 323     1555   1555  3.08  
 LINK        BA    BA A3009                BA    BA B3010     1555   1555  2.95  
-LINK        BA    BA A3020                 O   ASN A 360     1555   1555  2.77  
-LINK        BA    BA A3020                 O   SER A 363     1555   1555  3.53  
-LINK        BA    BA A3020                 OG  SER A 363     1555   1555  2.66  
-LINK        BA    BA B3002                 O   SER B 121     1555   1555  2.92  
-LINK        BA    BA B3002                 O   TRP B 233     1555   1555  3.13  
-LINK        BA    BA B3002                 OD1 ASP B 122     1555   1555  2.81  
+LINK         O   HOH A3195                BA    BA F3007     1555   1555  2.65  
+LINK         O   HOH A3195                BA    BA F3008     1555   1555  2.45  
+LINK         O   SER B 121                BA    BA B3002     1555   1555  2.92  
+LINK         OD1 ASP B 122                BA    BA B3002     1555   1555  2.81  
+LINK         O   GLU B 232                BA    BA B3002     1555   1555  2.69  
+LINK         O   TRP B 233                BA    BA B3002     1555   1555  3.13  
+LINK         O   SER B 301                BA    BA B3010     1555   1555  3.46  
+LINK         OE1 GLU B 323                BA    BA B3010     1555   1555  3.04  
+LINK         OE2 GLU B 323                BA    BA B3010     1555   1555  3.18  
 LINK        BA    BA B3002                 O   HOH B3020     1555   1555  1.84  
 LINK        BA    BA B3002                 O   HOH B3098     1555   1555  2.45  
-LINK        BA    BA B3002                 O   HOH B3127     1555   1555  3.01  
 LINK        BA    BA B3002                 O   HOH B3100     1555   1555  3.43  
-LINK        BA    BA B3002                 O   GLU B 232     1555   1555  2.69  
-LINK        BA    BA B3010                 OE1 GLU B 323     1555   1555  3.04  
-LINK        BA    BA B3010                 OE2 GLU B 323     1555   1555  3.18  
+LINK        BA    BA B3002                 O   HOH B3127     1555   1555  3.01  
 LINK        BA    BA B3010                BA    BA F3008     1555   1555  3.02  
 LINK        BA    BA B3010                 O   HOH F3064     1555   1555  2.45  
-LINK        BA    BA B3010                 O   SER B 301     1555   1555  3.46  
-LINK        BA    BA C3001                 O   TRP C 233     1555   1555  3.13  
-LINK        BA    BA C3001                 O   HOH C3124     1555   1555  2.97  
-LINK        BA    BA C3001                 O   GLU C 232     1555   1555  2.71  
-LINK        BA    BA C3001                 O   HOH C3164     1555   1555  3.13  
-LINK        BA    BA C3001                 O   SER C 121     1555   1555  2.97  
-LINK        BA    BA C3001                 OD1 ASP C 122     1555   1555  2.85  
+LINK         O   HOH B3095                BA    BA C3005     1555   1555  2.99  
+LINK         O   HOH B3217                BA    BA C3005     1555   1555  3.48  
+LINK         O   HOH B3275                BA    BA C3005     1555   1555  2.96  
+LINK         O   SER C 121                BA    BA C3001     1555   1555  2.97  
+LINK         OD1 ASP C 122                BA    BA C3001     1555   1555  2.85  
+LINK         O   ALA C 206                BA    BA C3005     1555   1555  2.94  
+LINK         O   ALA C 208                BA    BA C3005     1555   1555  2.77  
+LINK         O   GLU C 232                BA    BA C3001     1555   1555  2.71  
+LINK         O   TRP C 233                BA    BA C3001     1555   1555  3.13  
+LINK         O   SER C 301                BA    BA C3011     1555   1555  2.72  
+LINK         OE1 GLU C 323                BA    BA C3011     1555   1555  2.69  
+LINK         OE2 GLU C 323                BA    BA C3011     1555   1555  3.10  
 LINK        BA    BA C3001                 O   HOH C3105     1555   1555  3.03  
-LINK        BA    BA C3005                 O   ALA C 208     1555   1555  2.77  
-LINK        BA    BA C3005                 O   HOH B3095     1555   1555  2.99  
-LINK        BA    BA C3005                 O   HOH B3217     1555   1555  3.48  
-LINK        BA    BA C3005                 O   ALA C 206     1555   1555  2.94  
-LINK        BA    BA C3005                 O   HOH B3275     1555   1555  2.96  
+LINK        BA    BA C3001                 O   HOH C3124     1555   1555  2.97  
+LINK        BA    BA C3001                 O   HOH C3164     1555   1555  3.13  
 LINK        BA    BA C3005                 O   HOH C3259     1555   1555  3.02  
-LINK        BA    BA C3011                 O   SER C 301     1555   1555  2.72  
-LINK        BA    BA C3011                 OE1 GLU C 323     1555   1555  2.69  
-LINK        BA    BA C3011                 OE2 GLU C 323     1555   1555  3.10  
 LINK        BA    BA C3011                 O   HOH D3135     1555   1555  3.02  
-LINK        BA    BA C3013                 O   HOH E3033     1555   1555  3.47  
-LINK        BA    BA C3013                 O   HOH D3135     1555   1555  2.61  
 LINK        BA    BA C3013                 O   HOH C3169     1555   1555  2.99  
+LINK        BA    BA C3013                 O   HOH D3135     1555   1555  2.61  
+LINK        BA    BA C3013                 O   HOH E3033     1555   1555  3.47  
+LINK         OE2 GLU D 114                BA  A BA D3023     1555   1555  3.60  
+LINK         O   GLU D 114                BA  A BA D3023     1555   1555  2.40  
+LINK         OE2 GLU D 114                BA  B BA D3023     1555   1555  3.17  
+LINK         O   GLU D 114                BA  B BA D3023     1555   1555  3.62  
+LINK         O   THR D 115                BA  A BA D3023     1555   1555  3.47  
+LINK         O   MET D 117                BA  A BA D3023     1555   1555  2.75  
+LINK         OD1 ASP D 122                BA    BA D3017     1555   1555  2.82  
+LINK         O   GLU D 232                BA    BA D3017     1555   1555  3.08  
+LINK         OD1 ASN D 286                BA    BA D3015     1555   1555  3.41  
+LINK         O   SER D 301                BA    BA D3014     1555   1555  3.06  
+LINK         OE1 GLU D 323                BA    BA D3014     1555   1555  3.30  
+LINK         O   ASN D 360                BA    BA D3022     1555   1555  2.85  
+LINK         OG  SER D 363                BA    BA D3022     1555   1555  2.84  
+LINK         O   PHE D2004                BA  B BA D3023     1555   1555  3.01  
 LINK        BA    BA D3014                 O   HOH D3135     1555   1555  2.75  
-LINK        BA    BA D3014                 O   SER D 301     1555   1555  3.06  
-LINK        BA    BA D3014                 OE1 GLU D 323     1555   1555  3.30  
 LINK        BA    BA D3014                BA    BA E3012     1555   1555  3.31  
 LINK        BA    BA D3014                 O   HOH E3033     1555   1555  2.65  
-LINK        BA    BA D3015                 OD1 ASN D 286     1555   1555  3.41  
 LINK        BA    BA D3015                 O   HOH D3233     1555   1555  2.89  
-LINK        BA    BA D3017                 OD1 ASP D 122     1555   1555  2.82  
-LINK        BA    BA D3017                 O   GLU D 232     1555   1555  3.08  
 LINK        BA    BA D3017                 O   HOH D3251     1555   1555  2.27  
-LINK        BA    BA D3022                 O   ASN D 360     1555   1555  2.85  
 LINK        BA    BA D3022                 O   HOH D3219     1555   1555  2.39  
 LINK        BA    BA D3022                 O   SER E 363     1555   1555  3.35  
-LINK        BA    BA D3022                 OG  SER D 363     1555   1555  2.84  
-LINK        BA  A BA D3023                 OE2 GLU D 114     1555   1555  3.60  
-LINK        BA  A BA D3023                 O   THR D 115     1555   1555  3.47  
-LINK        BA  A BA D3023                 O   GLU D 114     1555   1555  2.40  
-LINK        BA  A BA D3023                 O   MET D 117     1555   1555  2.75  
-LINK        BA  B BA D3023                 OE2 GLU D 114     1555   1555  3.17  
-LINK        BA  B BA D3023                 O   GLU D 114     1555   1555  3.62  
-LINK        BA  B BA D3023                 O   PHE D2004     1555   1555  3.01  
-LINK        BA    BA E3012                 OE1 GLU E 323     1555   1555  3.04  
-LINK        BA    BA E3012                 OE2 GLU E 323     1555   1555  3.09  
-LINK        BA    BA E3012                 O   HOH E3180     1555   1555  2.90  
-LINK        BA    BA E3012                 O   SER E 301     1555   1555  2.61  
-LINK        BA    BA E3012                 O   HOH E3188     1555   1555  2.81  
+LINK         O   GLU E 114                BA    BA E3024     1555   1555  2.73  
+LINK         OE2 GLU E 114                BA    BA E3024     1555   1555  3.28  
+LINK         O   MET E 117                BA    BA E3024     1555   1555  2.86  
+LINK         OD1 ASP E 122                BA    BA E3018     1555   1555  2.62  
+LINK         O   GLU E 232                BA    BA E3018     1555   1555  2.92  
+LINK         O   SER E 301                BA    BA E3012     1555   1555  2.61  
+LINK         OE1 GLU E 323                BA    BA E3012     1555   1555  3.04  
+LINK         OE2 GLU E 323                BA    BA E3012     1555   1555  3.09  
+LINK         O   ASN E 360                BA    BA E3019     1555   1555  2.99  
+LINK         OG  SER E 363                BA    BA E3019     1555   1555  2.65  
 LINK        BA    BA E3012                 O   HOH E3033     1555   1555  3.68  
-LINK        BA    BA E3018                 O   HOH E3102     1555   1555  2.51  
-LINK        BA    BA E3018                 O   GLU E 232     1555   1555  2.92  
+LINK        BA    BA E3012                 O   HOH E3180     1555   1555  2.90  
+LINK        BA    BA E3012                 O   HOH E3188     1555   1555  2.81  
 LINK        BA    BA E3018                 O   HOH E3074     1555   1555  3.48  
-LINK        BA    BA E3018                 OD1 ASP E 122     1555   1555  2.62  
-LINK        BA    BA E3019                 O   ASN E 360     1555   1555  2.99  
-LINK        BA    BA E3019                 OG  SER E 363     1555   1555  2.65  
-LINK        BA    BA E3024                 O   MET E 117     1555   1555  2.86  
-LINK        BA    BA E3024                 O   GLU E 114     1555   1555  2.73  
-LINK        BA    BA E3024                 O   HOH E3221     1555   1555  2.71  
+LINK        BA    BA E3018                 O   HOH E3102     1555   1555  2.51  
 LINK        BA    BA E3024                 O   HOH E3220     1555   1555  2.73  
-LINK        BA    BA E3024                 OE2 GLU E 114     1555   1555  3.28  
-LINK        BA    BA F3006                 O   ALA F  17     1555   1555  2.79  
+LINK        BA    BA E3024                 O   HOH E3221     1555   1555  2.71  
+LINK         O   ALA F  17                BA    BA F3006     1555   1555  2.79  
+LINK         OE1 GLU F 114                BA    BA F3025     1555   1555  3.69  
+LINK         O   GLU F 114                BA    BA F3025     1555   1555  2.74  
+LINK         O   THR F 115                BA    BA F3025     1555   1555  3.53  
+LINK         O   MET F 117                BA    BA F3025     1555   1555  2.78  
+LINK         O   SER F 121                BA    BA F3016     1555   1555  3.21  
+LINK         OD2 ASP F 122                BA    BA F3016     1555   1555  3.68  
+LINK         O   GLU F 232                BA    BA F3016     1555   1555  2.65  
+LINK         O   TRP F 233                BA    BA F3016     1555   1555  3.62  
+LINK         O   SER F 301                BA    BA F3008     1555   1555  2.85  
+LINK         OE1 GLU F 323                BA    BA F3008     1555   1555  2.98  
+LINK         OE2 GLU F 323                BA    BA F3008     1555   1555  2.89  
+LINK         OXT PHE F2006                BA    BA F3025     1555   1555  3.14  
 LINK        BA    BA F3007                 O   HOH F3064     1555   1555  3.14  
-LINK        BA    BA F3007                 O   HOH A3195     1555   1555  2.65  
-LINK        BA    BA F3008                 O   SER F 301     1555   1555  2.85  
-LINK        BA    BA F3008                 OE1 GLU F 323     1555   1555  2.98  
-LINK        BA    BA F3008                 OE2 GLU F 323     1555   1555  2.89  
 LINK        BA    BA F3008                 O   HOH F3064     1555   1555  3.00  
-LINK        BA    BA F3008                 O   HOH A3195     1555   1555  2.45  
 LINK        BA    BA F3016                 O   HOH F3029     1555   1555  2.47  
-LINK        BA    BA F3016                 O   GLU F 232     1555   1555  2.65  
-LINK        BA    BA F3016                 O   TRP F 233     1555   1555  3.62  
-LINK        BA    BA F3016                 O   HOH F3140     1555   1555  2.88  
-LINK        BA    BA F3016                 OD2 ASP F 122     1555   1555  3.68  
 LINK        BA    BA F3016                 O   HOH F3052     1555   1555  2.85  
-LINK        BA    BA F3016                 O   SER F 121     1555   1555  3.21  
-LINK        BA    BA F3025                 O   THR F 115     1555   1555  3.53  
-LINK        BA    BA F3025                 OE1 GLU F 114     1555   1555  3.69  
-LINK        BA    BA F3025                 O   MET F 117     1555   1555  2.78  
-LINK        BA    BA F3025                 OXT PHE F2006     1555   1555  3.14  
-LINK        BA    BA F3025                 O   GLU F 114     1555   1555  2.74  
+LINK        BA    BA F3016                 O   HOH F3140     1555   1555  2.88  
 CISPEP   1 PRO B  223    VAL B  224          0        -7.81                     
 CISPEP   2 PRO D  283    GLY D  284          0       -18.08                     
 CISPEP   3 MET F  204    HIS F  205          0         3.92                     
@@ -19418,5 +19441,5 @@ CONECT1774616500
 CONECT1776916500                                                                
 CONECT17781164341649816499                                                      
 CONECT1785716500                                                                
-MASTER      775    0   31   90   87    0   48    617915    6  134  168          
+MASTER      799    0   31   90   87    0   48    617871    6  134  168          
 END                                                                             

@@ -22,6 +22,7 @@ KEYWDS   2 TRANSPORTER (POT) FAMILY, PEPTIDE TRANSPORTER, PEPTIDE COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.A.LYONS,J.L.PARKER,N.SOLCAN,A.BRINTH,D.LI,S.T.A.SHAH,M.CAFFREY,     
 AUTHOR   2 S.NEWSTEAD                                                           
+REVDAT   5   20-DEC-23 4D2C    1       REMARK                                   
 REVDAT   4   25-SEP-19 4D2C    1       REMARK                                   
 REVDAT   3   21-FEB-18 4D2C    1       COMPND SOURCE REMARK DBREF               
 REVDAT   3 2                   1       SEQRES SITE   ATOM                       

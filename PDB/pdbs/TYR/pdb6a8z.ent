@@ -22,6 +22,7 @@ SOURCE  14 EXPRESSION_SYSTEM_PLASMID: PST50TR
 KEYWDS    HYDROLASE, METALLOPROTEASE, PEPTIDASE                                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.AGRAWAL,A.KUMAR,R.D.MAKDE                                           
+REVDAT   3   22-NOV-23 6A8Z    1       LINK                                     
 REVDAT   2   20-NOV-19 6A8Z    1       JRNL                                     
 REVDAT   1   17-JUL-19 6A8Z    0                                                
 JRNL        AUTH   R.AGRAWAL,V.D.GOYAL,A.KUMAR,N.K.GAUR,S.N.JAMDAR,A.KUMAR,     
@@ -436,8 +437,8 @@ REMARK 620 1 ASP B  52   OD1
 REMARK 620 2 VAL B  53   O    87.1                                              
 REMARK 620 3 ASP B 181   OD1  88.2  92.5                                        
 REMARK 620 4 PRO B 182   O   172.8  91.0  98.9                                  
-REMARK 620 5 HOH B 723   O    85.7 171.9  91.1  95.7                            
-REMARK 620 6 HOH B 720   O    84.4  91.1 171.6  88.6  84.4                      
+REMARK 620 5 HOH B 720   O    84.4  91.1 171.6  88.6                            
+REMARK 620 6 HOH B 723   O    85.7 171.9  91.1  95.7  84.4                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -712,6 +713,9 @@ LINK         O   PRO A 182                NA    NA A 503     1555   1555  2.38
 LINK         NE2 HIS A 322                ZN    ZN A 501     1555   1555  2.04  
 LINK         NE2 HIS A 326                ZN    ZN A 501     1555   1555  2.10  
 LINK         OE2 GLU A 345                ZN    ZN A 501     1555   1555  1.90  
+LINK        ZN    ZN A 501                 OXT TYR A 502     1555   1555  1.90  
+LINK        NA    NA A 503                 O   HOH A 775     1555   1555  2.31  
+LINK        NA    NA A 503                 O   HOH A 783     1555   1555  2.39  
 LINK         OD1 ASP B  52                NA    NA B 503     1555   1555  2.34  
 LINK         O   VAL B  53                NA    NA B 503     1555   1555  2.23  
 LINK         OD1 ASP B 181                NA    NA B 503     1555   1555  2.21  
@@ -719,12 +723,9 @@ LINK         O   PRO B 182                NA    NA B 503     1555   1555  2.39
 LINK         NE2 HIS B 322                ZN    ZN B 501     1555   1555  2.10  
 LINK         NE2 HIS B 326                ZN    ZN B 501     1555   1555  2.10  
 LINK         OE2 GLU B 345                ZN    ZN B 501     1555   1555  1.90  
-LINK        ZN    ZN A 501                 OXT TYR A 502     1555   1555  1.90  
-LINK        NA    NA A 503                 O   HOH A 775     1555   1555  2.31  
-LINK        NA    NA A 503                 O   HOH A 783     1555   1555  2.39  
 LINK        ZN    ZN B 501                 OXT TYR B 502     1555   1555  1.84  
-LINK        NA    NA B 503                 O   HOH B 723     1555   1555  2.43  
 LINK        NA    NA B 503                 O   HOH B 720     1555   1555  2.31  
+LINK        NA    NA B 503                 O   HOH B 723     1555   1555  2.43  
 CISPEP   1 GLU A  165    PRO A  166          0         3.93                     
 CISPEP   2 GLU B  165    PRO B  166          0         3.52                     
 SITE     1 AC1  4 HIS A 322  HIS A 326  GLU A 345  TYR A 502                    

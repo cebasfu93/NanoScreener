@@ -15,13 +15,13 @@ SOURCE   7 GENE: D7;
 SOURCE   8 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
 SOURCE   9 EXPRESSION_SYSTEM_COMMON: HUMAN;                                     
 SOURCE  10 EXPRESSION_SYSTEM_TAXID: 9606;                                       
-SOURCE  11 EXPRESSION_SYSTEM_STRAIN: HEK 293;                                   
-SOURCE  12 EXPRESSION_SYSTEM_CELL_LINE: KIDNEY CELLS;                           
-SOURCE  13 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
-SOURCE  14 EXPRESSION_SYSTEM_PLASMID: VR2001                                    
+SOURCE  11 EXPRESSION_SYSTEM_CELL_LINE: HEK 293;                                
+SOURCE  12 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  13 EXPRESSION_SYSTEM_PLASMID: VR2001                                    
 KEYWDS    ODORANT-BINDING PROTEIN, ALL-HELICAL, SECRETED, ALLERGEN              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.F.ANDERSEN,E.CALVO,B.J.MANS,J.M.RIBEIRO                             
+REVDAT   6   31-MAR-21 3DYE    1       SOURCE REMARK                            
 REVDAT   5   25-OCT-17 3DYE    1       REMARK                                   
 REVDAT   4   20-FEB-13 3DYE    1       HETATM REMARK                            
 REVDAT   3   13-JUL-11 3DYE    1       VERSN                                    
@@ -39,7 +39,8 @@ REMARK   2 RESOLUTION.    1.75 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC                                               
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -3416,5 +3417,5 @@ CONECT 2486 2484 2487 2488
 CONECT 2487 2486                                                                
 CONECT 2488 2486 2489                                                           
 CONECT 2489 2488                                                                
-MASTER      294    0    8   20    2    0   12    6 2955    1   40   24          
+MASTER      295    0    8   20    2    0   12    6 2955    1   40   24          
 END                                                                             

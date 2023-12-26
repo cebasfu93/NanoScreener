@@ -23,6 +23,7 @@ KEYWDS   3 DOMAIN, TRANSFERASE, TRANSFERASE-TRANSFERASE INHIBITOR COMPLEX,
 KEYWDS   4 ALLOSTERIC REGULATION                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    P.J.CROSS,R.C.J.DOBSON,M.L.PATCHETT,E.J.PARKER                        
+REVDAT   3   01-NOV-23 3PG9    1       REMARK                                   
 REVDAT   2   22-AUG-12 3PG9    1       JRNL   VERSN                             
 REVDAT   1   26-JAN-11 3PG9    0                                                
 JRNL        AUTH   P.J.CROSS,R.C.J.DOBSON,M.L.PATCHETT,E.J.PARKER               
@@ -37,15 +38,14 @@ REMARK   2 RESOLUTION.    2.35 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.1_357)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -113,7 +113,7 @@ REMARK   3
 REMARK   3  TLS DETAILS                                                         
 REMARK   3   NUMBER OF TLS GROUPS  : 56                                         
 REMARK   3   TLS GROUP : 1                                                      
-REMARK   3    SELECTION: (chain A and resid 1:34)                               
+REMARK   3    SELECTION: (CHAIN A AND RESID 1:34)                               
 REMARK   3    ORIGIN FOR THE GROUP (A): -13.9390  47.9413  29.7771              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2968 T22:   0.1004                                     
@@ -128,7 +128,7 @@ REMARK   3      S11:  -0.0394 S12:   0.1624 S13:   0.5215
 REMARK   3      S21:  -0.3795 S22:   0.0268 S23:   0.1510                       
 REMARK   3      S31:  -0.9018 S32:  -0.2958 S33:   0.0056                       
 REMARK   3   TLS GROUP : 2                                                      
-REMARK   3    SELECTION: (chain A and resid 35:67)                              
+REMARK   3    SELECTION: (CHAIN A AND RESID 35:67)                              
 REMARK   3    ORIGIN FOR THE GROUP (A): -10.7325  42.8752  36.1542              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3191 T22:   0.3108                                     
@@ -143,7 +143,7 @@ REMARK   3      S11:   0.0143 S12:  -0.4316 S13:  -0.0599
 REMARK   3      S21:   0.2850 S22:   0.0273 S23:  -0.1407                       
 REMARK   3      S31:   0.0606 S32:  -0.0572 S33:  -0.0131                       
 REMARK   3   TLS GROUP : 3                                                      
-REMARK   3    SELECTION: (chain A and resid 68:130)                             
+REMARK   3    SELECTION: (CHAIN A AND RESID 68:130)                             
 REMARK   3    ORIGIN FOR THE GROUP (A):  14.1081  26.3676  62.6002              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.0261 T22:   0.0849                                     
@@ -158,7 +158,7 @@ REMARK   3      S11:  -0.0875 S12:  -0.0849 S13:  -0.0741
 REMARK   3      S21:   0.2512 S22:   0.0434 S23:  -0.2650                       
 REMARK   3      S31:  -0.1412 S32:   0.1003 S33:   0.0514                       
 REMARK   3   TLS GROUP : 4                                                      
-REMARK   3    SELECTION: (chain A and resid 131:141)                            
+REMARK   3    SELECTION: (CHAIN A AND RESID 131:141)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  -6.5492  23.9772  76.6342              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.7314 T22:   0.7348                                     
@@ -173,7 +173,7 @@ REMARK   3      S11:  -1.0482 S12:   0.5019 S13:   1.0485
 REMARK   3      S21:   0.3642 S22:  -0.3492 S23:   0.7543                       
 REMARK   3      S31:  -0.7575 S32:  -0.6259 S33:   1.2870                       
 REMARK   3   TLS GROUP : 5                                                      
-REMARK   3    SELECTION: (chain A and resid 142:205)                            
+REMARK   3    SELECTION: (CHAIN A AND RESID 142:205)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):   7.9109  33.7038  69.9063              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2264 T22:   0.1754                                     
@@ -188,7 +188,7 @@ REMARK   3      S11:  -0.1690 S12:  -0.1755 S13:   0.4063
 REMARK   3      S21:   0.4718 S22:  -0.2452 S23:  -0.0033                       
 REMARK   3      S31:  -0.7498 S32:  -0.0739 S33:   0.4067                       
 REMARK   3   TLS GROUP : 6                                                      
-REMARK   3    SELECTION: (chain A and resid 206:267)                            
+REMARK   3    SELECTION: (CHAIN A AND RESID 206:267)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):   1.9021  27.3871  52.6944              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1638 T22:   0.1079                                     
@@ -203,7 +203,7 @@ REMARK   3      S11:  -0.1210 S12:   0.0201 S13:   0.0327
 REMARK   3      S21:   0.1053 S22:   0.0363 S23:  -0.0208                       
 REMARK   3      S31:  -0.1336 S32:  -0.0209 S33:   0.1096                       
 REMARK   3   TLS GROUP : 7                                                      
-REMARK   3    SELECTION: (chain A and resid 268:338)                            
+REMARK   3    SELECTION: (CHAIN A AND RESID 268:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  10.6007  13.1089  61.9885              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1441 T22:   0.0768                                     
@@ -218,7 +218,7 @@ REMARK   3      S11:   0.0408 S12:   0.0670 S13:  -0.2276
 REMARK   3      S21:   0.1286 S22:  -0.1090 S23:  -0.3645                       
 REMARK   3      S31:   0.3652 S32:  -0.1345 S33:   0.0246                       
 REMARK   3   TLS GROUP : 8                                                      
-REMARK   3    SELECTION: (chain B and resid 1:51)                               
+REMARK   3    SELECTION: (CHAIN B AND RESID 1:51)                               
 REMARK   3    ORIGIN FOR THE GROUP (A): -26.2202  -3.6034  68.7566              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2949 T22:   0.2943                                     
@@ -233,7 +233,7 @@ REMARK   3      S11:   0.1588 S12:  -0.1783 S13:  -0.3806
 REMARK   3      S21:  -0.0883 S22:  -0.0392 S23:   0.7488                       
 REMARK   3      S31:   0.1446 S32:  -0.1901 S33:  -0.1563                       
 REMARK   3   TLS GROUP : 9                                                      
-REMARK   3    SELECTION: (chain B and resid 52:78)                              
+REMARK   3    SELECTION: (CHAIN B AND RESID 52:78)                              
 REMARK   3    ORIGIN FOR THE GROUP (A): -16.8049  -2.8566  59.4517              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2130 T22:   0.1008                                     
@@ -248,7 +248,7 @@ REMARK   3      S11:  -0.0665 S12:  -0.1063 S13:  -0.2587
 REMARK   3      S21:  -0.2029 S22:   0.2154 S23:   0.1466                       
 REMARK   3      S31:   0.0978 S32:  -0.0474 S33:  -0.0621                       
 REMARK   3   TLS GROUP : 10                                                     
-REMARK   3    SELECTION: (chain B and resid 79:125)                             
+REMARK   3    SELECTION: (CHAIN B AND RESID 79:125)                             
 REMARK   3    ORIGIN FOR THE GROUP (A):   8.0571  -0.1761  30.7694              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1948 T22:   0.1360                                     
@@ -263,7 +263,7 @@ REMARK   3      S11:  -0.0515 S12:   0.1988 S13:  -0.1386
 REMARK   3      S21:  -0.2030 S22:  -0.0879 S23:  -0.2708                       
 REMARK   3      S31:   0.3197 S32:   0.3615 S33:   0.1600                       
 REMARK   3   TLS GROUP : 11                                                     
-REMARK   3    SELECTION: (chain B and resid 126:143)                            
+REMARK   3    SELECTION: (CHAIN B AND RESID 126:143)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  -9.0235   9.8143  22.1459              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.5122 T22:   0.3324                                     
@@ -278,7 +278,7 @@ REMARK   3      S11:   0.1934 S12:   0.4894 S13:   0.4162
 REMARK   3      S21:   0.4795 S22:  -0.1738 S23:   0.2223                       
 REMARK   3      S31:  -1.3140 S32:  -0.4763 S33:  -0.1518                       
 REMARK   3   TLS GROUP : 12                                                     
-REMARK   3    SELECTION: (chain B and resid 144:205)                            
+REMARK   3    SELECTION: (CHAIN B AND RESID 144:205)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  -5.8218  -3.7478  28.6783              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2882 T22:   0.1459                                     
@@ -293,7 +293,7 @@ REMARK   3      S11:  -0.0522 S12:  -0.0063 S13:  -0.0341
 REMARK   3      S21:  -0.3375 S22:  -0.0367 S23:   0.3362                       
 REMARK   3      S31:   0.3521 S32:  -0.2108 S33:   0.0785                       
 REMARK   3   TLS GROUP : 13                                                     
-REMARK   3    SELECTION: (chain B and resid 206:267)                            
+REMARK   3    SELECTION: (CHAIN B AND RESID 206:267)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  -5.6871   4.3754  46.0572              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1769 T22:   0.0814                                     
@@ -308,7 +308,7 @@ REMARK   3      S11:   0.0204 S12:  -0.1134 S13:  -0.0695
 REMARK   3      S21:  -0.0591 S22:  -0.0026 S23:   0.1694                       
 REMARK   3      S31:   0.0731 S32:  -0.0017 S33:  -0.0145                       
 REMARK   3   TLS GROUP : 14                                                     
-REMARK   3    SELECTION: (chain B and resid 268:338)                            
+REMARK   3    SELECTION: (CHAIN B AND RESID 268:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):   8.9680  11.3511  35.8750              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1490 T22:   0.1236                                     
@@ -323,7 +323,7 @@ REMARK   3      S11:   0.0796 S12:  -0.0949 S13:   0.0186
 REMARK   3      S21:  -0.0098 S22:   0.0376 S23:  -0.1685                       
 REMARK   3      S31:  -0.1603 S32:   0.0872 S33:  -0.1202                       
 REMARK   3   TLS GROUP : 15                                                     
-REMARK   3    SELECTION: (chain C and resid 1:62)                               
+REMARK   3    SELECTION: (CHAIN C AND RESID 1:62)                               
 REMARK   3    ORIGIN FOR THE GROUP (A): -28.7270  38.6609   6.1590              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2061 T22:   0.1401                                     
@@ -338,7 +338,7 @@ REMARK   3      S11:  -0.1319 S12:  -0.0724 S13:   0.0284
 REMARK   3      S21:   0.2765 S22:   0.0720 S23:   0.1022                       
 REMARK   3      S31:   0.0577 S32:  -0.0520 S33:   0.0609                       
 REMARK   3   TLS GROUP : 16                                                     
-REMARK   3    SELECTION: (chain C and resid 63:76)                              
+REMARK   3    SELECTION: (CHAIN C AND RESID 63:76)                              
 REMARK   3    ORIGIN FOR THE GROUP (A): -14.9781  23.3444   5.2666              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2128 T22:   0.1885                                     
@@ -353,7 +353,7 @@ REMARK   3      S11:  -0.3841 S12:  -0.3188 S13:   0.0906
 REMARK   3      S21:   0.8651 S22:   0.2055 S23:  -0.1497                       
 REMARK   3      S31:   0.0220 S32:   0.1984 S33:   0.1013                       
 REMARK   3   TLS GROUP : 17                                                     
-REMARK   3    SELECTION: (chain C and resid 77:129)                             
+REMARK   3    SELECTION: (CHAIN C AND RESID 77:129)                             
 REMARK   3    ORIGIN FOR THE GROUP (A):  -7.9929  -5.9656  -1.8999              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3369 T22:   0.1987                                     
@@ -368,7 +368,7 @@ REMARK   3      S11:  -0.0394 S12:  -0.0014 S13:  -0.2718
 REMARK   3      S21:   0.3927 S22:   0.2361 S23:  -0.2442                       
 REMARK   3      S31:   0.4777 S32:   0.1096 S33:  -0.2020                       
 REMARK   3   TLS GROUP : 18                                                     
-REMARK   3    SELECTION: (chain C and resid 130:142)                            
+REMARK   3    SELECTION: (CHAIN C AND RESID 130:142)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -30.8203 -10.1870  -5.3135              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4941 T22:   0.6983                                     
@@ -383,7 +383,7 @@ REMARK   3      S11:  -0.2412 S12:  -1.0450 S13:   0.1580
 REMARK   3      S21:  -0.6261 S22:   0.9142 S23:  -0.0323                       
 REMARK   3      S31:   0.0739 S32:  -0.0442 S33:  -0.5649                       
 REMARK   3   TLS GROUP : 19                                                     
-REMARK   3    SELECTION: (chain C and resid 143:205)                            
+REMARK   3    SELECTION: (CHAIN C AND RESID 143:205)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -18.9212  -5.3249   5.5919              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4200 T22:   0.2632                                     
@@ -398,7 +398,7 @@ REMARK   3      S11:  -0.2148 S12:  -0.5635 S13:  -0.0502
 REMARK   3      S21:   1.1280 S22:   0.4886 S23:   0.0712                       
 REMARK   3      S31:   0.3077 S32:  -0.2613 S33:  -0.1607                       
 REMARK   3   TLS GROUP : 20                                                     
-REMARK   3    SELECTION: (chain C and resid 206:267)                            
+REMARK   3    SELECTION: (CHAIN C AND RESID 206:267)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -17.2861  11.2995  -4.2757              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1743 T22:   0.1155                                     
@@ -413,7 +413,7 @@ REMARK   3      S11:  -0.1094 S12:   0.1250 S13:  -0.0349
 REMARK   3      S21:  -0.0066 S22:   0.0746 S23:  -0.0267                       
 REMARK   3      S31:   0.1128 S32:   0.0642 S33:   0.0218                       
 REMARK   3   TLS GROUP : 21                                                     
-REMARK   3    SELECTION: (chain C and resid 268:338)                            
+REMARK   3    SELECTION: (CHAIN C AND RESID 268:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  -9.2092  -2.7176 -13.8132              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2188 T22:   0.2001                                     
@@ -428,7 +428,7 @@ REMARK   3      S11:   0.1248 S12:   0.1623 S13:  -0.1041
 REMARK   3      S21:  -0.0781 S22:   0.1350 S23:  -0.0467                       
 REMARK   3      S31:   0.2491 S32:   0.1656 S33:  -0.2144                       
 REMARK   3   TLS GROUP : 22                                                     
-REMARK   3    SELECTION: (chain D and resid 1:66)                               
+REMARK   3    SELECTION: (CHAIN D AND RESID 1:66)                               
 REMARK   3    ORIGIN FOR THE GROUP (A):  40.4940 -60.8126  39.2146              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2917 T22:   0.2010                                     
@@ -443,7 +443,7 @@ REMARK   3      S11:   0.1558 S12:   0.0020 S13:   0.0200
 REMARK   3      S21:   0.2031 S22:  -0.0280 S23:  -0.1554                       
 REMARK   3      S31:   0.0548 S32:  -0.0289 S33:  -0.0815                       
 REMARK   3   TLS GROUP : 23                                                     
-REMARK   3    SELECTION: (chain D and resid 67:125)                             
+REMARK   3    SELECTION: (CHAIN D AND RESID 67:125)                             
 REMARK   3    ORIGIN FOR THE GROUP (A):   2.0426 -40.8117  32.6247              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1761 T22:   0.3187                                     
@@ -458,7 +458,7 @@ REMARK   3      S11:  -0.3526 S12:  -0.4082 S13:  -0.0478
 REMARK   3      S21:   0.7061 S22:   0.5547 S23:   0.5887                       
 REMARK   3      S31:  -0.1825 S32:  -0.4067 S33:  -0.2456                       
 REMARK   3   TLS GROUP : 24                                                     
-REMARK   3    SELECTION: (chain D and resid 126:140)                            
+REMARK   3    SELECTION: (CHAIN D AND RESID 126:140)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  12.9951 -22.5637  27.5363              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4844 T22:   0.4326                                     
@@ -473,7 +473,7 @@ REMARK   3      S11:  -0.2830 S12:  -0.0120 S13:   0.2476
 REMARK   3      S21:  -0.4492 S22:  -0.3919 S23:  -0.0717                       
 REMARK   3      S31:  -0.3929 S32:   0.5232 S33:   0.5016                       
 REMARK   3   TLS GROUP : 25                                                     
-REMARK   3    SELECTION: (chain D and resid 141:182)                            
+REMARK   3    SELECTION: (CHAIN D AND RESID 141:182)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):   4.0681 -27.7129  37.4271              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4825 T22:   0.3678                                     
@@ -488,7 +488,7 @@ REMARK   3      S11:  -0.2225 S12:  -0.4343 S13:  -0.0599
 REMARK   3      S21:   1.0184 S22:   0.1692 S23:   0.1659                       
 REMARK   3      S31:  -0.1432 S32:  -0.0773 S33:  -0.0060                       
 REMARK   3   TLS GROUP : 26                                                     
-REMARK   3    SELECTION: (chain D and resid 183:232)                            
+REMARK   3    SELECTION: (CHAIN D AND RESID 183:232)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  17.7620 -40.6966  36.9408              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.5094 T22:   0.3489                                     
@@ -503,7 +503,7 @@ REMARK   3      S11:  -0.2910 S12:  -0.6334 S13:   0.1490
 REMARK   3      S21:   0.9039 S22:   0.4332 S23:  -0.0798                       
 REMARK   3      S31:  -0.1918 S32:  -0.2447 S33:  -0.0375                       
 REMARK   3   TLS GROUP : 27                                                     
-REMARK   3    SELECTION: (chain D and resid 233:274)                            
+REMARK   3    SELECTION: (CHAIN D AND RESID 233:274)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  13.8100 -45.0504  23.2688              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1786 T22:   0.1633                                     
@@ -518,7 +518,7 @@ REMARK   3      S11:  -0.0643 S12:  -0.0029 S13:   0.0780
 REMARK   3      S21:   0.0678 S22:   0.0196 S23:   0.1364                       
 REMARK   3      S31:  -0.1453 S32:  -0.0792 S33:   0.0081                       
 REMARK   3   TLS GROUP : 28                                                     
-REMARK   3    SELECTION: (chain D and resid 275:338)                            
+REMARK   3    SELECTION: (CHAIN D AND RESID 275:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):   0.3648 -39.1465  18.8913              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.0695 T22:   0.2684                                     
@@ -533,7 +533,7 @@ REMARK   3      S11:  -0.0135 S12:   0.1300 S13:   0.0582
 REMARK   3      S21:  -0.3336 S22:   0.2318 S23:   0.5712                       
 REMARK   3      S31:   0.0311 S32:  -0.2546 S33:  -0.1906                       
 REMARK   3   TLS GROUP : 29                                                     
-REMARK   3    SELECTION: (chain E and resid 1:67)                               
+REMARK   3    SELECTION: (CHAIN E AND RESID 1:67)                               
 REMARK   3    ORIGIN FOR THE GROUP (A):  13.0178 -19.1468   4.9205              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.0793 T22:   0.1207                                     
@@ -548,7 +548,7 @@ REMARK   3      S11:   0.0923 S12:  -0.0105 S13:   0.1545
 REMARK   3      S21:   0.0876 S22:  -0.0109 S23:   0.2290                       
 REMARK   3      S31:   0.1778 S32:  -0.3183 S33:  -0.0971                       
 REMARK   3   TLS GROUP : 30                                                     
-REMARK   3    SELECTION: (chain E and resid 68:82)                              
+REMARK   3    SELECTION: (CHAIN E AND RESID 68:82)                              
 REMARK   3    ORIGIN FOR THE GROUP (A):  36.9065 -15.2852  18.0884              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4829 T22:   0.1836                                     
@@ -563,7 +563,7 @@ REMARK   3      S11:  -0.0940 S12:  -0.1044 S13:   1.0813
 REMARK   3      S21:   0.2675 S22:  -0.4485 S23:  -0.6994                       
 REMARK   3      S31:  -1.1085 S32:   0.4745 S33:   0.6868                       
 REMARK   3   TLS GROUP : 31                                                     
-REMARK   3    SELECTION: (chain E and resid 83:136)                             
+REMARK   3    SELECTION: (CHAIN E AND RESID 83:136)                             
 REMARK   3    ORIGIN FOR THE GROUP (A):  47.7125 -30.5246  39.3035              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2770 T22:   0.2561                                     
@@ -578,7 +578,7 @@ REMARK   3      S11:  -0.1268 S12:  -0.3205 S13:  -0.0709
 REMARK   3      S21:   0.1104 S22:  -0.0165 S23:   0.0121                       
 REMARK   3      S31:  -0.0871 S32:   0.0934 S33:   0.1219                       
 REMARK   3   TLS GROUP : 32                                                     
-REMARK   3    SELECTION: (chain E and resid 137:182)                            
+REMARK   3    SELECTION: (CHAIN E AND RESID 137:182)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  39.8842 -27.5294  45.3304              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4063 T22:   0.3143                                     
@@ -593,7 +593,7 @@ REMARK   3      S11:  -0.2998 S12:  -0.2660 S13:   0.0969
 REMARK   3      S21:   0.2782 S22:   0.0579 S23:   0.2212                       
 REMARK   3      S31:  -0.2774 S32:  -0.1280 S33:   0.1573                       
 REMARK   3   TLS GROUP : 33                                                     
-REMARK   3    SELECTION: (chain E and resid 183:208)                            
+REMARK   3    SELECTION: (CHAIN E AND RESID 183:208)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  30.6135 -24.8734  33.1309              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3223 T22:   0.3786                                     
@@ -608,7 +608,7 @@ REMARK   3      S11:  -0.2048 S12:  -0.4008 S13:   0.2608
 REMARK   3      S21:   0.4668 S22:  -0.3075 S23:   0.6515                       
 REMARK   3      S31:  -0.0968 S32:  -0.5721 S33:   0.3442                       
 REMARK   3   TLS GROUP : 34                                                     
-REMARK   3    SELECTION: (chain E and resid 209:267)                            
+REMARK   3    SELECTION: (CHAIN E AND RESID 209:267)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  35.2266 -29.4192  22.1872              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1847 T22:   0.1187                                     
@@ -623,7 +623,7 @@ REMARK   3      S11:  -0.1703 S12:  -0.0269 S13:   0.0520
 REMARK   3      S21:   0.2699 S22:   0.0195 S23:   0.1069                       
 REMARK   3      S31:  -0.1255 S32:   0.0455 S33:   0.1536                       
 REMARK   3   TLS GROUP : 35                                                     
-REMARK   3    SELECTION: (chain E and resid 268:338)                            
+REMARK   3    SELECTION: (CHAIN E AND RESID 268:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  50.8763 -38.0281  29.9084              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.0903 T22:   0.1492                                     
@@ -638,7 +638,7 @@ REMARK   3      S11:   0.0074 S12:  -0.0191 S13:  -0.0339
 REMARK   3      S21:  -0.0089 S22:  -0.1291 S23:  -0.3643                       
 REMARK   3      S31:   0.2653 S32:   0.3981 S33:   0.0772                       
 REMARK   3   TLS GROUP : 36                                                     
-REMARK   3    SELECTION: (chain F and resid 1:67)                               
+REMARK   3    SELECTION: (CHAIN F AND RESID 1:67)                               
 REMARK   3    ORIGIN FOR THE GROUP (A):  -2.9335  32.0197  23.6332              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1585 T22:   0.1253                                     
@@ -653,7 +653,7 @@ REMARK   3      S11:   0.0124 S12:   0.0472 S13:  -0.1059
 REMARK   3      S21:  -0.0284 S22:  -0.0679 S23:  -0.0088                       
 REMARK   3      S31:   0.0360 S32:   0.1007 S33:   0.0378                       
 REMARK   3   TLS GROUP : 37                                                     
-REMARK   3    SELECTION: (chain F and resid 68:125)                             
+REMARK   3    SELECTION: (CHAIN F AND RESID 68:125)                             
 REMARK   3    ORIGIN FOR THE GROUP (A): -40.3335  12.8940  36.6199              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1380 T22:   0.2470                                     
@@ -668,7 +668,7 @@ REMARK   3      S11:  -0.0670 S12:   0.1889 S13:  -0.3673
 REMARK   3      S21:  -0.2816 S22:   0.1442 S23:   0.3823                       
 REMARK   3      S31:  -0.0448 S32:  -0.2300 S33:  -0.1135                       
 REMARK   3   TLS GROUP : 38                                                     
-REMARK   3    SELECTION: (chain F and resid 126:143)                            
+REMARK   3    SELECTION: (CHAIN F AND RESID 126:143)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -29.0055  -5.0262  43.9900              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1521 T22:   0.4135                                     
@@ -683,7 +683,7 @@ REMARK   3      S11:   0.2498 S12:  -0.0346 S13:   0.4261
 REMARK   3      S21:   0.2613 S22:   0.0846 S23:  -0.0554                       
 REMARK   3      S31:   0.2450 S32:   0.5972 S33:  -0.2538                       
 REMARK   3   TLS GROUP : 39                                                     
-REMARK   3    SELECTION: (chain F and resid 144:236)                            
+REMARK   3    SELECTION: (CHAIN F AND RESID 144:236)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -30.6865   6.9237  32.6398              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1752 T22:   0.1820                                     
@@ -698,7 +698,7 @@ REMARK   3      S11:   0.0047 S12:   0.3270 S13:  -0.4008
 REMARK   3      S21:  -0.3136 S22:   0.1494 S23:  -0.0434                       
 REMARK   3      S31:   0.1123 S32:   0.0846 S33:  -0.1724                       
 REMARK   3   TLS GROUP : 40                                                     
-REMARK   3    SELECTION: (chain F and resid 237:249)                            
+REMARK   3    SELECTION: (CHAIN F AND RESID 237:249)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -20.8629  15.5458  52.0485              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3087 T22:   0.2015                                     
@@ -713,7 +713,7 @@ REMARK   3      S11:   0.3344 S12:   0.1383 S13:  -0.0145
 REMARK   3      S21:   0.4669 S22:  -0.6071 S23:   0.8314                       
 REMARK   3      S31:   1.1050 S32:  -0.7497 S33:   0.1816                       
 REMARK   3   TLS GROUP : 41                                                     
-REMARK   3    SELECTION: (chain F and resid 250:269)                            
+REMARK   3    SELECTION: (CHAIN F AND RESID 250:269)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -30.3058  23.5513  38.8179              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1208 T22:   0.1290                                     
@@ -728,7 +728,7 @@ REMARK   3      S11:  -0.3438 S12:  -0.3047 S13:   0.0185
 REMARK   3      S21:  -0.0431 S22:   0.1070 S23:   0.1151                       
 REMARK   3      S31:  -0.2216 S32:  -0.2216 S33:   0.2170                       
 REMARK   3   TLS GROUP : 42                                                     
-REMARK   3    SELECTION: (chain F and resid 270:338)                            
+REMARK   3    SELECTION: (CHAIN F AND RESID 270:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A): -39.9443  13.9783  50.6449              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.0992 T22:   0.2210                                     
@@ -743,7 +743,7 @@ REMARK   3      S11:   0.1064 S12:  -0.3230 S13:  -0.2582
 REMARK   3      S21:   0.2677 S22:   0.0980 S23:   0.6048                       
 REMARK   3      S31:  -0.0741 S32:  -0.2112 S33:  -0.2372                       
 REMARK   3   TLS GROUP : 43                                                     
-REMARK   3    SELECTION: (chain G and resid 1:65)                               
+REMARK   3    SELECTION: (CHAIN G AND RESID 1:65)                               
 REMARK   3    ORIGIN FOR THE GROUP (A):   4.4927 -57.9088  57.4341              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2332 T22:   0.1704                                     
@@ -758,7 +758,7 @@ REMARK   3      S11:   0.0934 S12:   0.1753 S13:   0.0065
 REMARK   3      S21:  -0.2144 S22:   0.0259 S23:   0.0802                       
 REMARK   3      S31:  -0.1397 S32:  -0.2297 S33:  -0.0860                       
 REMARK   3   TLS GROUP : 44                                                     
-REMARK   3    SELECTION: (chain G and resid 66:91)                              
+REMARK   3    SELECTION: (CHAIN G AND RESID 66:91)                              
 REMARK   3    ORIGIN FOR THE GROUP (A):  26.0886 -33.4394  60.5885              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4404 T22:   0.3451                                     
@@ -773,7 +773,7 @@ REMARK   3      S11:  -0.2195 S12:   0.2138 S13:  -0.0548
 REMARK   3      S21:  -1.1490 S22:   0.1320 S23:  -0.4784                       
 REMARK   3      S31:   0.0205 S32:   0.1813 S33:   0.0166                       
 REMARK   3   TLS GROUP : 45                                                     
-REMARK   3    SELECTION: (chain G and resid 92:131)                             
+REMARK   3    SELECTION: (CHAIN G AND RESID 92:131)                             
 REMARK   3    ORIGIN FOR THE GROUP (A):  24.8942 -12.2579  75.4021              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2086 T22:   0.1256                                     
@@ -788,7 +788,7 @@ REMARK   3      S11:  -0.3970 S12:  -0.1622 S13:   0.1626
 REMARK   3      S21:  -0.6459 S22:   0.3438 S23:   0.0946                       
 REMARK   3      S31:  -0.8132 S32:   0.0104 S33:   0.0363                       
 REMARK   3   TLS GROUP : 46                                                     
-REMARK   3    SELECTION: (chain G and resid 132:158)                            
+REMARK   3    SELECTION: (CHAIN G AND RESID 132:158)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  14.8513  -7.7186  72.5864              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3772 T22:   0.2627                                     
@@ -803,7 +803,7 @@ REMARK   3      S11:  -0.0798 S12:   0.5146 S13:  -0.1390
 REMARK   3      S21:  -0.3384 S22:  -0.3073 S23:   0.4973                       
 REMARK   3      S31:  -0.4173 S32:  -0.5945 S33:   0.3071                       
 REMARK   3   TLS GROUP : 47                                                     
-REMARK   3    SELECTION: (chain G and resid 159:205)                            
+REMARK   3    SELECTION: (CHAIN G AND RESID 159:205)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  13.7530 -19.2993  63.8329              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3777 T22:   0.3066                                     
@@ -818,7 +818,7 @@ REMARK   3      S11:  -0.2623 S12:   0.4855 S13:  -0.0482
 REMARK   3      S21:  -0.6338 S22:   0.3470 S23:   0.2739                       
 REMARK   3      S31:  -0.1708 S32:  -0.1542 S33:  -0.0751                       
 REMARK   3   TLS GROUP : 48                                                     
-REMARK   3    SELECTION: (chain G and resid 206:267)                            
+REMARK   3    SELECTION: (CHAIN G AND RESID 206:267)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  17.3007 -33.4791  71.3711              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1645 T22:   0.1782                                     
@@ -833,7 +833,7 @@ REMARK   3      S11:  -0.1065 S12:   0.1160 S13:  -0.0891
 REMARK   3      S21:  -0.2423 S22:   0.2312 S23:  -0.0623                       
 REMARK   3      S31:  -0.0126 S32:  -0.2266 S33:  -0.1005                       
 REMARK   3   TLS GROUP : 49                                                     
-REMARK   3    SELECTION: (chain G and resid 268:338)                            
+REMARK   3    SELECTION: (CHAIN G AND RESID 268:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  27.0824 -21.5029  83.2034              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1501 T22:   0.1845                                     
@@ -848,7 +848,7 @@ REMARK   3      S11:  -0.0051 S12:  -0.1949 S13:   0.0874
 REMARK   3      S21:   0.0574 S22:   0.1420 S23:  -0.0802                       
 REMARK   3      S31:  -0.0988 S32:   0.0800 S33:  -0.1157                       
 REMARK   3   TLS GROUP : 50                                                     
-REMARK   3    SELECTION: (chain H and resid 1:66)                               
+REMARK   3    SELECTION: (CHAIN H AND RESID 1:66)                               
 REMARK   3    ORIGIN FOR THE GROUP (A):  51.3894 -11.9897 -28.2103              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3588 T22:   0.3408                                     
@@ -863,7 +863,7 @@ REMARK   3      S11:   0.2363 S12:  -0.1147 S13:  -0.2279
 REMARK   3      S21:  -0.0192 S22:   0.0341 S23:  -0.1214                       
 REMARK   3      S31:   0.3261 S32:  -0.0378 S33:  -0.1927                       
 REMARK   3   TLS GROUP : 51                                                     
-REMARK   3    SELECTION: (chain H and resid 67:125)                             
+REMARK   3    SELECTION: (CHAIN H AND RESID 67:125)                             
 REMARK   3    ORIGIN FOR THE GROUP (A):  27.0442  12.9663  -1.6697              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1637 T22:   0.2790                                     
@@ -878,7 +878,7 @@ REMARK   3      S11:   0.1999 S12:  -0.0224 S13:   0.1669
 REMARK   3      S21:   0.3518 S22:  -0.2163 S23:   0.5735                       
 REMARK   3      S31:   0.0470 S32:  -0.4619 S33:   0.1160                       
 REMARK   3   TLS GROUP : 52                                                     
-REMARK   3    SELECTION: (chain H and resid 126:144)                            
+REMARK   3    SELECTION: (CHAIN H AND RESID 126:144)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  43.8545  15.9680  12.3846              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.9904 T22:   0.4986                                     
@@ -893,7 +893,7 @@ REMARK   3      S11:   0.1640 S12:  -0.8893 S13:  -0.7431
 REMARK   3      S21:   1.0642 S22:  -0.3350 S23:  -0.4323                       
 REMARK   3      S31:   0.7211 S32:   0.5186 S33:  -0.0081                       
 REMARK   3   TLS GROUP : 53                                                     
-REMARK   3    SELECTION: (chain H and resid 145:206)                            
+REMARK   3    SELECTION: (CHAIN H AND RESID 145:206)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  34.2935   7.0639   6.9097              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4956 T22:   0.3112                                     
@@ -908,7 +908,7 @@ REMARK   3      S11:   0.2147 S12:   0.0861 S13:   0.0609
 REMARK   3      S21:   0.4167 S22:  -0.2226 S23:   0.1331                       
 REMARK   3      S31:   0.4344 S32:   0.0386 S33:   0.0371                       
 REMARK   3   TLS GROUP : 54                                                     
-REMARK   3    SELECTION: (chain H and resid 207:267)                            
+REMARK   3    SELECTION: (CHAIN H AND RESID 207:267)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  39.2658   9.8408 -10.9654              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1706 T22:   0.1486                                     
@@ -923,7 +923,7 @@ REMARK   3      S11:   0.0369 S12:   0.0048 S13:  -0.0603
 REMARK   3      S21:   0.1836 S22:  -0.0887 S23:  -0.0216                       
 REMARK   3      S31:   0.1014 S32:  -0.1561 S33:   0.0903                       
 REMARK   3   TLS GROUP : 55                                                     
-REMARK   3    SELECTION: (chain H and resid 268:297)                            
+REMARK   3    SELECTION: (CHAIN H AND RESID 268:297)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  34.1663  23.6852  -7.9387              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1737 T22:   0.1863                                     
@@ -938,7 +938,7 @@ REMARK   3      S11:   0.0973 S12:  -0.1094 S13:  -0.0766
 REMARK   3      S21:   0.0979 S22:   0.0156 S23:   0.1009                       
 REMARK   3      S31:  -0.2742 S32:   0.2292 S33:  -0.1296                       
 REMARK   3   TLS GROUP : 56                                                     
-REMARK   3    SELECTION: (chain H and resid 298:338)                            
+REMARK   3    SELECTION: (CHAIN H AND RESID 298:338)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  29.6079  27.1168  -1.1270              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2658 T22:   0.2862                                     
@@ -961,7 +961,7 @@ REMARK   4
 REMARK   4 3PG9 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 16-NOV-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB062340.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000062340.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -979,7 +979,7 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 0.9537
 REMARK 200  MONOCHROMATOR                  : NULL                               
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : AREA DETECTOR                      
+REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315R                  
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : MOSFLM                             
 REMARK 200  DATA SCALING SOFTWARE          : SCALA                              
@@ -43557,5 +43557,5 @@ CONECT20575205762057720578
 CONECT2057620575                                                                
 CONECT2057720575                                                                
 CONECT2057820575                                                                
-MASTER     1356    0   15  118  128    0   40    621129    8   22  208          
+MASTER     1355    0   15  118  128    0   40    621129    8   22  208          
 END                                                                             

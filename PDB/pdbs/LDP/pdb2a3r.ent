@@ -1,16 +1,15 @@
 HEADER    TRANSFERASE                             26-JUN-05   2A3R              
-TITLE     CRYSTAL STRUCTURE OF HUMAN SULFOTRANSFERASE SULT1A3 IN                
-TITLE    2 COMPLEX WITH DOPAMINE AND 3-PHOSPHOADENOSINE 5-PHOSPHATE             
+TITLE     CRYSTAL STRUCTURE OF HUMAN SULFOTRANSFERASE SULT1A3 IN COMPLEX WITH   
+TITLE    2 DOPAMINE AND 3-PHOSPHOADENOSINE 5-PHOSPHATE                          
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: MONOAMINE-SULFATING PHENOL SULFOTRANSFERASE;               
 COMPND   3 CHAIN: A, B;                                                         
-COMPND   4 SYNONYM: SULT1A3, ARYL SULFOTRANSFERASE 1A3,                         
-COMPND   5 SULFOTRANSFERASE, MONOAMINE-PREFERRING, M-PST,                       
-COMPND   6 THERMOLABILE PHENOL SULFOTRANSFERASE, TL-PST, PLACENTAL              
-COMPND   7 ESTROGEN SULFOTRANSFERASE, CATECHOLAMINE-SULFATING PHENOL            
-COMPND   8 SULFOTRANSFERASE, HAST3;                                             
-COMPND   9 EC: 2.8.2.1;                                                         
-COMPND  10 ENGINEERED: YES                                                      
+COMPND   4 SYNONYM: SULT1A3, ARYL SULFOTRANSFERASE 1A3, SULFOTRANSFERASE,       
+COMPND   5 MONOAMINE-PREFERRING, M-PST, THERMOLABILE PHENOL SULFOTRANSFERASE,   
+COMPND   6 TL-PST, PLACENTAL ESTROGEN SULFOTRANSFERASE, CATECHOLAMINE-SULFATING 
+COMPND   7 PHENOL SULFOTRANSFERASE, HAST3;                                      
+COMPND   8 EC: 2.8.2.1;                                                         
+COMPND   9 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
 SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
@@ -20,29 +19,26 @@ SOURCE   6 EXPRESSION_SYSTEM_TAXID: 511693;
 SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21;                                      
 SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PGEX-2TK                                  
-KEYWDS    CRYSTAL STRUCTURE, SULT1A3, DOPAMINE, COMPLEX,                        
-KEYWDS   2 SULFOTRANSFERASE                                                     
+KEYWDS    SULT1A3, DOPAMINE, COMPLEX, SULFOTRANSFERASE, TRANSFERASE             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.H.LU,H.T.LI,M.C.LIU,J.P.ZHANG,M.LI,X.M.AN,W.R.CHANG                 
+REVDAT   3   25-OCT-23 2A3R    1       REMARK SHEET                             
 REVDAT   2   24-FEB-09 2A3R    1       VERSN                                    
 REVDAT   1   30-AUG-05 2A3R    0                                                
-JRNL        AUTH   J.H.LU,H.T.LI,M.C.LIU,J.P.ZHANG,M.LI,X.M.AN,                 
-JRNL        AUTH 2 W.R.CHANG                                                    
-JRNL        TITL   CRYSTAL STRUCTURE OF HUMAN SULFOTRANSFERASE                  
-JRNL        TITL 2 SULT1A3 IN COMPLEX WITH DOPAMINE AND                         
-JRNL        TITL 3 3'-PHOSPHOADENOSINE 5'-PHOSPHATE                             
+JRNL        AUTH   J.H.LU,H.T.LI,M.C.LIU,J.P.ZHANG,M.LI,X.M.AN,W.R.CHANG        
+JRNL        TITL   CRYSTAL STRUCTURE OF HUMAN SULFOTRANSFERASE SULT1A3 IN       
+JRNL        TITL 2 COMPLEX WITH DOPAMINE AND 3'-PHOSPHOADENOSINE 5'-PHOSPHATE   
 JRNL        REF    BIOCHEM.BIOPHYS.RES.COMMUN.   V. 335   417 2005              
 JRNL        REFN                   ISSN 0006-291X                               
 JRNL        PMID   16083857                                                     
 JRNL        DOI    10.1016/J.BBRC.2005.07.091                                   
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.60 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.0                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -78,7 +74,7 @@ REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 110
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 4698                                    
+REMARK   3   PROTEIN ATOMS            : 4692                                    
 REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
 REMARK   3   HETEROGEN ATOMS          : 76                                      
 REMARK   3   SOLVENT ATOMS            : 90                                      
@@ -105,9 +101,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.46
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.009                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.57                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.570                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.77                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.89                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.890                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
 REMARK   3                                                                      
@@ -133,10 +129,10 @@ REMARK   3  TOPOLOGY FILE  1   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2A3R COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2A3R COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 30-JUN-05.                  
-REMARK 100 THE RCSB ID CODE IS RCSB033450.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000033450.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -191,8 +187,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 52.86                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.63                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 4000, MES, CALCIUM ACETATE,          
-REMARK 280  PAP, DOPAMINE, BAM, PH 6.2, VAPOR DIFFUSION, HANGING DROP,          
+REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 4000, MES, CALCIUM ACETATE, PAP,     
+REMARK 280  DOPAMINE, BAM, PH 6.2, VAPOR DIFFUSION, HANGING DROP,               
 REMARK 280  TEMPERATURE 293K                                                    
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
@@ -339,12 +335,15 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE A3P A 296                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE LDP A 297                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE A3P B 296                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE LDP B 297                 
@@ -442,14 +441,14 @@ HELIX   33  33 GLY B  262  THR B  267  5                                   6
 HELIX   34  34 THR B  269  MET B  284  1                                  16    
 SHEET    1   A 2 LEU A  12  VAL A  15  0                                        
 SHEET    2   A 2 VAL A  18  ILE A  21 -1  O  VAL A  18   N  VAL A  15           
-SHEET    1   B 4 LEU A  41  THR A  45  0                                        
-SHEET    2   B 4 LYS A 124  ALA A 129  1  O  VAL A 126   N  LEU A  42           
-SHEET    3   B 4 VAL A 188  PHE A 192  1  O  LEU A 191   N  TYR A 127           
+SHEET    1   B 3 LEU A  41  THR A  45  0                                        
+SHEET    2   B 3 LYS A 124  ALA A 129  1  O  VAL A 126   N  LEU A  42           
+SHEET    3   B 3 VAL A 188  PHE A 192  1  O  LEU A 191   N  TYR A 127           
 SHEET    1   C 2 LEU B  12  VAL B  15  0                                        
 SHEET    2   C 2 VAL B  18  ILE B  21 -1  O  LEU B  20   N  GLU B  13           
-SHEET    1   D 4 LEU B  41  THR B  45  0                                        
-SHEET    2   D 4 LYS B 124  ALA B 129  1  O  VAL B 126   N  LEU B  42           
-SHEET    3   D 4 VAL B 188  PHE B 192  1  O  LEU B 191   N  TYR B 127           
+SHEET    1   D 3 LEU B  41  THR B  45  0                                        
+SHEET    2   D 3 LYS B 124  ALA B 129  1  O  VAL B 126   N  LEU B  42           
+SHEET    3   D 3 VAL B 188  PHE B 192  1  O  LEU B 191   N  TYR B 127           
 CISPEP   1 PRO A  101    PRO A  102          0        -0.32                     
 CISPEP   2 PRO B  101    PRO B  102          0        -0.96                     
 SITE     1 AC1 22 LYS A  48  SER A  49  GLY A  50  THR A  51                    
@@ -5413,5 +5412,5 @@ CONECT 4767 4766
 CONECT 4768 4762                                                                
 CONECT 4769 4760 4770                                                           
 CONECT 4770 4769                                                                
-MASTER      313    0    4   34   10    0   18    6 4858    2   76   46          
+MASTER      315    0    4   34   10    0   18    6 4858    2   76   46          
 END                                                                             

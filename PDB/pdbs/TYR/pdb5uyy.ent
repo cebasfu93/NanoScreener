@@ -22,21 +22,26 @@ EXPDTA    X-RAY DIFFRACTION
 AUTHOR    I.G.SHABALIN,J.HOU,M.T.CYMBOROWSKI,K.KWON,D.CHRISTENDAT,              
 AUTHOR   2 A.O.GRITSUNOV,W.F.ANDERSON,W.MINOR,CENTER FOR STRUCTURAL GENOMICS OF 
 AUTHOR   3 INFECTIOUS DISEASES (CSGID)                                          
+REVDAT   4   04-OCT-23 5UYY    1       REMARK                                   
+REVDAT   3   07-APR-21 5UYY    1       JRNL                                     
 REVDAT   2   22-NOV-17 5UYY    1       REMARK                                   
 REVDAT   1   08-MAR-17 5UYY    0                                                
-JRNL        AUTH   I.G.SHABALIN,J.HOU,D.CHRISTENDAT,W.MINOR                     
-JRNL        TITL   THE CRYSTAL STRUCTURE OF BACILLUS ANTHRACIS PREPHENATE       
-JRNL        TITL 2 DEHYDROGENASE IDENTIFIED AN ACT REGULATORY DOMAIN AND A      
-JRNL        TITL 3 NOVEL MODE OF METABOLIC REGULATION FOR PROTEINS WITHIN THE   
-JRNL        TITL 4 PREPHENATE DEHYDROGENASE FAMILY OF ENZYME                    
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   I.G.SHABALIN,A.GRITSUNOV,J.HOU,J.SLAWEK,C.D.MIKS,D.R.COOPER, 
+JRNL        AUTH 2 W.MINOR,D.CHRISTENDAT                                        
+JRNL        TITL   STRUCTURAL AND BIOCHEMICAL ANALYSIS OF BACILLUS ANTHRACIS    
+JRNL        TITL 2 PREPHENATE DEHYDROGENASE REVEALS AN UNUSUAL MODE OF          
+JRNL        TITL 3 INHIBITION BY TYROSINE VIA THE ACT DOMAIN.                   
+JRNL        REF    FEBS J.                       V. 287  2235 2020              
+JRNL        REFN                   ISSN 1742-464X                               
+JRNL        PMID   31750992                                                     
+JRNL        DOI    10.1111/FEBS.15150                                           
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.60 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.8.0107                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : NULL                                          
 REMARK   3                                                                      
@@ -24354,5 +24359,5 @@ HETATM11891  O   HOH D 595      18.929  32.946   9.811  1.00 66.04           O
 HETATM11892  O   HOH D 596      44.192  18.710  22.407  1.00 52.03           O  
 HETATM11893  O   HOH D 597      32.468  19.158  48.528  1.00 45.36           O  
 HETATM11894  O   HOH D 598      34.811  12.507  19.233  1.00 68.55           O  
-MASTER      803    0    4   74   52    0   14    611890    4    0  120          
+MASTER      804    0    4   74   52    0   14    611890    4    0  120          
 END                                                                             

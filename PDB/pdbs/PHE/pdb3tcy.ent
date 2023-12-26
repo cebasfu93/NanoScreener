@@ -21,6 +21,7 @@ KEYWDS    PHENYLALANINE HYDROXYLASE, SUBSTRATE-PROTEIN COMPLEX, DISTAL SITE,
 KEYWDS   2 PHENYLALANINE BOUND STRUCTURE, OXIDOREDUCTASE                        
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.A.RONAU,M.M.ABU-OMAR,C.DAS                                          
+REVDAT   5   13-SEP-23 3TCY    1       REMARK LINK                              
 REVDAT   4   20-NOV-19 3TCY    1       SEQADV LINK                              
 REVDAT   3   28-AUG-13 3TCY    1       JRNL                                     
 REVDAT   2   31-JUL-13 3TCY    1       JRNL                                     
@@ -390,10 +391,10 @@ REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL
 REMARK 620                              CO A 299  CO                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 HIS A  22   NE2                                                    
-REMARK 620 2 HOH A 516   O    77.8                                              
-REMARK 620 3 GLU A  68   OE2  43.9  92.3                                        
-REMARK 620 4 HOH A 508   O    96.4 115.5  53.0                                  
-REMARK 620 5 HOH A 463   O   164.4  93.1 150.6  99.0                            
+REMARK 620 2 GLU A  68   OE2  43.9                                              
+REMARK 620 3 HOH A 463   O   164.4 150.6                                        
+REMARK 620 4 HOH A 508   O    96.4  53.0  99.0                                  
+REMARK 620 5 HOH A 516   O    77.8  92.3  93.1 115.5                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -403,8 +404,8 @@ REMARK 620 1 HIS A 138   NE2
 REMARK 620 2 HIS A 143   NE2  94.6                                              
 REMARK 620 3 GLU A 184   OE1  99.3  93.1                                        
 REMARK 620 4 GLU A 184   OE2 159.7  91.6  61.0                                  
-REMARK 620 5 HOH A 484   O    96.5  90.3 163.5 102.8                            
-REMARK 620 6 HOH A 457   O    88.8 173.0  92.5  87.3  83.2                      
+REMARK 620 5 HOH A 457   O    88.8 173.0  92.5  87.3                            
+REMARK 620 6 HOH A 484   O    96.5  90.3 163.5 102.8  83.2                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -497,16 +498,16 @@ SHEET    2   B 4 LEU A 187  ILE A 188 -1  N  ILE A 188   O  ARG A 195
 SHEET    3   B 4 THR A 240  ILE A 244  1  O  ILE A 244   N  LEU A 187           
 SHEET    4   B 4 ASN A 218  GLY A 221  1  N  VAL A 220   O  TYR A 241           
 LINK         NE2 HIS A  22                CO    CO A 299     1555   1555  2.03  
+LINK         OE2 GLU A  68                CO    CO A 299     1555   1455  2.06  
 LINK         NE2 HIS A 138                CO    CO A 298     1555   1555  2.00  
 LINK         NE2 HIS A 143                CO    CO A 298     1555   1555  2.11  
 LINK         OE1 GLU A 184                CO    CO A 298     1555   1555  2.22  
 LINK         OE2 GLU A 184                CO    CO A 298     1555   1555  2.10  
-LINK        CO    CO A 298                 O   HOH A 484     1555   1555  2.10  
 LINK        CO    CO A 298                 O   HOH A 457     1555   1555  2.17  
-LINK        CO    CO A 299                 O   HOH A 516     1555   1555  2.47  
-LINK         OE2 GLU A  68                CO    CO A 299     1555   1455  2.06  
-LINK        CO    CO A 299                 O   HOH A 508     1555   1655  2.12  
+LINK        CO    CO A 298                 O   HOH A 484     1555   1555  2.10  
 LINK        CO    CO A 299                 O   HOH A 463     1555   1655  2.16  
+LINK        CO    CO A 299                 O   HOH A 508     1555   1655  2.12  
+LINK        CO    CO A 299                 O   HOH A 516     1555   1555  2.47  
 SITE     1 AC1 10 ALA A 158  TYR A 159  LYS A 165  THR A 254                    
 SITE     2 AC1 10 ALA A 255  PRO A 256  ASP A 257  PHE A 258                    
 SITE     3 AC1 10 HOH A 317  HOH A 481                                          

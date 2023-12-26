@@ -1,6 +1,5 @@
 HEADER    TRANSFERASE                             06-MAY-09   3HCA              
-TITLE     CRYSTAL STRUCTURE OF E185Q HPNMT IN COMPLEX WITH OCTOPAMINE           
-TITLE    2 AND ADOHCY                                                           
+TITLE     CRYSTAL STRUCTURE OF E185Q HPNMT IN COMPLEX WITH OCTOPAMINE AND ADOHCY
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: PHENYLETHANOLAMINE N-METHYLTRANSFERASE;                    
 COMPND   3 CHAIN: A, B;                                                         
@@ -18,43 +17,42 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;
 SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3)PLYSS;                            
 SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET17 PNMT-HIS                            
-KEYWDS    METHYLTRANSFERASE, CATECHOLAMINE BIOSYNTHESIS, POLYMORPHISM,          
-KEYWDS   2 S-ADENOSYL-L-METHIONINE, TRANSFERASE                                 
+KEYWDS    METHYLTRANSFERASE, CATECHOLAMINE BIOSYNTHESIS, POLYMORPHISM, S-       
+KEYWDS   2 ADENOSYL-L-METHIONINE, TRANSFERASE                                   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.DRINKWATER,J.L.MARTIN                                               
+REVDAT   4   06-SEP-23 3HCA    1       REMARK                                   
+REVDAT   3   13-OCT-21 3HCA    1       REMARK SEQADV                            
 REVDAT   2   08-SEP-09 3HCA    1       JRNL                                     
 REVDAT   1   25-AUG-09 3HCA    0                                                
-JRNL        AUTH   N.DRINKWATER,C.L.GEE,M.PURI,K.R.CRISCIONE,                   
-JRNL        AUTH 2 M.J.MCLEISH,G.L.GRUNEWALD,J.L.MARTIN                         
+JRNL        AUTH   N.DRINKWATER,C.L.GEE,M.PURI,K.R.CRISCIONE,M.J.MCLEISH,       
+JRNL        AUTH 2 G.L.GRUNEWALD,J.L.MARTIN                                     
 JRNL        TITL   MOLECULAR RECOGNITION OF PHYSIOLOGICAL SUBSTRATE             
-JRNL        TITL 2 NORADRENALINE BY THE ADRENALINE-SYNTHESIZING ENZYME          
-JRNL        TITL 3 PNMT AND FACTORS INFLUENCING ITS METHYLTRANSFERASE           
-JRNL        TITL 4 ACTIVITY.                                                    
+JRNL        TITL 2 NORADRENALINE BY THE ADRENALINE-SYNTHESIZING ENZYME PNMT AND 
+JRNL        TITL 3 FACTORS INFLUENCING ITS METHYLTRANSFERASE ACTIVITY.          
 JRNL        REF    BIOCHEM.J.                    V. 422   463 2009              
 JRNL        REFN                   ISSN 0264-6021                               
 JRNL        PMID   19570037                                                     
 JRNL        DOI    10.1042/BJ20090702                                           
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.40 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE)                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX                                               
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.40                           
-REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 42.10                          
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 42.11                          
 REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 0.010                          
 REMARK   3   COMPLETENESS FOR RANGE        (%) : 84.6                           
 REMARK   3   NUMBER OF REFLECTIONS             : 28699                          
@@ -98,8 +96,8 @@ REMARK   3    B11 (A**2) : 5.43300
 REMARK   3    B22 (A**2) : 5.43300                                              
 REMARK   3    B33 (A**2) : -10.86600                                            
 REMARK   3    B12 (A**2) : 0.00000                                              
-REMARK   3    B13 (A**2) : -0.00000                                             
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -136,10 +134,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3HCA COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3HCA COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 11-MAY-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB052958.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 07-MAY-09.                  
+REMARK 100 THE DEPOSITION ID IS D_1000052958.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -194,8 +192,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 62.43                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.27                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PEG6K, LICL, CACODYLATE, PH 5.8,         
-REMARK 280  VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 298K                     
+REMARK 280 CRYSTALLIZATION CONDITIONS: PEG6K, LICL, CACODYLATE, PH 5.8, VAPOR   
+REMARK 280  DIFFUSION, HANGING DROP, TEMPERATURE 298K                           
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 43 21 2                        
@@ -347,7 +345,7 @@ REMARK 480 OCCUPANCY. THE LOCATION AND PROPERTIES OF THESE ATOMS
 REMARK 480 MAY NOT BE RELIABLE. (M=MODEL NUMBER; RES=RESIDUE NAME;              
 REMARK 480 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):         
 REMARK 480   M RES C SSEQI ATOMS                                                
-REMARK 480     GLU B  226   CG    CD    OE1   OE2                               
+REMARK 480     GLU B  226   CG   CD   OE1  OE2                                  
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: TORSION ANGLES                                             
@@ -378,15 +376,19 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SAH A 3001                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE OTR A 401                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO A 290                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SAH B 3002                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE OTR B 1401                
@@ -414,7 +416,7 @@ REMARK 900 RELATED ID: 3HCE   RELATED DB: PDB
 REMARK 900 RELATED ID: 3HCF   RELATED DB: PDB                                   
 DBREF  3HCA A    1   282  UNP    P11086   PNMT_HUMAN       1    282             
 DBREF  3HCA B    1   282  UNP    P11086   PNMT_HUMAN       1    282             
-SEQADV 3HCA GLN A  185  UNP  P11086    GLU   185 ENGINEERED                     
+SEQADV 3HCA GLN A  185  UNP  P11086    GLU   185 ENGINEERED MUTATION            
 SEQADV 3HCA GLU A  283  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCA HIS A  284  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCA HIS A  285  UNP  P11086              EXPRESSION TAG                 
@@ -422,7 +424,7 @@ SEQADV 3HCA HIS A  286  UNP  P11086              EXPRESSION TAG
 SEQADV 3HCA HIS A  287  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCA HIS A  288  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCA HIS A  289  UNP  P11086              EXPRESSION TAG                 
-SEQADV 3HCA GLN B  185  UNP  P11086    GLU   185 ENGINEERED                     
+SEQADV 3HCA GLN B  185  UNP  P11086    GLU   185 ENGINEERED MUTATION            
 SEQADV 3HCA GLU B  283  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCA HIS B  284  UNP  P11086              EXPRESSION TAG                 
 SEQADV 3HCA HIS B  285  UNP  P11086              EXPRESSION TAG                 
@@ -9638,5 +9640,5 @@ CONECT 4186 4185 4187 4188
 CONECT 4187 4186                                                                
 CONECT 4188 4186 4189                                                           
 CONECT 4189 4188                                                                
-MASTER      378    0    5   23   18    0   16    6 4497    2   82   46          
+MASTER      380    0    5   23   18    0   16    6 4491    2   82   46          
 END                                                                             

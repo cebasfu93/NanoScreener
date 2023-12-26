@@ -22,6 +22,7 @@ SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PT7-7
 KEYWDS    REGULATED DAH7PS, TRANSFERASE                                         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    L.C.HEYES,E.J.PARKER                                                  
+REVDAT   3   27-SEP-23 5CZS    1       LINK                                     
 REVDAT   2   01-NOV-17 5CZS    1       HEADER REMARK                            
 REVDAT   1   10-AUG-16 5CZS    0                                                
 JRNL        AUTH   L.C.HEYES,E.J.PARKER                                         
@@ -35,7 +36,8 @@ REMARK   2 RESOLUTION.    2.42 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.8.0073                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -846,6 +848,7 @@ LINK         SG  CYS A  63                MN    MN A 401     1555   1555  2.76
 LINK         NE2 HIS A 270                MN    MN A 401     1555   1555  2.16  
 LINK         OE2 GLU A 304                MN    MN A 401     1555   1555  1.97  
 LINK         OD2 ASP A 324                MN    MN A 401     1555   1555  2.05  
+LINK        MN    MN A 401                 O   HOH A 549     1555   1555  1.90  
 LINK         SG  CYS B  63                MN    MN B 401     1555   1555  2.54  
 LINK         NE2 HIS B 270                MN    MN B 401     1555   1555  2.30  
 LINK         OE2 GLU B 304                MN    MN B 401     1555   1555  2.03  
@@ -854,12 +857,11 @@ LINK         SG  CYS C  63                MN    MN C 401     1555   1555  2.65
 LINK         NE2 HIS C 270                MN    MN C 401     1555   1555  2.43  
 LINK         OE2 GLU C 304                MN    MN C 401     1555   1555  1.79  
 LINK         OD2 ASP C 324                MN    MN C 401     1555   1555  2.11  
+LINK        MN    MN C 401                 O   HOH C 520     1555   1555  1.80  
 LINK         SG  CYS D  63                MN    MN D 401     1555   1555  2.57  
 LINK         NE2 HIS D 270                MN    MN D 401     1555   1555  2.29  
 LINK         OE2 GLU D 304                MN    MN D 401     1555   1555  1.99  
 LINK         OD2 ASP D 324                MN    MN D 401     1555   1555  2.15  
-LINK        MN    MN A 401                 O   HOH A 549     1555   1555  1.90  
-LINK        MN    MN C 401                 O   HOH C 520     1555   1555  1.80  
 LINK        MN    MN D 401                 O   HOH D 567     1555   1555  2.00  
 SITE     1 AC1  6 CYS A  63  HIS A 270  GLU A 304  ASP A 324                    
 SITE     2 AC1  6 PEP A 402  HOH A 549                                          
@@ -22315,5 +22317,5 @@ CONECT1054210539
 CONECT1060310444                                                                
 CONECT1073310498                                                                
 CONECT1086010532                                                                
-MASTER      568    0   16   50   50    0   38    610881    4   85  108          
+MASTER      569    0   16   50   50    0   38    610881    4   85  108          
 END                                                                             

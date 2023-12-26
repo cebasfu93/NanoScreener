@@ -28,16 +28,31 @@ SOURCE  14 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    AROMATIC AMINO ACID DECARBOXYLASE, LYASE                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.P.TORRENS-SPENCE,Y.CHIANG,T.SMITH,M.A.VICENT,Y.WANG,J.K.WENG        
+REVDAT   7   15-NOV-23 6EEM    1       REMARK                                   
+REVDAT   6   11-OCT-23 6EEM    1       JRNL                                     
+REVDAT   5   03-JUN-20 6EEM    1       JRNL                                     
+REVDAT   4   20-MAY-20 6EEM    1       JRNL                                     
 REVDAT   3   01-JAN-20 6EEM    1       REMARK                                   
 REVDAT   2   02-OCT-19 6EEM    1       JRNL                                     
 REVDAT   1   19-SEP-18 6EEM    0                                                
-JRNL        AUTH   M.P.TORRENS-SPENCE,Y.-C.CHIANG,T.SMITH,M.A.VICENT,Y.WANG,    
+JRNL        AUTH   M.P.TORRENS-SPENCE,Y.C.CHIANG,T.SMITH,M.A.VICENT,Y.WANG,     
 JRNL        AUTH 2 J.K.WENG                                                     
-JRNL        TITL   STRUCTURAL BASIS FOR INDEPENDENT ORIGINS OF NEW CATALYTIC    
-JRNL        TITL 2 MACHINERIES IN PLANT AAAD PROTEINS                           
-JRNL        REF    BIORXIV                                    2019              
-JRNL        REFN                                                                
-JRNL        DOI    10.1101/404970                                               
+JRNL        TITL   STRUCTURAL BASIS FOR DIVERGENT AND CONVERGENT EVOLUTION OF   
+JRNL        TITL 2 CATALYTIC MACHINERIES IN PLANT AROMATIC AMINO ACID           
+JRNL        TITL 3 DECARBOXYLASE PROTEINS.                                      
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 117 10806 2020              
+JRNL        REFN                   ESSN 1091-6490                               
+JRNL        PMID   32371491                                                     
+JRNL        DOI    10.1073/PNAS.1920097117                                      
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   M.P.TORRENS-SPENCE,Y.-C.CHIANG,T.SMITH,M.A.VICENT,Y.WANG,    
+REMARK   1  AUTH 2 J.K.WENG                                                     
+REMARK   1  TITL   STRUCTURAL BASIS FOR INDEPENDENT ORIGINS OF NEW CATALYTIC    
+REMARK   1  TITL 2 MACHINERIES IN PLANT AAAD PROTEINS                           
+REMARK   1  REF    BIORXIV                                    2019              
+REMARK   1  REFN                   ISSN 2692-8205                               
+REMARK   1  DOI    10.1101/404970                                               
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.61 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -16435,5 +16450,5 @@ CONECT 7759 7758
 CONECT 7760 7758                                                                
 CONECT 7761 7758                                                                
 CONECT 7762 7758                                                                
-MASTER      392    0   10   53   22    0   19    6 7952    2  105   80          
+MASTER      401    0   10   53   22    0   19    6 7952    2  105   80          
 END                                                                             

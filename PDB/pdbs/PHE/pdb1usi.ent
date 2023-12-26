@@ -16,6 +16,7 @@ KEYWDS    LEUCINE-BINDING PROTEIN, PROTEIN STRUCTURE, ABC TRANSPORT SYSTEMS,
 KEYWDS   2 TRANSPORT PROTEIN                                                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    U.MAGNUSSON,B.SALOPEK-SONDI,L.A.LUCK,S.L.MOWBRAY                      
+REVDAT   5   13-DEC-23 1USI    1       REMARK                                   
 REVDAT   4   17-JAN-18 1USI    1       REMARK                                   
 REVDAT   3   24-FEB-09 1USI    1       VERSN                                    
 REVDAT   2   04-MAR-04 1USI    1       JRNL                                     
@@ -32,7 +33,8 @@ REMARK   2 RESOLUTION.    1.80 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.1.19                                        
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -6029,5 +6031,5 @@ CONECT  386  572
 CONECT  572  386                                                                
 CONECT 2983 3169                                                                
 CONECT 3169 2983                                                                
-MASTER      341    0    2   32   28    0    6    6 5515    2    4   54          
+MASTER      342    0    2   32   28    0    6    6 5515    2    4   54          
 END                                                                             

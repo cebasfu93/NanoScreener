@@ -3,10 +3,9 @@ TITLE     COMPLEX STRUCTURE OF LF-TRANSFERASE AND PHENYLALANINE
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: LEUCYL/PHENYLALANYL-TRNA-PROTEIN TRANSFERASE;              
 COMPND   3 CHAIN: A, B;                                                         
-COMPND   4 SYNONYM: L/F-TRANSFERASE, LEUCYLTRANSFERASE,                         
-COMPND   5 PHENYALANYLTRANSFERASE;                                              
-COMPND   6 EC: 2.3.2.6;                                                         
-COMPND   7 ENGINEERED: YES                                                      
+COMPND   4 SYNONYM: L/F-TRANSFERASE, LEUCYLTRANSFERASE, PHENYALANYLTRANSFERASE; 
+COMPND   5 EC: 2.3.2.6;                                                         
+COMPND   6 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
 SOURCE   3 ORGANISM_TAXID: 562;                                                 
@@ -16,27 +15,26 @@ SOURCE   6 EXPRESSION_SYSTEM_TAXID: 469008;
 SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
 SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET-15B                                   
-KEYWDS    LF-TRANSFERASE                                                        
+KEYWDS    LF-TRANSFERASE, TRANSFERASE                                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    K.WATANABE,Y.TOH,K.TOMITA                                             
+REVDAT   3   01-NOV-23 2Z3O    1       REMARK                                   
 REVDAT   2   24-FEB-09 2Z3O    1       VERSN                                    
 REVDAT   1   23-OCT-07 2Z3O    0                                                
-JRNL        AUTH   K.WATANABE,Y.TOH,K.SUTO,Y.SHIMIZU,N.OKA,T.WADA,              
-JRNL        AUTH 2 K.TOMITA                                                     
-JRNL        TITL   PROTEIN-BASED PEPTIDE-BOND FORMATION BY                      
-JRNL        TITL 2 AMINOACYL-TRNA PROTEIN TRANSFERASE                           
+JRNL        AUTH   K.WATANABE,Y.TOH,K.SUTO,Y.SHIMIZU,N.OKA,T.WADA,K.TOMITA      
+JRNL        TITL   PROTEIN-BASED PEPTIDE-BOND FORMATION BY AMINOACYL-TRNA       
+JRNL        TITL 2 PROTEIN TRANSFERASE                                          
 JRNL        REF    NATURE                        V. 449   867 2007              
 JRNL        REFN                   ISSN 0028-0836                               
 JRNL        PMID   17891155                                                     
 JRNL        DOI    10.1038/NATURE06167                                          
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.40 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -63,7 +61,7 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 8                            
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.40                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.51                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.0                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 2698                         
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.3710                       
 REMARK   3   BIN FREE R VALUE                    : 0.3930                       
@@ -99,9 +97,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.49
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.008                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.40                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.400                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 24.00                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.03                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.030                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -137,10 +135,10 @@ REMARK   3  TOPOLOGY FILE  6   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2Z3O COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2Z3O COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 08-JUN-07.                  
-REMARK 100 THE RCSB ID CODE IS RCSB027480.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000027480.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -182,7 +180,7 @@ REMARK 200  COMPLETENESS FOR SHELL     (%) : 100.0
 REMARK 200  DATA REDUNDANCY IN SHELL       : 7.30                               
 REMARK 200  R MERGE FOR SHELL          (I) : NULL                               
 REMARK 200  R SYM FOR SHELL            (I) : 0.10000                            
-REMARK 200  <I/SIGMA(I)> FOR SHELL         : 21.800                             
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 21.80                              
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
@@ -196,8 +194,7 @@ REMARK 280 SOLVENT CONTENT, VS   (%): 54.77
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.72                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 50MM HEPES-NA, 0.7M TRI-SODIUM           
-REMARK 280  TARTRATE, PH 8.0, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE        
-REMARK 280  293K                                                                
+REMARK 280  TARTRATE, PH 8.0, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 293K   
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 2                        
@@ -341,13 +338,13 @@ SEQRES  16 B  233  LEU GLY ALA CYS GLU ILE PRO ARG ARG ASP TYR LEU ASN
 SEQRES  17 B  233  TYR LEU ASN GLN MET ARG LEU GLY ARG LEU PRO ASN ASN          
 SEQRES  18 B  233  PHE TRP VAL PRO ARG CYS LEU PHE SER PRO GLN GLU              
 HET    PHE  A 301      12                                                       
-HET    PHE  B 401      12                                                       
 HET    TAR  A 501      10                                                       
+HET    PHE  B 401      12                                                       
 HET    TAR  B 502      10                                                       
 HETNAM     PHE PHENYLALANINE                                                    
 HETNAM     TAR D(-)-TARTARIC ACID                                               
 FORMUL   3  PHE    2(C9 H11 N O2)                                               
-FORMUL   5  TAR    2(C4 H6 O6)                                                  
+FORMUL   4  TAR    2(C4 H6 O6)                                                  
 FORMUL   7  HOH   *15(H2 O)                                                     
 HELIX    1   1 SER A   15  ALA A   19  5                                   5    
 HELIX    2   2 SER A   34  ARG A   44  1                                  11    
@@ -4108,50 +4105,50 @@ ATOM   3702  CB  PRO B 232      66.861 -27.916 -16.292  1.00 69.98           C
 ATOM   3703  CG  PRO B 232      65.888 -28.962 -16.734  1.00 73.50           C  
 ATOM   3704  CD  PRO B 232      64.635 -28.159 -16.985  1.00 70.01           C  
 TER    3705      PRO B 232                                                      
-HETATM 3706  O1  TAR A 501      13.468 -17.622 -12.949  1.00 46.98           O  
-HETATM 3707  O11 TAR A 501      12.574 -16.018 -11.731  1.00 66.47           O  
-HETATM 3708  C1  TAR A 501      12.876 -16.566 -12.911  1.00 52.60           C  
-HETATM 3709  C2  TAR A 501      12.479 -15.858 -14.188  1.00 46.07           C  
-HETATM 3710  O2  TAR A 501      12.910 -16.630 -15.302  1.00 80.69           O  
-HETATM 3711  C3  TAR A 501      10.968 -15.695 -14.286  1.00 63.01           C  
-HETATM 3712  O3  TAR A 501      10.352 -16.995 -14.292  1.00 43.37           O  
-HETATM 3713  C4  TAR A 501      10.631 -14.960 -15.566  1.00 46.50           C  
-HETATM 3714  O4  TAR A 501       9.934 -15.472 -16.409  1.00 80.37           O  
-HETATM 3715  O41 TAR A 501      11.114 -13.729 -15.769  1.00 58.73           O  
-HETATM 3716  N   PHE A 301      23.282  -7.168  -9.726  1.00 52.17           N  
-HETATM 3717  CA  PHE A 301      22.525  -8.440  -9.707  1.00 68.80           C  
-HETATM 3718  C   PHE A 301      21.264  -8.421 -10.577  1.00 71.47           C  
-HETATM 3719  O   PHE A 301      20.232  -7.895 -10.109  1.00 65.21           O  
-HETATM 3720  CB  PHE A 301      22.479  -8.984  -8.281  1.00 60.54           C  
-HETATM 3721  CG  PHE A 301      22.372 -10.483  -8.198  1.00 66.64           C  
-HETATM 3722  CD1 PHE A 301      22.857 -11.321  -9.209  1.00 59.99           C  
-HETATM 3723  CD2 PHE A 301      21.796 -11.059  -7.071  1.00 60.28           C  
-HETATM 3724  CE1 PHE A 301      22.772 -12.702  -9.096  1.00 69.21           C  
-HETATM 3725  CE2 PHE A 301      21.706 -12.432  -6.947  1.00 69.95           C  
-HETATM 3726  CZ  PHE A 301      22.192 -13.259  -7.956  1.00 66.04           C  
-HETATM 3727  OXT PHE A 301      21.333  -8.934 -11.713  1.00 86.91           O  
-HETATM 3728  O1  TAR B 502      57.599 -41.846 -22.402  1.00 39.10           O  
-HETATM 3729  O11 TAR B 502      57.510 -43.530 -20.989  1.00 66.49           O  
-HETATM 3730  C1  TAR B 502      57.405 -43.024 -22.219  1.00 54.89           C  
-HETATM 3731  C2  TAR B 502      57.041 -43.920 -23.376  1.00 46.98           C  
-HETATM 3732  O2  TAR B 502      56.980 -43.163 -24.576  1.00 88.07           O  
-HETATM 3733  C3  TAR B 502      58.078 -45.032 -23.539  1.00 65.00           C  
-HETATM 3734  O3  TAR B 502      59.385 -44.476 -23.742  1.00 56.49           O  
-HETATM 3735  C4  TAR B 502      57.707 -45.903 -24.712  1.00 31.26           C  
-HETATM 3736  O4  TAR B 502      58.478 -46.037 -25.627  1.00 69.65           O  
-HETATM 3737  O41 TAR B 502      56.520 -46.523 -24.746  1.00 80.03           O  
-HETATM 3738  N   PHE B 401      43.520 -45.286 -18.982  1.00 46.73           N  
-HETATM 3739  CA  PHE B 401      44.777 -44.499 -18.828  1.00 59.37           C  
-HETATM 3740  C   PHE B 401      46.009 -45.330 -19.234  1.00 69.10           C  
-HETATM 3741  O   PHE B 401      45.878 -46.571 -19.297  1.00 64.24           O  
-HETATM 3742  CB  PHE B 401      44.908 -44.034 -17.376  1.00 45.12           C  
-HETATM 3743  CG  PHE B 401      45.923 -42.944 -17.166  1.00 53.19           C  
-HETATM 3744  CD1 PHE B 401      45.911 -41.797 -17.962  1.00 53.11           C  
-HETATM 3745  CD2 PHE B 401      46.844 -43.027 -16.123  1.00 44.13           C  
-HETATM 3746  CE1 PHE B 401      46.799 -40.739 -17.719  1.00 44.26           C  
-HETATM 3747  CE2 PHE B 401      47.735 -41.978 -15.871  1.00 58.43           C  
-HETATM 3748  CZ  PHE B 401      47.711 -40.830 -16.671  1.00 48.88           C  
-HETATM 3749  OXT PHE B 401      47.084 -44.732 -19.483  1.00 72.50           O  
+HETATM 3706  N   PHE A 301      23.282  -7.168  -9.726  1.00 52.17           N  
+HETATM 3707  CA  PHE A 301      22.525  -8.440  -9.707  1.00 68.80           C  
+HETATM 3708  C   PHE A 301      21.264  -8.421 -10.577  1.00 71.47           C  
+HETATM 3709  O   PHE A 301      20.232  -7.895 -10.109  1.00 65.21           O  
+HETATM 3710  CB  PHE A 301      22.479  -8.984  -8.281  1.00 60.54           C  
+HETATM 3711  CG  PHE A 301      22.372 -10.483  -8.198  1.00 66.64           C  
+HETATM 3712  CD1 PHE A 301      22.857 -11.321  -9.209  1.00 59.99           C  
+HETATM 3713  CD2 PHE A 301      21.796 -11.059  -7.071  1.00 60.28           C  
+HETATM 3714  CE1 PHE A 301      22.772 -12.702  -9.096  1.00 69.21           C  
+HETATM 3715  CE2 PHE A 301      21.706 -12.432  -6.947  1.00 69.95           C  
+HETATM 3716  CZ  PHE A 301      22.192 -13.259  -7.956  1.00 66.04           C  
+HETATM 3717  OXT PHE A 301      21.333  -8.934 -11.713  1.00 86.91           O  
+HETATM 3718  O1  TAR A 501      13.468 -17.622 -12.949  1.00 46.98           O  
+HETATM 3719  O11 TAR A 501      12.574 -16.018 -11.731  1.00 66.47           O  
+HETATM 3720  C1  TAR A 501      12.876 -16.566 -12.911  1.00 52.60           C  
+HETATM 3721  C2  TAR A 501      12.479 -15.858 -14.188  1.00 46.07           C  
+HETATM 3722  O2  TAR A 501      12.910 -16.630 -15.302  1.00 80.69           O  
+HETATM 3723  C3  TAR A 501      10.968 -15.695 -14.286  1.00 63.01           C  
+HETATM 3724  O3  TAR A 501      10.352 -16.995 -14.292  1.00 43.37           O  
+HETATM 3725  C4  TAR A 501      10.631 -14.960 -15.566  1.00 46.50           C  
+HETATM 3726  O4  TAR A 501       9.934 -15.472 -16.409  1.00 80.37           O  
+HETATM 3727  O41 TAR A 501      11.114 -13.729 -15.769  1.00 58.73           O  
+HETATM 3728  N   PHE B 401      43.520 -45.286 -18.982  1.00 46.73           N  
+HETATM 3729  CA  PHE B 401      44.777 -44.499 -18.828  1.00 59.37           C  
+HETATM 3730  C   PHE B 401      46.009 -45.330 -19.234  1.00 69.10           C  
+HETATM 3731  O   PHE B 401      45.878 -46.571 -19.297  1.00 64.24           O  
+HETATM 3732  CB  PHE B 401      44.908 -44.034 -17.376  1.00 45.12           C  
+HETATM 3733  CG  PHE B 401      45.923 -42.944 -17.166  1.00 53.19           C  
+HETATM 3734  CD1 PHE B 401      45.911 -41.797 -17.962  1.00 53.11           C  
+HETATM 3735  CD2 PHE B 401      46.844 -43.027 -16.123  1.00 44.13           C  
+HETATM 3736  CE1 PHE B 401      46.799 -40.739 -17.719  1.00 44.26           C  
+HETATM 3737  CE2 PHE B 401      47.735 -41.978 -15.871  1.00 58.43           C  
+HETATM 3738  CZ  PHE B 401      47.711 -40.830 -16.671  1.00 48.88           C  
+HETATM 3739  OXT PHE B 401      47.084 -44.732 -19.483  1.00 72.50           O  
+HETATM 3740  O1  TAR B 502      57.599 -41.846 -22.402  1.00 39.10           O  
+HETATM 3741  O11 TAR B 502      57.510 -43.530 -20.989  1.00 66.49           O  
+HETATM 3742  C1  TAR B 502      57.405 -43.024 -22.219  1.00 54.89           C  
+HETATM 3743  C2  TAR B 502      57.041 -43.920 -23.376  1.00 46.98           C  
+HETATM 3744  O2  TAR B 502      56.980 -43.163 -24.576  1.00 88.07           O  
+HETATM 3745  C3  TAR B 502      58.078 -45.032 -23.539  1.00 65.00           C  
+HETATM 3746  O3  TAR B 502      59.385 -44.476 -23.742  1.00 56.49           O  
+HETATM 3747  C4  TAR B 502      57.707 -45.903 -24.712  1.00 31.26           C  
+HETATM 3748  O4  TAR B 502      58.478 -46.037 -25.627  1.00 69.65           O  
+HETATM 3749  O41 TAR B 502      56.520 -46.523 -24.746  1.00 80.03           O  
 HETATM 3750  O   HOH A 502      12.504 -25.425  -8.587  1.00 33.00           O  
 HETATM 3751  O   HOH A 503       6.724 -16.414  -8.067  1.00 40.06           O  
 HETATM 3752  O   HOH A 504      26.076   6.070   3.229  1.00 41.78           O  
@@ -4167,25 +4164,25 @@ HETATM 3761  O   HOH A 513       9.729  -4.653 -14.162  1.00 44.63           O
 HETATM 3762  O   HOH B 503      40.992 -30.514  -8.222  1.00 40.12           O  
 HETATM 3763  O   HOH B 504      23.160 -39.825 -18.152  1.00 48.99           O  
 HETATM 3764  O   HOH B 505      33.407 -23.627 -14.495  1.00 34.32           O  
-CONECT 3706 3708                                                                
-CONECT 3707 3708                                                                
-CONECT 3708 3706 3707 3709                                                      
-CONECT 3709 3708 3710 3711                                                      
-CONECT 3710 3709                                                                
-CONECT 3711 3709 3712 3713                                                      
-CONECT 3712 3711                                                                
-CONECT 3713 3711 3714 3715                                                      
-CONECT 3714 3713                                                                
-CONECT 3715 3713                                                                
-CONECT 3728 3730                                                                
-CONECT 3729 3730                                                                
-CONECT 3730 3728 3729 3731                                                      
-CONECT 3731 3730 3732 3733                                                      
-CONECT 3732 3731                                                                
-CONECT 3733 3731 3734 3735                                                      
-CONECT 3734 3733                                                                
-CONECT 3735 3733 3736 3737                                                      
-CONECT 3736 3735                                                                
-CONECT 3737 3735                                                                
-MASTER      273    0    4   19   24    0    0    6 3762    2   20   36          
+CONECT 3718 3720                                                                
+CONECT 3719 3720                                                                
+CONECT 3720 3718 3719 3721                                                      
+CONECT 3721 3720 3722 3723                                                      
+CONECT 3722 3721                                                                
+CONECT 3723 3721 3724 3725                                                      
+CONECT 3724 3723                                                                
+CONECT 3725 3723 3726 3727                                                      
+CONECT 3726 3725                                                                
+CONECT 3727 3725                                                                
+CONECT 3740 3742                                                                
+CONECT 3741 3742                                                                
+CONECT 3742 3740 3741 3743                                                      
+CONECT 3743 3742 3744 3745                                                      
+CONECT 3744 3743                                                                
+CONECT 3745 3743 3746 3747                                                      
+CONECT 3746 3745                                                                
+CONECT 3747 3745 3748 3749                                                      
+CONECT 3748 3747                                                                
+CONECT 3749 3747                                                                
+MASTER      271    0    4   19   24    0    0    6 3762    2   20   36          
 END                                                                             

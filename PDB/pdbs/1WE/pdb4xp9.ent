@@ -39,6 +39,10 @@ KEYWDS   2 MEMBRANE PROTEIN, PROTEIN TRANSPORT, TRANSPORT PROTEIN-INHIBITOR
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    P.ARAVIND,K.WANG,E.GOUAUX                                             
+REVDAT   6   27-SEP-23 4XP9    1       HETSYN                                   
+REVDAT   5   29-JUL-20 4XP9    1       COMPND REMARK HET    HETNAM              
+REVDAT   5 2                   1       HETSYN FORMUL LINK   SITE                
+REVDAT   5 3                   1       ATOM                                     
 REVDAT   4   25-NOV-15 4XP9    1       DBREF1                                   
 REVDAT   3   03-JUN-15 4XP9    1       JRNL                                     
 REVDAT   2   27-MAY-15 4XP9    1       JRNL                                     
@@ -267,7 +271,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 7120 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 39170 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -40.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: C, L, H                               
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: C, L, H, A                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -393,48 +397,6 @@ REMARK 620 4 SER C 320   OG  147.7 120.4  79.4
 REMARK 620 5 ASN C 352   OD1  83.3  88.3  97.0  82.1                            
 REMARK 620 6 HOH C 805   O    96.7  87.0  87.6 100.1 175.3                      
 REMARK 620 N                    1     2     3     4     5                       
-REMARK 800                                                                      
-REMARK 800 SITE                                                                 
-REMARK 800 SITE_IDENTIFIER: AC1                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue Y01 C 701                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC2                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue MAL C 703                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC3                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue MPO C 704                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC4                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue CLR C 705                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC5                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue 1WE C 706                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC6                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue P4G C 707                 
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC7                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue NA C 709                  
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC8                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue NA C 710                  
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AC9                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for residue CL C 711                  
-REMARK 800                                                                      
-REMARK 800 SITE_IDENTIFIER: AD1                                                 
-REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: binding site for Mono-Saccharide NAG C 702 bound   
-REMARK 800  to ASN C 141                                                        
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 4XNX   RELATED DB: PDB                                   
@@ -576,9 +538,10 @@ SEQRES  14 H  219  HIS THR PHE PRO ALA VAL LEU GLN SER ASP LEU TYR THR
 SEQRES  15 H  219  LEU SER SER SER VAL THR VAL THR SER SER THR TRP PRO          
 SEQRES  16 H  219  SER GLN SER ILE THR CYS ASN VAL ALA HIS PRO ALA SER          
 SEQRES  17 H  219  SER THR LYS VAL ASP LYS LYS ILE GLU PRO ARG                  
+HET    GLC  A   1      12                                                       
+HET    GLC  A   2      11                                                       
 HET    Y01  C 701      35                                                       
 HET    NAG  C 702      14                                                       
-HET    MAL  C 703      23                                                       
 HET    MPO  C 704      13                                                       
 HET    CLR  C 705      28                                                       
 HET    1WE  C 706      10                                                       
@@ -587,20 +550,24 @@ HET    P4G  C 708      29
 HET     NA  C 709       1                                                       
 HET     NA  C 710       1                                                       
 HET     CL  C 711       1                                                       
+HETNAM     GLC ALPHA-D-GLUCOPYRANOSE                                            
 HETNAM     Y01 CHOLESTEROL HEMISUCCINATE                                        
-HETNAM     NAG N-ACETYL-D-GLUCOSAMINE                                           
-HETNAM     MAL MALTOSE                                                          
+HETNAM     NAG 2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOPYRANOSE                         
 HETNAM     MPO 3[N-MORPHOLINO]PROPANE SULFONIC ACID                             
 HETNAM     CLR CHOLESTEROL                                                      
 HETNAM     1WE (2S)-1-PHENYLPROPAN-2-AMINE                                      
 HETNAM     P4G 1-ETHOXY-2-(2-ETHOXYETHOXY)ETHANE                                
 HETNAM      NA SODIUM ION                                                       
 HETNAM      CL CHLORIDE ION                                                     
-HETSYN     1WE DEXTROAMPHETAMINE, D-AMPHETAMINE, DEXAMPHETAMINE,                
-HETSYN   2 1WE  DEXEDRINE, DEXTROSTAT                                           
-FORMUL   4  Y01    C31 H50 O4                                                   
-FORMUL   5  NAG    C8 H15 N O6                                                  
-FORMUL   6  MAL    C12 H22 O11                                                  
+HETSYN     GLC ALPHA-D-GLUCOSE; D-GLUCOSE; GLUCOSE                              
+HETSYN     NAG N-ACETYL-BETA-D-GLUCOSAMINE; 2-ACETAMIDO-2-DEOXY-BETA-           
+HETSYN   2 NAG  D-GLUCOSE; 2-ACETAMIDO-2-DEOXY-D-GLUCOSE; 2-ACETAMIDO-          
+HETSYN   3 NAG  2-DEOXY-GLUCOSE; N-ACETYL-D-GLUCOSAMINE                         
+HETSYN     1WE DEXTROAMPHETAMINE; D-AMPHETAMINE; DEXAMPHETAMINE;                
+HETSYN   2 1WE  DEXEDRINE; DEXTROSTAT                                           
+FORMUL   4  GLC    2(C6 H12 O6)                                                 
+FORMUL   5  Y01    C31 H50 O4                                                   
+FORMUL   6  NAG    C8 H15 N O6                                                  
 FORMUL   7  MPO    C7 H15 N O4 S                                                
 FORMUL   8  CLR    C27 H46 O                                                    
 FORMUL   9  1WE    C9 H13 N                                                     
@@ -701,11 +668,12 @@ SSBOND   2 CYS L   23    CYS L   89                          1555   1555  2.11
 SSBOND   3 CYS L  135    CYS L  195                          1555   1555  2.05  
 SSBOND   4 CYS H   22    CYS H   96                          1555   1555  2.07  
 SSBOND   5 CYS H  146    CYS H  201                          1555   1555  2.05  
+LINK         ND2 ASN C 141                 C1  NAG C 702     1555   1555  1.47  
+LINK         O4  GLC A   1                 C1  GLC A   2     1555   1555  1.40  
 LINK         O   GLY C  42                NA    NA C 710     1555   1555  2.28  
 LINK         O   ALA C  44                NA    NA C 709     1555   1555  2.44  
 LINK         O   VAL C  45                NA    NA C 710     1555   1555  2.55  
 LINK         OD1 ASN C  49                NA    NA C 709     1555   1555  2.40  
-LINK         ND2 ASN C 141                 C1  NAG C 702     1555   1555  1.47  
 LINK         O   SER C 320                NA    NA C 709     1555   1555  2.79  
 LINK         OG  SER C 320                NA    NA C 709     1555   1555  2.33  
 LINK         OD1 ASN C 352                NA    NA C 709     1555   1555  2.77  
@@ -723,22 +691,6 @@ CISPEP   7 THR H  138    GLY H  139          0         3.59
 CISPEP   8 PHE H  152    PRO H  153          0        -4.73                     
 CISPEP   9 GLU H  154    PRO H  155          0         4.58                     
 CISPEP  10 TRP H  194    PRO H  195          0        -3.65                     
-SITE     1 AC1  5 TYR C 342  PHE C 350  GLY C 516  TYR C 518                    
-SITE     2 AC1  5 TRP C 519                                                     
-SITE     1 AC2  4 ARG C 133  ALA C 137  PRO C 144  TYR C 219                    
-SITE     1 AC3  1 GLU C 222                                                     
-SITE     1 AC4  5 VAL C  34  LEU C  37  LEU C 270  TYR C 273                    
-SITE     2 AC4  5 ILE C 351                                                     
-SITE     1 AC5  9 PHE C  43  ALA C  44  ASP C  46  PHE C 319                    
-SITE     2 AC5  9 SER C 320  LEU C 321  GLY C 322  PHE C 325                    
-SITE     3 AC5  9 HOH C 805                                                     
-SITE     1 AC6  1 PHE C 577                                                     
-SITE     1 AC7  5 ALA C  44  ASN C  49  SER C 320  ASN C 352                    
-SITE     2 AC7  5 HOH C 805                                                     
-SITE     1 AC8  5 GLY C  42  VAL C  45  LEU C 417  ASP C 420                    
-SITE     2 AC8  5 SER C 421                                                     
-SITE     1 AC9  4 TYR C  69  GLN C 316  SER C 320  SER C 356                    
-SITE     1 AD1  2 THR C 140  ASN C 141                                          
 CRYST1   97.348  140.748  166.760  90.00  90.00  90.00 P 21 21 21    4          
 ORIGX1      1.000000  0.000000  0.000000        0.00000                         
 ORIGX2      0.000000  1.000000  0.000000        0.00000                         
@@ -8233,78 +8185,78 @@ ATOM   7484  C   ARG H 219    -154.498-192.126 280.783  1.00123.29           C
 ATOM   7485  O   ARG H 219    -153.920-192.607 281.763  1.00121.05           O  
 ATOM   7486  CB  ARG H 219    -156.613-190.892 280.283  1.00114.64           C  
 TER    7487      ARG H 219                                                      
-HETATM 7488  CAA Y01 C 701    -137.970-139.226 206.717  1.00 84.96           C  
-HETATM 7489  CBA Y01 C 701    -138.354-140.693 206.474  1.00 83.49           C  
-HETATM 7490  CAB Y01 C 701    -137.224-141.460 205.737  1.00 75.90           C  
-HETATM 7491  CAN Y01 C 701    -138.672-141.380 207.810  1.00 89.73           C  
-HETATM 7492  CAJ Y01 C 701    -140.053-140.938 208.381  1.00 82.22           C  
-HETATM 7493  CAO Y01 C 701    -140.049-140.979 209.940  1.00 87.51           C  
-HETATM 7494  CBB Y01 C 701    -141.234-141.884 210.552  1.00 91.29           C  
-HETATM 7495  CAC Y01 C 701    -141.151-143.301 209.933  1.00 86.82           C  
-HETATM 7496  CBE Y01 C 701    -141.063-141.924 211.905  1.00 89.59           C  
-HETATM 7497  CAP Y01 C 701    -140.802-140.386 212.483  1.00 86.49           C  
-HETATM 7498  CAQ Y01 C 701    -141.836-140.217 213.642  1.00 91.63           C  
-HETATM 7499  CBG Y01 C 701    -142.159-141.727 214.061  1.00 95.45           C  
-HETATM 7500  CBI Y01 C 701    -142.405-142.393 212.707  1.00 89.20           C  
-HETATM 7501  CAE Y01 C 701    -143.516-141.605 212.073  1.00 90.93           C  
-HETATM 7502  CAU Y01 C 701    -142.846-143.731 212.753  1.00 87.78           C  
-HETATM 7503  CAS Y01 C 701    -144.022-143.967 213.882  1.00 91.66           C  
-HETATM 7504  CBF Y01 C 701    -143.507-143.522 215.236  1.00 98.63           C  
-HETATM 7505  CBD Y01 C 701    -143.146-142.073 215.208  1.00 95.09           C  
-HETATM 7506  CAK Y01 C 701    -142.480-141.578 216.597  1.00 97.01           C  
-HETATM 7507  CAI Y01 C 701    -143.329-141.913 217.770  1.00104.45           C  
-HETATM 7508  CAZ Y01 C 701    -144.149-143.403 217.755  1.00105.88           C  
-HETATM 7509  CAV Y01 C 701    -144.852-143.819 219.015  1.00107.52           C  
-HETATM 7510  CBH Y01 C 701    -144.586-143.907 216.481  1.00103.41           C  
-HETATM 7511  CAD Y01 C 701    -145.951-143.255 216.134  1.00100.30           C  
-HETATM 7512  CAT Y01 C 701    -144.769-145.415 216.531  1.00 95.18           C  
-HETATM 7513  CAR Y01 C 701    -145.639-145.844 217.753  1.00 98.92           C  
-HETATM 7514  CBC Y01 C 701    -145.064-145.317 219.093  1.00107.76           C  
-HETATM 7515  OAW Y01 C 701    -145.948-145.542 220.198  1.00113.27           O  
-HETATM 7516  CAY Y01 C 701    -146.298-146.886 220.582  1.00110.82           C  
-HETATM 7517  OAG Y01 C 701    -145.441-147.713 220.846  1.00109.17           O  
-HETATM 7518  CAM Y01 C 701    -147.789-147.258 220.676  1.00102.74           C  
-HETATM 7519  CAL Y01 C 701    -148.091-148.349 221.689  1.00107.56           C  
-HETATM 7520  CAX Y01 C 701    -148.410-149.673 221.023  1.00111.92           C  
-HETATM 7521  OAH Y01 C 701    -147.457-150.399 220.614  1.00117.22           O  
-HETATM 7522  OAF Y01 C 701    -149.619-150.050 220.872  1.00 96.12           O1-
-HETATM 7523  C1  NAG C 702    -132.711-144.476 165.758  1.00120.11           C  
-HETATM 7524  C2  NAG C 702    -133.543-144.284 164.480  1.00114.63           C  
-HETATM 7525  C3  NAG C 702    -134.885-145.009 164.587  1.00114.64           C  
-HETATM 7526  C4  NAG C 702    -134.688-146.473 164.983  1.00118.09           C  
-HETATM 7527  C5  NAG C 702    -133.766-146.588 166.201  1.00118.52           C  
-HETATM 7528  C6  NAG C 702    -133.442-148.009 166.592  1.00119.33           C  
-HETATM 7529  C7  NAG C 702    -133.484-142.336 163.002  1.00122.86           C  
-HETATM 7530  C8  NAG C 702    -133.719-140.863 162.862  1.00120.61           C  
-HETATM 7531  N2  NAG C 702    -133.747-142.858 164.199  1.00118.59           N  
-HETATM 7532  O3  NAG C 702    -135.602-144.956 163.360  1.00115.50           O  
-HETATM 7533  O4  NAG C 702    -135.923-147.102 165.327  1.00116.45           O  
-HETATM 7534  O5  NAG C 702    -132.512-145.928 165.973  1.00121.32           O  
-HETATM 7535  O6  NAG C 702    -133.323-148.146 168.003  1.00115.97           O  
-HETATM 7536  O7  NAG C 702    -133.092-143.020 162.059  1.00122.68           O  
-HETATM 7537  C1  MAL C 703    -142.225-140.933 165.648  1.00 98.50           C  
-HETATM 7538  C2  MAL C 703    -141.623-140.343 164.386  1.00103.57           C  
-HETATM 7539  C3  MAL C 703    -140.323-141.084 164.063  1.00101.00           C  
-HETATM 7540  C4  MAL C 703    -139.330-140.858 165.206  1.00100.28           C  
-HETATM 7541  C5  MAL C 703    -139.994-141.181 166.542  1.00101.45           C  
-HETATM 7542  C6  MAL C 703    -140.063-139.978 167.487  1.00101.85           C  
-HETATM 7543  O1  MAL C 703    -143.260-141.782 165.225  1.00 97.49           O  
-HETATM 7544  O2  MAL C 703    -142.596-140.446 163.356  1.00104.26           O  
-HETATM 7545  O3  MAL C 703    -139.777-140.637 162.839  1.00 97.56           O  
-HETATM 7546  O4  MAL C 703    -138.170-141.658 165.061  1.00 99.41           O  
-HETATM 7547  O5  MAL C 703    -141.286-141.736 166.329  1.00 99.39           O  
-HETATM 7548  O6  MAL C 703    -139.915-140.406 168.837  1.00 91.87           O  
-HETATM 7549  C1' MAL C 703    -146.436-143.158 167.459  1.00 93.95           C  
-HETATM 7550  C2' MAL C 703    -146.803-142.475 166.127  1.00 95.70           C  
-HETATM 7551  C3' MAL C 703    -145.573-142.391 165.215  1.00 96.01           C  
-HETATM 7552  C4' MAL C 703    -144.397-141.880 166.043  1.00101.90           C  
-HETATM 7553  C5' MAL C 703    -144.124-142.800 167.235  1.00 98.47           C  
-HETATM 7554  C6' MAL C 703    -144.064-142.032 168.560  1.00 93.69           C  
-HETATM 7555  O1' MAL C 703    -147.376-144.126 167.910  1.00 89.32           O  
-HETATM 7556  O2' MAL C 703    -147.863-143.138 165.474  1.00104.40           O  
-HETATM 7557  O3' MAL C 703    -145.750-141.542 164.096  1.00 95.63           O  
-HETATM 7558  O5' MAL C 703    -145.165-143.762 167.313  1.00102.06           O  
-HETATM 7559  O6' MAL C 703    -143.009-141.093 168.616  1.00 97.57           O  
+HETATM 7488  C1  GLC A   1    -146.436-143.158 167.459  1.00 93.95           C  
+HETATM 7489  C2  GLC A   1    -146.803-142.475 166.127  1.00 95.70           C  
+HETATM 7490  C3  GLC A   1    -145.573-142.391 165.215  1.00 96.01           C  
+HETATM 7491  C4  GLC A   1    -144.397-141.880 166.043  1.00101.90           C  
+HETATM 7492  C5  GLC A   1    -144.124-142.800 167.235  1.00 98.47           C  
+HETATM 7493  C6  GLC A   1    -144.064-142.032 168.560  1.00 93.69           C  
+HETATM 7494  O1  GLC A   1    -147.376-144.126 167.910  1.00 89.32           O  
+HETATM 7495  O2  GLC A   1    -147.863-143.138 165.474  1.00104.40           O  
+HETATM 7496  O3  GLC A   1    -145.750-141.542 164.096  1.00 95.63           O  
+HETATM 7497  O4  GLC A   1    -143.260-141.782 165.225  1.00 97.49           O  
+HETATM 7498  O5  GLC A   1    -145.165-143.762 167.313  1.00102.06           O  
+HETATM 7499  O6  GLC A   1    -143.009-141.093 168.616  1.00 97.57           O  
+HETATM 7500  C1  GLC A   2    -142.225-140.933 165.648  1.00 98.50           C  
+HETATM 7501  C2  GLC A   2    -141.623-140.343 164.386  1.00103.57           C  
+HETATM 7502  C3  GLC A   2    -140.323-141.084 164.063  1.00101.00           C  
+HETATM 7503  C4  GLC A   2    -139.330-140.858 165.206  1.00100.28           C  
+HETATM 7504  C5  GLC A   2    -139.994-141.181 166.542  1.00101.45           C  
+HETATM 7505  C6  GLC A   2    -140.063-139.978 167.487  1.00101.85           C  
+HETATM 7506  O2  GLC A   2    -142.596-140.446 163.356  1.00104.26           O  
+HETATM 7507  O3  GLC A   2    -139.777-140.637 162.839  1.00 97.56           O  
+HETATM 7508  O4  GLC A   2    -138.170-141.658 165.061  1.00 99.41           O  
+HETATM 7509  O5  GLC A   2    -141.286-141.736 166.329  1.00 99.39           O  
+HETATM 7510  O6  GLC A   2    -139.915-140.406 168.837  1.00 91.87           O  
+HETATM 7511  CAA Y01 C 701    -137.970-139.226 206.717  1.00 84.96           C  
+HETATM 7512  CBA Y01 C 701    -138.354-140.693 206.474  1.00 83.49           C  
+HETATM 7513  CAB Y01 C 701    -137.224-141.460 205.737  1.00 75.90           C  
+HETATM 7514  CAN Y01 C 701    -138.672-141.380 207.810  1.00 89.73           C  
+HETATM 7515  CAJ Y01 C 701    -140.053-140.938 208.381  1.00 82.22           C  
+HETATM 7516  CAO Y01 C 701    -140.049-140.979 209.940  1.00 87.51           C  
+HETATM 7517  CBB Y01 C 701    -141.234-141.884 210.552  1.00 91.29           C  
+HETATM 7518  CAC Y01 C 701    -141.151-143.301 209.933  1.00 86.82           C  
+HETATM 7519  CBE Y01 C 701    -141.063-141.924 211.905  1.00 89.59           C  
+HETATM 7520  CAP Y01 C 701    -140.802-140.386 212.483  1.00 86.49           C  
+HETATM 7521  CAQ Y01 C 701    -141.836-140.217 213.642  1.00 91.63           C  
+HETATM 7522  CBG Y01 C 701    -142.159-141.727 214.061  1.00 95.45           C  
+HETATM 7523  CBI Y01 C 701    -142.405-142.393 212.707  1.00 89.20           C  
+HETATM 7524  CAE Y01 C 701    -143.516-141.605 212.073  1.00 90.93           C  
+HETATM 7525  CAU Y01 C 701    -142.846-143.731 212.753  1.00 87.78           C  
+HETATM 7526  CAS Y01 C 701    -144.022-143.967 213.882  1.00 91.66           C  
+HETATM 7527  CBF Y01 C 701    -143.507-143.522 215.236  1.00 98.63           C  
+HETATM 7528  CBD Y01 C 701    -143.146-142.073 215.208  1.00 95.09           C  
+HETATM 7529  CAK Y01 C 701    -142.480-141.578 216.597  1.00 97.01           C  
+HETATM 7530  CAI Y01 C 701    -143.329-141.913 217.770  1.00104.45           C  
+HETATM 7531  CAZ Y01 C 701    -144.149-143.403 217.755  1.00105.88           C  
+HETATM 7532  CAV Y01 C 701    -144.852-143.819 219.015  1.00107.52           C  
+HETATM 7533  CBH Y01 C 701    -144.586-143.907 216.481  1.00103.41           C  
+HETATM 7534  CAD Y01 C 701    -145.951-143.255 216.134  1.00100.30           C  
+HETATM 7535  CAT Y01 C 701    -144.769-145.415 216.531  1.00 95.18           C  
+HETATM 7536  CAR Y01 C 701    -145.639-145.844 217.753  1.00 98.92           C  
+HETATM 7537  CBC Y01 C 701    -145.064-145.317 219.093  1.00107.76           C  
+HETATM 7538  OAW Y01 C 701    -145.948-145.542 220.198  1.00113.27           O  
+HETATM 7539  CAY Y01 C 701    -146.298-146.886 220.582  1.00110.82           C  
+HETATM 7540  OAG Y01 C 701    -145.441-147.713 220.846  1.00109.17           O  
+HETATM 7541  CAM Y01 C 701    -147.789-147.258 220.676  1.00102.74           C  
+HETATM 7542  CAL Y01 C 701    -148.091-148.349 221.689  1.00107.56           C  
+HETATM 7543  CAX Y01 C 701    -148.410-149.673 221.023  1.00111.92           C  
+HETATM 7544  OAH Y01 C 701    -147.457-150.399 220.614  1.00117.22           O  
+HETATM 7545  OAF Y01 C 701    -149.619-150.050 220.872  1.00 96.12           O1-
+HETATM 7546  C1  NAG C 702    -132.711-144.476 165.758  1.00120.11           C  
+HETATM 7547  C2  NAG C 702    -133.543-144.284 164.480  1.00114.63           C  
+HETATM 7548  C3  NAG C 702    -134.885-145.009 164.587  1.00114.64           C  
+HETATM 7549  C4  NAG C 702    -134.688-146.473 164.983  1.00118.09           C  
+HETATM 7550  C5  NAG C 702    -133.766-146.588 166.201  1.00118.52           C  
+HETATM 7551  C6  NAG C 702    -133.442-148.009 166.592  1.00119.33           C  
+HETATM 7552  C7  NAG C 702    -133.484-142.336 163.002  1.00122.86           C  
+HETATM 7553  C8  NAG C 702    -133.719-140.863 162.862  1.00120.61           C  
+HETATM 7554  N2  NAG C 702    -133.747-142.858 164.199  1.00118.59           N  
+HETATM 7555  O3  NAG C 702    -135.602-144.956 163.360  1.00115.50           O  
+HETATM 7556  O4  NAG C 702    -135.923-147.102 165.327  1.00116.45           O  
+HETATM 7557  O5  NAG C 702    -132.512-145.928 165.973  1.00121.32           O  
+HETATM 7558  O6  NAG C 702    -133.323-148.146 168.003  1.00115.97           O  
+HETATM 7559  O7  NAG C 702    -133.092-143.020 162.059  1.00122.68           O  
 HETATM 7560  S1  MPO C 704    -155.520-140.557 161.923  1.00150.45           S  
 HETATM 7561  O1  MPO C 704    -156.514-140.178 160.918  1.00136.16           O  
 HETATM 7562  O2  MPO C 704    -154.004-140.267 161.296  1.00124.17           O  
@@ -8454,7 +8406,7 @@ CONECT  140 7670
 CONECT  155 7669                                                                
 CONECT  160 7670                                                                
 CONECT  191 7669                                                                
-CONECT  937 7523                                                                
+CONECT  937 7546                                                                
 CONECT  991 1065                                                                
 CONECT 1065  991                                                                
 CONECT 2026 7669                                                                
@@ -8471,78 +8423,78 @@ CONECT 5987 6584
 CONECT 6584 5987                                                                
 CONECT 6944 7354                                                                
 CONECT 7354 6944                                                                
-CONECT 7488 7489                                                                
-CONECT 7489 7488 7490 7491                                                      
-CONECT 7490 7489                                                                
-CONECT 7491 7489 7492                                                           
-CONECT 7492 7491 7493                                                           
-CONECT 7493 7492 7494                                                           
-CONECT 7494 7493 7495 7496                                                      
-CONECT 7495 7494                                                                
-CONECT 7496 7494 7497 7500                                                      
-CONECT 7497 7496 7498                                                           
-CONECT 7498 7497 7499                                                           
-CONECT 7499 7498 7500 7505                                                      
-CONECT 7500 7496 7499 7501 7502                                                 
-CONECT 7501 7500                                                                
-CONECT 7502 7500 7503                                                           
-CONECT 7503 7502 7504                                                           
-CONECT 7504 7503 7505 7510                                                      
-CONECT 7505 7499 7504 7506                                                      
-CONECT 7506 7505 7507                                                           
-CONECT 7507 7506 7508                                                           
-CONECT 7508 7507 7509 7510                                                      
-CONECT 7509 7508 7514                                                           
-CONECT 7510 7504 7508 7511 7512                                                 
-CONECT 7511 7510                                                                
-CONECT 7512 7510 7513                                                           
-CONECT 7513 7512 7514                                                           
-CONECT 7514 7509 7513 7515                                                      
+CONECT 7488 7489 7494 7498                                                      
+CONECT 7489 7488 7490 7495                                                      
+CONECT 7490 7489 7491 7496                                                      
+CONECT 7491 7490 7492 7497                                                      
+CONECT 7492 7491 7493 7498                                                      
+CONECT 7493 7492 7499                                                           
+CONECT 7494 7488                                                                
+CONECT 7495 7489                                                                
+CONECT 7496 7490                                                                
+CONECT 7497 7491 7500                                                           
+CONECT 7498 7488 7492                                                           
+CONECT 7499 7493                                                                
+CONECT 7500 7497 7501 7509                                                      
+CONECT 7501 7500 7502 7506                                                      
+CONECT 7502 7501 7503 7507                                                      
+CONECT 7503 7502 7504 7508                                                      
+CONECT 7504 7503 7505 7509                                                      
+CONECT 7505 7504 7510                                                           
+CONECT 7506 7501                                                                
+CONECT 7507 7502                                                                
+CONECT 7508 7503                                                                
+CONECT 7509 7500 7504                                                           
+CONECT 7510 7505                                                                
+CONECT 7511 7512                                                                
+CONECT 7512 7511 7513 7514                                                      
+CONECT 7513 7512                                                                
+CONECT 7514 7512 7515                                                           
 CONECT 7515 7514 7516                                                           
-CONECT 7516 7515 7517 7518                                                      
-CONECT 7517 7516                                                                
-CONECT 7518 7516 7519                                                           
-CONECT 7519 7518 7520                                                           
-CONECT 7520 7519 7521 7522                                                      
-CONECT 7521 7520                                                                
-CONECT 7522 7520                                                                
-CONECT 7523  937 7524 7534                                                      
-CONECT 7524 7523 7525 7531                                                      
-CONECT 7525 7524 7526 7532                                                      
-CONECT 7526 7525 7527 7533                                                      
-CONECT 7527 7526 7528 7534                                                      
-CONECT 7528 7527 7535                                                           
-CONECT 7529 7530 7531 7536                                                      
-CONECT 7530 7529                                                                
-CONECT 7531 7524 7529                                                           
-CONECT 7532 7525                                                                
-CONECT 7533 7526                                                                
-CONECT 7534 7523 7527                                                           
-CONECT 7535 7528                                                                
-CONECT 7536 7529                                                                
-CONECT 7537 7538 7543 7547                                                      
-CONECT 7538 7537 7539 7544                                                      
-CONECT 7539 7538 7540 7545                                                      
-CONECT 7540 7539 7541 7546                                                      
-CONECT 7541 7540 7542 7547                                                      
-CONECT 7542 7541 7548                                                           
-CONECT 7543 7537 7552                                                           
-CONECT 7544 7538                                                                
-CONECT 7545 7539                                                                
-CONECT 7546 7540                                                                
-CONECT 7547 7537 7541                                                           
-CONECT 7548 7542                                                                
-CONECT 7549 7550 7555 7558                                                      
-CONECT 7550 7549 7551 7556                                                      
-CONECT 7551 7550 7552 7557                                                      
-CONECT 7552 7543 7551 7553                                                      
-CONECT 7553 7552 7554 7558                                                      
-CONECT 7554 7553 7559                                                           
-CONECT 7555 7549                                                                
-CONECT 7556 7550                                                                
-CONECT 7557 7551                                                                
-CONECT 7558 7549 7553                                                           
-CONECT 7559 7554                                                                
+CONECT 7516 7515 7517                                                           
+CONECT 7517 7516 7518 7519                                                      
+CONECT 7518 7517                                                                
+CONECT 7519 7517 7520 7523                                                      
+CONECT 7520 7519 7521                                                           
+CONECT 7521 7520 7522                                                           
+CONECT 7522 7521 7523 7528                                                      
+CONECT 7523 7519 7522 7524 7525                                                 
+CONECT 7524 7523                                                                
+CONECT 7525 7523 7526                                                           
+CONECT 7526 7525 7527                                                           
+CONECT 7527 7526 7528 7533                                                      
+CONECT 7528 7522 7527 7529                                                      
+CONECT 7529 7528 7530                                                           
+CONECT 7530 7529 7531                                                           
+CONECT 7531 7530 7532 7533                                                      
+CONECT 7532 7531 7537                                                           
+CONECT 7533 7527 7531 7534 7535                                                 
+CONECT 7534 7533                                                                
+CONECT 7535 7533 7536                                                           
+CONECT 7536 7535 7537                                                           
+CONECT 7537 7532 7536 7538                                                      
+CONECT 7538 7537 7539                                                           
+CONECT 7539 7538 7540 7541                                                      
+CONECT 7540 7539                                                                
+CONECT 7541 7539 7542                                                           
+CONECT 7542 7541 7543                                                           
+CONECT 7543 7542 7544 7545                                                      
+CONECT 7544 7543                                                                
+CONECT 7545 7543                                                                
+CONECT 7546  937 7547 7557                                                      
+CONECT 7547 7546 7548 7554                                                      
+CONECT 7548 7547 7549 7555                                                      
+CONECT 7549 7548 7550 7556                                                      
+CONECT 7550 7549 7551 7557                                                      
+CONECT 7551 7550 7558                                                           
+CONECT 7552 7553 7554 7559                                                      
+CONECT 7553 7552                                                                
+CONECT 7554 7547 7552                                                           
+CONECT 7555 7548                                                                
+CONECT 7556 7549                                                                
+CONECT 7557 7546 7550                                                           
+CONECT 7558 7551                                                                
+CONECT 7559 7552                                                                
 CONECT 7560 7561 7562 7565 7566                                                 
 CONECT 7561 7560                                                                
 CONECT 7562 7560                                                                
@@ -8657,5 +8609,5 @@ CONECT 7669 2280 7676
 CONECT 7670  140  160 2765 2789                                                 
 CONECT 7670 2795                                                                
 CONECT 7676 7669                                                                
-MASTER      398    0   11   43   45    0   16    6 7665    3  207   76          
+MASTER      356    0   12   43   45    0    0    6 7665    3  207   76          
 END                                                                             

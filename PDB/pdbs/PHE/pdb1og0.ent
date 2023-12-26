@@ -22,6 +22,7 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 4932
 KEYWDS    BETA-ALPHA-BARREL, LYASE                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    V.KOENIG,A.PFEIL,G.HEINRICH,G.H.BRAUS,T.R.SCHNEIDER                   
+REVDAT   8   13-DEC-23 1OG0    1       REMARK LINK                              
 REVDAT   7   24-JUL-19 1OG0    1       REMARK                                   
 REVDAT   6   10-JUL-19 1OG0    1       REMARK                                   
 REVDAT   5   19-SEP-18 1OG0    1       COMPND SOURCE REMARK DBREF               
@@ -658,19 +659,19 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN B 400  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP B 342   OD2                                                    
-REMARK 620 2 GLU B 316   OE2 145.3                                              
-REMARK 620 3 CYS B  76   SG   86.5  76.1                                        
+REMARK 620 1 CYS B  76   SG                                                     
+REMARK 620 2 GLU B 316   OE2  76.1                                              
+REMARK 620 3 ASP B 342   OD2  86.5 145.3                                        
 REMARK 620 N                    1     2                                         
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN C 400  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 CYS C  76   SG                                                     
-REMARK 620 2 GLU C 316   OE2 108.7                                              
-REMARK 620 3 HIS C 282   NE2 167.6  76.7                                        
-REMARK 620 4 ASP C 342   OD1  96.1 131.6  72.6                                  
-REMARK 620 5 HOH C2014   O   106.3 126.1  77.7  82.4                            
+REMARK 620 2 HIS C 282   NE2 167.6                                              
+REMARK 620 3 GLU C 316   OE2 108.7  76.7                                        
+REMARK 620 4 ASP C 342   OD1  96.1  72.6 131.6                                  
+REMARK 620 5 HOH C2014   O   106.3  77.7 126.1  82.4                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -694,28 +695,28 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN F 400  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HIS F 282   NE2                                                    
-REMARK 620 2 GLU F 316   OE2  82.1                                              
-REMARK 620 3 ASP F 342   OD2  87.1 130.3                                        
-REMARK 620 4 CYS F  76   SG  171.5  89.8  96.3                                  
+REMARK 620 1 CYS F  76   SG                                                     
+REMARK 620 2 HIS F 282   NE2 171.5                                              
+REMARK 620 3 GLU F 316   OE2  89.8  82.1                                        
+REMARK 620 4 ASP F 342   OD2  96.3  87.1 130.3                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN G 400  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP G 342   OD2                                                    
-REMARK 620 2 GLU G 316   OE2 107.0                                              
-REMARK 620 3 CYS G  76   SG   85.8  74.4                                        
-REMARK 620 4 HIS G 282   NE2  77.3  98.6 159.0                                  
+REMARK 620 1 CYS G  76   SG                                                     
+REMARK 620 2 HIS G 282   NE2 159.0                                              
+REMARK 620 3 GLU G 316   OE2  74.4  98.6                                        
+REMARK 620 4 ASP G 342   OD2  85.8  77.3 107.0                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN H 400  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 CYS H  76   SG                                                     
-REMARK 620 2 ASP H 342   OD2  88.0                                              
-REMARK 620 3 HIS H 282   NE2 177.9  92.4                                        
-REMARK 620 4 GLU H 316   OE2  91.6 137.5  86.7                                  
+REMARK 620 2 HIS H 282   NE2 177.9                                              
+REMARK 620 3 GLU H 316   OE2  91.6  86.7                                        
+REMARK 620 4 ASP H 342   OD2  88.0  92.4 137.5                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 700                                                                      
 REMARK 700 SHEET                                                                
@@ -1348,38 +1349,38 @@ SHEET   13  HA16 LEU H 276  ASP H 279  0
 SHEET   14  HA16 CYS H 244  LEU H 248  1  O  VAL H 246   N  MET H 277           
 SHEET   15  HA16 ILE H 310  GLU H 316  0                                        
 SHEET   16  HA16 VAL H  69  GLY H  74  1  O  LEU H  70   N  VAL H 313           
-LINK        MN    MN A 400                 SG  CYS A  76     1555   1555  2.77  
-LINK        MN    MN A 400                 NE2 HIS A 282     1555   1555  2.63  
-LINK        MN    MN A 400                 OE2 GLU A 316     1555   1555  2.02  
-LINK        MN    MN A 400                 OD2 ASP A 342     1555   1555  1.81  
-LINK        MN    MN B 400                 OD2 ASP B 342     1555   1555  2.16  
-LINK        MN    MN B 400                 OE2 GLU B 316     1555   1555  2.13  
-LINK        MN    MN B 400                 SG  CYS B  76     1555   1555  2.64  
-LINK        MN    MN C 400                 SG  CYS C  76     1555   1555  2.52  
-LINK        MN    MN C 400                 OE2 GLU C 316     1555   1555  2.35  
-LINK        MN    MN C 400                 NE2 HIS C 282     1555   1555  2.43  
-LINK        MN    MN C 400                 OD1 ASP C 342     1555   1555  2.65  
+LINK         SG  CYS A  76                MN    MN A 400     1555   1555  2.77  
+LINK         NE2 HIS A 282                MN    MN A 400     1555   1555  2.63  
+LINK         OE2 GLU A 316                MN    MN A 400     1555   1555  2.02  
+LINK         OD2 ASP A 342                MN    MN A 400     1555   1555  1.81  
+LINK         SG  CYS B  76                MN    MN B 400     1555   1555  2.64  
+LINK         OE2 GLU B 316                MN    MN B 400     1555   1555  2.13  
+LINK         OD2 ASP B 342                MN    MN B 400     1555   1555  2.16  
+LINK         SG  CYS C  76                MN    MN C 400     1555   1555  2.52  
+LINK         NE2 HIS C 282                MN    MN C 400     1555   1555  2.43  
+LINK         OE2 GLU C 316                MN    MN C 400     1555   1555  2.35  
+LINK         OD1 ASP C 342                MN    MN C 400     1555   1555  2.65  
 LINK        MN    MN C 400                 O   HOH C2014     1555   1555  2.15  
-LINK        MN    MN D 400                 SG  CYS D  76     1555   1555  2.50  
-LINK        MN    MN D 400                 NE2 HIS D 282     1555   1555  2.53  
-LINK        MN    MN D 400                 OE2 GLU D 316     1555   1555  2.21  
-LINK        MN    MN D 400                 OD2 ASP D 342     1555   1555  2.16  
-LINK        MN    MN E 400                 SG  CYS E  76     1555   1555  2.64  
-LINK        MN    MN E 400                 NE2 HIS E 282     1555   1555  2.62  
-LINK        MN    MN E 400                 OE2 GLU E 316     1555   1555  2.06  
-LINK        MN    MN E 400                 OD2 ASP E 342     1555   1555  2.21  
-LINK        MN    MN F 400                 NE2 HIS F 282     1555   1555  2.49  
-LINK        MN    MN F 400                 OE2 GLU F 316     1555   1555  1.95  
-LINK        MN    MN F 400                 OD2 ASP F 342     1555   1555  2.39  
-LINK        MN    MN F 400                 SG  CYS F  76     1555   1555  2.59  
-LINK        MN    MN G 400                 OD2 ASP G 342     1555   1555  2.46  
-LINK        MN    MN G 400                 OE2 GLU G 316     1555   1555  2.24  
-LINK        MN    MN G 400                 SG  CYS G  76     1555   1555  2.55  
-LINK        MN    MN G 400                 NE2 HIS G 282     1555   1555  2.35  
-LINK        MN    MN H 400                 SG  CYS H  76     1555   1555  2.51  
-LINK        MN    MN H 400                 OD2 ASP H 342     1555   1555  2.26  
-LINK        MN    MN H 400                 NE2 HIS H 282     1555   1555  2.33  
-LINK        MN    MN H 400                 OE2 GLU H 316     1555   1555  2.18  
+LINK         SG  CYS D  76                MN    MN D 400     1555   1555  2.50  
+LINK         NE2 HIS D 282                MN    MN D 400     1555   1555  2.53  
+LINK         OE2 GLU D 316                MN    MN D 400     1555   1555  2.21  
+LINK         OD2 ASP D 342                MN    MN D 400     1555   1555  2.16  
+LINK         SG  CYS E  76                MN    MN E 400     1555   1555  2.64  
+LINK         NE2 HIS E 282                MN    MN E 400     1555   1555  2.62  
+LINK         OE2 GLU E 316                MN    MN E 400     1555   1555  2.06  
+LINK         OD2 ASP E 342                MN    MN E 400     1555   1555  2.21  
+LINK         SG  CYS F  76                MN    MN F 400     1555   1555  2.59  
+LINK         NE2 HIS F 282                MN    MN F 400     1555   1555  2.49  
+LINK         OE2 GLU F 316                MN    MN F 400     1555   1555  1.95  
+LINK         OD2 ASP F 342                MN    MN F 400     1555   1555  2.39  
+LINK         SG  CYS G  76                MN    MN G 400     1555   1555  2.55  
+LINK         NE2 HIS G 282                MN    MN G 400     1555   1555  2.35  
+LINK         OE2 GLU G 316                MN    MN G 400     1555   1555  2.24  
+LINK         OD2 ASP G 342                MN    MN G 400     1555   1555  2.46  
+LINK         SG  CYS H  76                MN    MN H 400     1555   1555  2.51  
+LINK         NE2 HIS H 282                MN    MN H 400     1555   1555  2.33  
+LINK         OE2 GLU H 316                MN    MN H 400     1555   1555  2.18  
+LINK         OD2 ASP H 342                MN    MN H 400     1555   1555  2.26  
 SITE     1 AC1  4 CYS A  76  HIS A 282  GLU A 316  ASP A 342                    
 SITE     1 AC2  4 CYS B  76  HIS B 282  GLU B 316  ASP B 342                    
 SITE     1 AC3  5 CYS C  76  HIS C 282  GLU C 316  ASP C 342                    

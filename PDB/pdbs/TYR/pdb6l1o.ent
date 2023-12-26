@@ -14,6 +14,7 @@ SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    AMINOTRANSFERASE, PLP DEPENDENT ENZYME, TRANSFERASE                   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.BALASUBRAMANIAN,A.A.DESHMUKH                                        
+REVDAT   2   22-NOV-23 6L1O    1       REMARK                                   
 REVDAT   1   18-MAR-20 6L1O    0                                                
 JRNL        AUTH   A.DESHMUKH,B.GOPAL                                           
 JRNL        TITL   STRUCTURAL INSIGHTS INTO THE CATALYTIC MECHANISM OF BACILLUS 

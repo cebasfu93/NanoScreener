@@ -21,6 +21,7 @@ KEYWDS   2 OXIDOREDUCTASE
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    E.M.BRUSTAD,V.S.LELYVELD,C.D.SNOW,N.CROOK,F.M.MARTINEZ,T.J.SCHOLL,    
 AUTHOR   2 A.JASANOFF,F.H.ARNOLD                                                
+REVDAT   4   13-SEP-23 4DU2    1       REMARK SEQADV LINK                       
 REVDAT   3   14-MAR-18 4DU2    1       SEQADV                                   
 REVDAT   2   29-AUG-12 4DU2    1       JRNL                                     
 REVDAT   1   13-JUN-12 4DU2    0                                                
@@ -541,23 +542,23 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                             HEM B 500  FE                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 LDP B 501   N1                                                     
-REMARK 620 2 HEM B 500   NA   89.2                                              
-REMARK 620 3 HEM B 500   NB   92.2  89.0                                        
-REMARK 620 4 HEM B 500   NC   91.3 178.9  90.1                                  
-REMARK 620 5 HEM B 500   ND   83.9  88.9 175.6  92.1                            
-REMARK 620 6 CYS B 400   SG  177.0  93.3  86.3  86.1  97.7                      
+REMARK 620 1 CYS B 400   SG                                                     
+REMARK 620 2 HEM B 500   NA   93.3                                              
+REMARK 620 3 HEM B 500   NB   86.3  89.0                                        
+REMARK 620 4 HEM B 500   NC   86.1 178.9  90.1                                  
+REMARK 620 5 HEM B 500   ND   97.7  88.9 175.6  92.1                            
+REMARK 620 6 LDP B 501   N1  177.0  89.2  92.2  91.3  83.9                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                             HEM A 500  FE                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 LDP A 501   N1                                                     
-REMARK 620 2 HEM A 500   NA   90.7                                              
-REMARK 620 3 HEM A 500   NB   90.6  88.1                                        
-REMARK 620 4 HEM A 500   NC   86.6 176.5  89.8                                  
-REMARK 620 5 HEM A 500   ND   84.5  91.6 175.1  90.3                            
-REMARK 620 6 CYS A 400   SG  173.3  95.9  90.9  86.9  94.0                      
+REMARK 620 1 CYS A 400   SG                                                     
+REMARK 620 2 HEM A 500   NA   95.9                                              
+REMARK 620 3 HEM A 500   NB   90.9  88.1                                        
+REMARK 620 4 HEM A 500   NC   86.9 176.5  89.8                                  
+REMARK 620 5 HEM A 500   ND   94.0  91.6 175.1  90.3                            
+REMARK 620 6 LDP A 501   N1  173.3  90.7  90.6  86.6  84.5                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -774,10 +775,10 @@ SHEET    1   G 2 THR A 339  LEU A 341  0
 SHEET    2   G 2 TYR A 345  LEU A 347 -1  O  LEU A 347   N  THR A 339           
 SHEET    1   H 2 ILE A 433  GLU A 435  0                                        
 SHEET    2   H 2 LEU A 439  PRO A 441 -1  O  LYS A 440   N  LYS A 434           
-LINK        FE   HEM B 500                 N1  LDP B 501     1555   1555  2.09  
-LINK        FE   HEM A 500                 N1  LDP A 501     1555   1555  2.19  
 LINK         SG  CYS B 400                FE   HEM B 500     1555   1555  2.21  
+LINK        FE   HEM B 500                 N1  LDP B 501     1555   1555  2.09  
 LINK         SG  CYS A 400                FE   HEM A 500     1555   1555  2.25  
+LINK        FE   HEM A 500                 N1  LDP A 501     1555   1555  2.19  
 SITE     1 AC1 26 LYS B  69  LEU B  86  PHE B  87  TRP B  96                    
 SITE     2 AC1 26 PHE B 107  PHE B 261  GLY B 265  ALA B 268                    
 SITE     3 AC1 26 THR B 269  ALA B 328  PHE B 331  PRO B 392                    

@@ -23,6 +23,7 @@ KEYWDS   2 AROMATIC BIOSYNTHESIS, SHIKIMATE PATHWAY
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    P.J.CROSS,A.L.PIETERSMA,T.M.ALLISON,S.M.WILSON-COUTTS,F.C.COCHRANE,   
 AUTHOR   2 E.J.PARKER                                                           
+REVDAT   2   20-SEP-23 4HSO    1       REMARK SEQADV LINK                       
 REVDAT   1   11-SEP-13 4HSO    0                                                
 JRNL        AUTH   P.J.CROSS,A.L.PIETERSMA,T.M.ALLISON,S.M.WILSON-COUTTS,       
 JRNL        AUTH 2 F.C.COCHRANE,E.J.PARKER                                      
@@ -37,8 +38,9 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.7.0029                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   PROGRAM     : REFMAC                                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -61,7 +63,7 @@ REMARK   3
 REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
 REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.10                         
-REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.15                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.16                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 6082                         
 REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 99.74                        
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.2730                       
@@ -81,9 +83,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : -0.78000                                             
 REMARK   3    B22 (A**2) : 2.38000                                              
 REMARK   3    B33 (A**2) : -1.54000                                             
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : -0.10000                                             
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
 REMARK   3   ESU BASED ON R VALUE                            (A): 0.233         
@@ -710,7 +712,7 @@ REMARK   4
 REMARK   4 4HSO COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 02-NOV-12.                  
-REMARK 100 THE RCSB ID CODE IS RCSB075871.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000075871.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -728,10 +730,10 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 0.9537
 REMARK 200  MONOCHROMATOR                  : NULL                               
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : AREA DETECTOR                      
+REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315R                  
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : XSCALE                             
-REMARK 200  DATA SCALING SOFTWARE          : SCALA                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALA 3.3.20, XSCALE               
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 86154                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.100                              
@@ -956,40 +958,40 @@ REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              MN B 403  MN                            
+REMARK 620                              MN A 403  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU B 304   OE2                                                    
-REMARK 620 2 ASP B 324   OD2 130.2                                              
-REMARK 620 3 HIS B 270   NE2  83.7  84.8                                        
-REMARK 620 4 CYS B  63   SG   93.5  98.0 176.9                                  
+REMARK 620 1 CYS A  63   SG                                                     
+REMARK 620 2 HIS A 270   NE2 171.8                                              
+REMARK 620 3 GLU A 304   OE2  88.4  83.7                                        
+REMARK 620 4 ASP A 324   OD2  87.9  98.5 127.4                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
-REMARK 620                              MN A 403  MN                            
+REMARK 620                              MN B 403  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP A 324   OD2                                                    
-REMARK 620 2 GLU A 304   OE2 127.4                                              
-REMARK 620 3 HIS A 270   NE2  98.5  83.7                                        
-REMARK 620 4 CYS A  63   SG   87.9  88.4 171.8                                  
+REMARK 620 1 CYS B  63   SG                                                     
+REMARK 620 2 HIS B 270   NE2 176.9                                              
+REMARK 620 3 GLU B 304   OE2  93.5  83.7                                        
+REMARK 620 4 ASP B 324   OD2  98.0  84.8 130.2                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN C 403  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 GLU C 304   OE2                                                    
-REMARK 620 2 ASP C 324   OD2 134.3                                              
-REMARK 620 3 HIS C 270   NE2  86.4  95.3                                        
-REMARK 620 4 CYS C  63   SG   90.1  91.7 172.6                                  
+REMARK 620 1 CYS C  63   SG                                                     
+REMARK 620 2 HIS C 270   NE2 172.6                                              
+REMARK 620 3 GLU C 304   OE2  90.1  86.4                                        
+REMARK 620 4 ASP C 324   OD2  91.7  95.3 134.3                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MN D 403  MN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ASP D 324   OD2                                                    
-REMARK 620 2 GLU D 304   OE2 128.3                                              
-REMARK 620 3 HIS D 270   NE2  89.1  88.6                                        
-REMARK 620 4 CYS D  63   SG   90.8  89.0 176.9                                  
-REMARK 620 5 PEP D 402   O1  141.1  88.4  77.9 104.0                            
+REMARK 620 1 CYS D  63   SG                                                     
+REMARK 620 2 HIS D 270   NE2 176.9                                              
+REMARK 620 3 GLU D 304   OE2  89.0  88.6                                        
+REMARK 620 4 ASP D 324   OD2  90.8  89.1 128.3                                  
+REMARK 620 5 PEP D 402   O1  104.0  77.9  88.4 141.1                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -1281,22 +1283,22 @@ SHEET    8   J 9 ILE D 298  GLU D 304  1  O  MET D 299   N  LEU D 264
 SHEET    9   J 9 LEU D  56  GLY D  61  1  N  LEU D  57   O  MET D 299           
 SHEET    1   K 2 VAL D 308  ARG D 311  0                                        
 SHEET    2   K 2 LYS D 320  SER D 321  1  N  SER D 321   O  GLY D 310           
-LINK         OE2 GLU B 304                MN    MN B 403     1555   1555  1.86  
-LINK         OD2 ASP A 324                MN    MN A 403     1555   1555  1.93  
-LINK         OE2 GLU C 304                MN    MN C 403     1555   1555  1.97  
-LINK         OD2 ASP D 324                MN    MN D 403     1555   1555  2.00  
-LINK         OE2 GLU D 304                MN    MN D 403     1555   1555  2.07  
-LINK         OD2 ASP C 324                MN    MN C 403     1555   1555  2.10  
-LINK         OE2 GLU A 304                MN    MN A 403     1555   1555  2.11  
-LINK         NE2 HIS D 270                MN    MN D 403     1555   1555  2.16  
-LINK         OD2 ASP B 324                MN    MN B 403     1555   1555  2.23  
-LINK         NE2 HIS A 270                MN    MN A 403     1555   1555  2.25  
-LINK         NE2 HIS C 270                MN    MN C 403     1555   1555  2.25  
-LINK         NE2 HIS B 270                MN    MN B 403     1555   1555  2.31  
-LINK         SG  CYS B  63                MN    MN B 403     1555   1555  2.52  
-LINK         SG  CYS C  63                MN    MN C 403     1555   1555  2.57  
-LINK         SG  CYS D  63                MN    MN D 403     1555   1555  2.59  
 LINK         SG  CYS A  63                MN    MN A 403     1555   1555  2.60  
+LINK         NE2 HIS A 270                MN    MN A 403     1555   1555  2.25  
+LINK         OE2 GLU A 304                MN    MN A 403     1555   1555  2.11  
+LINK         OD2 ASP A 324                MN    MN A 403     1555   1555  1.93  
+LINK         SG  CYS B  63                MN    MN B 403     1555   1555  2.52  
+LINK         NE2 HIS B 270                MN    MN B 403     1555   1555  2.31  
+LINK         OE2 GLU B 304                MN    MN B 403     1555   1555  1.86  
+LINK         OD2 ASP B 324                MN    MN B 403     1555   1555  2.23  
+LINK         SG  CYS C  63                MN    MN C 403     1555   1555  2.57  
+LINK         NE2 HIS C 270                MN    MN C 403     1555   1555  2.25  
+LINK         OE2 GLU C 304                MN    MN C 403     1555   1555  1.97  
+LINK         OD2 ASP C 324                MN    MN C 403     1555   1555  2.10  
+LINK         SG  CYS D  63                MN    MN D 403     1555   1555  2.59  
+LINK         NE2 HIS D 270                MN    MN D 403     1555   1555  2.16  
+LINK         OE2 GLU D 304                MN    MN D 403     1555   1555  2.07  
+LINK         OD2 ASP D 324                MN    MN D 403     1555   1555  2.00  
 LINK         O1  PEP D 402                MN    MN D 403     1555   1555  2.69  
 SITE     1 AC1 10 GLN A 153  LEU A 177  GLY A 180  LEU A 181                    
 SITE     2 AC1 10 SER A 182  GLY A 213  VAL A 214  LYS A 216                    
@@ -22793,5 +22795,5 @@ CONECT1061610614
 CONECT1061710614                                                                
 CONECT10618 8344 99281017910333                                                 
 CONECT1061810609                                                                
-MASTER     1010    0   12   49   54    0   34    610848    4   61  108          
+MASTER     1011    0   12   49   54    0   34    610848    4   61  108          
 END                                                                             

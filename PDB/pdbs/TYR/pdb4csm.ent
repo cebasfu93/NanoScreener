@@ -21,6 +21,7 @@ KEYWDS   2 PEPTIDE), TRANSITION STATE ANALOG, COMPLEX (ISOMERASE-PEPTIDE)
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.STRAETER,G.SCHNAPPAUF,G.BRAUS,W.N.LIPSCOMB                          
+REVDAT   4   09-AUG-23 4CSM    1       REMARK                                   
 REVDAT   3   13-JUL-11 4CSM    1       VERSN                                    
 REVDAT   2   24-FEB-09 4CSM    1       VERSN                                    
 REVDAT   1   14-JAN-98 4CSM    0                                                
@@ -116,9 +117,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.012                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.90                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.900                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 18.60                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.60                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.600                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
 REMARK   3                                                                      
@@ -146,6 +147,7 @@ REMARK   4
 REMARK   4 4CSM COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY BNL.                                
+REMARK 100 THE DEPOSITION ID IS D_1000179293.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -203,7 +205,7 @@ REMARK 280
 REMARK 280 CRYSTALLIZATION CONDITIONS: HANGING DROP, 32 % (W/V) PEG             
 REMARK 280  MONOMETHYLETHER 500, 4 MM DTT, 0.1 M TRIS PH 9.0, 0.1 M SODIUM      
 REMARK 280  CHLORIDE, 2 MM TYROSINE, 3 MM INHIBITOR, 10 MG/ML PROTEIN, VAPOR    
-REMARK 280  DIFFUSION - HANGING DROP                                            
+REMARK 280  DIFFUSION - HANGING DROP, VAPOR DIFFUSION, HANGING DROP             
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: H 3 2                            
@@ -420,26 +422,6 @@ REMARK 500    PRO B 216       35.75    -66.61
 REMARK 500    ARG B 223       84.49     76.31                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
-REMARK 500                                                                      
-REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
-REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
-REMARK 500 FOR AMINO ACIDS AND C1'--O4'--N1(N9)--C2' FOR                        
-REMARK 500 NUCLEIC ACIDS OR EQUIVALENT ANGLE                                    
-REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                 
-REMARK 500    PHE A   3        24.5      L          L   OUTSIDE RANGE           
-REMARK 500    LYS A 137        22.7      L          L   OUTSIDE RANGE           
-REMARK 500    GLU B 123        24.4      L          L   OUTSIDE RANGE           
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: REG                                                 
@@ -509,14 +491,14 @@ SEQRES  18 B  256  GLU ARG ARG ILE THR PRO GLU TYR LEU VAL LYS ILE TYR
 SEQRES  19 B  256  LYS GLU ILE VAL ILE PRO ILE THR LYS GLU VAL GLU VAL          
 SEQRES  20 B  256  GLU TYR LEU LEU ARG ARG LEU GLU GLU                          
 HET    TYR  A 300      13                                                       
-HET    TYR  B 300      13                                                       
 HET    TSA  A 400      16                                                       
+HET    TYR  B 300      13                                                       
 HET    TSA  B 400      16                                                       
 HETNAM     TYR TYROSINE                                                         
 HETNAM     TSA 8-HYDROXY-2-OXA-BICYCLO[3.3.1]NON-6-ENE-3,5-                     
 HETNAM   2 TSA  DICARBOXYLIC ACID                                               
 FORMUL   3  TYR    2(C9 H11 N O3)                                               
-FORMUL   5  TSA    2(C10 H12 O6)                                                
+FORMUL   4  TSA    2(C10 H12 O6)                                                
 HELIX    1   1 PRO A    6  VAL A    9  1                                   4    
 HELIX    2   2 LEU A   12  HIS A   35  1                                  24    
 HELIX    3   3 PRO A   40  VAL A   42  5                                   3    
@@ -4714,35 +4696,35 @@ HETATM 4156  CE2 TYR A 300      57.992  13.861  31.997  1.00 31.54           C
 HETATM 4157  CZ  TYR A 300      59.156  13.643  31.269  1.00 33.23           C  
 HETATM 4158  OH  TYR A 300      59.205  13.995  29.932  1.00 29.35           O  
 HETATM 4159  OXT TYR A 300      61.793  13.067  36.702  1.00 38.98           O  
-HETATM 4160  N   TYR B 300      16.022  20.734 -14.328  1.00 31.22           N  
-HETATM 4161  CA  TYR B 300      15.143  19.538 -14.347  1.00 35.98           C  
-HETATM 4162  C   TYR B 300      13.688  19.996 -14.350  1.00 36.51           C  
-HETATM 4163  O   TYR B 300      13.336  20.755 -13.421  1.00 40.55           O  
-HETATM 4164  CB  TYR B 300      15.447  18.609 -13.149  1.00 35.39           C  
-HETATM 4165  CG  TYR B 300      15.227  19.163 -11.733  1.00 31.57           C  
-HETATM 4166  CD1 TYR B 300      16.190  19.948 -11.096  1.00 20.17           C  
-HETATM 4167  CD2 TYR B 300      14.076  18.823 -11.008  1.00 25.92           C  
-HETATM 4168  CE1 TYR B 300      16.007  20.380  -9.744  1.00 36.46           C  
-HETATM 4169  CE2 TYR B 300      13.885  19.242  -9.682  1.00 26.75           C  
-HETATM 4170  CZ  TYR B 300      14.847  20.012  -9.051  1.00 34.39           C  
-HETATM 4171  OH  TYR B 300      14.645  20.370  -7.732  1.00 30.53           O  
-HETATM 4172  OXT TYR B 300      12.954  19.693 -15.319  1.00 39.22           O  
-HETATM 4173  C1  TSA A 400      36.402  17.633  34.432  1.00 36.14           C  
-HETATM 4174  C2  TSA A 400      35.584  18.847  34.859  1.00 39.71           C  
-HETATM 4175  C3  TSA A 400      34.369  18.722  35.472  1.00 41.96           C  
-HETATM 4176  C4  TSA A 400      33.868  17.420  36.077  1.00 36.38           C  
-HETATM 4177  O5  TSA A 400      32.539  17.227  35.645  1.00 37.72           O  
-HETATM 4178  C5  TSA A 400      34.789  16.238  35.730  1.00 37.33           C  
-HETATM 4179  C6  TSA A 400      35.486  16.393  34.342  1.00 35.99           C  
-HETATM 4180  O7  TSA A 400      35.759  16.020  36.729  1.00 38.34           O  
-HETATM 4181  C8  TSA A 400      36.899  16.885  36.796  1.00 36.78           C  
-HETATM 4182  C9  TSA A 400      37.474  17.281  35.435  1.00 27.69           C  
-HETATM 4183  C10 TSA A 400      37.165  18.004  33.160  1.00 37.36           C  
-HETATM 4184  O1  TSA A 400      37.830  19.067  33.211  1.00 34.06           O  
-HETATM 4185  O2  TSA A 400      37.087  17.247  32.173  1.00 34.38           O  
-HETATM 4186  C11 TSA A 400      36.568  18.108  37.679  1.00 38.20           C  
-HETATM 4187  O3  TSA A 400      37.163  19.178  37.481  1.00 44.18           O  
-HETATM 4188  O4  TSA A 400      35.708  17.972  38.565  1.00 39.76           O  
+HETATM 4160  C1  TSA A 400      36.402  17.633  34.432  1.00 36.14           C  
+HETATM 4161  C2  TSA A 400      35.584  18.847  34.859  1.00 39.71           C  
+HETATM 4162  C3  TSA A 400      34.369  18.722  35.472  1.00 41.96           C  
+HETATM 4163  C4  TSA A 400      33.868  17.420  36.077  1.00 36.38           C  
+HETATM 4164  O5  TSA A 400      32.539  17.227  35.645  1.00 37.72           O  
+HETATM 4165  C5  TSA A 400      34.789  16.238  35.730  1.00 37.33           C  
+HETATM 4166  C6  TSA A 400      35.486  16.393  34.342  1.00 35.99           C  
+HETATM 4167  O7  TSA A 400      35.759  16.020  36.729  1.00 38.34           O  
+HETATM 4168  C8  TSA A 400      36.899  16.885  36.796  1.00 36.78           C  
+HETATM 4169  C9  TSA A 400      37.474  17.281  35.435  1.00 27.69           C  
+HETATM 4170  C10 TSA A 400      37.165  18.004  33.160  1.00 37.36           C  
+HETATM 4171  O1  TSA A 400      37.830  19.067  33.211  1.00 34.06           O  
+HETATM 4172  O2  TSA A 400      37.087  17.247  32.173  1.00 34.38           O  
+HETATM 4173  C11 TSA A 400      36.568  18.108  37.679  1.00 38.20           C  
+HETATM 4174  O3  TSA A 400      37.163  19.178  37.481  1.00 44.18           O  
+HETATM 4175  O4  TSA A 400      35.708  17.972  38.565  1.00 39.76           O  
+HETATM 4176  N   TYR B 300      16.022  20.734 -14.328  1.00 31.22           N  
+HETATM 4177  CA  TYR B 300      15.143  19.538 -14.347  1.00 35.98           C  
+HETATM 4178  C   TYR B 300      13.688  19.996 -14.350  1.00 36.51           C  
+HETATM 4179  O   TYR B 300      13.336  20.755 -13.421  1.00 40.55           O  
+HETATM 4180  CB  TYR B 300      15.447  18.609 -13.149  1.00 35.39           C  
+HETATM 4181  CG  TYR B 300      15.227  19.163 -11.733  1.00 31.57           C  
+HETATM 4182  CD1 TYR B 300      16.190  19.948 -11.096  1.00 20.17           C  
+HETATM 4183  CD2 TYR B 300      14.076  18.823 -11.008  1.00 25.92           C  
+HETATM 4184  CE1 TYR B 300      16.007  20.380  -9.744  1.00 36.46           C  
+HETATM 4185  CE2 TYR B 300      13.885  19.242  -9.682  1.00 26.75           C  
+HETATM 4186  CZ  TYR B 300      14.847  20.012  -9.051  1.00 34.39           C  
+HETATM 4187  OH  TYR B 300      14.645  20.370  -7.732  1.00 30.53           O  
+HETATM 4188  OXT TYR B 300      12.954  19.693 -15.319  1.00 39.22           O  
 HETATM 4189  C1  TSA B 400      37.596  23.801  -9.513  1.00 33.80           C  
 HETATM 4190  C2  TSA B 400      38.350  25.032  -9.974  1.00 38.21           C  
 HETATM 4191  C3  TSA B 400      39.605  24.971 -10.489  1.00 43.20           C  
@@ -4759,22 +4741,22 @@ HETATM 4201  O2  TSA B 400      36.614  23.353  -7.342  1.00 34.77           O
 HETATM 4202  C11 TSA B 400      37.863  23.981 -12.908  1.00 35.26           C  
 HETATM 4203  O3  TSA B 400      37.069  24.873 -13.159  1.00 43.00           O  
 HETATM 4204  O4  TSA B 400      38.968  23.941 -13.452  1.00 37.42           O  
-CONECT 4173 4174 4179 4182 4183                                                 
-CONECT 4174 4173 4175                                                           
-CONECT 4175 4174 4176                                                           
-CONECT 4176 4175 4177 4178                                                      
-CONECT 4177 4176                                                                
-CONECT 4178 4176 4179 4180                                                      
-CONECT 4179 4173 4178                                                           
-CONECT 4180 4178 4181                                                           
-CONECT 4181 4180 4182 4186                                                      
-CONECT 4182 4173 4181                                                           
-CONECT 4183 4173 4184 4185                                                      
-CONECT 4184 4183                                                                
-CONECT 4185 4183                                                                
-CONECT 4186 4181 4187 4188                                                      
-CONECT 4187 4186                                                                
-CONECT 4188 4186                                                                
+CONECT 4160 4161 4166 4169 4170                                                 
+CONECT 4161 4160 4162                                                           
+CONECT 4162 4161 4163                                                           
+CONECT 4163 4162 4164 4165                                                      
+CONECT 4164 4163                                                                
+CONECT 4165 4163 4166 4167                                                      
+CONECT 4166 4160 4165                                                           
+CONECT 4167 4165 4168                                                           
+CONECT 4168 4167 4169 4173                                                      
+CONECT 4169 4160 4168                                                           
+CONECT 4170 4160 4171 4172                                                      
+CONECT 4171 4170                                                                
+CONECT 4172 4170                                                                
+CONECT 4173 4168 4174 4175                                                      
+CONECT 4174 4173                                                                
+CONECT 4175 4173                                                                
 CONECT 4189 4190 4195 4198 4199                                                 
 CONECT 4190 4189 4191                                                           
 CONECT 4191 4190 4192                                                           
@@ -4791,5 +4773,5 @@ CONECT 4201 4199
 CONECT 4202 4197 4203 4204                                                      
 CONECT 4203 4202                                                                
 CONECT 4204 4202                                                                
-MASTER      435    0    4   14    0    0   17    6 4202    2   32   40          
+MASTER      416    0    4   14    0    0   17    6 4202    2   32   40          
 END                                                                             

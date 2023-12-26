@@ -15,6 +15,7 @@ SOURCE   5 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    HYDROLASE-INHIBITOR COMPLEX, DIPEPTIDE INHIBITORS, HYDROLASE          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    B.A.LUND,I.LEIROS,H.-K.S.LEIROS                                       
+REVDAT   3   13-DEC-23 2WHZ    1       REMARK LINK                              
 REVDAT   2   20-JUN-18 2WHZ    1       REMARK LINK                              
 REVDAT   1   12-MAY-10 2WHZ    0                                                
 JRNL        AUTH   B.A.LUND,I.LEIROS,H.-K.S.LEIROS                              
@@ -460,8 +461,8 @@ REMARK 620 2 ASP A  57   OD2  53.2
 REMARK 620 3 ASP A  59   OD1 123.0  70.6                                        
 REMARK 620 4 GLN A  61   O    95.3  85.3  88.5                                  
 REMARK 620 5 HOH A2109   O    83.9  90.5  88.2 175.4                            
-REMARK 620 6 HOH A2128   O    81.5 132.3 155.2  84.8  99.5                      
-REMARK 620 7 HOH A2112   O   158.9 145.7  75.2  95.9  86.3  81.7                
+REMARK 620 6 HOH A2112   O   158.9 145.7  75.2  95.9  86.3                      
+REMARK 620 7 HOH A2128   O    81.5 132.3 155.2  84.8  99.5  81.7                
 REMARK 620 N                    1     2     3     4     5     6                 
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -493,8 +494,8 @@ REMARK 620 1 GLU A 177   OE2
 REMARK 620 2 ASN A 183   O    89.0                                              
 REMARK 620 3 ASP A 185   OD2  88.9  92.2                                        
 REMARK 620 4 GLU A 190   OE2  85.3 171.9  81.9                                  
-REMARK 620 5 HOH A2241   O   173.6  90.8  97.5  95.5                            
-REMARK 620 6 HOH A2240   O    88.2  88.9 176.9  96.7  85.4                      
+REMARK 620 5 HOH A2240   O    88.2  88.9 176.9  96.7                            
+REMARK 620 6 HOH A2241   O   173.6  90.8  97.5  95.5  85.4                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -789,11 +790,11 @@ LINK         O   ILE A 197                CA    CA A1321     1555   1555  2.31
 LINK         OD1 ASP A 200                CA    CA A1321     1555   1555  2.39  
 LINK        ZN    ZN A1317                 O   HOH A2351     1555   1555  2.27  
 LINK        CA    CA A1318                 O   HOH A2232     1555   1555  2.43  
-LINK        CA    CA A1319                 O   HOH A2241     1555   1555  2.34  
 LINK        CA    CA A1319                 O   HOH A2240     1555   1555  2.43  
+LINK        CA    CA A1319                 O   HOH A2241     1555   1555  2.34  
 LINK        CA    CA A1320                 O   HOH A2109     1555   1555  2.35  
-LINK        CA    CA A1320                 O   HOH A2128     1555   1555  2.49  
 LINK        CA    CA A1320                 O   HOH A2112     1555   1555  2.49  
+LINK        CA    CA A1320                 O   HOH A2128     1555   1555  2.49  
 LINK        CA    CA A1321                 O   HOH A2236     1555   1555  2.43  
 LINK        CA    CA A1321                 O   HOH A2243     1555   1555  2.32  
 CISPEP   1 LEU A   50    PRO A   51          0        -3.75                     

@@ -1,7 +1,6 @@
 HEADER    HYDROLASE/DNA                           12-NOV-03   1RGT              
-TITLE     CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE              
-TITLE    2 COMPLEXED WITH VANADATE, OCTOPAMINE, AND TETRANUCLEOTIDE             
-TITLE    3 AGTC                                                                 
+TITLE     CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE COMPLEXED    
+TITLE    2 WITH VANADATE, OCTOPAMINE, AND TETRANUCLEOTIDE AGTC                  
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: 5'-D(*AP*GP*TP*C)-3';                                      
 COMPND   3 CHAIN: D, F;                                                         
@@ -26,16 +25,17 @@ SOURCE   9 EXPRESSION_SYSTEM_TAXID: 511693;
 SOURCE  10 EXPRESSION_SYSTEM_STRAIN: BL21;                                      
 SOURCE  11 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  12 EXPRESSION_SYSTEM_PLASMID: PET15B                                    
-KEYWDS    PROTEIN-DNA COMPLEX, VANADATE COMPLEX, TRANSITION STATE               
-KEYWDS   2 MIMIC, HYDROLASE/DNA COMPLEX                                         
+KEYWDS    PROTEIN-DNA COMPLEX, VANADATE COMPLEX, TRANSITION STATE MIMIC,        
+KEYWDS   2 HYDROLASE-DNA COMPLEX                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.R.DAVIES,H.INTERTHAL,J.J.CHAMPOUX,W.G.HOL                           
+REVDAT   4   23-AUG-23 1RGT    1       REMARK                                   
+REVDAT   3   27-OCT-21 1RGT    1       REMARK SEQADV LINK                       
 REVDAT   2   24-FEB-09 1RGT    1       VERSN                                    
 REVDAT   1   02-MAR-04 1RGT    0                                                
 JRNL        AUTH   D.R.DAVIES,H.INTERTHAL,J.J.CHAMPOUX,W.G.HOL                  
-JRNL        TITL   EXPLORATIONS OF PEPTIDE AND OLIGONUCLEOTIDE                  
-JRNL        TITL 2 BINDING SITES OF TYROSYL-DNA PHOSPHODIESTERASE               
-JRNL        TITL 3 USING VANADATE COMPLEXES.                                    
+JRNL        TITL   EXPLORATIONS OF PEPTIDE AND OLIGONUCLEOTIDE BINDING SITES OF 
+JRNL        TITL 2 TYROSYL-DNA PHOSPHODIESTERASE USING VANADATE COMPLEXES.      
 JRNL        REF    J.MED.CHEM.                   V.  47   829 2004              
 JRNL        REFN                   ISSN 0022-2623                               
 JRNL        PMID   14761185                                                     
@@ -43,18 +43,17 @@ JRNL        DOI    10.1021/JM030487X
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          
 REMARK   1  AUTH   D.R.DAVIES,H.INTERTHAL,J.J.CHAMPOUX,W.G.J.HOL                
-REMARK   1  TITL   CRYSTAL STRUCTURE OF A TRANSITION STATE MIMIC FOR            
-REMARK   1  TITL 2 TDP1 ASSEMBLED FROM VANADATE, DNA, AND A                     
-REMARK   1  TITL 3 TOPOISOMERASE I-DERIVED PEPTIDE.                             
+REMARK   1  TITL   CRYSTAL STRUCTURE OF A TRANSITION STATE MIMIC FOR TDP1       
+REMARK   1  TITL 2 ASSEMBLED FROM VANADATE, DNA, AND A TOPOISOMERASE I-DERIVED  
+REMARK   1  TITL 3 PEPTIDE.                                                     
 REMARK   1  REF    CHEM.BIOL.                    V.  10   139 2003              
 REMARK   1  REFN                   ISSN 1074-5521                               
 REMARK   1  DOI    10.1016/S1074-5521(03)00021-8                                
 REMARK   1 REFERENCE 2                                                          
 REMARK   1  AUTH   D.R.DAVIES,H.INTERTHAL,J.J.CHAMPOUX,W.G.J.HOL                
-REMARK   1  TITL   INSIGHTS INTO SUBSTRATE BINDING AND CATALYTIC                
-REMARK   1  TITL 2 MECHANISM OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE             
-REMARK   1  TITL 3 (TDP1) FROM VANADATE AND TUNGSTATE-INHIBITED                 
-REMARK   1  TITL 4 STRUCTURES                                                   
+REMARK   1  TITL   INSIGHTS INTO SUBSTRATE BINDING AND CATALYTIC MECHANISM OF   
+REMARK   1  TITL 2 HUMAN TYROSYL-DNA PHOSPHODIESTERASE (TDP1) FROM VANADATE AND 
+REMARK   1  TITL 3 TUNGSTATE-INHIBITED STRUCTURES                               
 REMARK   1  REF    J.MOL.BIOL.                   V. 324   917 2002              
 REMARK   1  REFN                   ISSN 0022-2836                               
 REMARK   1  DOI    10.1016/S0022-2836(02)01154-3                                
@@ -70,7 +69,8 @@ REMARK   2 RESOLUTION.    2.00 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.1.24                                        
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -158,8 +158,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  4264 ; 1.457 ; 3.000       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  6881 ; 2.382 ; 4.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2933 ; 2.481 ; 4.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2910 ; 3.745 ; 6.000       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -179,13 +184,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.40
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3  RIDING POSITIONS                                                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 1RGT COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1RGT COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 13-NOV-03.                  
-REMARK 100 THE RCSB ID CODE IS RCSB020732.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000020732.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -280,8 +285,8 @@ REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 300 REMARK: THERE ARE TWO BIOLOGICAL ASSEMBLIES PER ASYMMETRIC UNIT-     
-REMARK 300 -ONE COMPOSED OF CHAINS A AND D, THE OTHER OF CHAINS B AND F.        
+REMARK 300 REMARK: THERE ARE TWO BIOLOGICAL ASSEMBLIES PER ASYMMETRIC UNIT--    
+REMARK 300 ONE COMPOSED OF CHAINS A AND D, THE OTHER OF CHAINS B AND F.         
 REMARK 350                                                                      
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
@@ -430,7 +435,7 @@ REMARK 465     ALA B   568
 REMARK 465     SER B   608                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -520,80 +525,87 @@ REMARK 610 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;
 REMARK 610 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 610 I=INSERTION CODE):                                                   
 REMARK 610   M RES C SSEQI                                                      
-REMARK 610     VO4 A  699                                                       
-REMARK 610     VO4 B  699                                                       
 REMARK 610     SPM A  999                                                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                             VO4 A 699   V                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1  DC D 806   O3'                                                    
-REMARK 620 2 HIS A 263   NE2  84.0                                              
-REMARK 620 N                    1                                               
+REMARK 620 2 VO4 A 699   O1  122.2                                              
+REMARK 620 3 VO4 A 699   O3  117.0 120.3                                        
+REMARK 620 4 HIS A 263   NE2  84.0  90.8  87.5                                  
+REMARK 620 5 OTS A 995   O4   94.4  92.7  90.5 176.5                            
+REMARK 620 6 OTR A 996   O4   94.4  92.7  90.5 176.5   0.0                      
+REMARK 620 N                    1     2     3     4     5                       
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                             VO4 B 699   V                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1  DC F 806   O3'                                                    
-REMARK 620 2 HIS B 263   NE2  85.3                                              
-REMARK 620 N                    1                                               
+REMARK 620 2 VO4 B 699   O1  125.4                                              
+REMARK 620 3 VO4 B 699   O3  114.0 120.4                                        
+REMARK 620 4 HIS B 263   NE2  85.3  92.9  96.2                                  
+REMARK 620 5 OTS B 997   O4   89.7  89.2  86.7 175.0                            
+REMARK 620 6 OTR B 998   O4   89.7  89.2  86.7 175.0   0.0                      
+REMARK 620 N                    1     2     3     4     5                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE VO4 A 699                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE VO4 B 699                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SPM A 999                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE OTS A 995                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE OTR A 996                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE OTS B 997                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE OTR B 998                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1NOP   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN COMPLEXED WITH VANADATE, OCTAPEPTIDE                
-REMARK 900 KLNYLDPR, AND HEXANUCLEOTIDE AGAGTT                                  
+REMARK 900 THE SAME PROTEIN COMPLEXED WITH VANADATE, OCTAPEPTIDE KLNYLDPR, AND  
+REMARK 900 HEXANUCLEOTIDE AGAGTT                                                
 REMARK 900 RELATED ID: 1JY1   RELATED DB: PDB                                   
 REMARK 900 THE SAME PROTEIN, APO STRUCTURE                                      
 REMARK 900 RELATED ID: 1RFF   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE             
-REMARK 900 COMPLEXED WITH VANADATE, OCTAPEPTIDE KLNYYDPR, AND                   
-REMARK 900 TETRANUCLEOTIDE AGTT.                                                
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE COMPLEXED   
+REMARK 900 WITH VANADATE, OCTAPEPTIDE KLNYYDPR, AND TETRANUCLEOTIDE AGTT.       
 REMARK 900 RELATED ID: 1RFI   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE             
-REMARK 900 COMPLEXED WITH VANADATE, PENTAPEPTIDE KLNYK, AND                     
-REMARK 900 TETRANUCLEOTIDE AGTC                                                 
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE COMPLEXED   
+REMARK 900 WITH VANADATE, PENTAPEPTIDE KLNYK, AND TETRANUCLEOTIDE AGTC          
 REMARK 900 RELATED ID: 1RG1   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE             
-REMARK 900 COMPLEXED WITH VANADATE, OCTOPAMINE, AND TETRANUCLEOTIDE             
-REMARK 900 AGTT                                                                 
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE COMPLEXED   
+REMARK 900 WITH VANADATE, OCTOPAMINE, AND TETRANUCLEOTIDE AGTT                  
 REMARK 900 RELATED ID: 1RG2   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE             
-REMARK 900 COMPLEXED WITH VANADATE, OCTOPAMINE, AND TETRANUCLEOTIDE             
-REMARK 900 AGTA                                                                 
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE COMPLEXED   
+REMARK 900 WITH VANADATE, OCTOPAMINE, AND TETRANUCLEOTIDE AGTA                  
 REMARK 900 RELATED ID: 1RGU   RELATED DB: PDB                                   
-REMARK 900 THE CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA                           
-REMARK 900 PHOSPHODIESTERASE COMPLEXED WITH VANADATE, OCTOPAMINE, AND           
-REMARK 900 TETRANUCLEOTIDE AGTG                                                 
+REMARK 900 THE CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE         
+REMARK 900 COMPLEXED WITH VANADATE, OCTOPAMINE, AND TETRANUCLEOTIDE AGTG        
 REMARK 900 RELATED ID: 1RH0   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE             
-REMARK 900 COMPLEXED WITH VANADATE, OCTOPAMINE AND TRINUCLEOTIDE GTT            
+REMARK 900 CRYSTAL STRUCTURE OF HUMAN TYROSYL-DNA PHOSPHODIESTERASE COMPLEXED   
+REMARK 900 WITH VANADATE, OCTOPAMINE AND TRINUCLEOTIDE GTT                      
 DBREF  1RGT A  149   608  UNP    Q9NUW8   TYDP_HUMAN     149    608             
 DBREF  1RGT B  149   608  UNP    Q9NUW8   TYDP_HUMAN     149    608             
 DBREF  1RGT D  803   806  PDB    1RGT     1RGT           803    806             
@@ -623,9 +635,9 @@ SEQADV 1RGT LEU A  145  UNP  Q9NUW8              CLONING ARTIFACT
 SEQADV 1RGT GLU A  146  UNP  Q9NUW8              CLONING ARTIFACT               
 SEQADV 1RGT ASP A  147  UNP  Q9NUW8              CLONING ARTIFACT               
 SEQADV 1RGT PRO A  148  UNP  Q9NUW8              CLONING ARTIFACT               
-SEQADV 1RGT ASN A  322  UNP  Q9NUW8    ASP   322 ENGINEERED                     
-SEQADV 1RGT THR A  328  UNP  Q9NUW8    MET   328 ENGINEERED                     
-SEQADV 1RGT LEU A  548  UNP  Q9NUW8    PHE   548 ENGINEERED                     
+SEQADV 1RGT ASN A  322  UNP  Q9NUW8    ASP   322 ENGINEERED MUTATION            
+SEQADV 1RGT THR A  328  UNP  Q9NUW8    MET   328 ENGINEERED MUTATION            
+SEQADV 1RGT LEU A  548  UNP  Q9NUW8    PHE   548 ENGINEERED MUTATION            
 SEQADV 1RGT MET B  124  UNP  Q9NUW8              CLONING ARTIFACT               
 SEQADV 1RGT GLY B  125  UNP  Q9NUW8              CLONING ARTIFACT               
 SEQADV 1RGT SER B  126  UNP  Q9NUW8              CLONING ARTIFACT               
@@ -651,9 +663,9 @@ SEQADV 1RGT LEU B  145  UNP  Q9NUW8              CLONING ARTIFACT
 SEQADV 1RGT GLU B  146  UNP  Q9NUW8              CLONING ARTIFACT               
 SEQADV 1RGT ASP B  147  UNP  Q9NUW8              CLONING ARTIFACT               
 SEQADV 1RGT PRO B  148  UNP  Q9NUW8              CLONING ARTIFACT               
-SEQADV 1RGT ASN B  322  UNP  Q9NUW8    ASP   322 ENGINEERED                     
-SEQADV 1RGT THR B  328  UNP  Q9NUW8    MET   328 ENGINEERED                     
-SEQADV 1RGT LEU B  548  UNP  Q9NUW8    PHE   548 ENGINEERED                     
+SEQADV 1RGT ASN B  322  UNP  Q9NUW8    ASP   322 ENGINEERED MUTATION            
+SEQADV 1RGT THR B  328  UNP  Q9NUW8    MET   328 ENGINEERED MUTATION            
+SEQADV 1RGT LEU B  548  UNP  Q9NUW8    PHE   548 ENGINEERED MUTATION            
 SEQRES   1 D    4   DA  DG  DT  DC                                              
 SEQRES   1 F    4   DA  DG  DT  DC                                              
 SEQRES   1 A  485  MET GLY SER SER HIS HIS HIS HIS HIS HIS SER SER GLY          
@@ -733,10 +745,10 @@ SEQRES  36 B  485  GLU LEU TYR GLY SER LYS ASP ARG PRO TRP ILE TRP ASN
 SEQRES  37 B  485  ILE PRO TYR VAL LYS ALA PRO ASP THR HIS GLY ASN MET          
 SEQRES  38 B  485  TRP VAL PRO SER                                              
 HET    VO4  A 699       3                                                       
-HET    VO4  B 699       3                                                       
 HET    SPM  A 999      10                                                       
 HET    OTS  A 995      11                                                       
 HET    OTR  A 996      11                                                       
+HET    VO4  B 699       3                                                       
 HET    OTS  B 997      11                                                       
 HET    OTR  B 998      11                                                       
 HETNAM     VO4 VANADATE ION                                                     
@@ -746,9 +758,9 @@ HETNAM     OTR 4-(2R-AMINO-1-HYDROXYETHYL)PHENOL
 HETSYN     OTS S-OCTOPAMINE                                                     
 HETSYN     OTR R-OCTOPAMINE                                                     
 FORMUL   5  VO4    2(O4 V 3-)                                                   
-FORMUL   7  SPM    C10 H26 N4                                                   
-FORMUL   8  OTS    2(C8 H11 N O2)                                               
-FORMUL   9  OTR    2(C8 H11 N O2)                                               
+FORMUL   6  SPM    C10 H26 N4                                                   
+FORMUL   7  OTS    2(C8 H11 N O2)                                               
+FORMUL   8  OTR    2(C8 H11 N O2)                                               
 FORMUL  12  HOH   *222(H2 O)                                                    
 HELIX    1   1 LYS A  175  SER A  180  5                                   6    
 HELIX    2   2 HIS A  184  LEU A  189  1                                   6    
@@ -834,11 +846,11 @@ SHEET    3   H 3 ALA B 524  GLU B 526 -1  N  GLU B 526   O  GLN B 531
 LINK         O3'  DC D 806                 V   VO4 A 699     1555   1555  1.81  
 LINK         O3'  DC F 806                 V   VO4 B 699     1555   1555  1.95  
 LINK         NE2 HIS A 263                 V   VO4 A 699     1555   1555  2.06  
+LINK         V   VO4 A 699                 O4 AOTS A 995     1555   1555  2.02  
+LINK         V   VO4 A 699                 O4 BOTR A 996     1555   1555  2.02  
 LINK         NE2 HIS B 263                 V   VO4 B 699     1555   1555  2.02  
-LINK         O4  OTS A 995                 V   VO4 A 699     1555   1555        
-LINK         O4  OTR A 996                 V   VO4 A 699     1555   1555        
-LINK         O4  OTS B 997                 V   VO4 B 699     1555   1555        
-LINK         O4  OTR B 998                 V   VO4 B 699     1555   1555        
+LINK         V   VO4 B 699                 O4 AOTS B 997     1555   1555  2.06  
+LINK         V   VO4 B 699                 O4 BOTR B 998     1555   1555  2.06  
 CISPEP   1 LEU A  576    PRO A  577          0        -4.48                     
 CISPEP   2 LEU B  576    PRO B  577          0        -4.10                     
 SITE     1 AC1  9 HIS A 263  LYS A 265  ASN A 283  HIS A 493                    
@@ -8083,6 +8095,7 @@ CONECT   91 6967
 CONECT  924 6932                                                                
 CONECT 4318 6967                                                                
 CONECT 6932   40  924 6933 6934                                                 
+CONECT 6932 6948 6959                                                           
 CONECT 6933 6932                                                                
 CONECT 6934 6932                                                                
 CONECT 6935 6936                                                                
@@ -8098,7 +8111,7 @@ CONECT 6944 6943
 CONECT 6945 6946 6951                                                           
 CONECT 6946 6945 6947                                                           
 CONECT 6947 6946 6948 6949                                                      
-CONECT 6948 6947                                                                
+CONECT 6948 6932 6947                                                           
 CONECT 6949 6947 6950                                                           
 CONECT 6950 6949 6951                                                           
 CONECT 6951 6945 6950 6952                                                      
@@ -8109,7 +8122,7 @@ CONECT 6955 6954
 CONECT 6956 6957 6962                                                           
 CONECT 6957 6956 6958                                                           
 CONECT 6958 6957 6959 6960                                                      
-CONECT 6959 6958                                                                
+CONECT 6959 6932 6958                                                           
 CONECT 6960 6958 6961                                                           
 CONECT 6961 6960 6962                                                           
 CONECT 6962 6956 6961 6963                                                      
@@ -8118,12 +8131,13 @@ CONECT 6964 6963
 CONECT 6965 6963 6966                                                           
 CONECT 6966 6965                                                                
 CONECT 6967   91 4318 6968 6969                                                 
+CONECT 6967 6973 6984                                                           
 CONECT 6968 6967                                                                
 CONECT 6969 6967                                                                
 CONECT 6970 6971 6976                                                           
 CONECT 6971 6970 6972                                                           
 CONECT 6972 6971 6973 6974                                                      
-CONECT 6973 6972                                                                
+CONECT 6973 6967 6972                                                           
 CONECT 6974 6972 6975                                                           
 CONECT 6975 6974 6976                                                           
 CONECT 6976 6970 6975 6977                                                      
@@ -8134,7 +8148,7 @@ CONECT 6980 6979
 CONECT 6981 6982 6987                                                           
 CONECT 6982 6981 6983                                                           
 CONECT 6983 6982 6984 6985                                                      
-CONECT 6984 6983                                                                
+CONECT 6984 6967 6983                                                           
 CONECT 6985 6983 6986                                                           
 CONECT 6986 6985 6987                                                           
 CONECT 6987 6981 6986 6988                                                      
@@ -8142,5 +8156,5 @@ CONECT 6988 6987 6989 6990
 CONECT 6989 6988                                                                
 CONECT 6990 6988 6991                                                           
 CONECT 6991 6990                                                                
-MASTER      554    0    7   39   42    0   17    6 7209    4   64   78          
+MASTER      566    0    7   39   42    0   17    6 7209    4   66   78          
 END                                                                             

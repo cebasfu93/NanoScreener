@@ -18,6 +18,7 @@ KEYWDS    TYROSINE, AMINOACYL TRNA SYNTHETASE, ROSSMAN FOLD, AMINOACID
 KEYWDS   2 ACTIVATION, TRNA, ESTER BOND, LIGASE                                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.MATHEW,P.SCHIMMEL                                                   
+REVDAT   6   20-SEP-23 4QBT    1       REMARK SEQADV LINK                       
 REVDAT   5   17-JUL-19 4QBT    1       REMARK                                   
 REVDAT   4   25-MAR-15 4QBT    1       JRNL                                     
 REVDAT   3   14-JAN-15 4QBT    1       JRNL                                     
@@ -380,12 +381,12 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                               K A 502   K                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH A 601   O                                                      
-REMARK 620 2 TYR A  52   OH  132.4                                              
-REMARK 620 3 ALA A  43   O    88.3 130.8                                        
-REMARK 620 4 THR A  42   OG1  80.3  80.6  81.3                                  
-REMARK 620 5 TYR A  97   OH  155.7  69.9  67.5  97.0                            
-REMARK 620 6 HOH A 693   O    67.1  68.1 123.8  46.4 127.6                      
+REMARK 620 1 THR A  42   OG1                                                    
+REMARK 620 2 ALA A  43   O    81.3                                              
+REMARK 620 3 TYR A  52   OH   80.6 130.8                                        
+REMARK 620 4 TYR A  97   OH   97.0  67.5  69.9                                  
+REMARK 620 5 HOH A 601   O    80.3  88.3 132.4 155.7                            
+REMARK 620 6 HOH A 693   O    46.4 123.8  68.1 127.6  67.1                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -513,11 +514,11 @@ SHEET    5   A 6 GLU A  68  ALA A  74  1  O  GLU A  68   N  ILE A  38
 SHEET    6   A 6 LEU A 115  LYS A 119  1  O  LYS A 116   N  ILE A  71           
 SHEET    1   B 2 PHE A 275  ILE A 277  0                                        
 SHEET    2   B 2 LYS A 287  TYR A 289 -1  O  TYR A 289   N  PHE A 275           
-LINK         K     K A 502                 O   HOH A 601     1555   1555  2.68  
-LINK         OH  TYR A  52                 K     K A 502     1555   1555  2.72  
-LINK         O   ALA A  43                 K     K A 502     1555   1555  2.74  
 LINK         OG1 THR A  42                 K     K A 502     1555   1555  3.04  
+LINK         O   ALA A  43                 K     K A 502     1555   1555  2.74  
+LINK         OH  TYR A  52                 K     K A 502     1555   1555  2.72  
 LINK         OH  TYR A  97                 K     K A 502     1555   1555  3.08  
+LINK         K     K A 502                 O   HOH A 601     1555   1555  2.68  
 LINK         K     K A 502                 O   HOH A 693     1555   1555  3.30  
 LINK         K     K A 509                 O   HOH A 601     1555   1555  3.47  
 CISPEP   1 ALA A    4    PRO A    5          0        -4.11                     

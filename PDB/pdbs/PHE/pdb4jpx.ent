@@ -22,6 +22,7 @@ SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PGEX-6P1
 KEYWDS    HYDROXYLASE, OXIDOREDUCTASE                                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.A.RONAU,M.M.ABU-OMAR,C.DAS                                          
+REVDAT   4   20-SEP-23 4JPX    1       REMARK                                   
 REVDAT   3   20-NOV-19 4JPX    1       SEQADV LINK                              
 REVDAT   2   28-AUG-13 4JPX    1       JRNL                                     
 REVDAT   1   07-AUG-13 4JPX    0                                                
